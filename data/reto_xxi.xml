@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE retos_siglo_xxi [
+    <!ELEMENT retos_siglo_xxi (reto+)>
+    <!ELEMENT reto (id_reto, reto_titulo, reto_descripcion)>
+    <!ELEMENT id_reto (#PCDATA)>
+    <!ELEMENT reto_titulo (#PCDATA)>
+    <!ELEMENT reto_descripcion (#PCDATA)>
+]>
+<retos_siglo_xxi>
+  <reto>
+    <id_reto>1</id_reto>
+    <reto_titulo>Emergencia Climática y Sostenibilidad</reto_titulo>
+    <reto_descripcion>Abordar el cambio climático mediante la descarbonización de la economía, la transición hacia energías renovables, la protección de la biodiversidad y la promoción de un modelo de desarrollo que no comprometa los recursos de las futuras generaciones.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>2</id_reto>
+    <reto_titulo>Reducción de la Desigualdad y Brecha Social</reto_titulo>
+    <reto_descripcion>Combatir las crecientes disparidades económicas y sociales, garantizando un acceso equitativo a la educación, la sanidad, el empleo digno y la justicia para todas las personas, independientemente de su origen, género o condición.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>3</id_reto>
+    <reto_titulo>Transformación Digital y Ética Tecnológica</reto_titulo>
+    <reto_descripcion>Navegar la revolución digital de forma inclusiva, cerrando la brecha digital y desarrollando marcos éticos para la inteligencia artificial, el big data y la ciberseguridad, protegiendo los derechos fundamentales en el entorno online.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>4</id_reto>
+    <reto_titulo>Salud Global y Prevención de Pandemias</reto_titulo>
+    <reto_descripcion>Fortalecer los sistemas de salud a nivel mundial, mejorar la cooperación internacional para la vigilancia y respuesta ante pandemias, y garantizar el acceso universal a tratamientos y vacunas.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>5</id_reto>
+    <reto_titulo>El Futuro del Trabajo y la Economía Inclusiva</reto_titulo>
+    <reto_descripcion>Adaptar el mercado laboral a la automatización y la inteligencia artificial, fomentando el aprendizaje continuo (reskilling y upskilling) y creando nuevos modelos económicos que promuevan el empleo de calidad y la inclusión.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>6</id_reto>
+    <reto_titulo>Gestión de Recursos Naturales y Economía Circular</reto_titulo>
+    <reto_descripcion>Superar el modelo lineal de "usar y tirar", implementando una economía circular que minimice los residuos, gestione de forma sostenible recursos críticos como el agua y los minerales, y regenere los sistemas naturales.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>7</id_reto>
+    <reto_titulo>Lucha contra la Desinformación y Polarización</reto_titulo>
+    <reto_descripcion>Fomentar una sociedad informada y crítica, combatiendo la propagación de noticias falsas y discursos de odio que erosionan la confianza democrática y fomentan la polarización social.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>8</id_reto>
+    <reto_titulo>Gestión de las Migraciones y Crisis Humanitarias</reto_titulo>
+    <reto_descripcion>Desarrollar políticas migratorias humanas, seguras y ordenadas para gestionar los flujos de personas desplazadas por conflictos, el cambio climático o la falta de oportunidades, garantizando sus derechos humanos.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>9</id_reto>
+    <reto_titulo>Revolución Educativa para un Mundo Cambiante</reto_titulo>
+    <reto_descripcion>Transformar los sistemas educativos para que preparen a las nuevas generaciones con las competencias clave del siglo XXI: pensamiento crítico, creatividad, colaboración, inteligencia emocional y adaptabilidad.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>10</id_reto>
+    <reto_titulo>Desarrollo Urbano Sostenible e Inteligente</reto_titulo>
+    <reto_descripcion>Diseñar y gestionar las ciudades, donde vivirá la mayor parte de la población mundial, para que sean más inclusivas, seguras, resilientes y ecológicas, utilizando la tecnología para mejorar la calidad de vida de sus habitantes.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>11</id_reto>
+    <reto_titulo>Ciberseguridad y Resiliencia Digital</reto_titulo>
+    <reto_descripcion>Proteger infraestructuras críticas, datos personales y empresariales frente a ciberataques cada vez más sofisticados. Un reto directo para ASIR (bastionado de sistemas), SMR (seguridad de la red local) y DAW/DAM (desarrollo de código seguro).</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>12</id_reto>
+    <reto_titulo>Gestión del Big Data e IA Responsable</reto_titulo>
+    <reto_descripcion>Desarrollar y administrar los sistemas capaces de procesar volúmenes masivos de datos para alimentar modelos de Inteligencia Artificial de forma ética y sin sesgos. Implica a ASIR (infraestructura de datos), DAM (apps que consumen IA) y DAW (visualización de datos).</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>13</id_reto>
+    <reto_titulo>Despliegue y Seguridad del Internet de las Cosas (IoT)</reto_titulo>
+    <reto_descripcion>Construir y asegurar la red de miles de millones de dispositivos conectados, desde sensores industriales a domótica. Un campo para SMR (instalación), ASIR (gestión de red y servidores IoT) y DAM/DAW (apps de control y monitorización).</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>14</id_reto>
+    <reto_titulo>Soberanía del Dato y Computación en la Nube (Cloud)</reto_titulo>
+    <reto_descripcion>Administrar la migración masiva de servicios a la nube, garantizando la seguridad, el cumplimiento normativo (GDPR) y la soberanía de los datos. El día a día de un perfil ASIR, y el entorno de despliegue principal para desarrolladores DAW y DAM.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>15</id_reto>
+    <reto_titulo>Superación de la Brecha Digital y Accesibilidad Universal</reto_titulo>
+    <reto_descripcion>Crear aplicaciones y sistemas intuitivos y accesibles para todos, incluyendo personas con discapacidades o con baja alfabetización digital. Un reto de diseño y desarrollo clave para DAW y DAM, apoyado por la infraestructura que gestiona SMR.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>16</id_reto>
+    <reto_titulo>Infraestructura para el Teletrabajo y Colaboración Distribuida</reto_titulo>
+    <reto_descripcion>Diseñar, implementar y mantener las plataformas, redes seguras (VPNs) y sistemas de comunicación que permiten el trabajo remoto y la colaboración de equipos distribuidos geográficamente. Es una tarea central para perfiles ASIR y SMR.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>17</id_reto>
+    <reto_titulo>Digitalización de la Industria y Servicios Públicos (E-Health, E-Gov)</reto_titulo>
+    <reto_descripcion>La transformación digital completa de sectores como la sanidad, la administración pública o la industria 4.0. Requiere de desarrolladores (DAW/DAM) para crear las soluciones y de administradores (ASIR/SMR) para que funcionen sin fallos.</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>18</id_reto>
+    <reto_titulo>Descentralización de la Web y Tecnología Blockchain (Web3)</reto_titulo>
+    <reto_descripcion>Explorar y construir la siguiente generación de internet basada en redes descentralizadas, que promete mayor control del usuario sobre sus datos. Un reto para desarrolladores DAM/DAW (dApps) y administradores ASIR (gestión de nodos).</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>19</id_reto>
+    <reto_titulo>Computación Sostenible y Green IT</reto_titulo>
+    <reto_descripcion>Reducir la huella de carbono de la industria tecnológica, optimizando el consumo energético de los centros de datos y desarrollando software más eficiente. Compete a ASIR (gestión de CPDs) y a DAW/DAM (optimización de código).</reto_descripcion>
+  </reto>
+
+  <reto>
+    <id_reto>20</id_reto>
+    <reto_titulo>Automatización de Sistemas y Procesos (DevOps)</reto_titulo>
+    <reto_descripcion>Implementar una cultura y herramientas que automaticen el ciclo de vida del software, desde el desarrollo hasta la puesta en producción y el mantenimiento, para acelerar la entrega de valor. Es la unión perfecta entre el mundo del desarrollo (DAW/DAM) y el de sistemas (ASIR).</reto_descripcion>
+  </reto>
+</retos_siglo_xxi>

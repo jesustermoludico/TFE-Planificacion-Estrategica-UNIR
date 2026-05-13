@@ -1,0 +1,194 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0370",
+    "titulo_modulo": "Planificación y administración de redes",
+    "duracion_total": "110",
+    "creditos_ects": "12",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de conectar ordenadores, dispositivos y electrónica de red en una red de área local. La definición de estas funciones incluye aspectos como: El diseño de la estructura de una red local, el conexionado y configuración de los elementos, la monitorización, la resolución de incidencias físicas y lógicas, la creación de redes virtuales y la conexión a redes de área extensa. Las líneas de actuación en el proceso de enseñanza-aprendizaje versarán sobre la elección adecuada de los elementos de la red, la interpretación de documentación técnica, la instalación y configuración de componentes y la resolución de problemas surgidos en la explotación de la red local.",
+    "objetivos_generales_asociados": "f, g, h, i, k, ñ, p",
+    "competencias_profesionales_asociadas": "b, e, f, g, h, m, n, ñ, s",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Caracterización de redes",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01", "descripcion_punto": "Terminología: redes LAN, MAN y WAN, topologías, arquitecturas, protocolos." },
+                { "id_punto": "P_01_02", "descripcion_punto": "Sistemas de numeración decimal, binario y hexadecimal. Conversión entre sistemas." },
+                { "id_punto": "P_01_03", "descripcion_punto": "Arquitectura de redes y niveles que las componen." },
+                { "id_punto": "P_01_04", "descripcion_punto": "Encapsulamiento de la información." },
+                { "id_punto": "P_01_05", "descripcion_punto": "El modelo OSI y el modelo TCP/IP." },
+                { "id_punto": "P_01_06", "descripcion_punto": "Las tecnologías Ethernet y tipos de cableado." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Integración de elementos en una red",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01", "descripcion_punto": "Los medios físicos: cables metálicos (coaxial, STP y UTP), fibra óptica." },
+                { "id_punto": "P_02_02", "descripcion_punto": "Ancho de banda y tasa de transferencia." },
+                { "id_punto": "P_02_03", "descripcion_punto": "La conexión inalámbrica: espectros de onda, asociación y autenticación en WLAN." },
+                { "id_punto": "P_02_04", "descripcion_punto": "Direccionamiento: direcciones IPv4, máscaras de red y direccionamiento dinámico (DHCP)." },
+                { "id_punto": "P_02_05", "descripcion_punto": "Dominios de colisión y de broadcast." },
+                { "id_punto": "P_02_06", "descripcion_punto": "Adaptadores alámbricos e inalámbricos: instalación y configuración." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Configuración y administración de conmutadores",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01", "descripcion_punto": "Segmentación de la red y ventajas que presenta." },
+                { "id_punto": "P_03_02", "descripcion_punto": "Conmutadores y dominios de colisión y broadcast." },
+                { "id_punto": "P_03_03", "descripcion_punto": "Formas de conexión al conmutador para su configuración inicial." },
+                { "id_punto": "P_03_04", "descripcion_punto": "Configuración estática y dinámica de la tabla de direcciones MAC." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Configuración y administración básica de routers",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01", "descripcion_punto": "Los routers en las LAN y en las WAN: componentes y funciones." },
+                { "id_punto": "P_04_02", "descripcion_punto": "Formas de conexión al router para su configuración inicial." },
+                { "id_punto": "P_04_03", "descripcion_punto": "Comandos para configuración y administración básica del sistema operativo del router." },
+                { "id_punto": "P_04_04", "descripcion_punto": "Configuración del enrutamiento estático." },
+                { "id_punto": "P_04_05", "descripcion_punto": "Definición y ubicación de listas de control de acceso (ACLs)." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Configuración de redes virtuales",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01", "descripcion_punto": "El diseño de redes locales a tres capas (núcleo, distribución y acceso)." },
+                { "id_punto": "P_05_02", "descripcion_punto": "Implantación y configuración de redes virtuales (VLANs)." },
+                { "id_punto": "P_05_03", "descripcion_punto": "Definición de enlaces troncales en conmutadores y routers: protocolo IEEE 802.1Q." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Configuración y administración de protocolos dinámicos",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01", "descripcion_punto": "Protocolos enrutables y protocolos de enrutamiento interior y exterior." },
+                { "id_punto": "P_06_02", "descripcion_punto": "El enrutamiento sin clase y subdivisión de redes con VLSM." },
+                { "id_punto": "P_06_03", "descripcion_punto": "Configuración y administración de RIPv1 y RIPv2." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Configuración del acceso a Internet desde una LAN",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01", "descripcion_punto": "Direccionamiento interno y direccionamiento externo." },
+                { "id_punto": "P_07_02", "descripcion_punto": "Traducción de direcciones de red: NAT estático, dinámico y PAT (sobrecarga)." },
+                { "id_punto": "P_07_03", "descripcion_punto": "Configuración y diagnóstico de incidencias de NAT y PAT." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los factores que impulsan la expansión y evolución de las redes." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han diferenciado los distintos medios de transmisión utilizados." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han reconocido los distintos tipos de red y sus topologías." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han descrito las arquitecturas de red y los niveles que las componen." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha descrito el concepto de protocolo de comunicación." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha descrito el funcionamiento de las pilas de protocolos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han descrito los elementos funcionales, físicos y lógicos de las redes." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han diferenciado dispositivos de interconexión según su nivel funcional." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Integra ordenadores y periféricos en redes cableadas e inalámbricas, evaluando su funcionamiento y prestaciones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los estándares para redes cableadas e inalámbricas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han montado cables directos, cruzados y de consola." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado comprobadores para verificar la conectividad de cables." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha utilizado el direccionamiento lógico IP y máscaras de subred." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han configurado adaptadores de red bajo distintos sistemas operativos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han integrado dispositivos en redes cableadas e inalámbricas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha comprobado la conectividad inalámbrica sobre diversas configuraciones." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado aplicaciones para representar el mapa físico y lógico." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha monitorizado la red mediante aplicaciones basadas en protocolo SNMP." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Administra conmutadores estableciendo opciones de configuración para su integración en la red.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han conectado conmutadores entre sí y con estaciones de trabajo." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha interpretado la información proporcionada por los leds del dispositivo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado métodos para acceder al modo de configuración." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado los archivos de configuración del conmutador." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha administrado la tabla de direcciones MAC." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha configurado la seguridad del puerto." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha actualizado el sistema operativo del conmutador." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado comandos para el seguimiento de incidencias." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha verificado el funcionamiento del Spanning Tree Protocol (STP)." },
+                { "letra_criterio": "j", "descripcion_criterio": "Se han modificado los parámetros para la selección del puente raíz." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Administra las funciones básicas de un router estableciendo opciones de configuración para su integración en la red.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha interpretado la información de los leds del router." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado métodos de acceso al modo de configuración." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las etapas de la secuencia de arranque." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado comandos para administración básica del router." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han gestionado los archivos de configuración mediante comandos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han configurado rutas estáticas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado comandos de seguimiento para incidencias." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha configurado el router como servidor de direcciones IP dinámicas." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han descrito las capacidades de filtrado de tráfico." },
+                { "letra_criterio": "j", "descripcion_criterio": "Se han utilizado comandos para gestionar listas de control de acceso (ACLs)." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Configura redes locales virtuales identificando su campo de aplicación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito las ventajas de la utilización de redes locales virtuales (VLANs)." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han implementado VLANs." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha realizado el diagnóstico de incidencias en VLANs." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han configurado enlaces troncales." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha utilizado un router para interconectar diversas VLANs." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han descrito las ventajas de protocolos de administración centralizada de VLANs." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han configurado conmutadores según protocolos de administración centralizada." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Realiza tareas avanzadas de administración de red analizando y utilizando protocolos dinámicos de encaminamiento.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha configurado el protocolo de enrutamiento RIPv1." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han configurado redes con el protocolo RIPv2." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha realizado el diagnóstico de fallos en redes que utilizan RIP." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha valorado la necesidad de utilizar máscaras de longitud variable (VLSM) en IPv4." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha dividido una red principal en subredes de distintos tamaños." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han realizado agrupaciones de redes con CIDR." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha habilitado y configurado OSPF en un router." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha establecido y propagado una ruta por defecto usando OSPF." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Conecta redes privadas a redes públicas identificando y aplicando diferentes tecnologías.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito las ventajas e inconvenientes de la traducción de direcciones (NAT)." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha utilizado NAT para realizar la traducción estática de direcciones." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha utilizado NAT para realizar la traducción dinámica de direcciones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han descrito características de tecnologías Frame Relay, RDSI y ADSL." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han descrito las analogías y diferencias entre Wifi y Wimax." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han descrito las características de las tecnologías móviles UMTS y HSDPA." }
+            ]
+        }
+    ]
+}

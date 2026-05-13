@@ -1,0 +1,57 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0226",
+    "titulo_modulo": "Seguridad informática",
+    "duracion_total": "105",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de implantación de medidas de seguridad en sistemas informáticos[cite: 6256]. La definición incluye aspectos como la instalación en entornos seguros, incorporación de procedimientos de seguridad en el tratamiento de información, actualización de software, protección frente a malware y aplicación de la legislación vigente [cite: 6257-6262]. Las líneas de actuación se centran en la protección lógica y física de equipos y redes, la protección de información transmitida/almacenada y el conocimiento de la normativa de seguridad [cite: 6267-6270].",
+    "objetivos_generales_asociados": "a, c, d, e, g, k, l",
+    "competencias_profesionales_asociadas": "a, c, i, j, l, n, o, p, t",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_226",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Conceptos generales y seguridad pasiva",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_226", "descripcion_punto": "Definición de vulnerabilidad, amenaza, riesgo, ataque y daño[cite: 6225]." },
+                { "id_punto": "P_01_02_226", "descripcion_punto": "Seguridad pasiva: ubicación física segura y sistemas de alimentación ininterrumpida (SAI) [cite: 6227-6228]." },
+                { "id_punto": "P_01_03_226", "descripcion_punto": "Gestión de almacenamiento: rendimiento, accesibilidad, redundancia y distribución [cite: 6230-6231]." },
+                { "id_punto": "P_01_04_226", "descripcion_punto": "Cifrado, criptografía de datos, copias de seguridad e imágenes de respaldo [cite: 6233-6234]." },
+                { "id_punto": "P_01_05_226", "descripcion_punto": "Implementación de listas de control de acceso y legislación sobre protección de datos [cite: 6236-6238]." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_226",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Implementación de formas activas",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_226", "descripcion_punto": "Seguridad activa: firma electrónica, certificados digitales e identificación digital[cite: 6242]." },
+                { "id_punto": "P_02_02_226", "descripcion_punto": "Seguridad en protocolos inalámbricos, VPN, IPSec y SSH [cite: 6243-6244]." },
+                { "id_punto": "P_02_03_226", "descripcion_punto": "Utilización de cortafuegos, política de contraseñas y recuperación de datos [cite: 6245-6247]." },
+                { "id_punto": "P_02_04_226", "descripcion_punto": "Software malicioso: clasificación y herramientas de protección/desinfección[cite: 6248]." },
+                { "id_punto": "P_02_05_226", "descripcion_punto": "Zonas desmilitarizadas (DMZ) y control de monitorización en redes cableadas [cite: 6251-6254]." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Gestiona dispositivos de almacenamiento aplicando técnicas para asegurar la integridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han clasificado métodos de almacenamiento redundante, distribuido y en red [cite: 6189-6190]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han seleccionado y ejecutado estrategias de copias de seguridad y rotación [cite: 6191-6193]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han creado y restaurado imágenes de respaldo de sistemas en funcionamiento[cite: 6196]." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Reconoce la legislación y normativa sobre seguridad y protección de datos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha descrito la legislación sobre protección de datos de carácter personal y figuras legales [cite: 6217-6219]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha identificado la normativa sobre servicios de la sociedad de la información y comercio electrónico[cite: 6221]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han contrastado las normas sobre gestión de seguridad de la información[cite: 6222]." }
+            ]
+        }
+    ]
+}

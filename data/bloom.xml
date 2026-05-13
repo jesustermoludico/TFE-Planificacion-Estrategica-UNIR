@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taxonomia_bloom [
+    <!ELEMENT taxonomia_bloom (nivel_bloom+)>
+    <!ELEMENT nivel_bloom (id_bloom, nivel, definicion, verbos_clave, ejemplos_actividad, orden)>
+    <!ELEMENT id_bloom (#PCDATA)>
+    <!ELEMENT nivel (#PCDATA)>
+    <!ELEMENT definicion (#PCDATA)>
+    <!ELEMENT verbos_clave (#PCDATA)>
+    <!ELEMENT ejemplos_actividad (#PCDATA)>
+    <!ELEMENT orden (#PCDATA)>
+]>
+<taxonomia_bloom>
+  <nivel_bloom>
+    <id_bloom>1</id_bloom>
+    <nivel>Recordar</nivel>
+    <definicion>Recuperar, localizar y reconocer conocimientos relevantes de la memoria a largo plazo.</definicion>
+    <verbos_clave>Definir, listar, identificar, nombrar, localizar, reconocer, tabular.</verbos_clave>
+    <ejemplos_actividad>Cuestionarios de opción múltiple, glosarios de términos técnicos e identificación de componentes de hardware.</ejemplos_actividad>
+    <orden>1</orden>
+  </nivel_bloom>
+  <nivel_bloom>
+    <id_bloom>2</id_bloom>
+    <nivel>Comprender</nivel>
+    <definicion>Construir significado a partir de mensajes orales, escritos y gráficos mediante la interpretación y el resumen.</definicion>
+    <verbos_clave>Explicar, resumir, parafrasear, ilustrar, comparar, interpretar, clasificar.</verbos_clave>
+    <ejemplos_actividad>Explicar el flujo de un programa, interpretar un diagrama de arquitectura o clasificar tipos de redes.</ejemplos_actividad>
+    <orden>2</orden>
+  </nivel_bloom>
+  <nivel_bloom>
+    <id_bloom>3</id_bloom>
+    <nivel>Aplicar</nivel>
+    <definicion>Llevar a cabo o utilizar un procedimiento en una situación o problema dado.</definicion>
+    <verbos_clave>Implementar, ejecutar, usar, desempeñar, calcular, resolver, programar.</verbos_clave>
+    <ejemplos_actividad>Implementar una base de datos, ejecutar scripts de automatización o resolver problemas de direccionamiento IP.</ejemplos_actividad>
+    <orden>3</orden>
+  </nivel_bloom>
+  <nivel_bloom>
+    <id_bloom>4</id_bloom>
+    <nivel>Analizar</nivel>
+    <definicion>Descomponer el material en sus partes constituyentes y detectar cómo se relacionan entre sí y con una estructura global.</definicion>
+    <verbos_clave>Diferenciar, organizar, deconstruir, estructurar, integrar, diagnosticar.</verbos_clave>
+    <ejemplos_actividad>Realizar debugging de código, auditar la seguridad de un sistema o analizar la eficiencia de diferentes algoritmos.</ejemplos_actividad>
+    <orden>4</orden>
+  </nivel_bloom>
+  <nivel_bloom>
+    <id_bloom>5</id_bloom>
+    <nivel>Evaluar</nivel>
+    <definicion>Realizar juicios basados en criterios y estándares mediante la comprobación y la crítica.</definicion>
+    <verbos_clave>Comprobar, criticar, revisar, formular hipótesis, juzgar, testear, validar.</verbos_clave>
+    <ejemplos_actividad>Validar el cumplimiento normativo de un software, realizar pruebas de estrés (pentesting) o evaluar la experiencia de usuario (UX).</ejemplos_actividad>
+    <orden>5</orden>
+  </nivel_bloom>
+  <nivel_bloom>
+    <id_bloom>6</id_bloom>
+    <nivel>Crear</nivel>
+    <definicion>Reunir elementos para formar un todo coherente o funcional; reorganizar elementos en un nuevo patrón o estructura.</definicion>
+    <verbos_clave>Diseñar, construir, planificar, producir, inventar, desarrollar, configurar.</verbos_clave>
+    <ejemplos_actividad>Desarrollar una aplicación web integral, diseñar una nueva infraestructura cloud o planificar un plan de recuperación ante desastres.</ejemplos_actividad>
+    <orden>6</orden>
+  </nivel_bloom>
+</taxonomia_bloom>

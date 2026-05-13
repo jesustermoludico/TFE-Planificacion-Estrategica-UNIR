@@ -1,0 +1,86 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0229",
+    "titulo_modulo": "Formación y orientación laboral",
+    "duracion_total": "96",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para que el alumno pueda insertarse laboralmente y desarrollar su carrera profesional en el sector. Las líneas de actuación versarán sobre: el manejo de las fuentes de información sobre el sistema educativo y laboral; la realización de pruebas de orientación y desarrollo de habilidades sociales; la preparación de currículos y entrevistas; la identificación de la normativa laboral; y el análisis de la Ley de Prevención de Riesgos Laborales para evaluar riesgos y colaborar en planes de prevención.",
+    "objetivos_generales_asociados": "n, o, q",
+    "competencias_profesionales_asociadas": "q, s, v",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_229",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Búsqueda activa de empleo",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_229", "descripcion_punto": "Planificación de la carrera profesional y análisis de intereses." },
+                { "id_punto": "P_01_02_229", "descripcion_punto": "Valoración de la formación permanente e itinerarios en SMR." },
+                { "id_punto": "P_01_03_229", "descripcion_punto": "Técnicas e instrumentos de búsqueda de empleo en Europa." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_229",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Gestión del conflicto y equipos de trabajo",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_229", "descripcion_punto": "Trabajo en equipo en la industria informática: eficacia y roles." },
+                { "id_punto": "P_02_02_229", "descripcion_punto": "Conflicto: tipos, fuentes y negociación como vía de solución." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_229",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Contrato de trabajo",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_229", "descripcion_punto": "Derecho del trabajo, modalidades de contrato y fomento de contratación." },
+                { "id_punto": "P_03_02_229", "descripcion_punto": "Derechos y deberes, salario y tiempo de trabajo. Convenios colectivos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_229",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Seguridad Social, Empleo y Desempleo",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_229", "descripcion_punto": "Estructura del Sistema de Seguridad Social: afiliación y cotización." },
+                { "id_punto": "P_04_02_229", "descripcion_punto": "Prestaciones y protección por desempleo." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_229",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Evaluación de riesgos profesionales",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_229", "descripcion_punto": "Relación entre trabajo y salud. Riesgos específicos en SMR." },
+                { "id_punto": "P_05_02_229", "descripcion_punto": "Daños a la salud: accidentes y enfermedades profesionales." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_229",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Planificación de la prevención de riesgos",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_229", "descripcion_punto": "Marco normativo, plan de prevención, emergencia y evacuación." },
+                { "id_punto": "P_06_02_229", "descripcion_punto": "Medidas de protección, señalización y primeros auxilios." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_229",
+            "ra_descripcion": "Selecciona oportunidades de empleo identificando posibilidades de inserción.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha valorado la formación permanente como clave para la empleabilidad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado itinerarios relacionados con el perfil de SMR." }
+            ]
+        },
+        {
+            "ra_id": "RA_5_229",
+            "ra_descripcion": "Evalúa los riesgos derivados de su actividad analizando condiciones de trabajo.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado situaciones de riesgo habituales en entornos de SMR." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha determinado la evaluación de riesgos en la empresa." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,610 @@
+/* Estilos para el componente Resumen */
+
+/* Toolbar y cabecera */
+.resumen-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 16px 0;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.resumen-title h2 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 20px;
+}
+
+.resumen-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resumen-hero {
+    margin-bottom: 24px;
+}
+
+.title-container,
+.objectives-container,
+.description-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.title-container h1 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 28px;
+    flex-grow: 1;
+}
+
+.controls-inline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.pretty-list {
+    flex-grow: 1;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 12px 0;
+}
+
+.resumen-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Tarjetas de sección */
+.section-card {
+    background: var(--surface-color);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+.section-card h3 {
+    margin: 0 0 20px 0;
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 8px;
+}
+
+/* Grupos de formulario */
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-group.with-controls {
+    position: relative;
+}
+
+.input-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Elementos editables en línea */
+.editable-element {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 8px 12px;
+    min-height: 20px;
+    cursor: text;
+    transition: all 0.2s ease;
+    color: var(--text-primary);
+    flex-grow: 1;
+}
+
+.editable-element:hover {
+    background: var(--hover-color);
+    border-color: var(--border-color);
+}
+
+.editable-element.editing {
+    background: var(--input-bg);
+    border-color: var(--accent-color);
+    outline: none;
+}
+
+.editable-element.text-area {
+    min-height: 60px;
+    white-space: pre-wrap;
+}
+
+.inline-editor {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+    background: var(--input-bg);
+    color: var(--text-primary);
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.text-area-editor {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+    background: var(--input-bg);
+    color: var(--text-primary);
+    font-size: inherit;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 60px;
+}
+
+/* Iconos de candado */
+.lock-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+}
+
+.lock-icon.lock-green {
+    color: #22c55e;
+    background: rgba(34, 197, 94, 0.1);
+}
+
+.lock-icon.lock-red {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.lock-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Botones IA */
+.ia-button {
+    background: linear-gradient(135deg, #8b5cf6, #a855f7);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 40px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ia-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+/* Dropdowns */
+.dropdown-element {
+    padding: 8px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--input-bg);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 150px;
+}
+
+.dropdown-element:hover {
+    border-color: var(--accent-color);
+}
+
+.dropdown-element:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Listas editables */
+.editable-list {
+    min-height: 100px;
+    border: 1px dashed var(--border-color);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.editable-list-items {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.editable-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    margin-bottom: 4px;
+}
+
+.item-text {
+    flex-grow: 1;
+    margin-right: 8px;
+}
+
+.remove-item {
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-item {
+    list-style: none;
+    margin-left: -20px;
+    margin-top: 8px;
+}
+
+.add-item-btn {
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Elementos seleccionados */
+.selected-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    min-height: 32px;
+    padding: 8px;
+    border: 1px dashed var(--border-color);
+    border-radius: 6px;
+    background: var(--surface-color);
+}
+
+.selected-tag {
+    background: var(--accent-color);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Tablas */
+.table-responsive {
+    overflow-x: auto;
+    margin: 16px 0;
+}
+
+.elements-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.elements-table th,
+.elements-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.elements-table th {
+    background: var(--secondary-color);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.elements-table td {
+    background: var(--surface-color);
+    color: var(--text-primary);
+    vertical-align: top;
+}
+
+.elements-table tr:last-child td {
+    border-bottom: none;
+}
+
+.clickable-cell {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.clickable-cell:hover {
+    background-color: var(--hover-color);
+}
+
+.controls-cell {
+    width: 100px;
+    text-align: center;
+}
+
+.controls-cell .lock-icon,
+.controls-cell .ia-button {
+    margin: 0 2px;
+}
+
+/* Contenido de actividad */
+.activity-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.activity-content .editable-element:first-child {
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+/* Lista de metodologías */
+.methodology-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.methodology-item {
+    background: var(--input-bg);
+    border-radius: 8px;
+    padding: 16px;
+    border-left: 4px solid var(--accent-color);
+}
+
+.methodology-title {
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.methodology-title:hover {
+    background-color: var(--hover-color);
+}
+
+.methodology-description,
+.methodology-suggestion {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.methodology-description:hover,
+.methodology-suggestion:hover {
+    background-color: var(--hover-color);
+}
+
+/* Actividades en secuenciación */
+.activity-container {
+    min-width: 200px;
+}
+
+.activity-title {
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 4px;
+}
+
+.activity-description {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+/* Estados bloqueados */
+tr[data-locked="true"] {
+    opacity: 0.7;
+    background-color: var(--surface-color) !important;
+}
+
+tr[data-locked="true"] .editable-element {
+    cursor: not-allowed;
+}
+
+tr[data-locked="true"] .clickable-cell {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Edición inline mejorada */
+.inline-edit:hover:not(.editing):not([data-locked="true"]) {
+    background-color: var(--hover-color);
+    outline: 1px dashed var(--border-color);
+}
+
+.number-edit {
+    min-width: 60px;
+    text-align: center;
+}
+
+.title-edit {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Área de contenido */
+.content-area {
+    min-height: 100px;
+    padding: 16px;
+    border: 1px dashed var(--border-color);
+    border-radius: 8px;
+    background: var(--surface-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.content-area:hover {
+    border-style: solid;
+    border-color: var(--accent-color);
+    background: var(--hover-color);
+}
+
+/* Elementos solo visibles en SdA */
+.sda-only {
+    transition: all 0.3s ease;
+}
+
+.sda-only[style*="none"] {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .resumen-container {
+        padding: 16px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .section-card {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .input-controls {
+        flex-wrap: wrap;
+    }
+
+    .table-responsive {
+        font-size: 14px;
+    }
+
+    .elements-table th,
+    .elements-table td {
+        padding: 8px;
+    }
+}
+
+/* Estados de carga */
+.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid var(--border-color);
+    border-top-color: var(--accent-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animaciones de entrada */
+.section-card {
+    animation: slideInUp 0.5s ease;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Botón nueva actividad */
+.add-activity-row {
+    text-align: center;
+    padding: 16px;
+}
+
+.add-activity-btn {
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+}
+
+.add-activity-btn:hover {
+    background: var(--accent-color);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}

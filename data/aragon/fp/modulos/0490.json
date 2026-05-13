@@ -1,0 +1,90 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0490",
+    "titulo_modulo": "Programación de Servicios y Procesos",
+    "duracion_total": "63",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollo de aplicaciones seguras en red. La función incluye aspectos como: La utilización de las capacidades del sistema operativo para la gestión de procesos e hilos. La programación de aplicaciones compuestas por varios procesos e hilos. El desarrollo de aplicaciones con capacidades para ofrecer servicios a través de una red. La utilización de mecanismos de seguridad en el desarrollo de aplicaciones. Las líneas de actuación versarán sobre: La gestión de procesos e hilos y los mecanismos de sincronización. El uso de sockets para la programación de aplicaciones conectadas en red. El desarrollo de aplicaciones que utilicen servicios estándar de red. La aplicación de prácticas de programación segura y técnicas criptográficas para el almacenamiento y transmisión de información.",
+    "objetivos_generales_asociados": "b, e, i, j, l, n, ñ",
+    "competencias_profesionales_asociadas": "b, e, i, j, l, n, ñ, t, w",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_490",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Programación multiproceso",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_490", "descripcion_punto": "Ejecutables, procesos y servicios. Estados de un proceso." },
+                { "id_punto": "P_01_02_490", "descripcion_punto": "Planificación de procesos por el sistema operativo." },
+                { "id_punto": "P_01_03_490", "descripcion_punto": "Programación concurrente, paralela y distribuida." },
+                { "id_punto": "P_01_04_490", "descripcion_punto": "Creación, finalización, comunicación y sincronización entre procesos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_490",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Programación multihilo",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_490", "descripcion_punto": "Recursos compartidos por los hilos. Estados y cambios de estado." },
+                { "id_punto": "P_02_02_490", "descripcion_punto": "Librerías y clases para la gestión de hilos. Creación y finalización." },
+                { "id_punto": "P_02_03_490", "descripcion_punto": "Sincronización y compartición de información entre hilos." },
+                { "id_punto": "P_02_04_490", "descripcion_punto": "Gestión de prioridades y rendimiento comparado con aplicaciones multiproceso." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_490",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Programación de comunicaciones en red",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_490", "descripcion_punto": "Protocolos de comunicaciones y roles cliente/servidor." },
+                { "id_punto": "P_03_02_490", "descripcion_punto": "Sockets: tipos, características, creación y enlazado." },
+                { "id_punto": "P_03_03_490", "descripcion_punto": "Establecimiento de conexiones y transmisión de información." },
+                { "id_punto": "P_03_04_490", "descripcion_punto": "Utilización de hilos en aplicaciones de red." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_490",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Generación de servicios en red",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_490", "descripcion_punto": "Protocolos estándar a nivel de aplicación (telnet, ftp, http, smtp)." },
+                { "id_punto": "P_04_02_490", "descripcion_punto": "Librerías de clases, componentes y utilización de objetos predefinidos." },
+                { "id_punto": "P_04_03_490", "descripcion_punto": "Programación de servicios: Arquitectura Orientada a Servicios (SOA) y RMI." },
+                { "id_punto": "P_04_04_490", "descripcion_punto": "Monitorización de disponibilidad y tiempos de respuesta." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_490",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Utilización de técnicas de programación segura",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_490", "descripcion_punto": "Prácticas de programación segura y limitación de privilegios." },
+                { "id_punto": "P_05_02_490", "descripcion_punto": "Criptografía de clave pública y privada. Aplicaciones y protocolos." },
+                { "id_punto": "P_05_03_490", "descripcion_punto": "Programación de mecanismos de control de acceso y encriptación." },
+                { "id_punto": "P_05_04_490", "descripcion_punto": "Desarrollo de aplicaciones con comunicaciones seguras." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_490",
+            "ra_descripcion": "Desarrolla aplicaciones compuestas por varios procesos reconociendo principios de programación paralela.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido características de programación concurrente y ámbitos de aplicación." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han diferenciado programación paralela y distribuida." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado clases para programar aplicaciones que crean subprocesos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado mecanismos para sincronizar y obtener valores de subprocesos." }
+            ]
+        },
+        {
+            "ra_id": "RA_5_490",
+            "ra_descripcion": "Protege las aplicaciones y los datos aplicando criterios de seguridad en el acceso y transmisión.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado y aplicado principios de programación segura." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han analizado e implantado técnicas criptográficas y políticas de seguridad." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado esquemas basados en roles y algoritmos para proteger información." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han desarrollado aplicaciones con sockets seguros para la transmisión." }
+            ]
+        }
+    ]
+}

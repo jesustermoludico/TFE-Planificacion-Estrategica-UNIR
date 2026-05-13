@@ -1,0 +1,216 @@
+{
+  "asignatura": "Música",
+  "etapa": "Educación Secundaria Obligatoria",
+  "curso": "1º ESO",
+  "introduccion": {
+    "justificacion": "La música constituye una forma de expresión personal fruto de percepciones individuales y un lenguaje a través del que reproducir las realidades culturales. Es fundamental comprender y valorar su papel como una de las artes que conforman el patrimonio cultural.",
+    "contribucion_desarrollo": [
+      "Contribuye activamente al desarrollo cognitivo, emocional y psicomotor del alumnado.",
+      "Favorece la mejora de la atención, la percepción, la memoria y la posición corporal.",
+      "Desarrolla la empatía y el respeto hacia la diversidad cultural.",
+      "Valora la perseverancia necesaria para el dominio técnico de la voz, el cuerpo y los instrumentos."
+    ],
+    "ejes_competenciales": [
+      {
+        "eje": "Identidad y recepción cultural",
+        "competencia": "Competencia específica 1"
+      },
+      {
+        "eje": "Autoexpresión a través de la creación y la interpretación",
+        "competencia": "Competencias específicas 2 y 3"
+      },
+      {
+        "eje": "Producción artística",
+        "competencia": "Competencia específica 4"
+      }
+    ]
+  },
+  "competencias_especificas": [
+    {
+      "id": "CE.MU.1",
+      "titulo": "Analizar obras de diferentes épocas y culturas para valorar el patrimonio musical y dancístico.",
+      "descripcion": "Identificar rasgos estilísticos de la música y la danza relacionándolos con su contexto histórico y transformaciones sociales.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "1.1",
+          "criterio": "Identificar algunos de los principales rasgos estilísticos de obras musicales y dancísticas de diferentes épocas y culturas."
+        },
+        {
+          "codigo": "1.2",
+          "criterio": "Explicar las funciones desempeñadas por determinadas producciones musicales y dancísticas, relacionándolas con su contexto histórico y social."
+        },
+        {
+          "codigo": "1.3",
+          "criterio": "Establecer conexiones entre manifestaciones musicales y dancísticas de diferentes épocas y culturas, valorando su influencia actual."
+        }
+      ]
+    },
+    {
+      "id": "CE.MU.2",
+      "titulo": "Explorar las posibilidades expresivas a través de actividades de improvisación.",
+      "descripcion": "La creación y la improvisación brindan la oportunidad de descubrir y aplicar técnicas mediante el empleo de la voz, el cuerpo e instrumentos.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "2.1",
+          "criterio": "Participar en la exploración de técnicas musicales y dancísticas básicas por medio de improvisaciones pautadas, individuales o grupales."
+        },
+        {
+          "codigo": "2.2",
+          "criterio": "Expresar ideas, sentimientos y emociones en actividades pautadas de improvisación seleccionando técnicas del repertorio personal."
+        }
+      ]
+    },
+    {
+      "id": "CE.MU.3",
+      "titulo": "Interpretar piezas musicales gestionando las emociones y empleando diversas técnicas.",
+      "descripcion": "La interpretación individual y grupal favorece la comprensión de las artes y amplía las posibilidades de expresión personal.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "3.1",
+          "criterio": "Leer partituras sencillas, identificando de forma guiada los elementos básicos del lenguaje musical."
+        },
+        {
+          "codigo": "3.2",
+          "criterio": "Emplear técnicas básicas de interpretación vocal, corporal o instrumental, aplicando estrategias de memorización."
+        },
+        {
+          "codigo": "3.3",
+          "criterio": "Interpretar con corrección piezas sencillas gestionando de forma guiada la ansiedad y el miedo escénico."
+        }
+      ]
+    },
+    {
+      "id": "CE.MU.4",
+      "titulo": "Crear propuestas artístico-musicales para potenciar la creatividad.",
+      "descripcion": "Generar discursos coherentes que combinen saberes de modo global, respetando los derechos de autor y la propiedad intelectual.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "4.1",
+          "criterio": "Planificar y desarrollar con creatividad propuestas artístico-musicales empleando medios musicales y herramientas analógicas o digitales."
+        },
+        {
+          "codigo": "4.2",
+          "criterio": "Participar activamente en la ejecución de propuestas colaborativas, valorando las aportaciones del resto de integrantes."
+        }
+      ]
+    }
+  ],
+  "saberes_basicos": {
+    "bloque_A": {
+      "nombre": "Escucha y percepción",
+      "saberes": [
+        {
+          "codigo": "A.1",
+          "titulo": "Sonido, silencio y ruido",
+          "contenidos": [
+            "Cualidades o parámetros del sonido y su representación en partituras.",
+            "La escucha activa y la polución sonora.",
+            "Creación de ambientes saludables de escucha."
+          ]
+        },
+        {
+          "codigo": "A.3",
+          "titulo": "Voces e instrumentos",
+          "contenidos": [
+            "Clasificación de voces humanas y reconocimiento auditivo.",
+            "Clasificación tradicional de instrumentos y agrupaciones (coro, orquesta sinfónica, grupo de rock)."
+          ]
+        },
+        {
+          "codigo": "A.6",
+          "titulo": "Mitos, estereotipos y roles de género",
+          "contenidos": [
+            "Papel del hombre y de la mujer en la historia de la música.",
+            "Análisis crítico de textos de canciones de escucha habitual para identificar estereotipos."
+          ]
+        }
+      ]
+    },
+    "bloque_B": {
+      "nombre": "Interpretación, improvisación y creación escénica",
+      "saberes": [
+        {
+          "codigo": "B.1",
+          "titulo": "La partitura",
+          "contenidos": [
+            "Identificación y aplicación de grafías musicales, lectura, escritura y dictado."
+          ]
+        },
+        {
+          "codigo": "B.5",
+          "titulo": "Técnicas de improvisación guiada y libre",
+          "contenidos": [
+            "Improvisación basada en la imitación y ruedas rítmicas.",
+            "Improvisación melódica con la escala pentatónica."
+          ]
+        },
+        {
+          "codigo": "B.7",
+          "titulo": "Herramientas digitales para la creación",
+          "contenidos": [
+            "Uso de secuenciadores, editores de partituras y software libre."
+          ]
+        }
+      ]
+    },
+    "bloque_C": {
+      "nombre": "Contextos y culturas",
+      "saberes": [
+        {
+          "codigo": "C.2",
+          "titulo": "Las músicas tradicionales en España",
+          "contenidos": [
+            "Ejemplos de instrumentos, canciones y danzas tradicionales españolas y aragonesas (Arafolk)."
+          ]
+        },
+        {
+          "codigo": "C.4",
+          "titulo": "Músicas populares y urbanas",
+          "contenidos": [
+            "Análisis básico de ritmo, instrumentos, voz, estructura y textura en ejemplos representativos."
+          ]
+        }
+      ]
+    }
+  },
+  "orientaciones_metodologicas": {
+    "principios": [
+      "Uso de metodologías activas: aprender haciendo, ABP y aprendizaje por retos.",
+      "Andamiajes que faciliten la adquisición progresiva de saberes.",
+      "Fomento del pensamiento crítico y la autonomía del alumnado."
+    ],
+    "evaluacion": {
+      "enfoque": "Evaluación formativa como instrumento de aprendizaje y autorregulación.",
+      "instrumentos": [
+        "Rúbricas, co-evaluación entre iguales y autoevaluación.",
+        "Diarios musicales, presentaciones y registros de actividades."
+      ]
+    }
+  },
+  "situaciones_aprendizaje": [
+    {
+      "numero": 1,
+      "titulo": "Viajamos por el mundo a bordo de la música",
+      "reto": "Convertirse en exploradores musicales para conocer culturas a través de su música y danza tradicional.",
+      "descripcion": "Elaboración de un diario de viaje (físico o virtual), análisis musical de una pieza por continente e interpretación final ante la clase."
+    },
+    {
+      "numero": 2,
+      "titulo": "El laberinto de los mitos",
+      "reto": "Transmitir los poderes atribuidos a divinidades de la música antiguas a través de un podcast de radio.",
+      "descripcion": "Investigación sobre divinidades de diversas culturas, creación de guion y grabación/mezcla del podcast en Bandlab."
+    }
+  ],
+  "recursos_digitales": {
+    "teoria_practica": [
+      "Chrome Music Lab",
+      "Incredibox",
+      "Groove Pizza"
+    ],
+    "creacion_audio": [
+      "BandLab",
+      "Flat.io",
+      "WavePad"
+    ]
+  }
+}

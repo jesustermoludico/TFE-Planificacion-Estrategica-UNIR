@@ -1,0 +1,46 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0382",
+    "titulo_modulo": "Formación en Centros de Trabajo",
+    "duracion_total": "220",
+    "creditos_ects": "22",
+    "seccion_orientaciones": "Este módulo profesional contribuye a completar las competencias, propias de este título, que se han alcanzado en el centro educativo o a desarrollar competencias características difíciles de conseguir en el mismo.",
+    "objetivos_generales_asociados": "Completar competencias transversales y técnicas en entorno real",
+    "competencias_profesionales_asociadas": "Integración en el entorno productivo real",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_382",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Actividades de formación en el centro de trabajo",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_382", "descripcion_punto": "Identificación de la estructura organizativa y procedimientos de la empresa." },
+                { "id_punto": "P_01_02_382", "descripcion_punto": "Aplicación de hábitos éticos y laborales de acuerdo con el puesto de trabajo." },
+                { "id_punto": "P_01_03_382", "descripcion_punto": "Organización del procedimiento de trabajo interpretando documentación específica." },
+                { "id_punto": "P_01_04_382", "descripcion_punto": "Participación en el diseño, puesta en marcha y mantenimiento de instalaciones de red." },
+                { "id_punto": "P_01_05_382", "descripcion_punto": "Asistencia a usuarios resolviendo problemas de explotación del sistema." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Identifica la estructura y organización de la empresa relacionándolas con el servicio que presta.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado la estructura organizativa y funciones de cada área." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha comparado la estructura con organizaciones tipo del sector." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han relacionado características del servicio con el desarrollo de la actividad." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Participa en el diseño, puesta en marcha y mantenimiento de instalaciones con servicios de red local e Internet.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha adecuado el plan de trabajo a las normas de calidad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han desarrollado planes de instalación definiendo etapas y tareas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha realizado la instalación y configuración del sistema operativo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han desarrollado tareas de automatización del sistema." }
+            ]
+        }
+    ]
+}

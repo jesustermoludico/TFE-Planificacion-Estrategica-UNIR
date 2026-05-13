@@ -1,0 +1,178 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0372",
+    "titulo_modulo": "Gestión de Bases de Datos",
+    "duracion_total": "105",
+    "creditos_ects": "11",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de gestor de bases de datos. La gestión de bases de datos incluye aspectos como: La planificación y realización del diseño físico de una base de datos. La inserción y manipulación de datos. La planificación y realización de consultas. La planificación y ejecución de importaciones, exportaciones y migraciones de datos. La planificación y aplicación de medidas de aseguramiento de la información. Las líneas de actuación en el proceso de enseñanza-aprendizaje versarán sobre la interpretación de diseños lógicos, la realización del diseño físico a partir de un diseño lógico, la implementación de bases de datos, la realización de operaciones con datos almacenados, la importación y exportación de datos y el aseguramiento de la información.",
+    "objetivos_generales_asociados": "d, e, m",
+    "competencias_profesionales_asociadas": "c, d, m",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Sistemas de almacenamiento de la información",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01", "descripcion_punto": "Ficheros (planos, indexados y acceso directo, entre otros)." },
+                { "id_punto": "P_01_02", "descripcion_punto": "Bases de datos: conceptos, usos y tipos según el modelo de datos y la ubicación de la información." },
+                { "id_punto": "P_01_03", "descripcion_punto": "Sistemas gestores de base de datos: funciones, componentes y tipos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Diseño lógico de bases de datos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01", "descripcion_punto": "Modelo de datos." },
+                { "id_punto": "P_02_02", "descripcion_punto": "Representación del problema: diagramas E/R entidades y relaciones. Cardinalidad y debilidad." },
+                { "id_punto": "P_02_03", "descripcion_punto": "El modelo E/R ampliado." },
+                { "id_punto": "P_02_04", "descripcion_punto": "El modelo relacional: terminología, características, claves primarias y claves ajenas." },
+                { "id_punto": "P_02_05", "descripcion_punto": "Paso del diagrama E/R al modelo relacional." },
+                { "id_punto": "P_02_06", "descripcion_punto": "Normalización." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Diseño físico de bases de datos",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01", "descripcion_punto": "Herramientas gráficas proporcionadas por el sistema gestor para la implementación." },
+                { "id_punto": "P_03_02", "descripcion_punto": "El lenguaje de definición de datos." },
+                { "id_punto": "P_03_03", "descripcion_punto": "Creación, modificación y eliminación de bases de datos y tablas. Tipos de datos." },
+                { "id_punto": "P_03_04", "descripcion_punto": "Implementación de restricciones." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Realización de consultas",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01", "descripcion_punto": "Herramientas gráficas para la realización de consultas." },
+                { "id_punto": "P_04_02", "descripcion_punto": "La sentencia SELECT: selección y ordenación de registros. Tratamiento de valores nulos." },
+                { "id_punto": "P_04_03", "descripcion_punto": "Consultas de resumen y agrupamiento de registros." },
+                { "id_punto": "P_04_04", "descripcion_punto": "Unión de consultas." },
+                { "id_punto": "P_04_05", "descripcion_punto": "Composiciones internas y externas." },
+                { "id_punto": "P_04_06", "descripcion_punto": "Subconsultas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Edición de los datos",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01", "descripcion_punto": "Herramientas gráficas para la edición de la información." },
+                { "id_punto": "P_05_02", "descripcion_punto": "Las sentencias INSERT, DELETE y UPDATE." },
+                { "id_punto": "P_05_03", "descripcion_punto": "Subconsultas y combinaciones en órdenes de edición." },
+                { "id_punto": "P_05_04", "descripcion_punto": "Transacciones y sentencias de procesamiento." },
+                { "id_punto": "P_05_05", "descripcion_punto": "Acceso simultáneo a los datos: políticas de bloqueo." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Construcción de guiones",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01", "descripcion_punto": "Introducción al lenguaje de programación del sistema gestor." },
+                { "id_punto": "P_06_02", "descripcion_punto": "Tipos de datos, identificadores, variables, operadores y estructuras de control." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Gestión de la seguridad de los datos",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01", "descripcion_punto": "Recuperación de fallos y copias de seguridad." },
+                { "id_punto": "P_07_02", "descripcion_punto": "Herramientas gráficas y utilidades para la realización y restauración de copias." },
+                { "id_punto": "P_07_03", "descripcion_punto": "Sentencias para la realización y recuperación de copias de seguridad." },
+                { "id_punto": "P_07_04", "descripcion_punto": "Herramientas gráficas y utilidades para importación y exportación de datos." },
+                { "id_punto": "P_07_05", "descripcion_punto": "Transferencia de datos entre sistemas gestores." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de sistemas gestores.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han analizado los distintos sistemas lógicos de almacenamiento y sus funciones." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha reconocido la utilidad de un sistema gestor de bases de datos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha descrito la función de cada uno de los elementos de un sistema gestor de bases de datos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han clasificado los sistemas gestores de bases de datos." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Diseña modelos lógicos normalizados interpretando diagramas entidad/relación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado el significado de la simbología propia de los diagramas entidad/relación." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado herramientas gráficas para representar el diseño lógico." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las tablas del diseño lógico." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado los campos que forman parte de las tablas del diseño lógico." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han identificado las relaciones entre las tablas del diseño lógico." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han definido los campos clave." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han aplicados las reglas de integridad." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han aplicado las reglas de normalización hasta un nivel adecuado." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han identificado y documentado las restricciones que no pueden plasmarse en el diseño lógico." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Realiza el diseño físico de bases de datos utilizando asistentes, herramientas gráficas y el lenguaje de definición de datos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han definido las estructuras físicas de almacenamiento." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado tablas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han seleccionado los tipos de datos adecuados." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han definido los campos clave en las tablas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han implantado todas las restricciones reflejadas en el diseño lógico." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha verificado mediante un conjunto de datos de prueba que la implementación se ajusta al modelo." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado asistentes y herramientas gráficas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha utilizado el lenguaje de definición de datos." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha definido y documentado el diccionario de datos." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Consulta la información almacenada manejando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las herramientas y sentencias para realizar consultas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han realizado consultas simples sobre una tabla." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han realizado consultas que generan valores de resumen." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han realizado consultas con subconsultas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han valorado las ventajas e inconvenientes de las distintas opciones válidas para llevar a cabo una consulta determinada." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Modifica la información almacenada utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las herramientas y sentencias para modificar el contenido de la base de datos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han insertado, borrado y actualizado datos en las tablas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha incluido en una tabla la información resultante de la ejecución de una consulta." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han adoptado medidas para mantener la integridad y consistencia de la información." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han diseñado guiones de sentencias para llevar a cabo tareas complejas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha reconocido el funcionamiento de las transacciones." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han anulado parcial o totalmente los cambios producidos por una transacción." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han identificado los efectos de las distintas políticas de bloqueo de registros." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Ejecuta tareas de aseguramiento de la información, analizándolas y aplicando mecanismos de salvaguarda y transferencia.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado herramientas gráficas y en línea de comandos para la administración de copias de seguridad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han realizado copias de seguridad." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han restaurado copias de seguridad." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado las herramientas para importar y exportar datos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han exportado datos a diversos formatos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han importado datos con distintos formatos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha interpretado correctamente la información suministrada por los mensajes de error y los ficheros de registro." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha transferencia información entre sistemas gestores." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0615",
+    "titulo_modulo": "Diseño de interfaces WEB",
+    "duracion_total": "126",
+    "creditos_ects": "9",
+    "seccion_orientaciones": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollo de aplicaciones destinadas a su ejecución por navegadores en entornos web. La función de desarrollo incluye aspectos como: La planificación de la interfaz web de acuerdo con especificaciones de diseño. La creación y mantenimiento de los elementos de la interfaz. La aplicación de las guías de estilo. El cumplimiento de los criterios de accesibilidad y usabilidad en el desarrollo de aplicaciones Web. Las actividades profesionales asociadas se aplican en el desarrollo de aplicaciones Web y la adaptación e integración de contenidos multimedia. Las líneas de actuación versarán sobre: El análisis de la interfaz de sitios Web, identificación de elementos, utilización de estilos, creación de contenido multimedia e interactivo, y la evaluación de accesibilidad y usabilidad.",
+    "objetivos_generales_asociados": "i, j, k, q, y, z",
+    "competencias_profesionales_asociadas": "e, g, h, i, m, n, u",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_0615",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Planificación de interfaces gráficas",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_0615", "descripcion_punto": "Elementos del diseño: percepción visual, color, tipografía e iconos." },
+                { "id_punto": "P_01_02_0615", "descripcion_punto": "Interacción persona-ordenador e interpretación de guías de estilo." },
+                { "id_punto": "P_01_03_0615", "descripcion_punto": "Componentes de una interfaz: zonas de navegación, contenido e iteración." },
+                { "id_punto": "P_01_04_0615", "descripcion_punto": "Mapa de navegación, prototipos y maquetación Web." },
+                { "id_punto": "P_01_05_0615", "descripcion_punto": "Plantilla de diseño y elementos de ordenación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_0615",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Uso de estilos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_0615", "descripcion_punto": "Estilos en línea basados en etiquetas y en clases." },
+                { "id_punto": "P_02_02_0615", "descripcion_punto": "Crear y vincular hojas de estilo en cascada externa (CSS)." },
+                { "id_punto": "P_02_03_0615", "descripcion_punto": "Hojas de estilo auditivas y para imprimir." },
+                { "id_punto": "P_02_04_0615", "descripcion_punto": "Herramientas y test de verificación de estilos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_0615",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Implantación de contenido multimedia",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_0615", "descripcion_punto": "Derechos de propiedad intelectual, licencias y derechos de autor." },
+                { "id_punto": "P_03_02_0615", "descripcion_punto": "Imágenes: mapa de bits y vectorial. Software de creación y optimización." },
+                { "id_punto": "P_03_03_0615", "descripcion_punto": "Audio y vídeo: formatos, codificación y conversiones." },
+                { "id_punto": "P_03_04_0615", "descripcion_punto": "Animación de imágenes y texto e integración multimedia." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_0615",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Integración de contenido interactivo",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_0615", "descripcion_punto": "Elementos interactivos básicos y avanzados." },
+                { "id_punto": "P_04_02_0615", "descripcion_punto": "Comportamientos interactivos de los elementos y ejecución de scripts." },
+                { "id_punto": "P_04_03_0615", "descripcion_punto": "Reproducción de sonido, vídeo y animación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_0615",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Diseño de webs accesibles",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_0615", "descripcion_punto": "Concepto de accesibilidad y el Consorcio World Wide Web (W3C)." },
+                { "id_punto": "P_05_02_0615", "descripcion_punto": "Pautas de Accesibilidad para el Contenido Web (WCAG) y niveles de conformidad." },
+                { "id_punto": "P_05_03_0615", "descripcion_punto": "Normativa en vigor y métodos de evaluación de adecuación." },
+                { "id_punto": "P_05_04_0615", "descripcion_punto": "Herramientas de análisis y chequeo desde diferentes navegadores." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_0615",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Implementación de la usabilidad en la Web. Diseño amigable",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_0615", "descripcion_punto": "Análisis de usabilidad y técnicas de identificación de objetivos." },
+                { "id_punto": "P_06_02_0615", "descripcion_punto": "Tipos de usuario y barreras identificadas. Información fácilmente accesible." },
+                { "id_punto": "P_06_03_0615", "descripcion_punto": "Importancia de estándares externos y facilidad de navegación." },
+                { "id_punto": "P_06_04_0615", "descripcion_punto": "Verificación de usabilidad en diferentes navegadores y tecnologías." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_0615",
+            "ra_descripcion": "Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha reconocido la importancia de la comunicación visual." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han seleccionado colores y tipografías adecuados para pantalla." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha valorado la importancia de aplicar la guía de estilo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado marcos, tablas y capas para ordenar la información." }
+            ]
+        },
+        {
+            "ra_id": "RA_5_0615",
+            "ra_descripcion": "Desarrolla interfaces Web accesibles, analizando pautas y aplicando técnicas de verificación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha reconocido la necesidad de diseñar webs accesibles." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las principales pautas de accesibilidad al contenido." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha alcanzado el nivel de conformidad deseado." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha verificado la visualización con diferentes navegadores." }
+            ]
+        }
+    ]
+}

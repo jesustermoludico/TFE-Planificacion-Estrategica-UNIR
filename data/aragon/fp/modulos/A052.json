@@ -1,0 +1,83 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "A052",
+    "titulo_modulo": "Lengua extranjera profesional: inglés 1",
+    "duracion_total": "64",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para el desempeño de actividades relacionadas con el entorno profesional en el que el profesional va a ejercer su profesionalidad. Las líneas de actuación en el proceso de enseñanza aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre: La elaboración de mensajes escritos y orales, interpretando y transmitiendo la información necesaria para realizar consultas técnicas. La interpretación de la información escrita en el ámbito propio del sector productivo del título. La cumplimentación e interpretación de los documentos propios del sector profesional solicitando y/o facilitando una información de tipo general o detallada. La valoración de la importancia de poder comunicarse por escrito y oralmente en lengua extranjera en el contexto de las empresas.",
+    "objetivos_generales_asociados": "Contribuye a los objetivos generales del ciclo formativo",
+    "competencias_profesionales_asociadas": "Contribuye a las competencias del título",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_A052",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Interpretación de mensajes escritos",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_A052", "descripcion_punto": "Comprensión de mensajes, textos y artículos básicos profesionales y cotidianos." },
+                { "id_punto": "P_01_02_A052", "descripcion_punto": "Soportes telemáticos: fax, e-mail y burofax." },
+                { "id_punto": "P_01_03_A052", "descripcion_punto": "Terminología específica del sector productivo. Idea principal e ideas secundarias." },
+                { "id_punto": "P_01_04_A052", "descripcion_punto": "Recursos gramaticales: tiempos verbales, preposiciones, adverbios, voz pasiva y estilo indirecto." },
+                { "id_punto": "P_01_05_A052", "descripcion_punto": "Relaciones lógicas (oposición, condición, causa) y relaciones temporales." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_A052",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Emisión de textos escritos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_A052", "descripcion_punto": "Elaboración de textos sencillos profesionales del sector y cotidianos." },
+                { "id_punto": "P_02_02_A052", "descripcion_punto": "Adecuación del texto al contexto comunicativo y registro." },
+                { "id_punto": "P_02_03_A052", "descripcion_punto": "Selección léxica, estructuras sintácticas y contenido relevante." },
+                { "id_punto": "P_02_04_A052", "descripcion_punto": "Uso de signos de puntuación y coherencia en el desarrollo del texto." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_A052",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Identificación de elementos culturales y comportamiento socioprofesional",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_A052", "descripcion_punto": "Interpretación de los elementos culturales más significativos de los países de lengua extranjera." },
+                { "id_punto": "P_03_02_A052", "descripcion_punto": "Valoración de las normas socioculturales y protocolarias en las relaciones internacionales." },
+                { "id_punto": "P_03_03_A052", "descripcion_punto": "Uso de recursos formales y funcionales en situaciones socioprofesionales para proyectar una buena imagen de la empresa." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_A052",
+            "ra_descripcion": "Interpreta información profesional escrita contenida en textos escritos complejos, analizando de forma comprensiva sus contenidos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha relacionado el texto con el ámbito del sector productivo del título." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha realizado traducciones directas e inversas de textos específicos sencillos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han leído de forma comprensiva textos específicos de su ámbito profesional." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha extraído la información más relevante de un texto relativo a su profesión." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha interpretado el contenido global del mensaje y la terminología utilizada." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha interpretado el mensaje recibido a través de soportes telemáticos (e-mail, fax)." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han leído con independencia distintos tipos de textos adaptando el estilo y la velocidad." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_A052",
+            "ra_descripcion": "Elabora textos sencillos en lengua estándar, relacionando reglas gramaticales con la finalidad de los mismos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han redactado textos breves relacionados con aspectos cotidianos y profesionales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha organizado la información de manera coherente y cohesionada." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han realizado resúmenes breves de textos sencillos relacionados con su entorno." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha cumplimentado documentación específica de su campo profesional." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado fórmulas de cortesía y vocabulario específico en la documentación." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha elaborado una solicitud de empleo y redactado un breve currículo." }
+            ]
+        },
+        {
+            "ra_id": "RA_3_A052",
+            "ra_descripcion": "Aplica actitudes y comportamientos profesionales en situaciones de comunicación, describiendo las relaciones típicas del país.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han definido los rasgos más significativos de las costumbres de la comunidad extranjera." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito los protocolos y normas de relación social propios del país." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado valores y creencias propios de la comunidad donde se habla la lengua." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han aplicado los protocolos y normas de relación social propios del país extranjero." }
+            ]
+        }
+    ]
+}

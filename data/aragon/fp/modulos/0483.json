@@ -1,0 +1,202 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0483",
+    "titulo_modulo": "Sistemas informáticos",
+    "duracion_total": "160",
+    "creditos_ects": "10",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de explotación de sistemas informáticos. La función de explotación incluye aspectos como: La instalación, configuración básica y explotación de sistemas operativos. La configuración básica y gestión de redes de área local. La instalación, mantenimiento y explotación de aplicaciones a partir de documentación técnica. Las actividades profesionales asociadas a esta función se aplican en la explotación de sistemas informáticos en relación con el desarrollo de aplicaciones. Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo están relacionadas con: La identificación del hardware. El análisis de los cambios y novedades que se producen en los sistemas informáticos: hardware, sistemas operativos, redes y aplicaciones. La utilización de máquinas virtuales para simular sistemas. La correcta interpretación de documentación técnica. La instalación y actualización de sistemas operativos. La gestión de redes locales. La instalación y configuración de aplicaciones. La verificación de la seguridad de acceso al sistema. La elaboración de documentación técnica.",
+    "objetivos_generales_asociados": "a, b, q, s, t",
+    "competencias_profesionales_asociadas": "a, b, q",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_483",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Explotación de Sistemas microinformáticos",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_483", "descripcion_punto": "Arquitectura de ordenadores. Componentes de un sistema informático." },
+                { "id_punto": "P_01_02_483", "descripcion_punto": "Periféricos. Adaptadores para la conexión de dispositivos. Dispositivos de almacenamiento." },
+                { "id_punto": "P_01_03_483", "descripcion_punto": "Chequeo y diagnóstico. Herramientas de monitorización." },
+                { "id_punto": "P_01_04_483", "descripcion_punto": "Normas de seguridad y prevención de riesgos laborales." },
+                { "id_punto": "P_01_05_483", "descripcion_punto": "Características de las redes. Sistemas de comunicación. Tipos de redes y componentes." },
+                { "id_punto": "P_01_06_483", "descripcion_punto": "Topologías de red. Tipos de cableado. Conectores. Mapa físico y lógico." },
+                { "id_punto": "P_01_07_483", "descripcion_punto": "Sistemas de numeración y codificación de la información." },
+                { "id_punto": "P_01_08_483", "descripcion_punto": "Tipos de software, distribuciones y licencias." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_483",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Instalación de Sistemas Operativos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_483", "descripcion_punto": "Estructura, arquitectura y funciones de un sistema operativo." },
+                { "id_punto": "P_02_02_483", "descripcion_punto": "Tipos de sistemas operativos y aplicaciones. Licencias." },
+                { "id_punto": "P_02_03_483", "descripcion_punto": "Gestores de arranque y utilización de máquinas virtuales." },
+                { "id_punto": "P_02_04_483", "descripcion_punto": "Instalación de sistemas operativos libres y propietarios. Requisitos y versiones." },
+                { "id_punto": "P_02_05_483", "descripcion_punto": "Instalación y desinstalación de aplicaciones. Uso de instalaciones desatendidas." },
+                { "id_punto": "P_02_06_483", "descripcion_punto": "Actualización de sistemas y aplicaciones. Ficheros de inicio y controladores." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_483",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Gestión de la información",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_483", "descripcion_punto": "Sistemas de archivos y gestión mediante comandos y entornos gráficos." },
+                { "id_punto": "P_03_02_483", "descripcion_punto": "Estructura de directorios de sistemas libres y propietarios." },
+                { "id_punto": "P_03_03_483", "descripcion_punto": "Búsqueda de información e identificación del software instalado." },
+                { "id_punto": "P_03_04_483", "descripcion_punto": "Gestión de la información: rendimiento, estadísticas y montaje de dispositivos." },
+                { "id_punto": "P_03_05_483", "descripcion_punto": "Herramientas de administración de discos: particiones, volúmenes, chequeo y RAIDS." },
+                { "id_punto": "P_03_06_483", "descripcion_punto": "Tolerancia a fallos y automatización de tareas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_483",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Configuración de sistemas operativos",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_483", "descripcion_punto": "Configuración de usuarios y grupos locales. Usuarios predeterminados." },
+                { "id_punto": "P_04_02_483", "descripcion_punto": "Seguridad de cuentas y contraseñas. Perfiles locales de usuario." },
+                { "id_punto": "P_04_03_483", "descripcion_punto": "Acceso a recursos. Permisos locales y directivas locales." },
+                { "id_punto": "P_04_04_483", "descripcion_punto": "Servicios y procesos. Comandos y monitorización del sistema." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_483",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Conexión de sistemas en red",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_483", "descripcion_punto": "Medios de transmisión y protocolos TCP/IP (IPv4 e IPv6)." },
+                { "id_punto": "P_05_02_483", "descripcion_punto": "Configuración estática y dinámica automática de red. Resolución de nombres." },
+                { "id_punto": "P_05_03_483", "descripcion_punto": "Ficheros de configuración de red, tablas de enrutamiento y gestión de puertos." },
+                { "id_punto": "P_05_04_483", "descripcion_punto": "Verificación del funcionamiento y resolución de problemas de conectividad." },
+                { "id_punto": "P_05_05_483", "descripcion_punto": "Monitorización de redes y configuración de adaptadores en sistemas libres y propietarios." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_483",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Interconexión de redes y gestión de recursos",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_483", "descripcion_punto": "Redes cableadas e inalámbricas: características, adaptadores y dispositivos (conmutadores, routers)." },
+                { "id_punto": "P_06_02_483", "descripcion_punto": "Seguridad básica en redes y protocolos (WEP, WPA, WPA2). Acceso a redes WAN." },
+                { "id_punto": "P_06_03_483", "descripcion_punto": "Permisos y derechos. Herencia, permisos efectivos y delegación. Listas de control de acceso." },
+                { "id_punto": "P_06_04_483", "descripcion_punto": "Directivas de seguridad, objetos de directiva y plantillas." },
+                { "id_punto": "P_06_05_483", "descripcion_punto": "Requisitos de seguridad del sistema y los datos. Seguridad a nivel de usuarios y equipos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_483",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Servidores y servicios de red",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_483", "descripcion_punto": "Explotación de servidores de ficheros, impresión y aplicaciones." },
+                { "id_punto": "P_07_02_483", "descripcion_punto": "Técnicas de conexión remota y herramientas de cifrado." },
+                { "id_punto": "P_07_03_483", "descripcion_punto": "Cortafuegos y sistemas de detección de intrusión." },
+                { "id_punto": "P_07_04_483", "descripcion_punto": "Servicios básicos: DNS, DHCP, HTTP, FTP y enrutamiento." },
+                { "id_punto": "P_07_05_483", "descripcion_punto": "Servicios de directorio (LDAP) y redes heterogéneas (Samba)." }
+            ]
+        },
+        {
+            "id_bloque": "CB_08_483",
+            "orden_bloque": 8,
+            "descripcion_bloque": "Explotación de aplicaciones de propósito general",
+            "puntos_detalle": [
+                { "id_punto": "P_08_01_483", "descripcion_punto": "Tipos y requisitos de software. Herramientas ofimáticas y de Internet." },
+                { "id_punto": "P_08_02_483", "descripcion_punto": "Utilidades: antivirus, recuperación de datos y mantenimiento del sistema." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Evalúa sistemas informáticos identificando sus componentes y características.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido los componentes físicos y sus mecanismos de interconexión." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha verificado el proceso de puesta en marcha de un equipo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han clasificado, instalado y configurado diferentes tipos de periféricos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado los tipos de redes y sistemas de comunicación." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han identificado los componentes de una red informática." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han interpretado mapas físicos y lógicos de una red informática." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Instala sistemas operativos planificando el proceso e interpretando documentación técnica.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los elementos funcionales de un sistema informático." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han analizado las características, funciones y arquitectura del SO." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han comparado sistemas operativos en base a requisitos y licencias." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han instalado diferentes sistemas operativos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han aplicado técnicas de actualización y recuperación del sistema." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado maquinas virtuales para instalar y probar sistemas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han documentado los procesos realizados." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Gestiona la información del sistema identificando las estructuras de almacenamiento y asegurando la integridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han comparado sistemas de archivos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha identificado la estructura y función de los directorios del SO." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado herramientas y comandos para localizar información." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han creado diferentes tipos de particiones y unidades lógicas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han realizado copias de seguridad." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han automatizado tareas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han instalado utilidades relacionadas con la gestión de información." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Gestiona sistemas operativos utilizando comandos y herramientas gráficas evaluando las necesidades.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han configurado cuentas de usuario locales y grupos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha asegurado el acceso mediante directivas de cuenta y contraseñas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado, arrancado y detenido servicios y procesos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha protegido el acceso mediante el uso de permisos locales." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado comandos para tareas básicas de configuración." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha monitorizado el sistema." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han instalado utilidades para mantenimiento y optimización." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han evaluado las necesidades en relación con el desarrollo de aplicaciones." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Interconecta sistemas en red configurando dispositivos y protocolos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha configurado el protocolo TCP/IP." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han configurado redes de área local cableadas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han configurado redes de área local inalámbricas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado dispositivos de interconexión de redes." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha configurado el acceso a redes de área extensa." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han gestionado puertos de comunicaciones." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha verificado el funcionamiento mediante comandos y herramientas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han aplicado protocolos seguros de comunicaciones." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha configurado el acceso a recursos locales y de red." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los derechos de usuario y directivas de seguridad." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han explotado servidores de ficheros, impresión y aplicaciones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha accedido a los servidores utilizando técnicas de conexión remota." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha evaluado la necesidad de proteger los recursos y el sistema." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han instalado y evaluado utilidades de seguridad básica." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Elabora documentación valorando y utilizando aplicaciones de propósito general.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha clasificado software en función de su licencia y propósito." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han analizado las necesidades de software en diferentes entornos productivos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han realizado tareas de documentación mediante herramientas ofimáticas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado sistemas de correo y mensajería electrónica." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado los servicios de transferencia de ficheros." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado métodos de búsqueda de documentación técnica en Internet." }
+            ]
+        }
+    ]
+}

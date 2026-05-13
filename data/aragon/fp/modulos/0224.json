@@ -1,0 +1,75 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "titulo_modulo": "Sistemas operativos en red",
+    "codigo_identificador": "0224",
+    "duracion_total": "147",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar las funciones de instalación y mantenimiento de sistemas operativos en red y de intranets integradas. Incluye aspectos como: Los procesos de instalación y actualización en servidores. La gestión de recursos compartidos en redes homogéneas y heterogéneas. El control del rendimiento y los servicios lógicos implementados. La gestión avanzada de usuarios, grupos, perfiles móviles y permisos. Las líneas de actuación versarán sobre la gestión de dominios y servicios de directorio, la integración de hosts heterogéneos y el uso de software de virtualización de redes para el estudio de comportamiento profesional.",
+    "objetivos_generales_asociados": "a, c, d, f, g, h, i, j, k, l, m, ñ",
+    "competencias_profesionales_asociadas": "a, c, e, f, h, l, m, n, ñ, p, q, r",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_224",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Instalación de sistemas operativos en red",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_224", "descripcion_punto": "Requisitos mínimos, particionado y sistemas de archivos." },
+                { "id_punto": "P_01_02_224", "descripcion_punto": "Métodos de instalación y automatización." },
+                { "id_punto": "P_01_03_224", "descripcion_punto": "Documentación técnica e incidencias en la instalación." },
+                { "id_punto": "P_01_04_224", "descripcion_punto": "Instalación en máquinas virtuales." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_224",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Integración heterogénea y recursos compartidos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_224", "descripcion_punto": "Servicios de red para compartir recursos entre sistemas libres y propietarios." },
+                { "id_punto": "P_02_02_224", "descripcion_punto": "Configuración de archivos, directorios e impresoras compartidas." },
+                { "id_punto": "P_02_03_224", "descripcion_punto": "Seguridad y permisos de recursos compartidos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_224",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Gestión de usuarios, grupos y dominios",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_224", "descripcion_punto": "Cuentas de usuario, tipos de perfiles y perfiles móviles." },
+                { "id_punto": "P_03_02_224", "descripcion_punto": "Gestión de grupos: tipos, ámbitos y propiedades." },
+                { "id_punto": "P_03_03_224", "descripcion_punto": "Servicio de directorio: instalación, configuración básica y objetos." },
+                { "id_punto": "P_03_04_224", "descripcion_punto": "Creación de dominios y relaciones de confianza." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_224",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Monitorización y explotación",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_224", "descripcion_punto": "Arranque del sistema y resolución de fallos." },
+                { "id_punto": "P_04_02_224", "descripcion_punto": "Herramientas de control de rendimiento y trazas de sistema." },
+                { "id_punto": "P_04_03_224", "descripcion_punto": "Gestión de procesos relativos a los servicios de red." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_3_224",
+            "ra_descripcion": "Realiza tareas de gestión sobre dominios aplicando herramientas de administración.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado la función del servicio de directorio y su nomenclatura." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han establecido relaciones de confianza entre dominios." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha realizado la instalación y configuración básica del servicio de directorio." }
+            ]
+        },
+        {
+            "ra_id": "RA_6_224",
+            "ra_descripcion": "Integra sistemas operativos libres y propietarios para compartir recursos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha comprobado la conectividad en un escenario heterogéneo." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han instalado servicios que permiten el acceso a sistemas de archivos entre diferentes SO." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha verificado el acceso a impresoras desde equipos heterogéneos." }
+            ]
+        }
+    ]
+}

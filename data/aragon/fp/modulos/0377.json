@@ -1,0 +1,152 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0377",
+    "titulo_modulo": "Administración de Sistemas Gestores de Bases de Datos",
+    "duracion_total": "30",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de administrar sistemas gestores de bases de datos. La administración de sistemas gestores de base de datos incluye aspectos como: La implantación de sistemas gestores de bases de datos. La manipulación de bases de datos. La aplicación de medidas de seguridad. La planificación y realización de tareas administrativas. La monitorización y optimización de la base de datos y del sistema gestor de base de datos. Las líneas de actuación en el proceso de enseñanza-aprendizaje versarán sobre: La instalación y configuración de sistemas gestores de base de datos. La manipulación de base de datos. La realización de operaciones con bases de datos. La administración de bases de datos. La planificación y automatización de tareas en un sistema gestor.",
+    "objetivos_generales_asociados": "d, e, j, n, ñ",
+    "competencias_profesionales_asociadas": "b, d, k, l, m",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_377",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Instalación y configuración de un sistema gestor de base de datos",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_377", "descripcion_punto": "Funciones del SGBD, componentes, tipos y arquitectura ANSI/SPARC." },
+                { "id_punto": "P_01_02_377", "descripcion_punto": "Sistemas gestores comerciales y libres. Instalación de un SGBD de dos capas." },
+                { "id_punto": "P_01_03_377", "descripcion_punto": "Parámetros relevantes, estructura del diccionario de datos y ficheros LOG." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_377",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Acceso a la información",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_377", "descripcion_punto": "Creación, modificación y eliminación de vistas." },
+                { "id_punto": "P_02_02_377", "descripcion_punto": "Gestión de usuarios: creación, eliminación y asignación de derechos." },
+                { "id_punto": "P_02_03_377", "descripcion_punto": "Puntos de acceso al sistema, definición y asignación de roles." },
+                { "id_punto": "P_02_04_377", "descripcion_punto": "Normativa legal vigente sobre protección de datos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_377",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Automatización de tareas: construcción de guiones de administración",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_377", "descripcion_punto": "Herramientas para creación de guiones y procedimientos de ejecución." },
+                { "id_punto": "P_03_02_377", "descripcion_punto": "Planificación de tareas de administración mediante guiones." },
+                { "id_punto": "P_03_03_377", "descripcion_punto": "Eventos, disparadores (triggers) y excepciones." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_377",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Optimización del rendimiento: monitorización y optimización",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_377", "descripcion_punto": "Herramientas de monitorización disponibles en el sistema gestor." },
+                { "id_punto": "P_04_02_377", "descripcion_punto": "Elementos y parámetros susceptibles de ser monitorizados y optimización." },
+                { "id_punto": "P_04_03_377", "descripcion_punto": "Herramientas y sentencias para la gestión de índices." },
+                { "id_punto": "P_04_04_377", "descripcion_punto": "Herramientas para la creación de alertas de rendimiento." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_377",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Application de criterios de disponibilidad a bases de datos distribuidas y replicadas",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_377", "descripcion_punto": "Bases de datos distribuidas: tipos, componentes y optimización de consultas." },
+                { "id_punto": "P_05_02_377", "descripcion_punto": "Técnicas de fragmentación, asignación y transacciones distribuidas." },
+                { "id_punto": "P_05_03_377", "descripcion_punto": "Replicación: configuración del nodo maestro y los nodos esclavos." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Implanta sistemas gestores de bases de datos analizando sus características y ajustándose a los requerimientos del sistema.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha reconocido la utilidad y función de cada uno de los elementos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han analizado las características de los principales SGBD." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha seleccionado el sistema gestor de bases de datos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha identificado el software necesario para llevar a cabo la instalación." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha verificado el cumplimiento de los requisitos hardware." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han instalado sistemas gestores de bases de datos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha documentado el proceso de instalación." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha interpretado la información de mensajes de error y ficheros de registro." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han resuelto las incidencias de la instalación." },
+                { "letra_criterio": "j", "descripcion_criterio": "Se ha verificado el funcionamiento del SGBD." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Configura el sistema gestor de bases de datos interpretando las especificaciones técnicas y los requisitos de explotación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito las condiciones de inicio y parada del sistema gestor." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha seleccionado el motor de base de datos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han asegurado las cuentas de administración." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han configurado las herramientas y software cliente." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha configurado la conectividad en red del sistema gestor." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han definido las características por defecto de las bases de datos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han definido los parámetros relativos a las conexiones." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha documentado el proceso de configuración." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Implanta métodos de control de acceso utilizando asistentes, herramientas gráficas y comandos del lenguaje del sistema gestor.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han creado vistas personalizadas para cada tipo de usuario." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado sinónimos de tablas y vistas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han definido y eliminado cuentas de usuario." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado los privilegios sobre las bases de datos y sus elementos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han agrupado y desagrupado privilegios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han asignado y eliminado privilegios a usuarios." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han asignado y eliminado grupos de privilegios a usuarios." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha garantizando el cumplimiento de los requisitos de seguridad." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Automatiza tareas de administración del gestor describiéndolas y utilizando guiones de sentencias.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha reconocido la importancia de automatizar tareas administrativas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito los distintos métodos de ejecución de guiones." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las herramientas disponibles para redactar guiones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han definido y utilizado guiones para automatizar tareas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han identificado los eventos susceptibles de activar disparadores." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han definido disparadores." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado estructuras de control de flujo." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han adoptado medidas para mantener la integridad y consistencia." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Optimiza el rendimiento del sistema aplicando técnicas de monitorización y realizando adaptaciones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las herramientas de monitorización disponibles." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito las ventajas e inconvenientes de la creación de índices." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han creado índices en tablas y vistas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha optimizado la estructura de la base de datos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han optimizado los recursos del sistema gestor." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha obtenido información sobre el rendimiento de las consultas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han programado alertas de rendimiento." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han realizado modificaciones en la configuración del SO." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Aplica criterios de disponibilidad analizándolos y ajustando la configuración del sistema gestor.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha reconocido la utilidad de las bases de datos distribuidas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito las distintas políticas de fragmentación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha implantado una base de datos distribuida homogénea." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha creado una base distribuida mediante integración de preexistentes." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha configurado un nodo maestro y esclavos para replicación." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha configurado un sistema de replicación en cadena." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha comprobado el efecto de la parada de nodos sobre sistemas distribuidos." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0228",
+    "titulo_modulo": "Aplicaciones Web",
+    "duracion_total": "147",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación, configuración y utilización de aplicaciones web. La definición de estas funciones incluye aspectos como: la identificación de las principales aplicaciones web; la instalación de las aplicaciones; el mantenimiento de usuarios; la asignación de permisos; y la utilización de las aplicaciones instaladas. Las actividades profesionales se aplican en la instalación, configuración, mantenimiento y asistencia en el uso de aplicaciones informáticas. Las líneas de actuación versarán sobre la instalación, configuración y explotación de aplicaciones web.",
+    "objetivos_generales_asociados": "a, c, i, k, l, m",
+    "competencias_profesionales_asociadas": "a, c, f, i, j, m, n, ñ, q, r",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_228",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Internet, características y evolución",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_228", "descripcion_punto": "Conceptos básicos de Internet y esquema de funcionamiento básico de un servicio web." },
+                { "id_punto": "P_01_02_228", "descripcion_punto": "Estructura de almacenamiento de la información e introducción a las bases de datos asociadas." },
+                { "id_punto": "P_01_03_228", "descripcion_punto": "Últimas tendencias en Internet. Concepto de Red Social, características y evolución." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_228",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Instalación de servicios y aplicaciones Web",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_228", "descripcion_punto": "Instalación en sistemas operativos libres y propietarios." },
+                { "id_punto": "P_02_02_228", "descripcion_punto": "Servicios de gestión de archivos Web: navegación, administración, usuarios y permisos." },
+                { "id_punto": "P_02_03_228", "descripcion_punto": "Aplicaciones de ofimática Web: instalación, utilización, gestión de permisos y seguridad." },
+                { "id_punto": "P_02_04_228", "descripcion_punto": "Aplicaciones Web de escritorio: correo Web, gestión de usuarios y alta de servicios." },
+                { "id_punto": "P_02_05_228", "descripcion_punto": "Sistemas Web entre pares (P2P): configuración de utilidades en intranet e Internet." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_228",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Sistemas de información Web y bases de datos",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_228", "descripcion_punto": "Bases de datos corporativos: instalación, migración y concesión de privilegios." },
+                { "id_punto": "P_03_02_228", "descripcion_punto": "Consultas personalizadas, elaboración de vistas y copias de seguridad/recuperación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_228",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Elaboración de páginas web con lenguajes de marcas",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_228", "descripcion_punto": "Clasificación de lenguajes de marcas. Etiquetas y atributos de HTML." },
+                { "id_punto": "P_04_02_228", "descripcion_punto": "Diferencias sintácticas y estructurales entre HTML y XHTML. Versiones." },
+                { "id_punto": "P_04_03_228", "descripcion_punto": "Herramientas de desarrollo web, integración multimedia, hojas de estilo y scripts de navegador." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_228",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Gestores de contenidos y aprendizaje a distancia",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_228", "descripcion_punto": "Instalación de gestores de contenidos (CMS): creación de usuarios, personalización y sindicación." },
+                { "id_punto": "P_05_02_228", "descripcion_punto": "Sistemas de gestión de aprendizaje a distancia (LMS): elementos lógicos, materiales y actividades." },
+                { "id_punto": "P_05_03_228", "descripcion_punto": "Sistemas de producción colaborativa y flujo de trabajo." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_228",
+            "ra_descripcion": "Elabora páginas web con lenguajes de marcas mediante herramientas editoras e incluye scripts de navegador.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado características generales de los lenguajes de marcas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha realizado la estructura de un documento HTML identificado sus secciones." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han incluido elementos multimedia y aplicado hojas de estilo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han integrado distintos tipos de scripts en documentos web." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_228",
+            "ra_descripcion": "Instala gestores de contenidos, identificando sus aplicaciones y configurándolos según requerimientos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han gestionado usuarios con roles diferentes y personalizado la interfaz." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han instalado módulos, menús y activado mecanismos de seguridad." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han habilitado foros y realizado copias de seguridad de contenidos." }
+            ]
+        },
+        {
+            "ra_id": "RA_6_228",
+            "ra_descripcion": "Instala aplicaciones web de escritorio, describiendo sus características y entornos de uso.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han instalado aplicaciones para acceso web al correo electrónico." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han configurado para integrarlas con un servidor de correo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han instalado aplicaciones de calendario web reconociendo sus prestaciones." }
+            ]
+        }
+    ]
+}

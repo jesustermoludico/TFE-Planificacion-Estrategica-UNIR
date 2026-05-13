@@ -1,0 +1,204 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "titulo_modulo": "Lenguajes de marcas y sistemas de gestión de información",
+    "codigo_identificador": "0373",
+    "duracion_total": "70",
+    "creditos_ects": "7",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de gestión y explotación de sistemas de información. La gestión y explotación de sistemas de información incluye aspectos como: La utilización de lenguajes de marcado en el tratamiento y transmisión de la información. La publicación y difusión de información mediante tecnologías de sindicación de contenidos. La caracterización de la información transmitida y almacenada. La adaptación de la información a las tecnologías utilizadas en su presentación, transmisión y almacenamiento. El almacenamiento y recuperación de la información. La implantación y adaptación de sistemas de gestión empresarial. Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre: La caracterización y transmisión de la información utilizando lenguajes de marcado. La publicación y difusión de información en la Web. La utilización de técnicas de transformación y adaptación de la información. El almacenamiento de la información. La gestión de información en sistemas específicos orientados a entornos empresariales.",
+    "objetivos_generales_asociados": "c, d, e, r",
+    "competencias_profesionales_asociadas": "b, c",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Reconocimiento de las características de lenguajes de marcas",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01", "descripcion_punto": "Clasificación" },
+                { "id_punto": "P_01_02", "descripcion_punto": "XML: estructura y sintaxis" },
+                { "id_punto": "P_01_03", "descripcion_punto": "Etiquetas" },
+                { "id_punto": "P_01_04", "descripcion_punto": "Herramientas de edición" },
+                { "id_punto": "P_01_05", "descripcion_punto": "Elaboración de documentos XML bien formados" },
+                { "id_punto": "P_01_06", "descripcion_punto": "Utilización de espacios de nombres en XML" }
+            ]
+        },
+        {
+            "id_bloque": "CB_02",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Utilización de lenguajes de marcas en entornos Web",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01", "descripcion_punto": "Identificación de etiquetas y atributos de HTML" },
+                { "id_punto": "P_02_02", "descripcion_punto": "XHTM: diferencias sintácticas y estructurales con HTML" },
+                { "id_punto": "P_02_03", "descripcion_punto": "Versiones de HTML y de XHTML" },
+                { "id_punto": "P_02_04", "descripcion_punto": "Herramientas de diseño Web" },
+                { "id_punto": "P_02_05", "descripcion_punto": "Hojas de estilo" }
+            ]
+        },
+        {
+            "id_bloque": "CB_03",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Aplicación de los lenguajes de marcas a la sindicación de contenidos",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01", "descripcion_punto": "Ámbitos de aplicación" },
+                { "id_punto": "P_03_02", "descripcion_punto": "Estructura de los canales de contenidos" },
+                { "id_punto": "P_03_03", "descripcion_punto": "Tecnologías de creación de canales de contenidos" },
+                { "id_punto": "P_03_04", "descripcion_punto": "Validación" },
+                { "id_punto": "P_03_05", "descripcion_punto": "Directorios de canales de contenidos" },
+                { "id_punto": "P_03_06", "descripcion_punto": "Agregación" }
+            ]
+        },
+        {
+            "id_bloque": "CB_04",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Definición de esquemas y vocabularios en XML",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01", "descripcion_punto": "Utilización de métodos de definición de documentos XML" },
+                { "id_punto": "P_04_02", "descripcion_punto": "Creación de descripciones" },
+                { "id_punto": "P_04_03", "descripcion_punto": "Asociación con documentos XML" },
+                { "id_punto": "P_04_04", "descripcion_punto": "Validación" },
+                { "id_punto": "P_04_05", "descripcion_punto": "Herramientas de creación y validación" }
+            ]
+        },
+        {
+            "id_bloque": "CB_05",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Conversión y adaptación de documentos XML",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01", "descripcion_punto": "Técnicas de transformación de documentos XML" },
+                { "id_punto": "P_05_02", "descripcion_punto": "Descripción de la estructura y de la sintaxis" },
+                { "id_punto": "P_05_03", "descripcion_punto": "Utilización de plantillas" },
+                { "id_punto": "P_05_04", "descripcion_punto": "Utilización de herramientas de procesamiento" },
+                { "id_punto": "P_05_05", "descripcion_punto": "Elaboración de documentación" }
+            ]
+        },
+        {
+            "id_bloque": "CB_06",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Almacenamiento de información",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01", "descripcion_punto": "Sistemas de almacenamiento de información" },
+                { "id_punto": "P_06_02", "descripcion_punto": "Inserción y extracción de información en XML" },
+                { "id_punto": "P_06_03", "descripcion_punto": "Técnicas de búsqueda de información en documentos XML" },
+                { "id_punto": "P_06_04", "descripcion_punto": "Lenguajes de consulta y manipulación" },
+                { "id_punto": "P_06_05", "descripcion_punto": "Almacenamiento XML nativo" },
+                { "id_punto": "P_06_06", "descripcion_punto": "Herramientas de tratamiento y almacenamiento de información en formato XML" }
+            ]
+        },
+        {
+            "id_bloque": "CB_07",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Sistemas de gestión empresarial",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01", "descripcion_punto": "Instalación" },
+                { "id_punto": "P_07_02", "descripcion_punto": "Adaptación y configuración" },
+                { "id_punto": "P_07_03", "descripcion_punto": "Integración de módulos" },
+                { "id_punto": "P_07_04", "descripcion_punto": "Elaboración de informes" },
+                { "id_punto": "P_07_05", "descripcion_punto": "Integración con aplicaciones ofimáticas" },
+                { "id_punto": "P_07_06", "descripcion_punto": "Exportación de información" }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las características generales de los lenguajes de marcas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han reconocido las ventajas que proporcionan en el tratamiento de la información." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han clasificado los lenguajes de marcas e identificado los más relevantes." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han diferenciado sus ámbitos de aplicación." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha reconocido la necesidad y los ámbitos específicos de aplicación de un lenguaje de marcas de propósito general." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han analizado las características propias del lenguaje XML." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha identificado la estructura de un documento XML y sus reglas sintácticas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha contrastado la necesidad de crear documentos XML bien formados y la influencia en su procesamiento." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han identificado las ventajas que aportan los espacios de nombres." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Utiliza lenguajes de marcas para la transmisión de información a través de la Web analizando la estructura de los documentos e identificando sus elementos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado y clasificado los lenguajes de marcas relacionados con la Web y sus diferentes versiones." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha analizado la estructura de un documento HTML e identificado las secciones que lo componen." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha reconocido la funcionalidad de las principales etiquetas y atributos del lenguaje HTML." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han establecido las semejanzas y diferencias entre los lenguajes HTML y XHTML." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha reconocido la utilidad de XHTML en los sistemas de gestión de información." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado herramientas en la creación documentos Web." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han identificado las ventajas que aporta la utilización de hojas de estilo." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han aplicado hojas de estilo." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Genera canales de contenidos analizando y utilizando tecnologías de sindicación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las ventajas que aporta la sindicación de contenidos en la gestión y transmisión de la información." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han definido sus ámbitos de aplicación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han analizado las tecnologías en que se basa la sindicación de contenidos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha identificado la estructura y la sintaxis de un canal de contenidos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han creado y validado canales de contenidos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha comprobado la funcionalidad y el acceso a los canales." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado herramientas específicas como agregadores y directorios de canales." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Establece mecanismos de validación para documentos XML utilizando métodos para definir su sintaxis y estructura.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha establecido la necesidad de describir la información transmitida en los documentos XML y sus reglas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las tecnologías relacionadas con la definición de documentos XML." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha analizado la estructura y sintaxis específica utilizada en la descripción." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado descripciones en la elaboración y validación de documentos XML." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han creado descripciones de documentos XML." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han asociado las descripciones con los documentos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado herramientas específicas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han documentado las descripciones." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Realiza conversiones sobre documentos XML utilizando técnicas y herramientas de procesamiento.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado la necesidad de la conversión de documentos XML." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han establecido ámbitos de aplicación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han analizado las tecnologías implicadas y su modo de funcionamiento." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha descrito la sintaxis específica utilizada en la conversión y adaptación de documentos XML." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han creado especificaciones de conversión." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han identificado y caracterizado herramientas específicas relacionadas con la conversión de documentos XML." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han realizado conversiones con distintos formatos de salida." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han documentado y depurado las especificaciones de conversión." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Gestiona información en formato XML analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los principales métodos de almacenamiento de la información usada en documentos XML." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los inconvenientes de almacenar información en formato XML." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han establecido tecnologías eficientes de almacenamiento de información en función de sus características." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado sistemas gestores de bases de datos relacionales en el almacenamiento de información en formato XML." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado técnicas específicas para crear documentos XML a partir de información almacenada en bases de datos relacionales." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han identificado las caracteristicas de los sistemas gestores de bases de datos nativas XML." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han instalado y analizado sistemas gestores de bases de datos nativas XML." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado técnicas para gestionar la información almacenada en bases de datos nativas XML." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han identificado lenguajes y herramientas para el tratamiento y almacenamiento de información y su inclusión en documentos XML." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Trabaja con sistemas empresariales de gestión de información realizando tareas de importación, integración, aseguramiento y extracción de la información.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido las ventajas de los sistemas de gestión y planificación de recursos empresariales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han evaluado las características de las principales aplicaciones de gestión empresarial." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han instalado aplicaciones de gestión empresarial." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han configurado y adaptado las aplicaciones." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha establecido y verificado el acceso seguro a la información." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han generado informes." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han realizado tareas de integración con aplicaciones ofimáticas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han realizado procedimientos de extracción de información para su tratamiento e incorporación a diversos sistemas." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han realizado tareas de asistencia y resolución de incidencias." },
+                { "letra_criterio": "j", "descripcion_criterio": "Se han elaborado documentos relativos a la explotación de la aplicación." }
+            ]
+        }
+    ]
+}

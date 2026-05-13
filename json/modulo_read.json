@@ -1,0 +1,125 @@
+{
+    "status": "success",
+    "data": {
+        "id_modulo": "30",
+        "modulo_titulo": "Lenguajes de marcas y sistemas de gestión de información",
+        "modulo_descripcion": "Lenguajes de Marcas (0373) introduce los fundamentos y aplicaciones de los lenguajes de marcas en el tratamiento y la publicación de información.\r\n\r\nEl módulo aborda XML (estructura, sintaxis, espacios de nombres, validación con esquemas) y su procesamiento (transformaciones y conversión), el uso de HTML/XHTML y CSS en entornos web, la sindicación de contenidos (RSS/Atom, validación y agregación), y la gestión de información en XML (almacenamiento, consulta y bases de datos XML nativas). \r\n\r\nAdemás, se conecta con sistemas empresariales de gestión (ERP/CRM), cubriendo instalación, configuración, integración, seguridad de acceso, generación de informes y exportación de datos. Al finalizar, el alumnado será capaz de diseñar, validar, transformar y explotar información estructurada en XML y tecnologías relacionadas, integrándola en aplicaciones y servicios web.",
+        "modulo_duracion_horas": "96",
+        "modulo_creditos_ects": 7,
+        "modulo_codigo_identificador": "0373",
+        "modulo_orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de gestión y explotación de sistemas de información.\r\n\r\nLa gestión y explotación de sistemas de información incluye aspectos como:\r\n– La utilización de lenguajes de marcado en el tratamiento y transmisión de la información.\r\n– La publicación y difusión de información mediante tecnologías de sindicación de contenidos.\r\n– La caracterización de la información transmitida y almacenada.\r\n– La adaptación de la información a las tecnologías utilizadas en su presentación, transmisión y almacenamiento.\r\n– El almacenamiento y recuperación de la información.\r\n– La implantación y adaptación de sistemas de gestión empresarial.\r\nLas actividades profesionales asociadas a esta función se aplican en:\r\n– El almacenamiento y transmisión de la información.\r\n– La utilización de tecnologías web para la publicación y difusión de información.\r\n– La explotación de sistemas empresariales de gestión de información.\r\nLa formación del módulo contribuye a alcanzar los objetivos generales h), p) y r) del ciclo formativo y las competencias e), f), h) y p) del título.\r\n\r\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\r\n– La caracterización y transmisión de la información utilizando lenguajes de marcado.\r\n– La publicación y difusión de información en la web.\r\n– La utilización de técnicas de transformación y adaptación de la información.\r\n– El almacenamiento de la información.\r\n– La gestión de información en sistemas específicos orientados a entornos empresariales.",
+        "modulo_fecha_creacion": "2025-10-26 10:03:19",
+        "modulo_fecha_actualizacion": "2025-10-26 10:21:57",
+        "resultados_aprendizaje": [
+            {
+                "id_ra": "40",
+                "ra_descripcion": "1. Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código.",
+                "ra_orden": "1",
+                "criterios_evaluacion": [
+                    {
+                        "id_ce": "91",
+                        "ce_descripcion": "a) Se han identificado las características generales de los lenguajes de marcas.",
+                        "ce_orden": "1"
+                    }
+                ]
+            }
+        ],
+        "bloques_contenidos": [
+            {
+                "id_bloque": "49",
+                "contenido_titulo": "UF0373_13. Introducción y primeras aplicaciones",
+                "contenido_orden": "1",
+                "elementos": [
+                    {
+                        "id_elemento": "415",
+                        "elemento_contenidos_descripcion": "Reconocimiento de las características de lenguajes de marcas: clasificación.",
+                        "elemento_contenidos_orden": "1"
+                    }
+                ]
+            }
+        ],
+        "ciclos_formativos": [
+            {
+            "id_ciclo": "12",
+            "cf_nombre": "Desarrollo de Aplicaciones Web",
+            "cf_codigo_ciclo": "IFC301",
+            "cf_nivel": "Grado Superior",
+            "cf_duracion_horas": "2000",
+            "cf_creditos_ects": 120,
+            "cf_id_familia": "6",
+            "cf_id_rama": "6",
+            "cf_competencias_general": "La competencia general de este título consiste en desarrollar, implantar, y mantener aplicaciones Web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos.",
+            "cf_perfil_profesional": "El perfil profesional de este título evoluciona hacia una mayor integración de los sistemas de gestión e intercambio de información basados en tecnologías Web, siendo preciso que cada vez sean más estables y seguros. Para este perfil adquiere especial importancia asegurar la integridad, consistencia y accesibilidad de los datos.",
+            "cf_fecha_creacion": "2025-10-26 09:59:52",
+            "cf_fecha_actualizacion": "2025-10-26 09:59:52",
+            "fp_nombre": "Informática y Comunicaciones",
+            "rc_nombre": "Ciencias y Tecnología",
+            "competencias_cpps": [
+                {
+                    "id_competencia": "28",
+                    "id_ciclo": "12",
+                    "ccps_letra": "a",
+                    "ccps_descripcion": "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.",
+                    "ccps_orden": "1"
+                }
+            ],
+            "prospectiva": [
+                {
+                  "id_prospectiva": "1",
+                  "prospectiva_descripcion": "a) El perfil profesional de este título evoluciona hacia una mayor integración de los sistemas de gestión e intercambio de información basados en tecnologías Web...",
+                  "prospectiva_orden": "1"
+                }
+            ],
+            "cualificaciones": {
+                "completas": [
+                    {
+                      "id_cualificacion": "2",
+                      "codigo": "IFC080_3",
+                      "denominacion": "Programación con lenguajes orientados a objetos y bases de datos relacionales",
+                      "rd": "R.D. 295/2004, de 20 de febrero",
+                      "isCompleted": 1,
+                      "unidades_competencia": [
+                        { "codigo": "UC0223_3", "descripcion": "Configurar y explotar sistemas informáticos" }
+                      ]
+                    }
+                ],
+                "incompletas": [
+                    {
+                      "id_cualificacion": "3",
+                      "codigo": "IFC363_3",
+                      "denominacion": "Administración y programación en sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes",
+                      "rd": "R.D. 1701/2007, de 14 de diciembre",
+                      "isCompleted": 0,
+                      "unidades_competencia": [
+                        { "codigo": "UC1213_3", "descripcion": "Instalar y configurar sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes" }
+                      ]
+                    }
+                ]
+            },
+            "objetivos_generales": [
+                {
+                    "id_objetivo_general": "21",
+                    "id_ciclo": "12",
+                    "og_descripcion": "a) Ajustar la configuración lógica analizando las necesidades y criterios establecidos para configurar y explotar sistemas informáticos.",
+                    "og_orden": "1"
+                }
+            ],
+            "modulos": [
+                {
+                    "modulo_ciclo_principal": "0",
+                    "id_modulo": "28",
+                    "modulo_titulo": "Bases de Datos",
+                    "modulo_descripcion": "Este módulo profesional contiene la formación necesaria para desempeñar la función de programación de bases de datos.",
+                    "modulo_duracion_horas": "192",
+                    "modulo_creditos_ects": "11.00",
+                    "modulo_codigo_identificador": "0484",
+                    "modulo_orientaciones_pedagogicas": "La formación del módulo contribuye a alcanzar los objetivos generales c), e), f), p) y r) del ciclo formativo y las competencias b), c), e) y p), del título.",
+                    "modulo_fecha_creacion": "2025-10-26 10:03:19",
+                    "modulo_fecha_actualizacion": "2025-10-26 10:03:19"
+                }
+            ]
+        }
+        ]
+    },
+    "message": "Módulo completo obtenido correctamente"
+}

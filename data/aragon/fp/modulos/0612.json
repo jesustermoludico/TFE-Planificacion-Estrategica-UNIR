@@ -1,0 +1,114 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0612",
+    "titulo_modulo": "Desarrollo Web en entorno cliente",
+    "duracion_total": "126",
+    "creditos_ects": "9",
+    "seccion_orientaciones": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollo de aplicaciones destinadas a su ejecución por navegadores en entornos web. La función de desarrollo incluye aspectos como: La integración de lenguajes de programación y lenguajes de marcas. La incorporación de funcionalidades en documentos web. La utilización de características y objetos propios del lenguaje y de los entornos de programación y ejecución. La utilización de mecanismos para la gestión de eventos y la interacción con el usuario. La incorporación de técnicas y librerías para la actualización dinámica del contenido y de la estructura del documento web. Las líneas de actuación en el proceso de enseñanza-aprendizaje versarán sobre: El análisis, diferenciación y clasificación de las características y funcionalidades incorporadas en los navegadores más difundidos. La utilización de las características específicas de lenguajes y entornos de programación. El análisis y la utilización de funcionalidades aportadas por librerías generales y específicas. La incorporación de mecanismos de actualización dinámica en aplicaciones Web. La documentación de los desarrollos obtenidos.",
+    "objetivos_generales_asociados": "f, g, i, q, r",
+    "competencias_profesionales_asociadas": "a, e, k, n, p, r",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_0612",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Selección de arquitecturas y herramientas de programación",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_0612", "descripcion_punto": "Modelos de programación en entornos cliente/servidor." },
+                { "id_punto": "P_01_02_0612", "descripcion_punto": "Mecanismos de ejecución de código en un navegador web. Capacidades y limitaciones." },
+                { "id_punto": "P_01_03_0612", "descripcion_punto": "Compatibilidad con navegadores web y características de los lenguajes de script." },
+                { "id_punto": "P_01_04_0612", "descripcion_punto": "Tecnologías y lenguajes asociados al entorno cliente." },
+                { "id_punto": "P_01_05_0612", "descripcion_punto": "Configuración de un entorno de desarrollo y depuración." },
+                { "id_punto": "P_01_06_0612", "descripcion_punto": "Integración del código con las etiquetas HTML." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_0612",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Manejo de la sintaxis del lenguaje",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_0612", "descripcion_punto": "Variables, tipos de datos y conversión entre ellos." },
+                { "id_punto": "P_02_02_0612", "descripcion_punto": "Asignaciones, operadores y comentarios al código." },
+                { "id_punto": "P_02_03_0612", "descripcion_punto": "Estructuras de control: sentencias, decisiones y bucles." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_0612",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Utilización de los objetos predefinidos del lenguaje",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_0612", "descripcion_punto": "Utilización de objetos nativos del lenguaje e interacción con el navegador." },
+                { "id_punto": "P_03_02_0612", "descripcion_punto": "Generación de texto y elementos HTML desde código." },
+                { "id_punto": "P_03_03_0612", "descripcion_punto": "Aplicaciones prácticas de los marcos y gestión de la apariencia de la ventana." },
+                { "id_punto": "P_03_04_0612", "descripcion_punto": "Creación de nuevas ventanas y comunicación entre ellas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_0612",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Programación con arrays, funciones y objetos de usuario",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_0612", "descripcion_punto": "Funciones predefinidas, llamadas y definición de funciones de usuario." },
+                { "id_punto": "P_04_02_0612", "descripcion_punto": "Arrays: inicialización y recorrido." },
+                { "id_punto": "P_04_03_0612", "descripcion_punto": "Creación de objetos: definición de métodos y propiedades." },
+                { "id_punto": "P_04_04_0612", "descripcion_punto": "Uso de librerías de terceros para fines específicos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_0612",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Interacción con el usuario: eventos y formularios",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_0612", "descripcion_punto": "Modelo de gestión de eventos y manejadores." },
+                { "id_punto": "P_05_02_0612", "descripcion_punto": "Utilización de formularios desde código: apariencia, comportamiento, validación y envío." },
+                { "id_punto": "P_05_03_0612", "descripcion_punto": "Uso de expresiones regulares y utilización de cookies." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_0612",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Utilización del modelo de objetos del documento (DOM)",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_0612", "descripcion_punto": "El modelo de objetos del documento (DOM): objetos, propiedades y métodos." },
+                { "id_punto": "P_06_02_0612", "descripcion_punto": "Acceso al documento desde código y creación/modificación de elementos." },
+                { "id_punto": "P_06_03_0612", "descripcion_punto": "Programación de eventos y diferencias en las implementaciones del modelo." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_0612",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Utilización de mecanismos de comunicación asíncrona",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_0612", "descripcion_punto": "Objetos, propiedades y métodos de comunicación asíncrona." },
+                { "id_punto": "P_07_02_0612", "descripcion_punto": "Recuperación remota de información y modificación dinámica del documento." },
+                { "id_punto": "P_07_03_0612", "descripcion_punto": "Formatos para envío y recepción de información. Notificaciones." },
+                { "id_punto": "P_07_04_0612", "descripcion_punto": "Librerías de actualización dinámica." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_0612",
+            "ra_descripcion": "Selecciona las arquitecturas y tecnologías de programación sobre clientes Web, identificando sus características.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han diferenciado los modelos de ejecución en servidor y en cliente." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los mecanismos de ejecución de los navegadores." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han caracterizado los principales lenguajes de programación cliente." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han reconocido las ventajas y desventajas de la programación de guiones." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han verificado los mecanismos de integración con lenguajes de marcas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han evaluado las herramientas de programación sobre clientes Web." }
+            ]
+        },
+        {
+            "ra_id": "RA_7_0612",
+            "ra_descripcion": "Desarrolla aplicaciones Web dinámicas, reconociendo y aplicando mecanismos de comunicación asíncrona.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han evaluado ventajas e inconvenientes de la comunicación asíncrona." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han analizado los mecanismos disponibles para el establecimiento de comunicación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha utilizado comunicación asíncrona en la actualización dinámica del documento." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado distintos formatos en el envío y recepción de información." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado librerías para la actualización dinámica de páginas." }
+            ]
+        }
+    ]
+}

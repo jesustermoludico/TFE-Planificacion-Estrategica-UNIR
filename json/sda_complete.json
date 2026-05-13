@@ -1,0 +1,133 @@
+{
+    "status": "success",
+    "data": {
+        "id_modulo": 30,
+        "modulo_titulo": "Lenguajes de marcas y sistemas de gestión de información",
+        "situacion_aprendizaje": {
+            "id_sda": 30,
+            "sda_numero": 1,
+            "sda_titulo": "Gestión de Información Web con Lenguajes de Marcas",
+            "sda_objetivos": "• Comprender la clasificación y características de los lenguajes de marcas utilizados en la gestión de información web.\n• Identificar y diferenciar entre HTML, XHTML y XML, reconociendo sus etiquetas, atributos y estructuras.\n• Aplicar herramientas de edición y diseño web para crear documentos bien formados utilizando lenguajes de marcas.\n• Utilizar hojas de estilo para mejorar la presentación y consistencia de la información en documentos web.\n• Fomentar habilidades de trabajo en equipo y liderazgo a través de proyectos colaborativos relacionados con la gestión de información web.\n• Desarrollar una comprensión crítica sobre la importancia de la seguridad y accesibilidad en la transmisión de información a través de la web.",
+            "sda_descripcion": "En esta Situación de Aprendizaje, los estudiantes se embarcarán en un proyecto desafiante que les permitirá explorar y dominar el uso de lenguajes de marcas para la gestión y transmisión de información en la Web. A través del Aprendizaje Basado en Proyectos, los participantes investigarán la clasificación y las características de lenguajes como HTML, XHTML y XML, identificando sus etiquetas, atributos y diferencias estructurales. Los estudiantes utilizarán herramientas de edición y diseño web para crear documentos bien formados, aplicando hojas de estilo para mejorar la presentación y consistencia de la información. Este proyecto no solo fortalecerá sus habilidades técnicas, sino que también fomentará el trabajo en equipo y el liderazgo, preparando a los estudiantes para enfrentar los desafíos del siglo XXI. Además, se buscará conectar el proyecto con objetivos globales como la Salud Global y la Inclusión Digital, promoviendo un enfoque integrador y consciente de las necesidades actuales y futuras del entorno digital. A lo largo del camino, se priorizará la seguridad y accesibilidad de los datos, asegurando que los sistemas desarrollados sean tanto robustos como inclusivos. Al final del curso, los estudiantes habrán producido un proyecto tangible que refleje su aprendizaje y habilidades adquiridas, listos para ser aplicados en contextos reales y profesionales.",
+            "sda_contexto_justificacion": "Esta Situación de Aprendizaje prepara a los estudiantes para enfrentar los desafíos tecnológicos del siglo XXI, dotándolos de habilidades prácticas en la gestión de información web, una competencia crucial en la era digital.",
+            "sda_contexto_vida_cotidiana": "La capacidad de gestionar y transmitir información de manera eficiente es fundamental en el día a día del estudiante, ya que vivimos en un mundo interconectado donde la web es una herramienta cotidiana para el acceso a la información y la comunicación.",
+            "sda_centro_interes": "El interés principal se centra en el dominio de lenguajes de marcas, una habilidad que no solo es esencial para el desarrollo web, sino que también abre puertas a múltiples oportunidades profesionales y académicas en el ámbito digital.",
+            "sda_reto_desafio": "Crear un sistema de gestión de información web que sea seguro, accesible e inclusivo.",
+            "sda_producto_final": "Un proyecto tangible de gestión de información web que refleje las habilidades adquiridas, listo para su aplicación en contextos reales.",
+            "sda_temporalizacion": "1º trimestre",
+            "sesiones": [
+                {
+                    "id_sesion": 61,
+                    "sesion_numero_sesion": 1,
+                    "sesion_titulo": "Introducción a los Lenguajes de Marcas y su Clasificación",
+                    "sesion_objetivos": "• Identificar los lenguajes de marcas más utilizados en la gestión de información web\n• Comprender las características y diferencias entre HTML, XHTML y XML\n• Explorar las etiquetas y atributos básicos de estos lenguajes",
+                    "sesion_descripcion": "En esta sesión, los estudiantes se introducirán a los lenguajes de marcas HTML, XHTML y XML, comprendiendo sus características, clasificaciones y diferencias principales. Se explorarán las etiquetas y atributos básicos que componen estos lenguajes, sentando las bases para su aplicación en la gestión de información web.",
+                    "competencias": [
+                        {
+                            "id_competencia": 31,
+                            "ccps_letra": "d",
+                            "ccps_descripcion": "Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos."
+                        }
+                    ],
+                    "contenidos": [
+                        {
+                            "id_bloque": 49,
+                            "contenido_titulo": "UF0373_13. Introducción y primeras aplicaciones",
+                            "contenido_orden": 1,
+                            "elementos": [
+                                {
+                                    "id_elemento": 415,
+                                    "elemento_contenidos_descripcion": "Reconocimiento de las características de lenguajes de marcas: clasificación.",
+                                    "elemento_contenidos_orden": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "metodologias": [
+                        {
+                            "id_metodologia": 1,
+                            "metodologia_titulo": "Aprendizaje Basado en Proyectos (ABP)",
+                            "metodologia_descripcion": "Los estudiantes adquieren conocimientos y competencias trabajando durante un período prolongado en la investigación y respuesta a una pregunta, problema o desafío auténtico y complejo.",
+                            "metodologia_sugerencias_implementacion": "Definir un proyecto real que conecte con los intereses del alumnado. Establecer hitos claros. Utilizar herramientas de gestión de proyectos como Trello o Notion. Fomentar la autonomía pero proporcionar scaffolding cuando sea necesario.",
+                            "metodologia_consejos": "Asegúrate de que el proyecto tenga un producto final tangible. Integra evaluación formativa continua. Permite que los estudiantes tomen decisiones sobre el proceso. Conecta con profesionales del sector si es posible."
+                        }
+                    ],
+                    "objetivos_generales": [
+                        {
+                            "id_objetivo_general": 22,
+                            "og_descripcion": "b) Identificar las necesidades de seguridad verificando el plan preestablecido para aplicar técnicas y procedimientos relacionados.",
+                            "og_orden": 2
+                        }
+                    ],
+                    "retos_xxi": [
+                        {
+                            "id_reto": 2,
+                            "reto_titulo": "Reducción de la Desigualdad y Brecha Social",
+                            "reto_slug": "reduccion-desigualdad-brecha-social",
+                            "reto_descripcion": "Combatir las crecientes disparidades económicas y sociales, garantizando un acceso equitativo a la educación, la sanidad, el empleo digno y la justicia para todas las personas, independientemente de su origen, género o condición.",
+                            "reto_orden": 2
+                        }
+                    ],
+                    "actividades": [
+                        {
+                            "id_actividad": 85,
+                            "actividad_titulo": "Construyendo la Web del Futuro",
+                            "actividad_descripcion": "En esta actividad, los estudiantes trabajarán en grupos para diseñar una página web que resalte la importancia de un Objetivo de Desarrollo Sostenible (ODS) específico. Utilizando lenguajes de marcas como HTML y XHTML, los estudiantes deberán identificar y clasificar los diferentes elementos del lenguaje, analizar la estructura del documento HTML, y aplicar hojas de estilo para mejorar la presentación de su sitio web. Además, se espera que exploren las ventajas de utilizar hojas de estilo y comprendan la funcionalidad de las principales etiquetas y atributos. Este proyecto fomentará el liderazgo y la colaboración, ya que cada miembro del grupo tendrá un rol específico y deberá participar proactivamente en la creación del sitio web.",
+                            "actividad_orden": 1,
+                            "evaluaciones": [
+                                {
+                                    "id_evaluacion": 106,
+                                    "evaluacion_titulo": "Evaluación de la Estructura Web",
+                                    "evaluacion_descripcion": "¿Se ha analizado adecuadamente la estructura de un documento HTML e identificado las secciones que lo componen?",
+                                    "evaluacion_tipo": "lista_control",
+                                    "evaluacion_vinculo": "ce",
+                                    "evaluacion_evaluador": "profesor",
+                                    "vinculaciones_ce": {
+                                        "resultados_aprendizaje": [
+                                            {
+                                                "id_ra": 41,
+                                                "ra_descripcion": "2. Utiliza lenguajes de marcas para la transmisión de información a través de la Web analizando la estructura de los documentos e identificando sus elementos.",
+                                                "ra_orden": 2,
+                                                "criterios": [
+                                                    {
+                                                        "id_ce": 101,
+                                                        "ce_descripcion": "b) Se ha analizado la estructura de un documento HTML e identificado las secciones que lo componen.",
+                                                        "ce_orden": 2
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "pedagogia": {
+                                        "bloom": [
+                                          {
+                                            "id_bloom": 1,
+                                            "nivel": "Recordar",
+                                            "definicion": "Recuperar, localizar y reconocer conocimientos relevantes de la memoria a largo plazo.",
+                                            "verbos_clave": "Definir, listar, identificar, nombrar, localizar, reconocer, tabular.",
+                                            "ejemplos_actividad": "Cuestionarios de opción múltiple, glosarios de términos técnicos, identificar partes de una interfaz.",
+                                            "orden": 1
+                                          }
+                                        ],
+                                        "gardner": [
+                                          {
+                                            "id_inteligencia": 1,
+                                            "tipo": "Lingüística",
+                                            "definicion": "Capacidad de usar las palabras de manera efectiva, ya sea oralmente o por escrito.",
+                                            "perfil_alumno": "Disfruta escribiendo documentación, leyendo manuales y explicando conceptos a otros.",
+                                            "estrategias_aula": "Documentación técnica (README), debates sobre tecnologías, redacción de requisitos.",
+                                            "icono": "text-subject"
+                                          }
+                                        ]  
+                                    }
+                                }
+                               
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "message": "Situación de aprendizaje obtenida correctamente"
+}

@@ -1,0 +1,55 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0227",
+    "titulo_modulo": "Servicios en red",
+    "duracion_total": "126",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y mantenimiento de servicios en redes informáticas cableadas e inalámbricas[cite: 6383]. La definición incluye la identificación de aplicaciones, definición técnica de servicios extendidos, instalación de servicios en redes locales/públicas, seguridad inalámbrica y mecanismos de conexión a redes públicas [cite: 6384-6390]. Las líneas de actuación se basan en la implantación de servicios de configuración dinámica, resolución de nombres, transferencia de ficheros, correo, web, acceso remoto y despliegue de redes inalámbricas seguras [cite: 6397-6404].",
+    "objetivos_generales_asociados": "d, f, h, i, k, l, m",
+    "competencias_profesionales_asociadas": "a, d, e, f, g, j, m, ñ, r",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_227",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Servicios de red orientados a transporte de datos",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_227", "descripcion_punto": "Despliegue de redes inalámbricas: puntos de acceso, encaminadores y seguridad [cite: 6355-6358]." },
+                { "id_punto": "P_01_02_227", "descripcion_punto": "Interconexión con redes públicas: pasarelas, almacenamiento caché y enrutamiento [cite: 6359-6360]." },
+                { "id_punto": "P_01_03_227", "descripcion_punto": "Configuración dinámica de sistemas: protocolos DHCP, rangos y reservas [cite: 6361-6363]." },
+                { "id_punto": "P_01_04_227", "descripcion_punto": "Servicios de resolución de nombres: DNS, zonas primarias/secundarias y registros [cite: 6364-6367]." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_227",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Servicios de red orientados a aplicación",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_227", "descripcion_punto": "Transferencia de ficheros: usuarios, permisos, cuotas y modos de transferencia [cite: 6369-6372]." },
+                { "id_punto": "P_02_02_227", "descripcion_punto": "Correo electrónico: cuentas, alias, buzones y protocolos de descarga [cite: 6373-6374]." },
+                { "id_punto": "P_02_03_227", "descripcion_punto": "Servidores Web: servidores virtuales, acceso autenticado y métodos de identificación [cite: 6375-6378]." },
+                { "id_punto": "P_02_04_227", "descripcion_punto": "Gestión de acceso remoto: terminales en modo texto y modo gráfico [cite: 6379-6381]." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Instala servicios de resolución de nombres, describiendo sus características.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han clasificado mecanismos de resolución y descrito la nomenclatura jerárquica [cite: 6287-6288]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha instalado y configurado un servicio jerárquico añadiendo registros de zona y alias [cite: 6289-6291]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han realizado transferencias de zona entre servidores[cite: 6292]." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Gestiona servidores web identificando requerimientos y aplicando criterios de configuración.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito fundamentos y protocolos de funcionamiento web e instalado el servidor [cite: 6314-6315]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado sitios virtuales y configurado la seguridad y acceso de usuarios [cite: 6316-6319]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han establecido mecanismos para asegurar las comunicaciones cliente-servidor[cite: 6322]." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0376",
+    "titulo_modulo": "Implantación de Aplicaciones Web",
+    "duracion_total": "55",
+    "creditos_ects": "6",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de administrador de aplicaciones Web. La administración de aplicaciones Web incluye aspectos como: La instalación y configuración del sistema operativo y los servicios sobre los que se ejecutan las aplicaciones. La implantación de sistemas gestores de contenidos y su adaptación a las condiciones de explotación. La administración de sistemas gestores de contenidos, utilizando métodos para optimizar su funcionamiento y asegurar el acceso a la información. La instalación e integración de aplicaciones de ofimática Web. La creación de documentos Web utilizando lenguajes de script de servidor para acceder a la información almacenada en bases de datos. La modificación de las funcionalidades ofrecidas por los gestores de contenidos para su adaptación a los requerimientos de explotación. Las líneas de actuación en el proceso de enseñanza-aprendizaje versarán sobre: La preparación de los sistemas para la ejecución de aplicaciones Web. La explotación de sistemas gestores de contenido. La integración de las funcionalidades ofrecidas por las aplicaciones de ofimática Web. La utilización de lenguajes de script de servidor para la adaptación de soluciones Web.",
+    "objetivos_generales_asociados": "c, e, l, m, o, p, r, s",
+    "competencias_profesionales_asociadas": "a, b, c, d, k, l, o, r, s",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_376",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Instalación de servidores de aplicaciones Web",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_376", "descripcion_punto": "Análisis de requerimientos." },
+                { "id_punto": "P_01_02_376", "descripcion_punto": "Servidor Web: instalación y configuración." },
+                { "id_punto": "P_01_03_376", "descripcion_punto": "Sistema gestor de base de datos: instalación y configuración." },
+                { "id_punto": "P_01_04_376", "descripcion_punto": "Procesamiento de código: lenguajes de script en cliente y servidor. Módulos y componentes necesarios." },
+                { "id_punto": "P_01_05_376", "descripcion_punto": "Utilidades de prueba e instalación integrada." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_376",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Instalación de gestores de contenidos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_376", "descripcion_punto": "Tipos de gestores de contenidos y licencias de uso." },
+                { "id_punto": "P_02_02_376", "descripcion_punto": "Requerimientos de funcionamiento e instalación." },
+                { "id_punto": "P_02_03_376", "descripcion_punto": "Creación de la base de datos y estructura." },
+                { "id_punto": "P_02_04_376", "descripcion_punto": "Creación de contenidos y personalización de la interfaz." },
+                { "id_punto": "P_02_05_376", "descripcion_punto": "Mecanismos de seguridad integrados, verificación de funcionamiento y publicación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_376",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Administración de gestores de contenidos",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_376", "descripcion_punto": "Usuarios, grupos, perfiles y control de accesos." },
+                { "id_punto": "P_03_02_376", "descripcion_punto": "Integración de módulos y gestión de temas." },
+                { "id_punto": "P_03_03_376", "descripcion_punto": "Plantillas y copias de seguridad." },
+                { "id_punto": "P_03_04_376", "descripcion_punto": "Sindicación de contenidos e importación/exportación de la información." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_376",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Implantación de aplicaciones de ofimática Web",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_376", "descripcion_punto": "Tipos de aplicaciones, instalación y configuración." },
+                { "id_punto": "P_04_02_376", "descripcion_punto": "Integración de aplicaciones heterogéneas." },
+                { "id_punto": "P_04_03_376", "descripcion_punto": "Gestión de usuarios, control de accesos y aseguramiento de la información." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_376",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Programación de documentos Web utilizando lenguajes de script de servidor",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_376", "descripcion_punto": "Clasificación e integración con los lenguajes de marcas." },
+                { "id_punto": "P_05_02_376", "descripcion_punto": "Sintaxis, herramientas de edición de código y elementos del lenguaje." },
+                { "id_punto": "P_05_03_376", "descripcion_punto": "Funciones integradas y de usuario. Gestión de errores." },
+                { "id_punto": "P_05_04_376", "descripcion_punto": "Mecanismos de introducción de información: formularios." },
+                { "id_punto": "P_05_05_376", "descripcion_punto": "Autenticación, sesiones y configuración del intérprete." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_376",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Acceso a bases de datos desde lenguajes de script de servidor",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_376", "descripcion_punto": "Integración con sistemas gestores de base de datos y conexión." },
+                { "id_punto": "P_06_02_376", "descripcion_punto": "Creación de bases de datos y tablas." },
+                { "id_punto": "P_06_03_376", "descripcion_punto": "Recuperación y modificación de la información (inserciones, actualizaciones y borrados)." },
+                { "id_punto": "P_06_04_376", "descripcion_punto": "Verificación de la información, gestión de errores y mecanismos de seguridad." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_376",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Adaptación de gestores de contenidos",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_376", "descripcion_punto": "Selección de modificaciones y reconocimiento de elementos involucrados." },
+                { "id_punto": "P_07_02_376", "descripcion_punto": "Modificación de la apariencia, incorporación y adaptación de funcionalidades." },
+                { "id_punto": "P_07_03_376", "descripcion_punto": "Verificación del funcionamiento y documentación." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Prepara el entorno de desarrollo y los servidores de aplicaciones Web instalando e integrando las funcionalidades necesarias.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado el software necesario para su funcionamiento." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las diferentes tecnologías empleadas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han instalado y configurado servidores Web y de bases de datos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han reconocido las posibilidades de procesamiento en los entornos cliente y servidor." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han añadido y configurado los componentes y módulos para el procesamiento de código." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha instalado y configurado el acceso a bases de datos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha establecido y verificado la seguridad en los accesos al servidor." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado plataformas integradas orientadas a la prueba y desarrollo." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han documentado los procedimientos realizados." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Implanta gestores de contenidos seleccionándolos y estableciendo la configuración de sus parámetros.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha valorado el uso y utilidad de los gestores de contenidos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han clasificado según la funcionalidad principal del sitio Web." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han instalado diferentes tipos de gestores de contenidos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han diferenciado sus características (uso, licencia, entre otras)." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han personalizado y configurado los gestores de contenidos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han activado y configurado los mecanismos de seguridad proporcionados." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han realizado pruebas de funcionamiento." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han publicado los gestores de contenidos." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Administra gestores de contenidos adaptándolos a los requerimientos y garantizando la integridad de la información.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han adaptado y configurado los módulos del gestor de contenidos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado y gestionado usuarios con distintos perfiles." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han integrado módulos atendiendo a requerimientos de funcionalidad." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado copias de seguridad de los contenidos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han importado y exportado contenidos en distintos formatos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han gestionado plantillas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han integrado funcionalidades de sindicación." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han realizado actualizaciones." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han obtenido informes de acceso." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Gestiona aplicaciones de ofimática Web integrando funcionalidades y asegurando el acceso a la información.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha reconocido la utilidad de las aplicaciones de ofimática Web." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han clasificado según su funcionalidad y prestaciones específicas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han instalado aplicaciones de ofimática Web." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han configurado las aplicaciones para integrarlas en una intranet." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han gestionado las cuentas de usuario." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han aplicado criterios de seguridad en el acceso de los usuarios." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado las aplicaciones de forma cooperativa." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha elaborado documentación relativa al uso y gestión." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Genera documentos Web utilizando lenguajes de guiones de servidor.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los lenguajes de guiones de servidor más relevantes." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha reconocido la relación entre guiones de servidor y lenguajes de marcas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha reconocido la sintaxis básica de un lenguaje de guiones concreto." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado estructuras de control del lenguaje." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han definido y utilizado funciones." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado formularios para introducir información." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado mecanismos para asegurar la persistencia de la información." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha identificado y asegurado a los usuarios que acceden al documento Web." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha verificado el aislamiento del entorno específico de cada usuario." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Genera documentos Web con acceso a bases de datos utilizando lenguajes de guiones de servidor.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los sistemas gestores de bases de datos más utilizados en entornos Web." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha verificado la integración con el lenguaje de guiones de servidor." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha configurado la conexión para el acceso al sistema gestor." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han creado bases de datos y tablas utilizando el lenguaje de guiones." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha obtenido y actualizado la información almacenada." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han aplicado criterios de seguridad en el acceso." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha verificado el funcionamiento y el rendimiento del sistema." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Realiza modificaciones en gestores de contenidos adaptando su apariencia y funcionalidades.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado la estructura de directorios del gestor de contenidos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha reconocido la funcionalidad de los ficheros (código, imágenes, configuración)." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han seleccionado las funcionalidades que hay que adaptar e incorporar." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado los recursos afectados por las modificaciones." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha modificado el código para nuevas funcionalidades y adaptar existentes." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha verificado el correcto funcionamiento de los cambios realizados." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han documentado los cambios realizados." }
+            ]
+        }
+    ]
+}

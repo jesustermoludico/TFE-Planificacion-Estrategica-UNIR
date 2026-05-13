@@ -1,0 +1,300 @@
+{
+    "numero": {
+        "valor": 1,
+        "editable": true
+    },
+    "trimestre": {
+        "valor": "1º Trimestre",
+        "opciones": [
+            "1º Trimestre",
+            "2º Trimestre",
+            "3º Trimestre"
+        ],
+        "editable": true
+    },
+    "titulo": {
+        "valor": "Título",
+        "editable": true,
+        "candado": false
+    },
+    "objetivos": {
+        "valor": [],
+        "editable": true,
+        "candado": false
+    },
+    "descripcion": {
+        "valor": "",
+        "editable": true,
+        "candado": false
+    },
+    "contextualizacion": {
+        "justificacion": {
+            "valor": "",
+            "editable": true,
+            "candado": false
+        },
+        "contexto_vida": {
+            "valor": "",
+            "editable": true,
+            "candado": false,
+            "visible_solo_sda": true
+        },
+        "centro_interes": {
+            "valor": "",
+            "editable": true,
+            "candado": false
+        },
+        "ods": {
+            "valor": [
+                {
+                    "ods_numer": "",
+                    "ods_descripcion": "",
+                    "metas": [
+                        {
+                            "meta_id": "",
+                            "meta_descripcion": ""
+                        }
+                    ],
+                    "candado": false
+                }
+            ],
+            "desde_menu": "ODS",
+            "notas": ""
+        },
+        "retos_xxi": {
+            "valor": [
+                {
+                    "reto_id": "",
+                    "reto_titulo": "",
+                    "reto_descripcion": "",
+                    "candado": false
+                }
+            ],
+            "desde_menu": "Retos Siglo XXI",
+            "notas": ""
+        },
+        "para_fp": {
+            "objetivos_generales": {
+                "valor": [
+                    {
+                        "obg_id": "",
+                        "obg_descripcion": "",
+                        "candado": false
+                    }
+                ],
+                "desde_menu": "Objetivos Generales (ObGs)"
+            },
+            "competencias_profesionales": {
+                "valor": [
+                    {
+                        "cpps_id": "",
+                        "cpps_descripcion": "",
+                        "candado": false
+                    }
+                ],
+                "desde_menu": "CPPs"
+            }
+        },
+        "para_eso_bachillerato": {
+            "competencias_clave": {
+                "cc": [
+                    {
+                        "cc_id": "",
+                        "cc_descripcion": "",
+                        "cc_descriptores": [
+                            {
+                                "ccd_id": "",
+                                "ccd_descripcion_eso": "",
+                                "ccd_descripcion_bachillerato": ""
+                            }
+                        ],
+                        "candado": false
+                    }
+                ],
+                "desde_menu": "Competencias Clave"
+            }
+        }
+    },
+    "desafio_producto": {
+        "reto_desafio": {
+            "valor": "",
+            "editable": true,
+            "candado": false
+        },
+        "producto_final": {
+            "valor": "",
+            "editable": true,
+            "candado": false
+        }
+    },
+    "elementos_curriculares": [
+        {
+            "ras": [
+                {
+                    "ra_id": "",
+                    "ra_descripcion": "",
+                    "ra_metodo": {
+                        "valor": "",
+                        "opciones": [
+                            "Evaluación simple directa",
+                            "lista de valoración",
+                            "lista de control",
+                            "auto-evaluación",
+                            "co-evaluación"
+                        ]
+                    },
+                    "ra_evaluador": {
+                        "valor": "",
+                        "opciones": [
+                            "Profesor",
+                            "Alumno"
+                        ]
+                    },
+                    "ra_ce": [
+                        {
+                            "ce_id": "",
+                            "ce_descripcion": ""
+                        }
+                    ],
+                    "ra_contenidos": [
+                        {
+                            "bloque_id": "",
+                            "bloque_descripcion": "",
+                            "bloque_puntos": [
+                                {
+                                    "punto_id": "",
+                                    "punto_descripcion": ""
+                                }
+                            ],
+                            "desde_menu": "Contenidos"
+                        }
+                    ],
+                    "candado": false
+                }
+            ],
+            "desde_menu": "RA/CE"
+        }
+    ],
+    "soft_skills": [
+        {
+            "skill": [
+                {
+                    "sk_id": "",
+                    "sk_descripcion": "",
+                    "sk_items": [
+                        {
+                            "skitems_id": "",
+                            "skitems_descripcion": ""
+                        }
+                    ],
+                    "sk_metodo": {
+                        "valor": "",
+                        "opciones": [
+                            "Evaluación simple directa",
+                            "lista de valoración",
+                            "lista de control",
+                            "auto-evaluación",
+                            "co-evaluación"
+                        ]
+                    },
+                    "sk_agente": {
+                        "valor": "",
+                        "opciones": [
+                            "Profesor",
+                            "Alumno"
+                        ]
+                    }
+                }
+            ],
+            "desde_menu": "Soft Skills",
+            "candado": false
+        }
+    ],
+    "metodologia": {
+        "metodologias_aplicadas": [
+            {
+                "metodologia_titulo": "",
+                "metodologia_descripcion": "",
+                "metodologia_sugerencia": "",
+                "candado": false
+            }
+        ],
+        "desde_menu": "Metodología"
+    },
+    "secuenciacion_didactica": [
+        {
+            "sd_numero_actividad": {
+                "sd_valor": 1,
+                "editable": true
+            },
+            "sd_actividad": {
+                "sd_titulo": {
+                    "valor": "",
+                    "editable": true
+                },
+                "sd_descripcion": {
+                    "valor": "",
+                    "editable": true
+                }
+            },
+            "sd_metodo": {
+                "valor": "",
+                "opciones": [
+                    "Evaluación simple directa",
+                    "lista de valoración",
+                    "lista de control",
+                    "auto-evaluación",
+                    "co-evaluación"
+                ],
+                "editable": true
+            },
+            "sd_agente": {
+                "valor": "",
+                "opciones": [
+                    "profesor",
+                    "alumno"
+                ],
+                "editable": true
+            },
+            "bloom": [
+                {
+                    "bloom_nivel": "",
+                    "bloom_definicion": "",
+                    "bloom_verbos_clave": "",
+                    "bloom_ejemplos": "",
+                    "desde_menu": "Taxonomía de Bloom"
+                }
+            ],
+            "inteligencias_multiples": [
+                {
+                    "im_inteligencia": "",
+                    "im_definicion": "",
+                    "im_perfil_alumno": "",
+                    "im_estrategias_clave": "",
+                    "desde_menu": "Inteligencias Múltiples"
+                }
+            ],
+            "candado": false
+        }
+    ],
+    "atencion_diversidad": {
+        "ad_contenido": "",
+        "ad_notas": "",
+        "candado": false
+    },
+    "dua": {
+        "dua_contenido": "",
+        "dua_notas": "",
+        "candado": false
+    },
+    "orientacion": {
+        "seleccionado": false,
+        "texto": "",
+        "notas": ""
+    },
+    "prospectiva": {
+        "prospectiva_items": [],
+        "entorno_profesional_items": [],
+        "notas": ""
+    }
+}

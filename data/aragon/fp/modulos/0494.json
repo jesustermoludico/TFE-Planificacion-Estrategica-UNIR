@@ -1,0 +1,85 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0494",
+    "titulo_modulo": "Empresa e iniciativa emprendedora",
+    "duracion_total": "63",
+    "creditos_ects": "4",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desarrollar la propia iniciativa en el ámbito empresarial, tanto hacia el autoempleo como hacia la asunción de responsabilidades y funciones en el empleo por cuenta ajena. Las líneas de actuación versarán sobre: el manejo de fuentes de información sobre el sector de la informática y procesos de innovación; la realización de dinámicas de grupo para valorar actitudes emprendedoras; la utilización de programas de gestión administrativa para pymes; y la realización de un proyecto de plan de empresa que incluya todas las facetas de puesta en marcha y justificación de responsabilidad social.",
+    "objetivos_generales_asociados": "s, t",
+    "competencias_profesionales_asociadas": "r, s",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_494",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Iniciativa emprendedora",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_494", "descripcion_punto": "Innovación y desarrollo económico en el sector de aplicaciones multiplataforma." },
+                { "id_punto": "P_01_02_494", "descripcion_punto": "Factores clave del emprendedor: iniciativa, creatividad, formación y control del riesgo." },
+                { "id_punto": "P_01_03_494", "descripcion_punto": "El empresario: requisitos para el ejercicio de la actividad. Plan de empresa e idea de negocio." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_494",
+            "orden_bloque": 2,
+            "descripcion_bloque": "La empresa y su entorno",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_494", "descripcion_punto": "La empresa como sistema y funciones básicas. Investigación de mercados." },
+                { "id_punto": "P_02_02_494", "descripcion_punto": "Análisis del entorno general y específico de una pyme de informática." },
+                { "id_punto": "P_02_03_494", "descripcion_punto": "Relaciones con clientes, competencia, proveedores y Administraciones públicas." },
+                { "id_punto": "P_02_04_494", "descripcion_punto": "Responsabilidad social, ética de las empresas, cultura empresarial e imagen corporativa." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_494",
+            "orden_bloque": 3,
+            "descripcion_bloque": "La empresa y su estrategia",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_494", "descripcion_punto": "Planificación comercial, de la producción y de los recursos humanos." },
+                { "id_punto": "P_03_02_494", "descripcion_punto": "Viabilidad económica y financiera de una pyme informática." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_494",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Creación y puesta en marcha de una empresa",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_494", "descripcion_punto": "Tipos de empresa y características de las distintas formas jurídicas." },
+                { "id_punto": "P_04_02_494", "descripcion_punto": "Fiscalidad empresarial: IRPF, IVA e Impuesto de Sociedades." },
+                { "id_punto": "P_04_03_494", "descripcion_punto": "Trámites administrativos para la constitución, ayudas y recursos para emprendedores." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_494",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Función administrativa",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_494", "descripcion_punto": "Concepto de contabilidad, nociones básicas y análisis de la información contable." },
+                { "id_punto": "P_05_02_494", "descripcion_punto": "Gestión administrativa de una pyme de informática: documentación básica y circuitos." },
+                { "id_punto": "P_05_03_494", "descripcion_punto": "Obligaciones fiscales de las empresas." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_494",
+            "ra_descripcion": "Reconoce las capacidades asociadas a la iniciativa emprendedora, analizando requerimientos de puestos y actividades.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado el concepto de innovación y su relación con el progreso social." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha analizado el concepto de cultura emprendedora." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha valorado la iniciativa individual, creatividad y formación como requisitos de éxito." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha definido una idea de negocio del ámbito DAM para el plan de empresa." }
+            ]
+        },
+        {
+            "ra_id": "RA_3_494",
+            "ra_descripcion": "Realiza actividades para la constitución y puesta en marcha de una empresa, seleccionando la forma jurídica.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han analizado las diferentes formas jurídicas de la empresa." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha especificado el grado de responsabilidad legal de los propietarios." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha diferenciado el tratamiento fiscal según la forma jurídica elegida." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han analizado los trámites exigidos por la legislación para la constitución." }
+            ]
+        }
+    ]
+}

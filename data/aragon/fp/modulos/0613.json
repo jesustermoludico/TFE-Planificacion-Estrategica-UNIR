@@ -1,0 +1,115 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0613",
+    "titulo_modulo": "Desarrollo Web en entorno servidor",
+    "duracion_total": "189",
+    "creditos_ects": "12",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de desarrollo de aplicaciones y servicios destinados a su ejecución por servidores en entornos Web. La función de desarrollo incluye: La creación de aplicaciones de servidor que generan interfaces Web. La programación de métodos para gestionar información en almacenes de datos. La generación de servicios reutilizables y accesibles mediante protocolos Web. El desarrollo de aplicaciones basadas en información distribuida. Las líneas de actuación versarán sobre: El análisis de métodos de generación dinámica. La integración del lenguaje de marcas con código ejecutable. La utilización de lenguajes como PHP, ASP, JSP o Servlets. La modificación de código en soluciones heterogéneas. El uso de librerías para incorporar interactividad dinámica.",
+    "objetivos_generales_asociados": "c, d, f, g, h, l, m, n, ñ, q, s, t",
+    "competencias_profesionales_asociadas": "c, d, f, g, h, k, l, m, n, ñ, q",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_0613",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Selección de arquitecturas y herramientas de programación",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_0613", "descripcion_punto": "Modelos de programación en entornos cliente / servidor." },
+                { "id_punto": "P_01_02_0613", "descripcion_punto": "Mecanismos de ejecución de código y generación dinámica." },
+                { "id_punto": "P_01_03_0613", "descripcion_punto": "Lenguajes de entorno servidor e integración con servidores web." },
+                { "id_punto": "P_01_04_0613", "descripcion_punto": "Herramientas de programación y depuración." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_0613",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Inserción de código en páginas web",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_0613", "descripcion_punto": "Tecnologías asociadas: PHP, ASP, JSP, Servlets, entre otras." },
+                { "id_punto": "P_02_02_0613", "descripcion_punto": "Etiquetas para inserción de código: bloques y directivas." },
+                { "id_punto": "P_02_03_0613", "descripcion_punto": "Tipos de datos, variables y ámbitos de utilización." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_0613",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Programación basada en lenguajes de marcas con código embebido",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_0613", "descripcion_punto": "Tomas de decisión, bucles y tipos de datos compuestos." },
+                { "id_punto": "P_03_02_0613", "descripcion_punto": "Funciones y procesamiento de información proveniente del cliente." },
+                { "id_punto": "P_03_03_0613", "descripcion_punto": "Interacción con el usuario: formularios, validación y seguridad." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_0613",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Desarrollo de aplicaciones Web utilizando código embebido",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_0613", "descripcion_punto": "Mantenimiento del estado: sesiones y cookies." },
+                { "id_punto": "P_04_02_0613", "descripcion_punto": "Seguridad: usuarios, perfiles, roles y autentificación." },
+                { "id_punto": "P_04_03_0613", "descripcion_punto": "Pruebas y depuración." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_0613",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Generación dinámica de páginas Web",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_0613", "descripcion_punto": "Mecanismos de separación de la lógica de negocio. Controles de servidor." },
+                { "id_punto": "P_05_02_0613", "descripcion_punto": "Integración de sistemas de plantillas: herencia, internacionalización y filtros." },
+                { "id_punto": "P_05_03_0613", "descripcion_punto": "Generación dinámica de páginas interactivas y obtención remota de información." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_0613",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Utilización de técnicas de acceso a datos",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_0613", "descripcion_punto": "Establecimiento de conexiones y recuperación/edición de información." },
+                { "id_punto": "P_06_02_0613", "descripcion_punto": "Utilización de conjuntos de resultados y ejecución de SQL." },
+                { "id_punto": "P_06_03_0613", "descripcion_punto": "Transacciones, seguridad y técnicas de optimización." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_0613",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Programación de servicios Web",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_0613", "descripcion_punto": "Mecanismos y protocolos: REST y WS-*." },
+                { "id_punto": "P_07_02_0613", "descripcion_punto": "Generación, descripción e interfaz de un servicio Web." }
+            ]
+        },
+        {
+            "id_bloque": "CB_08_0613",
+            "orden_bloque": 8,
+            "descripcion_bloque": "Desarrollo de aplicaciones Web híbridas",
+            "puntos_detalle": [
+                { "id_punto": "P_08_01_0613", "descripcion_punto": "Reutilización de código e información de repositorios." },
+                { "id_punto": "P_08_02_0613", "descripcion_punto": "Web semántica, Linked Data y Screen Scraping." },
+                { "id_punto": "P_08_03_0613", "descripcion_punto": "Creación de alimentadores e incorporación de funcionalidades específicas." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_0613",
+            "ra_descripcion": "Selecciona las arquitecturas y tecnologías de programación Web en entorno servidor, analizando sus capacidades.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han diferenciado modelos de ejecución en servidor y cliente." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han reconocido las ventajas de la generación dinámica de páginas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado los mecanismos de ejecución en servidores Web." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han caracterizado los principales lenguajes y tecnologías de servidor." }
+            ]
+        },
+        {
+            "ra_id": "RA_7_0613",
+            "ra_descripcion": "Desarrolla servicios Web analizando su funcionamiento e implantando la estructura de sus componentes.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido características y ámbito de aplicación de servicios Web." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado tecnologías y protocolos implicados (REST, WS-*)." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha programado y verificado el funcionamiento del servicio Web." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha consumido el servicio y creado su documento de descripción." }
+            ]
+        }
+    ]
+}

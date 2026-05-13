@@ -1,0 +1,148 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0371",
+    "titulo_modulo": "Fundamentos de Hardware",
+    "duracion_total": "55",
+    "creditos_ects": "6",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar funciones de mantenimiento de sistemas en entornos personales y asociados a periféricos comunes. Además servirá para adquirir una visión global y actualizada del funcionamiento, la estructura, la organización, el hardware específico y el papel del administrador de sistemas de un centro de proceso de datos. Las funciones de mantenimiento incluyen el conocimiento y manipulación de elementos físicos y lógicos, chequeo y monitorización, diagnóstico y resolución de averías, y la puesta en marcha de periféricos. Las líneas de actuación se centran en la identificación de componentes físicos, interpretación de documentación técnica, diagnóstico planificado de averías, análisis de software de propósito general y el fomento de pautas profesionales en un centro de proceso de datos.",
+    "objetivos_generales_asociados": "f, k, m, ñ, p, q",
+    "competencias_profesionales_asociadas": "e, f, j, m, n, ñ, o, p, r, s",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Configuración de equipos y periféricos: Arquitectura de ordenadores",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01", "descripcion_punto": "Esquema y estructura de un ordenador. Elementos funcionales y subsistemas." },
+                { "id_punto": "P_01_02", "descripcion_punto": "Composición de un sistema informático: unidad central de proceso, memoria y subsistema de E/S." },
+                { "id_punto": "P_01_03", "descripcion_punto": "Tipos de arquitecturas de bus e interfaces." },
+                { "id_punto": "P_01_04", "descripcion_punto": "Componentes de integración: chasis, alimentación, refrigeración, placas base, procesadores y memorias." },
+                { "id_punto": "P_01_05", "descripcion_punto": "Dispositivos de almacenamiento, controladoras y periféricos. Adaptadores para la conexión." },
+                { "id_punto": "P_01_06", "descripcion_punto": "Mecanismos y técnicas de interconexión. Secuencia de arranque de un equipo." },
+                { "id_punto": "P_01_07", "descripcion_punto": "Instalación, configuración y verificación de equipos. Software empotrado de configuración." },
+                { "id_punto": "P_01_08", "descripcion_punto": "Chequeo, diagnóstico y técnicas de conexión y comunicación entre sistemas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Instalación de software de utilidad y propósito general",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01", "descripcion_punto": "Entornos operativos y tipos de aplicaciones." },
+                { "id_punto": "P_02_02", "descripcion_punto": "Instalación y prueba de aplicaciones. Requerimientos de los entornos de explotación." },
+                { "id_punto": "P_02_03", "descripcion_punto": "Software de propósito general: ofimática, imagen, diseño, multimedia y programación." },
+                { "id_punto": "P_02_04", "descripcion_punto": "Clientes para servicios de Internet y software a medida." },
+                { "id_punto": "P_02_05", "descripcion_punto": "Utilidades de compresión, monitorización, optimización y gestión de ficheros." },
+                { "id_punto": "P_02_06", "descripcion_punto": "Gestión de discos: fragmentación y particionado." },
+                { "id_punto": "P_02_07", "descripcion_punto": "Seguridad: antivirus, antiespías y cortafuegos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Creación de imágenes de software y respaldo del software base",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01", "descripcion_punto": "Particionado de discos." },
+                { "id_punto": "P_03_02", "descripcion_punto": "Imágenes de respaldo y opciones de arranque del sistema." },
+                { "id_punto": "P_03_03", "descripcion_punto": "Creación y recuperación de imágenes." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Implantación de hardware en centros de proceso de datos (CPD)",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01", "descripcion_punto": "Arquitecturas de ordenadores personales, sistemas departamentales y grandes ordenadores." },
+                { "id_punto": "P_04_02", "descripcion_punto": "Estructura, organización y seguridad física de un CPD." },
+                { "id_punto": "P_04_03", "descripcion_punto": "Componentes específicos: bastidores (racks), dispositivos de conexión en caliente y fuentes de alimentación." },
+                { "id_punto": "P_04_04", "descripcion_punto": "Control remoto y arquitecturas de alta disponibilidad." },
+                { "id_punto": "P_04_05", "descripcion_punto": "Inventariado del hardware." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Prevención de riesgos laborales y protección ambiental",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01", "descripcion_punto": "Identificación de riesgos y determinación de medidas de prevención." },
+                { "id_punto": "P_05_02", "descripcion_punto": "Prevención en los procesos de montaje y mantenimiento." },
+                { "id_punto": "P_05_03", "descripcion_punto": "Equipos de protección individual (EPIs)." },
+                { "id_punto": "P_05_04", "descripcion_punto": "Cumplimiento de la normativa de protección ambiental." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Configura equipos microinformáticos, componentes y periféricos, analizando sus características y relación con el conjunto.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado y caracterizado los dispositivos de los bloques funcionales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha descrito el papel de los elementos físicos y lógicos en la puesta en marcha." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha analizado la arquitectura y los mecanismos de conexión entre dispositivos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han establecido los parámetros de configuración hardware y software." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han evaluado las prestaciones del equipo." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han ejecutado utilidades de chequeo y diagnóstico." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han identificado averías y sus causas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han clasificado los periféricos y sus mecanismos de comunicación." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han utilizado protocolos estándar de comunicación inalámbrica." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Instala software de propósito general evaluando sus características y entornos de aplicación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han catalogado los tipos de software según licencia, distribución y propósito." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han analizado las necesidades de software en diferentes entornos productivos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han instalado utilidades de gestión de archivos, mantenimiento y optimización." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han instalado y evaluado utilidades de seguridad básica." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha instalado y evaluado software ofimático y de utilidad general." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha consultado la documentación y las ayudas interactivas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha verificado la repercusión de la eliminación o actualización de utilidades." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han probado y comparado aplicaciones portables y no portables." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han realizado inventarios del software instalado y sus licencias." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Ejecuta procedimientos para recuperar el software base de un equipo, analizándolos y utilizando imágenes almacenadas en memoria auxiliar.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado soportes de memoria auxiliar para restauración de imágenes." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha reconocido la diferencia entre instalación estándar e imagen de software." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han probado las distintas secuencias de arranque configurables." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado herramientas para el particionado de discos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han empleado distintas utilidades y soportes para realizar imágenes." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han restaurado imágenes desde distintas ubicaciones." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Implanta hardware específico de centros de proceso de datos (CPD), analizando sus características y aplicaciones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido diferencias entre configuraciones de tipo personal y empresarial." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han analizado entornos que requieren soluciones hardware específicas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han detallado componentes hardware para soluciones empresariales." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han analizado requerimientos de seguridad física y organización de un CPD." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han implantado sistemas de alimentación ininterrumpida (SAI)." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han manipulado dispositivos con conexión en caliente (hot-swap)." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han documentado procedimientos, incidencias y parámetros de instalación." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado herramientas de inventariado de hardware." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha organizado la documentación técnica, controladores y accesorios." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado riesgos y peligrosidad en el uso de materiales y herramientas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han operado las máquinas respetando las normas de seguridad." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las causas frecuentes de accidentes laborales." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han descrito los elementos de seguridad de máquinas y equipos de protección individual (EPI)." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha relacionado la manipulación de materiales con medidas de seguridad requeridas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han identificado las posibles fuentes de contaminación ambiental." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han clasificado los residuos generados para su retirada selectiva." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha valorado el orden y la limpieza como factor de prevención de riesgos." }
+            ]
+        }
+    ]
+}

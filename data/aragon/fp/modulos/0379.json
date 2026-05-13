@@ -1,0 +1,72 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0379",
+    "titulo_modulo": "Proyecto de Administración de Sistemas Informáticos en Red",
+    "duracion_total": "25",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional complementa la formación establecida para el resto de los módulos en las funciones de análisis del contexto, diseño del proyecto y organización de la ejecución. La función de análisis incluye recopilación de información e identificación de necesidades. El diseño establece las líneas generales para dar respuesta a las necesidades, planificación de la intervención y determinación de recursos. La organización incluye la detección de demandas, programación, gestión y supervisión. Las líneas de actuación se basan en la ejecución de trabajos en equipo, responsabilidad, autoevaluación, autonomía y el uso de las TIC.",
+    "objetivos_generales_asociados": "a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u",
+    "competencias_profesionales_asociadas": "a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_379",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Análisis del contexto y diseño del proyecto",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_379", "descripcion_punto": "Recopilación de información e identificación y priorización de necesidades del sector." },
+                { "id_punto": "P_01_02_379", "descripcion_punto": "Estudio de viabilidad técnica y económica del proyecto." },
+                { "id_punto": "P_01_03_379", "descripcion_punto": "Definición y secuenciación de las fases del proyecto." },
+                { "id_punto": "P_01_04_379", "descripcion_punto": "Determinación de recursos materiales y humanos necesarios." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_379",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Organización y gestión de la ejecución",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_379", "descripcion_punto": "Programación y gestión de la intervención." },
+                { "id_punto": "P_02_02_379", "descripcion_punto": "Coordinación, supervisión y control de calidad de las actividades." },
+                { "id_punto": "P_02_03_379", "descripcion_punto": "Elaboración de informes y documentación del diseño y ejecución." },
+                { "id_punto": "P_02_04_379", "descripcion_punto": "Plan de atención al cliente y evaluación de resultados." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Identifica necesidades del sector productivo relacionándolas con proyectos tipo que las puedan satisfacer.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han clasificado las empresas del sector por sus características organizativas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han caracterizado las empresas tipo indicando su estructura y departamentos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las necesidades más demandadas a las empresas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han valorado las oportunidades de negocio previsibles en el sector." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han determinado las características específicas requeridas al proyecto." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Diseña proyectos relacionados con las competencias expresadas en el título, desarrollando sus fases.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha recopilado información relativa a los aspectos tratados en el proyecto." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha realizado el estudio de viabilidad técnica." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las fases que componen el proyecto y su contenido." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han establecido los objetivos y su alcance." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han previsto recursos materiales y personales necesarios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha realizado el presupuesto económico y necesidades de financiación." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Planifica la puesta en funcionamiento o ejecución del proyecto, determinando el plan de intervención.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han secuenciado las actividades según necesidades de implementación." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han determinado los recursos y la logística necesaria." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado necesidades de permisos y autorizaciones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han determinado los procedimientos de ejecución de las actividades." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han identificado los riesgos y definido el plan de prevención." }
+            ]
+        }
+    ]
+}

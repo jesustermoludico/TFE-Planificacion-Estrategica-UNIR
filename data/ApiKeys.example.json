@@ -1,0 +1,23 @@
+{
+  "_notes": {
+    "development": "Este archivo es solo para desarrollo local en navegador.",
+    "production": "En producción estas ApiKeys no pueden esta aquí."
+  },
+  "mode": "development",
+  "providers": {
+    "chatgpt": {
+      "apiKey": "",
+      "model": ""
+    },
+    "claude": {
+      "apiKey": "",
+      "model": ""
+    },
+    "gemini": {
+      "apiKey": "",
+      "model": ""
+    }
+  }
+}
+
+

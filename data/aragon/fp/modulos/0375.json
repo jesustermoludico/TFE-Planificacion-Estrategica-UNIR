@@ -1,0 +1,221 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0375",
+    "titulo_modulo": "Servicios de Red e Internet",
+    "duracion_total": "75",
+    "creditos_ects": "8",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar las tareas de instalación y administración de servicios de red e Internet. Incluye aspectos como: Los procesos de instalación y administración de servicios de red e Internet básicos. Los procesos relacionados con el acceso seguro y controlado a la información. Los procesos de instalación y administración de servicios multimedia. El control y seguimiento de la actividad de los servicios. La utilización de sistemas operativos libres y propietarios. Las líneas de actuación versarán sobre la instalación y administración de servicios, la gestión de servidores y clientes, los servicios multimedia y la monitorización de actividad.",
+    "objetivos_generales_asociados": "a, c, n, ñ, o, r, s",
+    "competencias_profesionales_asociadas": "b, m, n, ñ, o, q",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Instalación y administración de servicios de nombres de dominio",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01", "descripcion_punto": "Sistemas de nombres planos y jerárquicos." },
+                { "id_punto": "P_01_02", "descripcion_punto": "Resolutores de nombres. Proceso de resolución. Servidores raíz y dominios." },
+                { "id_punto": "P_01_03", "descripcion_punto": "Zonas primarias y secundarias. Transferencias de zona." },
+                { "id_punto": "P_01_04", "descripcion_punto": "Tipos de registros." },
+                { "id_punto": "P_01_05", "descripcion_punto": "Servidores de nombres en direcciones IP dinámicas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Instalación y administración de servicios de configuración automática de red",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01", "descripcion_punto": "Funcionamiento del servicio. Asignaciones estáticas y dinámicas." },
+                { "id_punto": "P_02_02", "descripcion_punto": "Parámetros y declaraciones de configuración." },
+                { "id_punto": "P_02_03", "descripcion_punto": "Comandos utilizados para el funcionamiento del servicio." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Instalación y administración de servidores Web",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01", "descripcion_punto": "Características generales y configuración básica." },
+                { "id_punto": "P_03_02", "descripcion_punto": "Módulos: instalación, configuración y uso." },
+                { "id_punto": "P_03_03", "descripcion_punto": "Hosts virtuales: creación y utilización." },
+                { "id_punto": "P_03_04", "descripcion_punto": "Autenticación, control de acceso y certificados." },
+                { "id_punto": "P_03_05", "descripcion_punto": "Navegadores Web: parámetros de apariencia y uso." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Instalación y administración de servicios de transferencia de archivos",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01", "descripcion_punto": "Configuración del servicio, permisos y cuotas." },
+                { "id_punto": "P_04_02", "descripcion_punto": "Tipos de usuarios y accesos al servicio." },
+                { "id_punto": "P_04_03", "descripcion_punto": "Modos de conexión del cliente (activo y pasivo)." },
+                { "id_punto": "P_04_04", "descripcion_punto": "Tipos de transferencia de archivos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Instalación y administración del servicio de correo electrónico",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01", "descripcion_punto": "Protocolo de transferencia de mensajes." },
+                { "id_punto": "P_05_02", "descripcion_punto": "Clientes de correo electrónico." },
+                { "id_punto": "P_05_03", "descripcion_punto": "Cuentas de correo, alias y buzones de usuario." },
+                { "id_punto": "P_05_04", "descripcion_punto": "Correo seguro: firma digital y cifrado de mensajes." },
+                { "id_punto": "P_05_05", "descripcion_punto": "Protocolos y servicios de descarga de correo." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Instalación y administración de servicios de mensajería instantánea, noticias y listas",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01", "descripcion_punto": "Características del servicio de mensajería instantánea y protocolos." },
+                { "id_punto": "P_06_02", "descripcion_punto": "Clientes gráficos y en modo texto." },
+                { "id_punto": "P_06_03", "descripcion_punto": "Características, protocolos y tipos de listas de distribución." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Instalación y administración del servicio de audio",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01", "descripcion_punto": "Formatos de audio." },
+                { "id_punto": "P_07_02", "descripcion_punto": "Servidores de streaming." },
+                { "id_punto": "P_07_03", "descripcion_punto": "Sindicación y suscripción de audio: Podcast." }
+            ]
+        },
+        {
+            "id_bloque": "CB_08",
+            "orden_bloque": 8,
+            "descripcion_bloque": "Instalación y administración del servicio de vídeo",
+            "puntos_detalle": [
+                { "id_punto": "P_08_01", "descripcion_punto": "Formatos de imagen." },
+                { "id_punto": "P_08_02", "descripcion_punto": "Servidores de vídeo." },
+                { "id_punto": "P_08_03", "descripcion_punto": "Formatos de vídeo, códecs y reproductores." },
+                { "id_punto": "P_08_04", "descripcion_punto": "Sindicación y suscripción de vídeo." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Administra servicios de resolución de nombres, analizándolos y garantizando la seguridad del servicio.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado y descrito escenarios de necesidad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han clasificado los principales mecanismos de resolución." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha descrito la estructura, nomenclatura y funcionalidad jerárquica." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han instalado y configurado servicios jerárquicos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha preparado el servicio para reenviar consultas externas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha preparado el servicio para almacenar y distribuir respuestas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han añadido registros de zona nueva (correo, alias)." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han implementado soluciones en direcciones IP dinámicas." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han realizado transferencias de zona." },
+                { "letra_criterio": "j", "descripcion_criterio": "Se han documentado los procedimientos." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Administra servicios de configuración automática, identificándolos y verificando la asignación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido los mecanismos automatizados de parámetros de red." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han ilustrado procedimientos y pautas de solicitud." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han instalado servidores de configuración." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha preparado el servicio para asignar la configuración básica." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han configurado asignaciones estáticas y dinámicas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han integrado opciones adicionales." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han documentado los procedimientos." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Administra servidores Web aplicando criterios de configuración y asegurando el funcionamiento.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito fundamentos y protocolos del funcionamiento Web." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han instalado y configurado servidores Web." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha ampliado la funcionalidad mediante módulos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han creado y configurado sitios virtuales." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han configurado mecanismos de autenticación." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han obtenido e instalado certificados digitales." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han asegurado las comunicaciones cliente-servidor." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han realizado pruebas de monitorización." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han analizado registros para estadísticas e incidencias." },
+                { "letra_criterio": "j", "descripcion_criterio": "Se ha elaborado documentación relativa al uso." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Administra servicios de transferencia de archivos asegurando y limitando el acceso.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha establecido la utilidad y modo de operación." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han instalado y configurado servidores de transferencia." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han creado usuarios y grupos para acceso remoto." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha configurado el acceso anónimo." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han establecido límites en los modos de acceso." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha comprobado el acceso en modo activo y pasivo." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han realizado pruebas con clientes de texto y gráficos." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha utilizado el navegador como cliente." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha elaborado documentación." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Administra servidores de correo electrónico, aplicando criterios de configuración y seguridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito protocolos de envío y recogida." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha instalado y configurado un servidor de correo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han creado cuentas y verificado el acceso." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han aplicado métodos para impedir usos indebidos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han instalado servicios de recogida remota." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han usado clientes de correo para envío y recepción." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado firma digital y correo cifrado." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha configurado el servidor como servicio seguro." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha elaborado documentación." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Administra servicios de mensajería instantánea, noticias y listas de distribución.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito los servicios y protocolos asociados." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha instalado y configurado el servicio de mensajería." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado clientes gráficos y de texto." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha instalado y configurado el servicio de noticias." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha instalado y configurado el servicio de listas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han determinado tipos de lista y modos de acceso." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han verificado los accesos de usuarios creados." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha elaborado documentación." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Administra servicios de audio identificando necesidades de distribución.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha descrito la funcionalidad del servicio de audio." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha instalado y configurado un servidor de distribución." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha configurado el cliente para el acceso." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han reconocido y utilizado formatos de audio digital." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado herramientas de reproducción en el cliente." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado servicios a través del navegador." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado técnicas de sindicación y suscripción." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha elaborado documentación." }
+            ]
+        },
+        {
+            "ra_id": "RA_8",
+            "ra_descripcion": "Administra servicios de vídeo identificando necesidades de distribución.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha descrito la funcionalidad del servicio de vídeo." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha instalado y configurado un servidor de vídeo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha configurado el cliente para el acceso." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han reconocido formatos de compresión." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado técnicas de sindicación y suscripción." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han descrito características de videoconferencia." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han instalado herramientas para realizar videoconferencia." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado navegadores para realizar videoconferencias." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha elaborado documentación." }
+            ]
+        }
+    ]
+}

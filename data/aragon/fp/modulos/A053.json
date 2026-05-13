@@ -1,0 +1,83 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "A053",
+    "titulo_modulo": "Lengua extranjera profesional: inglés 2",
+    "duracion_total": "42",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para el desempeño de actividades relacionadas con el entorno profesional en el que el profesional va a ejercer su profesionalidad. Los contenidos del módulo contribuyen a alcanzar los objetivos generales del ciclo formativo, y las competencias del título. Las líneas de actuación en el proceso de enseñanza aprendizaje que permiten alcanzar los objetivos del módulo, versarán sobre: La elaboración de mensajes escritos y orales, interpretando y transmitiendo la información necesaria para realizar consultas técnicas. La interpretación de la información escrita en el ámbito propio del sector productivo del título. La cumplimentación e interpretación de los documentos propios del sector profesional solicitando y/o facilitando una información de tipo general o detallada. La valoración de la importancia de poder comunicarse por escrito y oralmente en lengua extranjera en el contexto de las empresas.",
+    "objetivos_generales_asociados": "Contribuye a los objetivos generales del ciclo formativo",
+    "competencias_profesionales_asociadas": "Contribuye a las competencias del título",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_A053",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Comprensión de mensajes orales",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_A053", "descripcion_punto": "Reconocimiento de mensajes profesionales del sector y cotidianos: directos, telefónicos y grabados." },
+                { "id_punto": "P_01_02_A053", "descripcion_punto": "Terminología específica del sector productivo. Idea principal e ideas secundarias." },
+                { "id_punto": "P_01_03_A053", "descripcion_punto": "Recursos gramaticales: tiempos verbales, preposiciones, adverbios, voz pasiva y estilo indirecto." },
+                { "id_punto": "P_01_04_A053", "descripcion_punto": "Otros recursos lingüísticos: gustos, preferencias, sugerencias, argumentaciones e instrucciones." },
+                { "id_punto": "P_01_05_A053", "descripcion_punto": "Expresión de la condición y duda. Diferentes acentos de lengua oral." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_A053",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Producción de mensajes orales",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_A053", "descripcion_punto": "Registros utilizados en la emisión de mensajes orales y terminología específica." },
+                { "id_punto": "P_02_02_A053", "descripcion_punto": "Sonidos y fonemas vocálicos y consonánticos. Combinaciones y agrupaciones." },
+                { "id_punto": "P_02_03_A053", "descripcion_punto": "Marcadores lingüísticos de relaciones sociales, normas de cortesía y diferencias de registro." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_A053",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Mantenimiento y seguimiento del discurso oral",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_A053", "descripcion_punto": "Apoyo, demostración de entendimiento y petición de aclaración." },
+                { "id_punto": "P_03_02_A053", "descripcion_punto": "Entonación como recurso de cohesión del texto oral." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_A053",
+            "ra_descripcion": "Reconoce información cotidiana y profesional específica contenida en discursos orales claros y sencillos, interpretando con precisión el contenido.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha situado el mensaje en su contexto profesional e identificado la idea principal." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han extraído las ideas principales de mensajes en medios de comunicación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha extraído información específica en mensajes sobre aspectos cotidianos y profesionales." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han secuenciado los elementos constituyentes del mensaje." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han identificado ideas principales en declaraciones sobre temas concretos y abstractos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han reconocido las instrucciones orales y seguido las indicaciones." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha tomado conciencia de la importancia de comprender globalmente un mensaje." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_A053",
+            "ra_descripcion": "Emite mensajes orales claros y bien estructurados, participando como agente activo en conversaciones profesionales.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los registros utilizados para la emisión del mensaje." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha expresado con fluidez, precisión y eficacia sobre temas generales y profesionales." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han descrito hechos breves e imprevistos relacionados con su profesión." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha utilizado correctamente la terminología de la profesión." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha descrito con relativa fluidez su entorno profesional más próximo." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha descrito y secuenciado un proceso de trabajo de su competencia." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha solicitado la reformulación del discurso cuando se ha considerado necesario." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han secuenciado las actividades propias de un proceso productivo." }
+            ]
+        },
+        {
+            "ra_id": "RA_3_A053",
+            "ra_descripcion": "Aplica actitudes y comportamientos profesionales en situaciones de comunicación, describiendo las relaciones típicas del país.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han definido los rasgos más significativos de las costumbres de la comunidad extranjera." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito los protocolos y normas de relación social propios del país." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado valores y creencias propios de la comunidad donde se habla la lengua." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han aplicado los protocolos y normas de relación social propios del país extranjero." }
+            ]
+        }
+    ]
+}

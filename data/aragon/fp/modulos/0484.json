@@ -1,0 +1,187 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0484",
+    "titulo_modulo": "Bases de datos",
+    "duracion_total": "192",
+    "creditos_ects": "11",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de programación de bases de datos. La función de programación de bases de datos incluye aspectos como: La planificación y realización del diseño físico de una base de datos. La normalización de esquemas. La inserción y manipulación de datos. La planificación y realización de consultas. La programación de procedimientos almacenados. Las actividades profesionales asociadas a esta función se aplican en: La gestión de la información almacenada en bases de datos. El desarrollo de aplicaciones que acceden a bases de datos. Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre: La interpretación de diseños lógicos de bases de datos. La realización del diseño físico de una base de datos a partir de un diseño lógico. La implementación y normalización de bases de datos. La realización de operaciones de consulta y modificación sobre los datos almacenados. La programación de procedimientos almacenados. La utilización de bases de datos objeto-relacionales.",
+    "objetivos_generales_asociados": "c, e, f, p, r",
+    "competencias_profesionales_asociadas": "b, c, e, p",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_484",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Almacenamiento de la información",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_484", "descripcion_punto": "Sistemas de Información y tipos. Ficheros planos, indexados y de acceso directo." },
+                { "id_punto": "P_01_02_484", "descripcion_punto": "Bases de datos: conceptos, usos y tipos según modelo y ubicación. Comparación Ficheros/Bases de Datos." },
+                { "id_punto": "P_01_03_484", "descripcion_punto": "Sistemas gestores de base de datos (SGBD): funciones, componentes y tipos comerciales y libres." },
+                { "id_punto": "P_01_04_484", "descripcion_punto": "Bases de datos centralizadas y distribuidas. Fragmentación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_484",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Interpretación de Diagramas Entidad/Relación",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_484", "descripcion_punto": "Entidades y relaciones. Cardinalidad. Simbología y debilidad." },
+                { "id_punto": "P_02_02_484", "descripcion_punto": "El modelo E/R ampliado: reflexión y jerarquía." },
+                { "id_punto": "P_02_03_484", "descripcion_punto": "Paso del diagrama E/R al modelo relacional y normalización." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_484",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Bases de datos relacionales y diseño físico",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_484", "descripcion_punto": "Modelo relacional: terminología, atributos, tuplas y tipos de datos." },
+                { "id_punto": "P_03_02_484", "descripcion_punto": "Claves primarias, índices y el valor NULL." },
+                { "id_punto": "P_03_03_484", "descripcion_punto": "Claves ajenas, vistas, roles y privilegios." },
+                { "id_punto": "P_03_04_484", "descripcion_punto": "Lenguaje de descripción de datos (DDL) y lenguaje de control (DCL)." },
+                { "id_punto": "P_03_05_484", "descripcion_punto": "Diseño físico, optimización de consultas, integridad y seguridad." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_484",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Realización de consultas",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_484", "descripcion_punto": "Herramientas gráficas y la sentencia SELECT." },
+                { "id_punto": "P_04_02_484", "descripcion_punto": "Selección, ordenación, operadores lógicos y tratamiento de nulos." },
+                { "id_punto": "P_04_03_484", "descripcion_punto": "Consultas de resumen, agrupamiento (GROUP BY) y unión de consultas." },
+                { "id_punto": "P_04_04_484", "descripcion_punto": "Composiciones internas, externas y subconsultas anidadas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_484",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Tratamiento de datos y transacciones",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_484", "descripcion_punto": "Inserción, borrado y modificación de registros." },
+                { "id_punto": "P_05_02_484", "descripcion_punto": "Integridad referencial y cambios en cascada." },
+                { "id_punto": "P_05_03_484", "descripcion_punto": "Transacciones, sentencias de procesamiento y políticas de bloqueo." },
+                { "id_punto": "P_05_04_484", "descripcion_punto": "Acceso simultáneo y consultas masivas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_484",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Programación de bases de datos",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_484", "descripcion_punto": "Lenguaje de programación, variables y estructuras de control de flujo." },
+                { "id_punto": "P_06_02_484", "descripcion_punto": "Procedimientos almacenados, funciones de usuario y subrutinas." },
+                { "id_punto": "P_06_03_484", "descripcion_punto": "Eventos, disparadores (triggers), excepciones y cursores." },
+                { "id_punto": "P_06_04_484", "descripcion_punto": "APIs para lenguajes externos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_484",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Uso de bases de datos objeto-relacionales",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_484", "descripcion_punto": "Características, tipos de datos objeto, atributos y métodos." },
+                { "id_punto": "P_07_02_484", "descripcion_punto": "Herencia, identificadores y referencias." },
+                { "id_punto": "P_07_03_484", "descripcion_punto": "Tablas de objetos, colecciones e inicialización." },
+                { "id_punto": "P_07_04_484", "descripcion_punto": "Manipulación de objetos: inserción, navegación, modificación y borrado." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han analizado los sistemas lógicos de almacenamiento y sus características." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los distintos tipos de bases de datos según el modelo de datos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las bases de datos en función de la ubicación de la información." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha evaluado la utilidad de un sistema gestor de bases de datos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha reconocido la función de cada elemento de un sistema gestor." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han clasificado los sistemas gestores de bases de datos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha reconocido la utilidad de las bases de datos distribuidas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han analizado las políticas de fragmentación de la información." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha analizado el formato de almacenamiento de la información." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado las tablas y las relaciones entre ellas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han seleccionado los tipos de datos adecuados." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han definido los campos clave en las tablas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han implantado las restricciones reflejadas en el diseño lógico." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han creado vistas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han creado los usuarios y se les han asignado privilegios." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado asistentes, herramientas gráficas y lenguajes de definición." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las herramientas y sentencias para realizar consultas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han realizado consultas simples sobre una tabla." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han realizado consultas mediante composiciones internas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado consultas mediante composiciones externas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han realizado consultas resumen." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han realizado consultas con subconsultas." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Modifica la información almacenada en la base de datos utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las herramientas y sentencias para modificar el contenido." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han insertado, borrado y actualizado datos en las tablas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha incluido en una tabla información resultante de una consulta." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han diseñado guiones de sentencias para tareas complejas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha reconocido el funcionamiento de las transacciones." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han anulado parcial o totalmente los cambios de una transacción." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han identificado los efectos de las políticas de bloqueo." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han adoptado medidas para mantener integridad y consistencia." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Desarrolla procedimientos almacenados evaluando y utilizando las sentencias del lenguaje incorporado en el SGBD.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las diversas formas de automatizar tareas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han reconocido los métodos de ejecución de guiones." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las herramientas para editar guiones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han definido y utilizado guiones para automatizar tareas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha hecho uso de las funciones proporcionadas por el sistema gestor." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han definido funciones de usuario." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado estructuras de control de flujo." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han definido disparadores." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han utilizado cursores." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Diseña modelos relacionales normalizados interpretando diagramas entidad/relación.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han utilizado herramientas gráficas para representar el diseño lógico." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las tablas del diseño lógico." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado los campos que forman parte de las tablas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han analizado las relaciones entre las tablas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han identificado los campos clave." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han aplicado reglas de integridad." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han aplicado reglas de normalización." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han analizado y documentado las restricciones no plasmables en el diseño." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Gestiona la información almacenada en bases de datos objeto-relacionales.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado las características de las bases de datos objeto-relacionales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado tipos de datos objeto, atributos y métodos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han creado tablas de objetos y tablas de columnas tipo objeto." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han creado tipos de datos colección." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han realizado consultas sobre la estructura de objetos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha modificado la información manteniendo integridad y consistencia." }
+            ]
+        }
+    ]
+}

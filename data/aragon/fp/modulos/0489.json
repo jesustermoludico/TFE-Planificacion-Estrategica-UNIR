@@ -1,0 +1,93 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "titulo_modulo": "Programación multimedia y dispositivos móviles",
+    "codigo_identificador": "0489",
+    "duracion_total": "105",
+    "creditos_ects": "7",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de desarrollo de aplicaciones multimedia, juegos y aplicaciones adaptadas para su explotación en dispositivos móviles. La función incluye: La creación de aplicaciones que incluyen contenidos multimedia basadas en la inclusión de librerías específicas. La creación de aplicaciones para dispositivos móviles que garantizan la persistencia de los datos y establecen conexiones. El desarrollo de juegos 2D y 3D utilizando las funcionalidades que ofrecen los motores de juegos. Las líneas de actuación versarán sobre: El análisis de las tecnologías disponibles para dispositivos móviles, sus características y funcionalidad. La utilización de emuladores para evaluar el funcionamiento de aplicaciones. El desarrollo de aplicaciones que garantizan la persistencia y el intercambio de datos. La integración de objetos multimedia. El análisis de motores de juegos y el desarrollo de juegos 2D y 3D aplicando técnicas específicas e instrucciones gráficas.",
+    "objetivos_generales_asociados": "d, e, f, g, h, i, j, l, m, n, r, s, w",
+    "competencias_profesionales_asociadas": "d, e, g, h, i, j, l, m, n, ñ, s, t, w",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_489",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Análisis de tecnologías para aplicaciones en dispositivos móviles",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_489", "descripcion_punto": "Limitaciones de ejecución: desconexión, seguridad, memoria, batería y almacenamiento." },
+                { "id_punto": "P_01_02_489", "descripcion_punto": "Sistemas operativos y tecnologías disponibles para dispositivos móviles." },
+                { "id_punto": "P_01_03_489", "descripcion_punto": "Entornos integrados de trabajo, módulos de desarrollo y emuladores." },
+                { "id_punto": "P_01_04_489", "descripcion_punto": "Configuraciones y perfiles: arquitectura, requerimientos y dispositivos soportados." },
+                { "id_punto": "P_01_05_489", "descripcion_punto": "Ciclo de vida de una aplicación: descubrimiento, instalación, ejecución y borrado." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_489",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Programación de aplicaciones para dispositivos móviles",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_489", "descripcion_punto": "Herramientas y fases de construcción. Clases asociadas a interfaces de usuario." },
+                { "id_punto": "P_02_02_489", "descripcion_punto": "Contexto gráfico, imágenes, eventos de teclado, animación y sonido." },
+                { "id_punto": "P_02_03_489", "descripcion_punto": "Descubrimiento de servicios, bases de datos, persistencia y modelo de hilos." },
+                { "id_punto": "P_02_04_489", "descripcion_punto": "Comunicaciones inalámbricas: búsqueda de dispositivos y servicios." },
+                { "id_punto": "P_02_05_489", "descripcion_punto": "Establecimiento de conexión cliente/servidor e intercambio de mensajes (SMS/MMS)." },
+                { "id_punto": "P_02_06_489", "descripcion_punto": "Manejo de conexiones HTTP y HTTPS con seguridad y permisos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_489",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Utilización de librerías multimedia integradas",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_489", "descripcion_punto": "Conceptos sobre aplicaciones multimedia y arquitectura del API utilizado." },
+                { "id_punto": "P_03_02_489", "descripcion_punto": "Instalación de librerías y fuentes de datos multimedia." },
+                { "id_punto": "P_03_03_489", "descripcion_punto": "Procesamiento y reproducción de objetos multimedia: estados, métodos y eventos." },
+                { "id_punto": "P_03_04_489", "descripcion_punto": "Protocolos de transmisión en tiempo real." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_489",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Análisis de motores de juegos",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_489", "descripcion_punto": "Animación 2D y 3D. Arquitectura y componentes del juego." },
+                { "id_punto": "P_04_02_489", "descripcion_punto": "Motores de juegos: tipología, librerías y lenguajes de programación." },
+                { "id_punto": "P_04_03_489", "descripcion_punto": "Componentes: motor gráfico (render), detector de colisiones, motor de físicas e IA." },
+                { "id_punto": "P_04_04_489", "descripcion_punto": "Grafo de escena y APIs gráficos 3D." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_489",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Desarrollo de juegos 2D y 3D",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_489", "descripcion_punto": "Integración del motor en entornos de desarrollo. Programación 3D: coordenadas y matrices." },
+                { "id_punto": "P_05_02_489", "descripcion_punto": "Fases de desarrollo: diseño, producción y post-producción (pruebas)." },
+                { "id_punto": "P_05_03_489", "descripcion_punto": "Propiedades de objetos: luz, texturas, reflejos y sombras. Uso de shaders." },
+                { "id_punto": "P_05_04_489", "descripcion_punto": "Aplicación de funciones del grafo de escena y optimización de código." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_489",
+            "ra_descripcion": "Aplica tecnologías de desarrollo para dispositivos móviles evaluando sus características y capacidades.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han analizado las limitaciones de ejecución en dispositivos móviles." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las tecnologías de desarrollo de aplicaciones móviles." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado entornos de trabajo y emuladores para comprobación." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha analizado la estructura de aplicaciones existentes identificando sus clases." }
+            ]
+        },
+        {
+            "ra_id": "RA_5_489",
+            "ra_descripcion": "Desarrolla juegos 2D y 3D sencillos utilizando motores de juegos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha establecido la lógica de un nuevo juego." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado objetos, definido fondos e instalado extensiones de escena." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado instrucciones gráficas para determinar superficies y efectos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha incorporado sonido y realizado pruebas de optimización en dispositivos reales." }
+            ]
+        }
+    ]
+}

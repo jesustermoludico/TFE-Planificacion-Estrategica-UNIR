@@ -1,0 +1,108 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0493",
+    "titulo_modulo": "Formación y orientación laboral",
+    "duracion_total": "96",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para que el alumno pueda insertarse laboralmente y desarrollar su carrera profesional en el sector. Las líneas de actuación versarán sobre: el manejo de las fuentes de información sobre el sistema educativo y laboral; la realización de pruebas de orientación y dinámicas sobre habilidades sociales; la preparación de currículos y entrevistas; la identificación de la normativa laboral (contratos, convenios, salarios); y el análisis de la Ley de Prevención de Riesgos Laborales para evaluar riesgos y colaborar en planes de prevención en pequeñas empresas.",
+    "objetivos_generales_asociados": "p, q, r, t",
+    "competencias_profesionales_asociadas": "q, r, t",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_493",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Búsqueda activa de empleo",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_493", "descripcion_punto": "Planificación de la carrera profesional: proyecto, intereses y motivaciones." },
+                { "id_punto": "P_01_02_493", "descripcion_punto": "Valoración de la formación permanente e itinerarios formativos en el sector DAM." },
+                { "id_punto": "P_01_03_493", "descripcion_punto": "Definición del sector, yacimientos de empleo y búsqueda en empresas del entorno." },
+                { "id_punto": "P_01_04_493", "descripcion_punto": "Oportunidades de aprendizaje y empleo en Europa. Técnicas e instrumentos de búsqueda." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_493",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Gestión del conflicto y equipos de trabajo",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_493", "descripcion_punto": "Trabajo en equipo en la industria del software: eficacia, roles y liderazgo." },
+                { "id_punto": "P_02_02_493", "descripcion_punto": "Técnicas de trabajo en grupo y gestión de reuniones." },
+                { "id_punto": "P_02_03_493", "descripcion_punto": "El conflicto: tipos, fuentes, etapas y métodos de resolución o negociación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_493",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Contrato de trabajo",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_493", "descripcion_punto": "Derecho del trabajo y organismos que intervienen en la relación laboral." },
+                { "id_punto": "P_03_02_493", "descripcion_punto": "Modalidades de contrato, fomento de la contratación y contenido mínimo." },
+                { "id_punto": "P_03_03_493", "descripcion_punto": "Derechos y deberes, tiempo de trabajo, descanso y análisis del recibo de salarios." },
+                { "id_punto": "P_03_04_493", "descripcion_punto": "Suspensión y extinción del contrato. Convenios colectivos y conflicto colectivo." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_493",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Seguridad Social, Empleo y Desempleo",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_493", "descripcion_punto": "Estructura del Sistema de la Seguridad Social." },
+                { "id_punto": "P_04_02_493", "descripcion_punto": "Obligaciones de empresarios y trabajadores: afiliación, altas, bajas y cotización." },
+                { "id_punto": "P_04_03_493", "descripcion_punto": "Prestaciones de la Seguridad Social y protección por desempleo." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_493",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Evaluación de riesgos profesionales",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_493", "descripcion_punto": "Relación entre trabajo y salud. Factores de riesgo y daños derivados." },
+                { "id_punto": "P_05_02_493", "descripcion_punto": "Riesgos específicos en la industria de Desarrollo de Aplicaciones Multiplataforma." },
+                { "id_punto": "P_05_03_493", "descripcion_punto": "Accidente de trabajo y enfermedad profesional." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_493",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Planificación de la prevención de riesgos y medidas de protección",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_493", "descripcion_punto": "Marco normativo básico y derechos/deberes en materia preventiva." },
+                { "id_punto": "P_06_02_493", "descripcion_punto": "Gestión de la prevención y plan de prevención en la empresa." },
+                { "id_punto": "P_06_03_493", "descripcion_punto": "Planes de emergencia y evacuación en entornos de desarrollo." },
+                { "id_punto": "P_06_04_493", "descripcion_punto": "Medidas de protección individual/colectiva y señalización de seguridad." },
+                { "id_punto": "P_06_05_493", "descripcion_punto": "Primeros auxilios y control de la salud de los trabajadores." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_493",
+            "ra_descripcion": "Selecciona oportunidades de empleo, identificando las diferentes posibilidades de inserción.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha valorado la importancia de la formación permanente para la empleabilidad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los itinerarios formativo-profesionales relacionados con el perfil de técnico en DAM." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han determinado las técnicas utilizadas en el proceso de búsqueda de empleo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han previsto las alternativas de autoempleo en los sectores relacionados." }
+            ]
+        },
+        {
+            "ra_id": "RA_3_493",
+            "ra_descripcion": "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los conceptos básicos del derecho del trabajo." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han clasificado las principales modalidades de contratación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha analizado el recibo de salarios identificando sus elementos principales." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han determinado las condiciones pactadas en un convenio colectivo aplicable al sector." }
+            ]
+        },
+        {
+            "ra_id": "RA_5_493",
+            "ra_descripcion": "Evalúa los riesgos derivados de su actividad, analizando las condiciones de trabajo en su entorno laboral.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha valorado la importancia de la cultura preventiva en la empresa." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han clasificado los factores de riesgo y los daños derivados de los mismos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo de DAM." }
+            ]
+        }
+    ]
+}

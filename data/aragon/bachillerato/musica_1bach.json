@@ -1,0 +1,236 @@
+{
+  "asignatura": "Música",
+  "etapa": "Educación Secundaria Obligatoria",
+  "curso": "4º ESO",
+  "introduccion": {
+    "justificacion": "La cultura y las expresiones artísticas sirven como reflejo de las sociedades pasadas y presentes. La música constituye una forma de expresión personal fruto de percepciones individuales y un lenguaje para reproducir realidades culturales. Es fundamental valorar el papel de la música como parte del patrimonio cultural y su vínculo con tradiciones e ideas.",
+    "contribucion_desarrollo": [
+      "Contribuye al desarrollo cognitivo, emocional y psicomotor.",
+      "Favorece la atención, percepción, memoria, abstracción y posición corporal.",
+      "Mejora la sensibilidad emocional y el control de las emociones.",
+      "Desarrolla la empatía y el respeto hacia la diversidad cultural.",
+      "Valora la perseverancia para el dominio técnico de la voz, instrumentos y herramientas digitales."
+    ],
+    "ejes_competenciales": [
+      {
+        "eje": "Identidad y recepción cultural",
+        "competencia": "Competencia específica 1"
+      },
+      {
+        "eje": "Autoexpresión a través de la creación y la interpretación",
+        "competencia": "Competencias específicas 2 y 3"
+      },
+      {
+        "eje": "Producción artística",
+        "competencia": "Competencia específica 4"
+      }
+    ]
+  },
+  "competencias_especificas": [
+    {
+      "id": "CE.MU.1",
+      "titulo": "Analizar obras de diferentes épocas y culturas para valorar el patrimonio musical y dancístico.",
+      "descripcion": "Implica identificar rasgos estilísticos y relacionarlos con su contexto histórico y transformaciones sociales. Se incorpora la perspectiva de género para identificar estereotipos y desigualdades.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "1.1",
+          "criterio": "Analizar obras musicales y dancísticas identificando rasgos estilísticos y explicando su relación con el contexto con actitud de respeto."
+        },
+        {
+          "codigo": "1.2",
+          "criterio": "Valorar críticamente los hábitos, gustos y referentes musicales de diferentes épocas, reflexionando sobre su evolución y relación con el presente."
+        }
+      ]
+    },
+    {
+      "id": "CE.MU.2",
+      "titulo": "Explorar posibilidades expresivas mediante la improvisación para desarrollar el criterio de selección técnica.",
+      "descripcion": "La creación dota al alumnado de recursos y enriquece la capacidad expresiva individual o grupal. Favorece el autoconocimiento, la confianza y la superación de estereotipos.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "2.1",
+          "criterio": "Participar con iniciativa y creatividad en la exploración de técnicas musicales básicas por medio de improvisaciones pautadas."
+        },
+        {
+          "codigo": "2.2",
+          "criterio": "Elaborar piezas musicales o dancísticas estructuradas a partir de la improvisación, seleccionando técnicas adecuadas a la intención expresiva."
+        }
+      ]
+    },
+    {
+      "id": "CE.MU.3",
+      "titulo": "Interpretar piezas gestionando emociones y empleando estrategias técnicas para ampliar la expresión personal.",
+      "descripcion": "La interpretación individual y grupal favorece la comprensión del patrimonio cultural. Requiere estrategias para gestionar la frustración, la concentración y el miedo escénico.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "3.1",
+          "criterio": "Leer partituras sencillas identificando elementos del lenguaje musical y analizando de forma guiada las estructuras de las piezas."
+        },
+        {
+          "codigo": "3.2",
+          "criterio": "Emplear diferentes técnicas de interpretación vocal, corporal o instrumental aplicando estrategias de memorización."
+        },
+        {
+          "codigo": "3.3",
+          "criterio": "Interpretar con corrección piezas sencillas dentro y fuera del aula, gestionando la ansiedad y manteniendo la concentración."
+        }
+      ]
+    },
+    {
+      "id": "CE.MU.4",
+      "titulo": "Crear propuestas artístico-musicales para potenciar la creatividad e identificar oportunidades de desarrollo.",
+      "descripcion": "Supone poner en práctica aprendizajes mediante la composición, arreglos o creación de productos artísticos multidisciplinares. Fomenta el trabajo colaborativo y el respeto a la propiedad intelectual.",
+      "criterios_evaluacion": [
+        {
+          "codigo": "4.1",
+          "criterio": "Planificar y desarrollar con creatividad propuestas artístico-musicales seleccionando los medios y herramientas analógicas o digitales más adecuados."
+        },
+        {
+          "codigo": "4.2",
+          "criterio": "Participar activamente en la ejecución de propuestas colaborativas asumiendo funciones y valorando aportaciones ajenas."
+        }
+      ]
+    }
+  ],
+  "saberes_basicos": {
+    "bloque_A": {
+      "nombre": "Escucha y percepción",
+      "saberes": [
+        {
+          "codigo": "A.1",
+          "titulo": "Del sonido, del ruido y del silencio en la era digital",
+          "contenidos": [
+            "Consumo masivo de música en la era digital y formatos de audio de calidad.",
+            "Uso del ruido y silencio en la estética vanguardista (Cage, ASMR).",
+            "Arte del sampleo y diseño sonoro en la escucha inconsciente."
+          ]
+        },
+        {
+          "codigo": "A.2",
+          "titulo": "Obras musicales y dancísticas",
+          "contenidos": [
+            "Análisis descriptivo de géneros y subgéneros musicales y dancísticos (ballet, moderna, contemporánea).",
+            "Comparación de rasgos melódicos, armónicos y rítmicos."
+          ]
+        },
+        {
+          "codigo": "A.6",
+          "titulo": "Mitos, estereotipos y roles de género",
+          "contenidos": [
+            "La mirada masculina en la construcción de arquetipos femeninos en la Ópera y el Ballet.",
+            "Empoderamiento femenino a través del arte y mujeres música inspiradoras."
+          ]
+        }
+      ]
+    },
+    "bloque_B": {
+      "nombre": "Interpretación, improvisación y creación escénica",
+      "saberes": [
+        {
+          "codigo": "B.2",
+          "titulo": "Elementos del lenguaje musical",
+          "contenidos": [
+            "Funciones y progresiones armónicas de éxito (I-V-vi-IV).",
+            "Modulación (rueda de Camelot) y formas musicales complejas."
+          ]
+        },
+        {
+          "codigo": "B.4",
+          "titulo": "Técnicas para la interpretación",
+          "contenidos": [
+            "Canto a una y dos voces con acompañamiento.",
+            "Ejercicios de paradidles para la lateralidad.",
+            "Control de emociones y técnicas de estudio."
+          ]
+        },
+        {
+          "codigo": "B.6",
+          "titulo": "Planificación y ejecución de proyectos",
+          "contenidos": [
+            "Composición musical y realización de arreglos complejos.",
+            "Presentación en público de creaciones musicales."
+          ]
+        },
+        {
+          "codigo": "B.7",
+          "titulo": "Valores y hábitos de consumo responsable",
+          "contenidos": [
+            "Derechos de autor, dominio público y licencias Creative Commons.",
+            "Canon digital y webs de descarga legales."
+          ]
+        }
+      ]
+    },
+    "bloque_C": {
+      "nombre": "Contextos y culturas",
+      "saberes": [
+        {
+          "codigo": "C.1",
+          "titulo": "Historia de la música y la danza en España",
+          "contenidos": [
+            "Manifestaciones genuinas: canto mozárabe, zarzuela, Manuel de Falla, flamenco y escuela bolera."
+          ]
+        },
+        {
+          "codigo": "C.3",
+          "titulo": "Músicas populares, urbanas y contemporáneas",
+          "contenidos": [
+            "Sociedad de masas y autenticidad en la música.",
+            "Estilos urbanos: del ragtime al hip hop, incluyendo la movida madrileña y aragonesa."
+          ]
+        },
+        {
+          "codigo": "C.4",
+          "titulo": "El sonido y la música en los medios audiovisuales",
+          "contenidos": [
+            "Música como valor añadido en el lenguaje audiovisual.",
+            "Banda sonora, videojuegos y publicidad.",
+            "Técnicas básicas de captura y procesamiento de sonido e imagen."
+          ]
+        }
+      ]
+    }
+  },
+  "orientaciones_metodologicas": {
+    "principios": [
+      "Metodologías activas: aprender haciendo, ABP y aprendizaje por retos.",
+      "Uso de tecnologías digitales integradas en el proceso.",
+      "Fomento del pensamiento crítico y la autonomía del alumnado."
+    ],
+    "evaluacion": {
+      "enfoque": "Evaluación formativa centrada en el proceso y la autorregulación.",
+      "instrumentos": [
+        "Portafolios musicales (diarios, grabaciones, partituras).",
+        "Rúbricas de desempeño para autoevaluación y co-evaluación.",
+        "Producciones complejas y situaciones reales."
+      ]
+    }
+  },
+  "situaciones_aprendizaje": [
+    {
+      "numero": 4,
+      "titulo": "Viaje musical",
+      "reto": "Elaborar una lista de viaje musical con 6 canciones relacionadas emocionalmente.",
+      "descripcion": "Análisis de arreglos, letras, progresiones y géneros de una playlist seleccionada, incluyendo descubrimiento de nuevas músicas."
+    },
+    {
+      "numero": 5,
+      "titulo": "Como Hans Zimmer",
+      "reto": "Componer una banda sonora original para un fragmento de película.",
+      "descripcion": "Sincronización de música compuesta con imagen, explicando intenciones expresivas y técnicas utilizadas en editores de audio y video."
+    }
+  ],
+  "recursos_digitales": {
+    "composicion_edicion": [
+      "BandLab",
+      "Soundtrap",
+      "Flat.io",
+      "Noteflight"
+    ],
+    "audiovisual_investigacion": [
+      "Canva",
+      "Liveplasma",
+      "Last.fm"
+    ]
+  }
+}

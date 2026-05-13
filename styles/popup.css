@@ -1,0 +1,428 @@
+/* ============================================
+   POPUP STYLES
+   Data popup components for XML content
+   ============================================ */
+
+.data-popup {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    width: 380px;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: var(--spacing-md) var(--spacing-lg) 0;
+    position: sticky;
+    top: 0;
+    background: var(--bg-primary);
+    z-index: 1001;
+}
+
+.popup-close {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: var(--spacing-xs);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-base);
+}
+
+.popup-close:hover {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.popup-content {
+    padding: var(--spacing-lg);
+    padding-top: 0;
+}
+
+.popup-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 2px solid var(--accent-primary);
+}
+
+/* Data Items */
+.data-item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+    transition: all var(--transition-base);
+    cursor: pointer;
+}
+
+.data-item:hover {
+    border-color: var(--accent-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.data-item.selected {
+    background: var(--accent-soft);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.data-item h4 {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.data-item .description {
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: var(--spacing-md);
+}
+
+.data-item .details,
+.data-item .bloom-details,
+.data-item .intelligence-details {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+.data-item strong {
+    color: var(--text-primary);
+    font-weight: var(--font-weight-medium);
+}
+
+/* Categories */
+.data-category {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.data-category h4 {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    color: var(--accent-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.category-description {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-lg);
+    font-style: italic;
+}
+
+.category-items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.category-items .data-item {
+    margin-bottom: 0;
+}
+
+/* Special Item Types */
+.ods-item {
+    position: relative;
+}
+
+.bloom-level {
+    position: relative;
+}
+
+.bloom-level::before {
+    content: attr(data-order);
+    position: absolute;
+    top: var(--spacing-sm);
+    right: var(--spacing-sm);
+    background: var(--accent-primary);
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+}
+
+.intelligence-item h4 i {
+    color: var(--accent-primary);
+}
+
+/* Selection States */
+.data-item.selectable:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Scrollbar Styling */
+.data-popup::-webkit-scrollbar {
+    width: 6px;
+}
+
+.data-popup::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+    border-radius: 3px;
+}
+
+.data-popup::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+.data-popup::-webkit-scrollbar-thumb:hover {
+    background: var(--text-secondary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .data-popup {
+        width: 95vw;
+        max-width: none;
+        max-height: 80vh;
+    }
+
+    .popup-content {
+        padding: var(--spacing-md);
+        padding-top: 0;
+    }
+
+    .data-item {
+        padding: var(--spacing-md);
+    }
+
+    .metodologia-content-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    /* Hide suggestions and tips columns on small devices */
+    .metodologia-table-full .metodologia-sugg,
+    .metodologia-table-full .metodologia-tips,
+    .metodologia-table-full th:nth-child(3),
+    .metodologia-table-full th:nth-child(4) {
+        display: none;
+    }
+
+    /* Adjust widths for remaining columns */
+    .metodologia-name {
+        width: 35%;
+    }
+
+    .metodologia-desc {
+        width: 65%;
+    }
+
+    /* Smaller font size for mobile */
+    .metodologia-table-full {
+        font-size: var(--font-size-lg);
+    }
+
+    .metodologia-header {
+        font-size: var(--font-size-lg);
+        padding: var(--spacing-md) var(--spacing-sm);
+    }
+
+    .metodologia-name,
+    .metodologia-desc {
+        font-size: var(--font-size-lg);
+        padding: var(--spacing-md) var(--spacing-sm);
+    }
+}
+
+/* Animation */
+.data-popup {
+    animation: popupFadeIn 0.2s ease-out;
+}
+
+@keyframes popupFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Metodología specific styles */
+.metodologia-item {
+    padding: var(--spacing-lg);
+}
+
+.metodologia-title {
+    color: var(--accent-primary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-sm);
+}
+
+.metodologia-table-full {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: var(--font-size-xl);
+    margin-top: var(--spacing-md);
+    border: 2px solid #e5e7eb;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.metodologia-header {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    color: var(--text-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-lg);
+    padding: var(--spacing-xl) var(--spacing-lg);
+    text-align: left;
+    border-bottom: 2px solid #d1d5db;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.metodologia-row {
+    transition: all var(--transition-base);
+    background-color: #ffffff;
+}
+
+.metodologia-row:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+.metodologia-row:hover {
+    background-color: #f0f9ff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metodologia-row.selected {
+    background-color: var(--accent-soft);
+    border-left: 4px solid var(--accent-primary);
+}
+
+.metodologia-name,
+.metodologia-desc,
+.metodologia-sugg,
+.metodologia-tips {
+    padding: var(--spacing-xl) var(--spacing-lg);
+    vertical-align: top;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #f3f4f6;
+    font-size: var(--font-size-lg);
+    line-height: 1.7;
+}
+
+.metodologia-name {
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    width: 20%;
+    background-color: #fefefe;
+}
+
+.metodologia-desc,
+.metodologia-sugg,
+.metodologia-tips {
+    color: var(--text-secondary);
+    width: 26.67%;
+}
+
+.metodologia-row:last-child .metodologia-name,
+.metodologia-row:last-child .metodologia-desc,
+.metodologia-row:last-child .metodologia-sugg,
+.metodologia-row:last-child .metodologia-tips {
+    border-bottom: none;
+}
+
+.metodologia-error {
+    padding: var(--spacing-lg) var(--spacing-md);
+    text-align: center;
+    color: var(--error-color, #f44336);
+    font-style: italic;
+}
+
+.metodologia-item:hover .section-content {
+    border-left-color: var(--accent-primary);
+}
+
+.metodologia-item.selected {
+    background: var(--accent-soft);
+    border-color: var(--accent-primary);
+}
+
+.metodologia-item.selected .metodologia-title {
+    color: var(--accent-primary);
+}
+
+.metodologia-item.selected .section-content {
+    border-left-color: var(--accent-primary);
+}
+
+/* ODS metas styling */
+.ods-metas {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border-color);
+}
+
+.ods-metas ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ods-metas li {
+    list-style: none;
+    margin-bottom: var(--spacing-xs);
+    font-size: var(--font-size-xs);
+    color: var(--text-secondary);
+}
+
+/* Selection feedback */
+.data-item.selecting {
+    background: var(--accent-primary);
+    color: white;
+}
+
+.data-item.selecting .description,
+.data-item.selecting .details,
+.data-item.selecting .bloom-details,
+.data-item.selecting .intelligence-details,
+.data-item.selecting .section-content,
+.data-item.selecting .section-label,
+.data-item.selecting strong {
+    color: white;
+}
+
+.data-item.selecting h4,
+.data-item.selecting .metodologia-title {
+    color: white;
+}
+
+.data-item.selecting i {
+    color: white !important;
+}
+
+.data-item.selecting .section-content {
+    border-left-color: rgba(255, 255, 255, 0.3);
+}

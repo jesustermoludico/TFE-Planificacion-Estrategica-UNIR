@@ -1,0 +1,82 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "titulo_modulo": "Aplicaciones ofimáticas",
+    "codigo_identificador": "0223",
+    "duracion_total": "256",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y explotación de aplicaciones informáticas. Incluye aspectos como la búsqueda de software adecuado al entorno, la instalación y configuración, la elaboración de documentos y plantillas complejas, y la resolución de problemas técnicos para asistir al usuario final. Las líneas de actuación versarán sobre el análisis de novedades en el mercado, el proceso documental (texto, multimedia), el proceso de datos (hojas de cálculo y bases de datos relacionales) y la asistencia técnica en sistemas tanto monopuesto como en red.",
+    "objetivos_generales_asociados": "a, c, g, h, i, k, l, m, n, o",
+    "competencias_profesionales_asociadas": "a, c, f, g, h, j, k, l, m, n, ñ, p, r",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_223",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Procesamiento de textos y documentación",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_223", "descripcion_punto": "Edición básica y avanzada: herramientas WYSIWYG y WYSIWYM." },
+                { "id_punto": "P_01_02_223", "descripcion_punto": "Uso de estilos, plantillas y creación de macros." },
+                { "id_punto": "P_01_03_223", "descripcion_punto": "Importación/exportación y conversión de formatos documentales." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_223",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Multimedia y presentaciones",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_223", "descripcion_punto": "Imagen fija: formatos, resolución, retoque y ajustes de color." },
+                { "id_punto": "P_02_02_223", "descripcion_punto": "Vídeo: formatos, importación y conversión básica." },
+                { "id_punto": "P_02_03_223", "descripcion_punto": "Presentaciones: diseño de diapositivas, objetos, patrones y asistentes." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_223",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Proceso de datos: Hojas de cálculo y bases de datos",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_223", "descripcion_punto": "Hojas de cálculo: fórmulas, funciones, tablas y gráficos dinámicos." },
+                { "id_punto": "P_03_02_223", "descripcion_punto": "Bases de datos ofimáticas: modelo relacional, tablas, consultas e informes." },
+                { "id_punto": "P_03_03_223", "descripcion_punto": "Automatización mediante macros en hojas de cálculo y bases de datos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_223",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Integración y gestión de correo",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_223", "descripcion_punto": "Tipos de aplicaciones, licencias y requisitos de instalación." },
+                { "id_punto": "P_04_02_223", "descripcion_punto": "Gestión de correo y agenda: firmas, libretas de direcciones y foros." },
+                { "id_punto": "P_04_03_223", "descripcion_punto": "Ofimática en intranets y herramientas de trabajo colaborativo (groupware)." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_223",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Técnicas de soporte al usuario",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_223", "descripcion_punto": "Elaboración de guías y manuales de uso." },
+                { "id_punto": "P_05_02_223", "descripcion_punto": "Formación al usuario y resolución de incidencias en la explotación." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_3_223",
+            "ra_descripcion": "Elabora documentos y plantillas de cálculo, aplicando opciones avanzadas.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han aplicado fórmulas y funciones sobre rangos y hojas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han generado y modificado gráficos de diferentes tipos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha utilizado la hoja de cálculo como base de datos (filtrado, ordenación, protección)." }
+            ]
+        },
+        {
+            "ra_id": "RA_9_223",
+            "ra_descripcion": "Aplica técnicas de soporte en el uso de aplicaciones, resolviendo incidencias.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han elaborado guías visuales con conceptos básicos de uso." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han aplicado procedimientos para salvaguardar y recuperar información." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han solventado incidencias utilizando documentación técnica y ayudas en línea." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0491",
+    "titulo_modulo": "Sistemas de Gestión Empresarial",
+    "duracion_total": "105",
+    "creditos_ects": "6",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de implantación y adaptación de sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes. La función incluye: La instalación, configuración y explotación de sistemas ERP-CRM. La supervisión en la implantación. El mantenimiento y consulta de la información. La adaptación a las necesidades de la empresa. El desarrollo de nuevos componentes. Las líneas de actuación versarán sobre: La identificación del hardware necesario. El análisis de cambios y novedades en sistemas de gestión. La interpretación de documentación técnica. La instalación y actualización de sistemas ERP-CRM. La selección de módulos. La adaptación de sistemas a supuestos planteados. La verificación de la seguridad de acceso y la elaboración de documentación técnica.",
+    "objetivos_generales_asociados": "a, b, c, e, f, l, o, p, q, w",
+    "competencias_profesionales_asociadas": "a, b, c, e, f, l, o, p, q, s, t, u",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_491",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Identificación e instalación de sistemas ERP-CRM",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_491", "descripcion_punto": "Introducción a la gestión empresarial, logística y producción. Evolución de la informática de gestión." },
+                { "id_punto": "P_01_02_491", "descripcion_punto": "Conceptos de ERP y CRM: revisión de sistemas actuales, características, requisitos, ventajas e inconvenientes." },
+                { "id_punto": "P_01_03_491", "descripcion_punto": "Arquitectura de un sistema ERP-CRM e integración de módulos. Sistemas operativos y gestores de datos compatibles." },
+                { "id_punto": "P_01_04_491", "descripcion_punto": "Procesos de instalación: tipos de licencia, instalaciones monopuesto y cliente/servidor." },
+                { "id_punto": "P_01_05_491", "descripcion_punto": "Configuración de módulos funcionales: contabilidad, nóminas, facturación, marketing y producción." },
+                { "id_punto": "P_01_06_491", "descripcion_punto": "Parámetros de configuración, permisos de acceso, actualización del sistema y asistencia técnica remota." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_491",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Gestión y adaptación de sistemas ERP-CRM",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_491", "descripcion_punto": "Organización y consulta de información: definición de campos, tablas y vistas." },
+                { "id_punto": "P_02_02_491", "descripcion_punto": "Interfaces de entrada: formularios e informes personalizados. Listados de aplicación y gráficos." },
+                { "id_punto": "P_02_03_491", "descripcion_punto": "Procedimientos almacenados de servidor y herramientas de monitorización de rendimiento." },
+                { "id_punto": "P_02_04_491", "descripcion_punto": "Auditorías de acceso, trazas del sistema (logs) y resolución de incidencias." },
+                { "id_punto": "P_02_05_491", "descripcion_punto": "Extracción de datos en sistemas ERP-CRM y almacenes de datos. Exportación a diversos formatos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_491",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Desarrollo de componentes y Business Intelligence",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_491", "descripcion_punto": "Desarrollo de componentes: técnicas, estándares y especificaciones funcionales." },
+                { "id_punto": "P_03_02_491", "descripcion_punto": "Lenguaje propio de los sistemas ERP-CRM: sintaxis, estructuras de programación y manipulación de datos." },
+                { "id_punto": "P_03_03_491", "descripcion_punto": "Generación de programas de extracción entre sistemas (batch inputs) y uso de APIs." },
+                { "id_punto": "P_03_04_491", "descripcion_punto": "Conceptos de Data Warehouse y procesos ETL (extracción, transformación y carga)." },
+                { "id_punto": "P_03_05_491", "descripcion_punto": "Business Intelligence: modelos OLAP, cuadros de mando (dashboards) y reporting analítico." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_491",
+            "ra_descripcion": "Identifica sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes (ERP-CRM).",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido los diferentes sistemas ERP-CRM que existen en el mercado." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han comparado sistemas ERP-CRM en función de sus características y requisitos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han verificado las configuraciones del SO y del gestor de datos para garantizar funcionalidad." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han documentado las operaciones realizadas y las incidencias producidas." }
+            ]
+        },
+        {
+            "ra_id": "RA_5_491",
+            "ra_descripcion": "Desarrolla componentes para un sistema ERP-CRM analizando y utilizando el lenguaje de programación incorporado.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido las sentencias del lenguaje propio del sistema ERP-CRM." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado elementos de programación para crear componentes de manipulación de datos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han modificado componentes software para añadir nuevas funcionalidades." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han integrado y verificado los nuevos componentes en el sistema ERP-CRM." }
+            ]
+        }
+    ]
+}

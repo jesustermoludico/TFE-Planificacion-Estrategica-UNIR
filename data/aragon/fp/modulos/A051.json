@@ -1,0 +1,44 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "A051",
+    "titulo_modulo": "Lengua extranjera profesional: inglés 2",
+    "duracion_total": "42",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para el desempeño de actividades relacionadas con el entorno profesional. Las líneas de actuación versarán sobre: La elaboración de mensajes orales y escritos para realizar consultas técnicas. La interpretación de la información escrita técnica. La cumplimentación de documentos del sector profesional. La valoración de la importancia de la comunicación oral y escrita en lengua extranjera para la empresa.",
+    "objetivos_generales_asociados": "Contribuye a los objetivos generales del ciclo",
+    "competencias_profesionales_asociadas": "Contribuye a las competencias del título",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_A051",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Comprensión y producción de mensajes orales",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_A051", "descripcion_punto": "Reconocimiento de mensajes orales profesionales: directos, telefónicos y grabados." },
+                { "id_punto": "P_01_02_A051", "descripcion_punto": "Recursos lingüísticos para gustos, preferencias, sugerencias, argumentaciones e instrucciones." },
+                { "id_punto": "P_01_03_A051", "descripcion_punto": "Producción de mensajes orales: registros, fonemas, combinaciones y marcadores lingüísticos sociales." },
+                { "id_punto": "P_01_04_A051", "descripcion_punto": "Mantenimiento del discurso: petición de aclaración y entonación como recurso de cohesión." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_A051",
+            "ra_descripcion": "Reconoce información cotidiana y profesional específica contenida en discursos orales claros.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha situado el mensaje en su contexto profesional e identificado la idea principal." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han extraído las ideas principales de mensajes en medios de comunicación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han reconocido instrucciones orales y se han seguido las indicaciones." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_A051",
+            "ra_descripcion": "Emite mensajes orales claros y bien estructurados participando en conversaciones profesionales.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha expresado con fluidez y precisión sobre temas generales y profesionales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha utilizado correctamente la terminología de la profesión." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han realizado presentaciones breves y preparadas sobre su especialidad." }
+            ]
+        }
+    ]
+}

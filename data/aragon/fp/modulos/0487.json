@@ -1,0 +1,153 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0487",
+    "titulo_modulo": "Entornos de desarrollo",
+    "duracion_total": "96",
+    "creditos_ects": "6",
+    "seccion_orientaciones": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollador de aplicaciones. La función de desarrollador de aplicaciones incluye aspectos como: La utilización de las herramientas software disponibles. La elaboración de documentación interna y técnica de la aplicación. La elaboración y ejecución de pruebas. La optimización de código. Las actividades profesionales asociadas a esta función se aplican en el desarrollo de aplicaciones. Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo están relacionados con: La interpretación de documentación técnica. La instalación, configuración y personalización de diversos entornos de desarrollo. La utilización de distintos entornos de desarrollo para la edición y prueba de aplicaciones. La utilización de herramientas de depuración, optimización y documentación de aplicaciones. La generación de diagramas técnicos. La elaboración de la documentación interna de la aplicación.",
+    "objetivos_generales_asociados": "d, e, h, i, j",
+    "competencias_profesionales_asociadas": "d, f, h, i, j",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_487",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Desarrollo de software",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_487", "descripcion_punto": "Concepto de programa informático. Código fuente, objeto y ejecutable; máquinas virtuales." },
+                { "id_punto": "P_01_02_487", "descripcion_punto": "Tipos de lenguajes de programación y características de los más difundidos." },
+                { "id_punto": "P_01_03_487", "descripcion_punto": "Ingeniería del software: ciclo de vida y fases del desarrollo (análisis, diseño, codificación, pruebas, explotación)." },
+                { "id_punto": "P_01_04_487", "descripcion_punto": "Modelos del proceso de desarrollo de software y agentes participantes." },
+                { "id_punto": "P_01_05_487", "descripcion_punto": "Arquitectura de una aplicación y patrones de diseño." },
+                { "id_punto": "P_01_06_487", "descripcion_punto": "Proceso de obtención de código ejecutable y herramientas implicadas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_487",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Instalación y uso de entornos de desarrollo",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_487", "descripcion_punto": "Funciones de un entorno de desarrollo: componentes, herramientas y asistentes." },
+                { "id_punto": "P_02_02_487", "descripcion_punto": "Instalación, personalización y desinstalación de módulos adicionales." },
+                { "id_punto": "P_02_03_487", "descripcion_punto": "Mecanismos de actualización y entornos de desarrollo libres y comerciales usuales." },
+                { "id_punto": "P_02_04_487", "descripcion_punto": "Uso básico: edición de programas y generación de ejecutables." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_487",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Diseño y realización de pruebas",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_487", "descripcion_punto": "Planificación y tipos de pruebas (funcionales, estructurales, regresión)." },
+                { "id_punto": "P_03_02_487", "descripcion_punto": "Procedimientos, casos de prueba y validaciones." },
+                { "id_punto": "P_03_03_487", "descripcion_punto": "Herramientas de depuración: puntos de ruptura, examinadores de variables." },
+                { "id_punto": "P_03_04_487", "descripcion_punto": "Pruebas de código: cubrimiento, valores límite y clases de equivalencia." },
+                { "id_punto": "P_03_05_487", "descripcion_punto": "Normas de calidad, pruebas unitarias y automatización de pruebas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_487",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Optimización y documentación",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_487", "descripcion_punto": "Refactorización: concepto, limitaciones y patrones usuales." },
+                { "id_punto": "P_04_02_487", "descripcion_punto": "Analizadores de código y herramientas de ayuda a la refactorización." },
+                { "id_punto": "P_04_03_487", "descripcion_punto": "Control de versiones: estructura, repositorios y clientes integrados." },
+                { "id_punto": "P_04_04_487", "descripcion_punto": "Documentación de clases y herramientas de comentarios." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_487",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Análisis y Diseño Orientado a Objetos. Elaboración de diagramas de clases",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_487", "descripcion_punto": "Clases, atributos, métodos y visibilidad." },
+                { "id_punto": "P_05_02_487", "descripcion_punto": "Objetos e instanciación." },
+                { "id_punto": "P_05_03_487", "descripcion_punto": "Relaciones: herencia, composición y agregación." },
+                { "id_punto": "P_05_04_487", "descripcion_punto": "Notación de los diagramas de clases." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_487",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Análisis y Diseño Orientado a Objetos. Elaboración de diagramas de comportamiento",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_487", "descripcion_punto": "Diagramas de casos de uso: actores, escenarios y comunicación." },
+                { "id_punto": "P_06_02_487", "descripcion_punto": "Diagramas de secuencia y colaboración: línea de vida y envío de mensajes." },
+                { "id_punto": "P_06_03_487", "descripcion_punto": "Diagramas de actividades: transiciones, decisiones y combinaciones." },
+                { "id_punto": "P_06_04_487", "descripcion_punto": "Diagramas de estado: eventos, señales y transiciones." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha reconocido la relación de los programas con los componentes del sistema." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las fases de desarrollo de una aplicación informática." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han diferenciado los conceptos de código fuente, objeto y ejecutable." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han reconocido las características de la generación de código intermedio." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han clasificado los lenguajes de programación." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha evaluado la funcionalidad de las herramientas utilizadas." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Evalúa entornos integrados de desarrollo analizando sus características para editar código y generar ejecutables.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han instalado entornos de desarrollo, propietarios y libres." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han añadido y eliminado módulos en el entorno de desarrollo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha personalizado y automatizado el entorno de desarrollo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha configurado el sistema de actualización del entorno." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han generado ejecutables a partir de código fuente de diferentes lenguajes." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Verifica el funcionamiento de programas diseñando y realizando pruebas.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los diferentes tipos de pruebas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han definido casos de prueba." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado herramientas de depuración y prueba." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado herramientas de depuración para puntos de ruptura." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han efectuado pruebas unitarias de clases y funciones." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han implementado pruebas automáticas y documentado incidencias." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Optimiza código empleando las herramientas disponibles en el entorno de desarrollo.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los patrones de refactorización más usuales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han elaborado las pruebas asociadas a la refactorización." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha revisado el código fuente usando un analizador de código." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han aplicado patrones de refactorización con herramientas específicas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha realizado el control de versiones integrado en el entorno." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los conceptos básicos de la POO." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las herramientas para la elaboración de diagramas de clases." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha interpretado el significado de los diagramas de clases." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han trazado diagramas de clases a partir de sus especificaciones." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha generado código a partir de un diagrama de clases." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha generado un diagrama de clases mediante ingeniería inversa." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los distintos tipos de diagramas de comportamiento." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha reconocido el significado de los diagramas de casos de uso." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han interpretado y elaborado diagramas de interacción sencillos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han interpretado y elaborado diagramas de actividades sencillos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han interpretado y planteado diagramas de estados sencillos." }
+            ]
+        }
+    ]
+}

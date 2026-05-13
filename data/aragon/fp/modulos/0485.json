@@ -1,0 +1,197 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0485",
+    "titulo_modulo": "Programación",
+    "duracion_total": "256",
+    "creditos_ects": "14",
+    "seccion_orientaciones": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de programación de aplicaciones de propósito general en lenguajes orientados a objetos. La función de programación incluye aspectos como: El desarrollo de programas organizados en clases aplicando los principios de la programación orientada a objetos. La utilización de interfaces para la interacción de la aplicación con el usuario. La identificación, análisis e integración de librerías para incorporar funcionalidades específicas. El almacenamiento y recuperación de información en sistemas gestores de bases de datos relacionales y orientados a objetos. Las actividades profesionales se aplican en el desarrollo y adaptación de programas informáticos de propósito general. Las líneas de actuación en el proceso de enseñanza-aprendizaje versarán sobre: La interpretación y aplicación de los principios de la programación orientada a objetos. La evaluación, selección y utilización de herramientas y lenguajes de programación. La utilización de características específicas de lenguajes y entornos de programación. La identificación de funcionalidades aportadas por sistemas gestores de bases de datos y su incorporación a programas. La documentación de los programas desarrollados.",
+    "objetivos_generales_asociados": "e, j, q",
+    "competencias_profesionales_asociadas": "a, e, f, i, j, v, y, z",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_485",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Identificación de los elementos de un programa informático",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_485", "descripcion_punto": "Lenguajes de programación. Lenguajes estáticos y dinámicos. Estructura y bloques fundamentales." },
+                { "id_punto": "P_01_02_485", "descripcion_punto": "Entornos de desarrollo, gestores de código y de tareas." },
+                { "id_punto": "P_01_03_485", "descripcion_punto": "Variables, tipos de datos, literales y constantes." },
+                { "id_punto": "P_01_04_485", "descripcion_punto": "Operadores, expresiones y conversiones de tipo." },
+                { "id_punto": "P_01_05_485", "descripcion_punto": "Comentarios, documentación y tests." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_485",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Utilización de objetos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_485", "descripcion_punto": "Características de los objetos e introspección. Instanciación." },
+                { "id_punto": "P_02_02_485", "descripcion_punto": "Utilización de métodos, propiedades y métodos estáticos." },
+                { "id_punto": "P_02_03_485", "descripcion_punto": "Parámetros y valores devueltos. Librerías de objetos." },
+                { "id_punto": "P_02_04_485", "descripcion_punto": "Constructores. Destrucción de objetos y liberación de memoria." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_485",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Uso de estructuras de control",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_485", "descripcion_punto": "Estructuras de selección, repetición y salto." },
+                { "id_punto": "P_03_02_485", "descripcion_punto": "Control de excepciones." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_485",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Desarrollo de clases",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_485", "descripcion_punto": "Concepto de clase. Estructura y miembros. Atributos y métodos." },
+                { "id_punto": "P_04_02_485", "descripcion_punto": "Creación de constructores. Encapsulación y visibilidad." },
+                { "id_punto": "P_04_03_485", "descripcion_punto": "Utilización de clases, objetos y clases heredadas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_485",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Lectura y escritura de información",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_485", "descripcion_punto": "Concepto de flujo. Tipos: bytes y caracteres. Utilización de flujos." },
+                { "id_punto": "P_05_02_485", "descripcion_punto": "Entrada desde teclado y salida a pantalla." },
+                { "id_punto": "P_05_03_485", "descripcion_punto": "Ficheros de datos y registros. Apertura, cierre y modos de acceso." },
+                { "id_punto": "P_05_04_485", "descripcion_punto": "Persistencia y serialización de objetos. Creación y eliminación de directorios." },
+                { "id_punto": "P_05_05_485", "descripcion_punto": "Interfaces y controladores de eventos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_485",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Aplicación de las estructuras de almacenamiento",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_485", "descripcion_punto": "Creación de arrays simples y multidimensionales." },
+                { "id_punto": "P_06_02_485", "descripcion_punto": "Cadenas de caracteres, listas y otras colecciones. Ordenación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_485",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Utilización avanzada de clases",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_485", "descripcion_punto": "Composición de clases y herencia. Superclases y subclases." },
+                { "id_punto": "P_07_02_485", "descripcion_punto": "Clases y métodos abstractos y finales. Sobreescritura." },
+                { "id_punto": "P_07_03_485", "descripcion_punto": "Polimorfismo y metaprogramación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_08_485",
+            "orden_bloque": 8,
+            "descripcion_bloque": "Información en documentos de texto y persistencia",
+            "puntos_detalle": [
+                { "id_punto": "P_08_01_485", "descripcion_punto": "Expresiones regulares y patrones." },
+                { "id_punto": "P_08_02_485", "descripcion_punto": "Tratamiento y manipulación de documentos XML." },
+                { "id_punto": "P_08_03_485", "descripcion_punto": "Bases de datos orientadas a objetos: instalación, creación y consulta." },
+                { "id_punto": "P_08_04_485", "descripcion_punto": "Recuperación, modificación y borrado en BDOO." }
+            ]
+        },
+        {
+            "id_bloque": "CB_09_485",
+            "orden_bloque": 9,
+            "descripcion_bloque": "Gestión de bases de datos relacionales",
+            "puntos_detalle": [
+                { "id_punto": "P_09_01_485", "descripcion_punto": "Establecimiento de conexiones y recuperación de información." },
+                { "id_punto": "P_09_02_485", "descripcion_punto": "Manipulación, seguridad y optimización en bases de datos relacionales." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce la estructura de un programa informático, identificando y relacionando los elementos del lenguaje.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los bloques que componen la estructura." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado proyectos de desarrollo de aplicaciones." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado entornos integrados de desarrollo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado los tipos de variables y su utilidad." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han creado y utilizado constantes y literales." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado operadores y conversiones de tipo." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación orientada a objetos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los fundamentos de la POO." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han instanciado objetos a partir de clases predefinidas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado métodos, propiedades y constructores." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han incorporado y utilizado librerías de objetos." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha escrito código con estructuras de selección y repetición." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han reconocido las posibilidades de las sentencias de salto." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha escrito código utilizando control de excepciones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han probado y depurado los programas." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Desarrolla programas organizados en clases analizando y aplicando los principios de la POO.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han definido clases, propiedades y métodos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado mecanismos para controlar la visibilidad." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han definido y utilizado clases heredadas e interfaces." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han creado conjuntos y librerías de clases." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Realiza operaciones de entrada y salida de información utilizando procedimientos del lenguaje.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha utilizado la consola y formatos de visualización." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado ficheros para almacenar y recuperar información." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han creado interfaces gráficos de usuario simples." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han programado controladores de eventos." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Escribe programas que manipulen información seleccionando y utilizando tipos avanzados de datos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han escrito programas que utilicen arrays y listas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado clases y métodos genéricos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado expresiones regulares para búsqueda de patrones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado manipulaciones sobre documentos XML." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Desarrolla programas aplicando características avanzadas de los lenguajes orientados a objetos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado conceptos de herencia y jerarquías." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han sobrescrito métodos de la superclase." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han diseñado, probado y depurado jerarquías de clases." }
+            ]
+        },
+        {
+            "ra_id": "RA_8",
+            "ra_descripcion": "Utiliza bases de datos orientadas a objetos analizando técnicas para mantener la persistencia.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado características e instalado gestores BDOO." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado estructuras para el almacenamiento de objetos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han programado aplicaciones para recuperar, actualizar y eliminar objetos." }
+            ]
+        },
+        {
+            "ra_id": "RA_9",
+            "ra_descripcion": "Gestiona información almacenada en bases de datos relacionales manteniendo la integridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han programado conexiones con bases de datos relacionales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha escrito código para almacenar y recuperar información." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han efectuado borrados, modificaciones y ejecuciones de consultas." }
+            ]
+        }
+    ]
+}

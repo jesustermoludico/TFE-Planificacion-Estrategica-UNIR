@@ -1,0 +1,93 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0616",
+    "titulo_modulo": "Proyecto de desarrollo de aplicaciones Web",
+    "duracion_total": "40",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional complementa la formación establecida para el resto de los módulos profesionales que integran el título en las funciones de análisis del contexto, diseño del proyecto y organización de la ejecución. La función de análisis del contexto incluye las subfunciones de recopilación de información, identificación y priorización de necesidades y detección de aspectos facilitadores o dificultadores. La función de diseño del proyecto tiene como objetivo establecer las líneas generales para dar respuesta a las necesidades planteadas (definición de la intervención, priorización de acciones, planificación, determinación de recursos, diseño de documentación y plan de atención al cliente). La función de organización de la intervención incluye detección de demandas, programación, gestión, coordinación, supervisión y elaboración de informes. Las líneas de actuación versarán sobre la ejecución de trabajos en equipo, autoevaluación, autonomía, iniciativa personal y el uso de las Tecnologías de la Información y de la Comunicación.",
+    "objetivos_generales_asociados": "Totalidad de los objetivos generales del ciclo",
+    "competencias_profesionales_asociadas": "Totalidad de las competencias profesionales, personales y sociales del título",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_0616",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Análisis del contexto y detección de necesidades",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_0616", "descripcion_punto": "Recopilación de información y priorización de necesidades." },
+                { "id_punto": "P_01_02_0616", "descripcion_punto": "Identificación de aspectos que facilitan o dificultan el desarrollo de la intervención." },
+                { "id_punto": "P_01_03_0616", "descripcion_punto": "Clasificación de empresas por características organizativas y productos/servicios." },
+                { "id_punto": "P_01_04_0616", "descripcion_punto": "Valoración de oportunidades de negocio y tipos de proyectos requeridos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_0616",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Diseño y planificación del proyecto técnico",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_0616", "descripcion_punto": "Definición y adaptación de la intervención técnica." },
+                { "id_punto": "P_02_02_0616", "descripcion_punto": "Priorización, secuenciación de acciones y establecimiento de objetivos." },
+                { "id_punto": "P_02_03_0616", "descripcion_punto": "Determinación de recursos materiales y humanos. Presupuesto económico." },
+                { "id_punto": "P_02_04_0616", "descripcion_punto": "Diseño de documentación técnica y plan de atención al cliente." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_0616",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Organización, seguimiento y control de la ejecución",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_0616", "descripcion_punto": "Programación y gestión de la ejecución. Logística y permisos." },
+                { "id_punto": "P_03_02_0616", "descripcion_punto": "Identificación de riesgos y plan de prevención de riesgos laborales." },
+                { "id_punto": "P_03_03_0616", "descripcion_punto": "Definición de procedimientos de evaluación e indicadores de calidad." },
+                { "id_punto": "P_03_04_0616", "descripcion_punto": "Gestión de incidencias, cambios en recursos y documentación de cierre." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_0616",
+            "ra_descripcion": "Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que las puedan satisfacer.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han clasificado las empresas del sector por sus características organizativas y tipo de servicio." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han caracterizado las empresas tipo indicando estructura y funciones por departamento." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las necesidades más demandadas a las empresas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han valorado las oportunidades de negocio previsibles en el sector." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_0616",
+            "ra_descripcion": "Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha realizado el estudio de viabilidad técnica del mismo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las fases o partes que componen el proyecto y su contenido." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han establecido los objetivos que se pretenden conseguir identificando su alcance." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han previsto los recursos materiales y personales necesarios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha realizado el presupuesto económico correspondiente." }
+            ]
+        },
+        {
+            "ra_id": "RA_3_0616",
+            "ra_descripcion": "Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han determinado los recursos y la logística necesarios para cada actividad." },
+                { "let_criterio": "c", "descripcion_criterio": "Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han determinado los procedimientos de actuación o ejecución de las actividades." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención." }
+            ]
+        },
+        {
+            "ra_id": "RA_4_0616",
+            "ra_descripcion": "Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha definido el procedimiento de evaluación de las actividades o intervenciones." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han definido los indicadores de calidad para realizar la evaluación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha definido el procedimiento para la evaluación de las incidencias y su registro." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha definido el procedimiento para gestionar cambios en recursos y actividades." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes." }
+            ]
+        }
+    ]
+}

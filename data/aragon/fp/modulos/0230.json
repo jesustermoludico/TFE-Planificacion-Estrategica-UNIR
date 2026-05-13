@@ -1,0 +1,58 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0230",
+    "titulo_modulo": "Empresa e iniciativa empresarial",
+    "duracion_total": "63",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desarrollar la propia iniciativa en el ámbito empresarial, tanto hacia el autoempleo como hacia la asunción de responsabilidades. Las líneas de actuación versarán sobre: el manejo de fuentes de información sobre el sector; la realización de casos y dinámicas de grupo sobre actitudes emprendedoras; la utilización de programas de gestión administrativa para pymes; y la realización de un proyecto de plan de empresa que incluya viabilidad, acción comercial y responsabilidad social.",
+    "objetivos_generales_asociados": "p, q",
+    "competencias_profesionales_asociadas": "q, u, v",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_230",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Iniciativa emprendedora",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_230", "descripcion_punto": "Innovación y desarrollo económico en SMR. Cultura emprendedora." },
+                { "id_punto": "P_01_02_230", "descripcion_punto": "Factores clave: iniciativa, creatividad, formación e idea de negocio." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_230",
+            "orden_bloque": 2,
+            "descripcion_bloque": "La empresa y su entorno",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_230", "descripcion_punto": "La empresa como sistema, funciones básicas y entorno de una pyme informática." },
+                { "id_punto": "P_02_02_230", "descripcion_punto": "Relaciones con clientes, competencia y responsabilidad social/ética." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_230",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Creación y puesta en marcha de una empresa",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_230", "descripcion_punto": "Formas jurídicas, fiscalidad, trámites de constitución y ayudas." },
+                { "id_punto": "P_03_02_230", "descripcion_punto": "Plan de empresa: viabilidad económica y financiera." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_230",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Función administrativa",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_230", "descripcion_punto": "Contabilidad básica, obligaciones fiscales y circuitos de documentación." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_230",
+            "ra_descripcion": "Reconoce las capacidades asociadas a la iniciativa emprendedora.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado el concepto de innovación y su relación con el progreso." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha definido una idea de negocio del ámbito de los sistemas microinformáticos." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inteligencias_multiple [
+    <!ELEMENT inteligencias_multiple (inteligencia+)>
+    <!ELEMENT inteligencia (id_inteligencia, tipo, definicion, perfil_alumno, estrategias_aula, icono)>
+    <!ELEMENT id_inteligencia (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT definicion (#PCDATA)>
+    <!ELEMENT perfil_alumno (#PCDATA)>
+    <!ELEMENT estrategias_aula (#PCDATA)>
+    <!ELEMENT icono (#PCDATA)>
+]>
+<inteligencias_multiple>
+  <inteligencia>
+    <id_inteligencia>1</id_inteligencia>
+    <tipo>Lingüística</tipo>
+    <definicion>Capacidad de usar las palabras de manera efectiva, ya sea oralmente o por escrito.</definicion>
+    <perfil_alumno>Disfruta escribiendo documentación, leyendo manuales técnicos y explicando conceptos.</perfil_alumno>
+    <estrategias_aula>Redacción de archivos README, debates técnicos y creación de tutoriales escritos.</estrategias_aula>
+    <icono>format-text</icono>
+  </inteligencia>
+  <inteligencia>
+    <id_inteligencia>2</id_inteligencia>
+    <tipo>Lógico-Matemática</tipo>
+    <definicion>Capacidad para el razonamiento abstracto, la lógica, los números y el pensamiento crítico.</definicion>
+    <perfil_alumno>Destaca en programación de algoritmos, resolución de problemas y lógica booleana.</perfil_alumno>
+    <estrategias_aula>Ejercicios de programación pura, diseño de bases de datos y análisis de complejidad computacional.</estrategias_aula>
+    <icono>math-compass</icono>
+  </inteligencia>
+  <inteligencia>
+    <id_inteligencia>3</id_inteligencia>
+    <tipo>Visual-Espacial</tipo>
+    <definicion>Capacidad de percibir imágenes, transformarlas y recrearlas mentalmente.</definicion>
+    <perfil_alumno>Aprende mejor con diagramas de flujo, maquetas visuales, vídeos y mapas mentales.</perfil_alumno>
+    <estrategias_aula>Diseño de interfaces (UI/UX), diagramas de clases UML y esquemas de redes físicas.</estrategias_aula>
+    <icono>view-dashboard</icono>
+  </inteligencia>
+  <inteligencia>
+    <id_inteligencia>4</id_inteligencia>
+    <tipo>Cinestésico-Corporal</tipo>
+    <definicion>Habilidad para usar el cuerpo para expresar ideas o transformar elementos físicos.</definicion>
+    <perfil_alumno>Prefiere el aprendizaje práctico mediante el tacto y el movimiento de componentes.</perfil_alumno>
+    <estrategias_aula>Montaje de hardware, cableado de racks, laboratorios de robótica y simulaciones físicas.</estrategias_aula>
+    <icono>hand-back-right</icono>
+  </inteligencia>
+  <inteligencia>
+    <id_inteligencia>5</id_inteligencia>
+    <tipo>Musical</tipo>
+    <definicion>Capacidad de percibir, distinguir y expresar formas musicales y rítmicas.</definicion>
+    <perfil_alumno>Sensible a los patrones auditivos, el ritmo y los sonidos del entorno.</perfil_alumno>
+    <estrategias_aula>Análisis de señales de audio digital, programación de sintetizadores y uso de música para la concentración.</estrategias_aula>
+    <icono>music-note</icono>
+  </inteligencia>
+  <inteligencia>
+    <id_inteligencia>6</id_inteligencia>
+    <tipo>Interpersonal</tipo>
+    <definicion>Habilidad de percibir intenciones, sentimientos y estados anímicos de los demás.</definicion>
+    <perfil_alumno>Excelente trabajando en equipo, mediando en conflictos y liderando grupos.</perfil_alumno>
+    <estrategias_aula>Metodologías Ágiles (Scrum), Pair Programming y proyectos colaborativos.</estrategias_aula>
+    <icono>account-group</icono>
+  </inteligencia>
+  <inteligencia>
+    <id_inteligencia>7</id_inteligencia>
+    <tipo>Intrapersonal</tipo>
+    <definicion>Conocimiento de las propias fortalezas, debilidades y procesos internos de pensamiento.</definicion>
+    <perfil_alumno>Autónomo, reflexivo, prefiere el estudio individual y el autoaprendizaje.</perfil_alumno>
+    <estrategias_aula>Portafolios de aprendizaje personal, blogs de reflexión y autoevaluación guiada.</estrategias_aula>
+    <icono>account-circle</icono>
+  </inteligencia>
+  <inteligencia>
+    <id_inteligencia>8</id_inteligencia>
+    <tipo>Naturalista</tipo>
+    <definicion>Facultad de reconocer, clasificar y utilizar elementos del entorno natural.</definicion>
+    <perfil_alumno>Interesado en la sostenibilidad, la ecología y la organización de sistemas biológicos.</perfil_alumno>
+    <estrategias_aula>Proyectos de Green IT, gestión de e-waste y análisis de datos medioambientales.</estrategias_aula>
+    <icono>leaf</icono>
+  </inteligencia>
+</inteligencias_multiple>

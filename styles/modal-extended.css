@@ -1,0 +1,721 @@
+/* ============================================
+   MODAL COMPONENT STYLES - EXTENDED
+   ============================================ */
+
+/* Metodología 4-Column Table Layout for Modal */
+.metodologia-table-full-modal {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: var(--font-size-xl);
+    margin-top: var(--spacing-md);
+    border: 2px solid #e5e7eb;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.metodologia-header-modal {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    color: var(--text-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-lg);
+    padding: var(--spacing-xl) var(--spacing-lg);
+    text-align: left;
+    border-bottom: 2px solid #d1d5db;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.metodologia-row-modal {
+    transition: all var(--transition-base);
+    background-color: #ffffff;
+}
+
+.metodologia-row-modal:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+.metodologia-row-modal:hover {
+    background-color: #f0f9ff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metodologia-checkbox-cell {
+    width: 60px;
+    text-align: center;
+    padding: var(--spacing-lg);
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #f3f4f6;
+    background-color: #fefefe;
+}
+
+.metodologia-name-modal,
+.metodologia-desc-modal,
+.metodologia-sugg-modal,
+.metodologia-tips-modal {
+    padding: var(--spacing-xl) var(--spacing-lg);
+    vertical-align: top;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #f3f4f6;
+    font-size: var(--font-size-lg);
+    line-height: 1.7;
+}
+
+.metodologia-name-modal {
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    width: 18%;
+    background-color: #fefefe;
+}
+
+.metodologia-desc-modal,
+.metodologia-sugg-modal,
+.metodologia-tips-modal {
+    color: var(--text-secondary);
+    width: 27.33%;
+}
+
+.metodologia-row-modal:last-child .metodologia-checkbox-cell,
+.metodologia-row-modal:last-child .metodologia-name-modal,
+.metodologia-row-modal:last-child .metodologia-desc-modal,
+.metodologia-row-modal:last-child .metodologia-sugg-modal,
+.metodologia-row-modal:last-child .metodologia-tips-modal {
+    border-bottom: none;
+}
+
+/* Metodología Modal Table - Improved Design */
+.metodologia-table-full-modal-improved {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: var(--font-size-xl);
+    margin-top: var(--spacing-md);
+    border: 2px solid #e5e7eb;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.metodologia-header-modal-improved {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    color: var(--text-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-xl);
+    padding: var(--spacing-xl) var(--spacing-lg);
+    text-align: left;
+    border-bottom: 2px solid #d1d5db;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.metodologia-row-modal-improved {
+    transition: all var(--transition-base);
+    background-color: #ffffff;
+}
+
+.metodologia-row-modal-improved:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+.metodologia-row-modal-improved:hover {
+    background-color: #f0f9ff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metodologia-cell-modal {
+    padding: var(--spacing-xl) var(--spacing-lg);
+    vertical-align: top;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #f3f4f6;
+    font-size: var(--font-size-xl);
+    line-height: 1.7;
+}
+
+.metodologia-checkbox-cell-improved {
+    width: 60px;
+    text-align: center;
+    background-color: #fefefe;
+}
+
+.metodologia-name-modal-improved {
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    width: 18%;
+    background-color: #fefefe;
+}
+
+.metodologia-desc-modal-improved,
+.metodologia-sugg-modal-improved,
+.metodologia-tips-modal-improved {
+    color: var(--text-secondary);
+    width: 27.33%;
+}
+
+.metodologia-row-modal-improved:last-child .metodologia-cell-modal {
+    border-bottom: none;
+}
+
+/* Responsive design for modal metodología table */
+@media (max-width: 768px) {
+    /* Hide suggestions and tips columns on small devices */
+    .metodologia-sugg-header,
+    .metodologia-tips-header,
+    .metodologia-sugg-modal-improved,
+    .metodologia-tips-modal-improved {
+        display: none !important;
+    }
+
+    /* Adjust table layout for mobile */
+    .metodologia-table-full-modal-improved {
+        font-size: var(--font-size-lg);
+    }
+
+    .metodologia-header-modal-improved {
+        font-size: var(--font-size-lg);
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .metodologia-cell-modal {
+        font-size: var(--font-size-lg);
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    /* Adjust widths for remaining columns */
+    .metodologia-checkbox-cell-improved {
+        width: 50px;
+    }
+
+    .metodologia-name-modal-improved {
+        width: 35%;
+    }
+
+    .metodologia-desc-modal-improved {
+        width: calc(65% - 50px);
+    }
+}
+
+/* ============================================
+   READ-ONLY SELECTABLE CONTENT
+   ============================================ */
+
+.readonly-selectable-container {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: var(--spacing-xl);
+    background: var(--bg-primary);
+    border-radius: var(--radius-md);
+}
+
+.readonly-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.readonly-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-lg);
+}
+
+.readonly-checkbox {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-top: 4px;
+    accent-color: #06b6d4;
+}
+
+.readonly-label {
+    flex: 1;
+    cursor: pointer;
+}
+
+.readonly-text {
+    color: var(--text-primary);
+    line-height: 1.7;
+    white-space: pre-wrap;
+    font-size: var(--font-size-base);
+}
+
+/* ============================================
+   HIERARCHICAL SELECTABLE CONTENT
+   ============================================ */
+
+.hierarchical-container {
+    max-height: 550px;
+    overflow-y: auto;
+    padding: var(--spacing-lg);
+    background: var(--bg-primary);
+}
+
+.hierarchical-category {
+    margin-bottom: var(--spacing-3xl);
+}
+
+.hierarchical-category:last-child {
+    margin-bottom: 0;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: var(--spacing-lg);
+}
+
+.category-checkbox {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    flex-shrink: 0;
+    accent-color: #06b6d4;
+}
+
+.category-label {
+    flex: 1;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+}
+
+.category-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 38px;
+}
+
+.hierarchical-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm) 0;
+}
+
+.item-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-top: 3px;
+    accent-color: #06b6d4;
+}
+
+.item-label {
+    flex: 1;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    font-weight: var(--font-weight-normal);
+}
+
+.item-label-with-desc {
+    flex: 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.item-title {
+    color: var(--text-primary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+}
+
+.item-description {
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+}
+
+/* ============================================
+   LIST SELECTABLE CONTENT
+   ============================================ */
+
+.list-selectable-container {
+    max-height: 550px;
+    overflow-y: auto;
+    padding: var(--spacing-lg);
+    background: var(--bg-primary);
+}
+
+.list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) 0;
+    transition: all var(--transition-fast);
+}
+
+.list-item:hover {
+    background: var(--button-hover);
+    margin: 0 calc(-1 * var(--spacing-md));
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+    border-radius: var(--radius-sm);
+}
+
+.list-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-top: 2px;
+    accent-color: #06b6d4;
+}
+
+.list-label {
+    flex: 1;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+}
+
+/* ============================================
+   AI BUTTONS
+   ============================================ */
+
+.ai-buttons-container {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.ai-buttons-container .btn {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.ai-buttons-container svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* ============================================
+   CHECKBOX INDETERMINATE STATE
+   ============================================ */
+
+input[type="checkbox"]:indeterminate {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+input[type="checkbox"]:indeterminate::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 2px;
+    background: white;
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+    .ai-buttons-container {
+        flex-direction: column;
+    }
+    
+    .ai-buttons-container .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .hierarchical-container,
+    .list-selectable-container,
+    .readonly-selectable-container {
+        max-height: 400px;
+    }
+    
+    .category-label {
+        font-size: var(--font-size-sm);
+    }
+    
+    .category-items {
+        padding-left: 32px;
+    }
+}
+
+/* ============================================
+   SCROLLBAR STYLES FOR CONTAINERS
+   ============================================ */
+
+.hierarchical-container::-webkit-scrollbar,
+.list-selectable-container::-webkit-scrollbar,
+.readonly-selectable-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.hierarchical-container::-webkit-scrollbar-track,
+.list-selectable-container::-webkit-scrollbar-track,
+.readonly-selectable-container::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+.hierarchical-container::-webkit-scrollbar-thumb,
+.list-selectable-container::-webkit-scrollbar-thumb,
+.readonly-selectable-container::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+.hierarchical-container::-webkit-scrollbar-thumb:hover,
+.list-selectable-container::-webkit-scrollbar-thumb:hover,
+.readonly-selectable-container::-webkit-scrollbar-thumb:hover {
+    background: var(--text-secondary);
+}
+
+
+
+/* modal-extended.css actualizado */
+
+/* Contenedor general para espaciado entre bloques */
+.hierarchical-category, .list-category-group {
+    margin-bottom: var(--spacing-3xl);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-xl);
+}
+
+/* Estructura de Item: Texto a la izquierda, Checkbox a la derecha */
+.hierarchical-item, .list-item-enhanced {
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: space-between;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-md) 0;
+}
+
+.item-label-with-desc, .list-item-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-right: var(--spacing-md);
+}
+
+/* Tipografía del Simulador */
+.item-title, .list-item-title {
+    font-size: var(--font-size-base);
+    font-weight: 600; /* Negrita moderada */
+    color: var(--text-primary);
+}
+
+.item-description, .list-item-description {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary); /* Color más suave */
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* Sangría para elementos anidados (como en RA/CE o Skills) */
+.category-items, .list-category-items {
+    padding-left: var(--spacing-2xl); /* Tabulación a la izquierda */
+    margin-top: var(--spacing-sm);
+}
+
+/* Estilo de la Categoría Madre */
+.category-header, .list-category-title {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Checkboxes alineados a la derecha */
+.item-checkbox, .list-checkbox {
+    order: 2; /* Mueve al final del flex */
+    width: 20px;
+    height: 20px;
+}
+
+/* modal-extended.css */
+
+/* Contenedor de ítems con checkbox a la izquierda */
+.hierarchical-item, .list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) 0;
+}
+
+/* Estilo para Títulos (RA, Metodologías, Bloom, etc.) */
+.item-title, .category-label {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-2xl) !important;
+    color: var(--text-primary);
+    line-height: 1.4;
+    display: block;
+}
+
+/* Estilo para Descripciones (CE, detalles de metodología) */
+.item-description {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-top: 2px;
+    opacity: 0.8;
+}
+
+/* Indentación para Criterios de Evaluación (CE) */
+.category-items {
+    padding-left: 34px; /* Alinea los CE debajo del texto del RA */
+    border-left: 2px solid var(--border-color);
+    margin-left: 10px;
+}
+
+.category-header {
+    margin-bottom: var(--spacing-md);
+}
+
+/* Espaciado significativo entre categorías (RA, Grupos de Skill, etc.) */
+.hierarchical-category {
+    margin-bottom: var(--spacing-4xl); /* Aumenta la separación entre bloques */
+    padding-bottom: var(--spacing-2xl);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.hierarchical-category:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Encabezado de Categoría (RA o Grupo principal) */
+.category-header {
+    display: flex;
+    align-items: center; /* Centra el checkbox con el texto grande */
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.category-label {
+    flex: 1;
+    font-weight: var(--font-weight-bold) !important;
+    font-size: var(--font-size-2xl) !important; /* Tamaño grande solicitado */
+    color: var(--text-primary);
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+/* Sangría e indentación para Criterios de Evaluación (CE) o sub-ítems */
+.category-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 38px; /* Tabulación a la izquierda */
+    border-left: 2px solid var(--border-color); /* Guía visual vertical */
+    margin-left: 10px;
+}
+
+/* Estilo de los ítems individuales */
+.hierarchical-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) 0;
+}
+
+.item-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.item-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+.item-description {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary); /* Color más suave */
+    line-height: 1.5;
+    opacity: 0.85;
+}
+
+/* ============================================
+   FP WARNING MESSAGE STYLES
+   ============================================ */
+
+.warning-message {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xl);
+    padding: var(--spacing-2xl);
+    background: linear-gradient(135deg, #fef3cd 0%, #fcd34d 100%);
+    border: 2px solid #f59e0b;
+    border-radius: var(--border-radius-lg);
+    margin: var(--spacing-lg) 0;
+}
+
+.warning-icon {
+    flex-shrink: 0;
+    color: #d97706;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning-content h3 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: #92400e;
+    margin: 0 0 var(--spacing-md) 0;
+}
+
+.warning-content p {
+    font-size: var(--font-size-md);
+    color: #92400e;
+    line-height: 1.6;
+    margin: 0 0 var(--spacing-sm) 0;
+}
+
+.warning-content p:last-child {
+    margin-bottom: 0;
+}
+
+.warning-content strong {
+    font-weight: var(--font-weight-bold);
+    color: #78350f;
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .warning-message {
+    background: linear-gradient(135deg, #451a03 0%, #92400e 100%);
+    border-color: #d97706;
+}
+
+[data-theme="dark"] .warning-icon {
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .warning-content h3 {
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .warning-content p {
+    color: #fed7aa;
+}
+
+[data-theme="dark"] .warning-content strong {
+    color: #fbbf24;
+}

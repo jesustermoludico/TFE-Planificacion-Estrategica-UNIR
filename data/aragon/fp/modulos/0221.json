@@ -1,0 +1,100 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0221",
+    "titulo_modulo": "Montaje y mantenimiento de equipo",
+    "duracion_total": "192",
+    "creditos_ects": "No especificado en el documento original",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de montar y mantener equipos microinformáticos y periféricos comunes y adquirir una visión global y actualizada del mercado[cite: 5619]. Las funciones incluyen la manipulación de elementos físicos, montaje/desmontaje de componentes, chequeo y monitorización de equipos, diagnóstico y resolución de averías, ampliación de componentes y mantenimiento de periféricos [cite: 5621-5627]. También abarca la búsqueda de información sobre tendencias y especificaciones técnicas para la constante adaptación a innovaciones en el sector [cite: 5628-5630]. Las líneas de actuación versan sobre la identificación de hardware, ensamblado, medida de magnitudes eléctricas y elaboración de inventarios o presupuestos [cite: 5638-5644].",
+    "objetivos_generales_asociados": "a, b, c, g, h, i, j, k, l",
+    "competencias_profesionales_asociadas": "a, b, g, h, i, j, k, l",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_221",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Selección de componentes de equipos microinformáticos estándar",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_221", "descripcion_punto": "Identificación de bloques funcionales y funciones principales [cite: 5558-5559]." },
+                { "id_punto": "P_01_02_221", "descripcion_punto": "Tipos de memoria, software base y de aplicación[cite: 5560]." },
+                { "id_punto": "P_01_03_221", "descripcion_punto": "Alimentación de componentes: fuentes y sistemas de alimentación ininterrumpida [cite: 5561-5563]." },
+                { "id_punto": "P_01_04_221", "descripcion_punto": "Placas base: microprocesadores, control de temperatura, zócalos y formatos [cite: 5564-5572]." },
+                { "id_punto": "P_01_05_221", "descripcion_punto": "Análisis de mercado: chasis, RAM, controladoras de disco y adaptadores gráficos [cite: 5573-5578]." },
+                { "id_punto": "P_01_06_221", "descripcion_punto": "Conectividad LAN/WAN y controladores de dispositivos [cite: 5579-5580]." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_221",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Ensamblado y diagnosis de sistemas",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_221", "descripcion_punto": "Secuencia de montaje de un ordenador: herramientas, útiles y precauciones [cite: 5591-5594]." },
+                { "id_punto": "P_02_02_221", "descripcion_punto": "Ensamblado y refrigeración del procesador, fijación de RAM y unidades de disco [cite: 5595-5598]." },
+                { "id_punto": "P_02_03_221", "descripcion_punto": "Instalación de adaptadores, utilidades de chequeo y diagnóstico [cite: 5600-5601]." },
+                { "id_punto": "P_02_04_221", "descripcion_punto": "Medición de parámetros eléctricos y valores tipo[cite: 5602]." },
+                { "id_punto": "P_02_05_221", "descripcion_punto": "Técnicas de mantenimiento preventivo y detección de averías (señales acústicas/luminosas) [cite: 5585-5588]." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_221",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Instalación de software y tendencias",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_221", "descripcion_punto": "Opciones de arranque y creación/restauración de imágenes de disco [cite: 5604-5605]." },
+                { "id_punto": "P_03_02_221", "descripcion_punto": "Nuevas tendencias: barebones e informática móvil [cite: 5581-5583]." },
+                { "id_punto": "P_03_03_221", "descripcion_punto": "Mantenimiento preventivo de impresoras y periféricos de entrada [cite: 5606-5609]." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_221",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Riesgo laboral y prevención ambiental",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_221", "descripcion_punto": "Identificación de riesgos y medidas de prevención en procesos de montaje [cite: 5611-5614]." },
+                { "id_punto": "P_04_02_221", "descripcion_punto": "Equipos de protección individual (EPI) y normativa [cite: 5615-5616]." },
+                { "id_punto": "P_04_03_221", "descripcion_punto": "Cumplimiento de la normativa de protección ambiental[cite: 5617]." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Selecciona los componentes de integración de un equipo microinformático estándar, describiendo sus funciones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito los bloques funcionales y la arquitectura de buses [cite: 5481-5482]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han detallado características de microprocesadores y funciones de refrigeración [cite: 5483-5484]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado y manipulado componentes básicos como memoria y discos[cite: 5487]." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha analizado la función del adaptador gráfico y el monitor[cite: 5488]." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Ensambla un equipo microinformático, interpretando planos e instrucciones del fabricante.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han seleccionado las herramientas y útiles necesarios[cite: 5493]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha determinado el sistema de apertura del chasis y fijación de elementos[cite: 5495]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han ensamblado placa base, procesador, RAM y unidades de almacenamiento [cite: 5496-5497]." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han verificado las prestaciones mediante utilidades de chequeo[cite: 5499]." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Mantiene equipos informáticos interpretando las recomendaciones de los fabricantes.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han reconocido señales acústicas o visuales de problemas de hardware[cite: 5513]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado averías por sobrecalentamiento o malas conexiones [cite: 5514-5515]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han sustituido componentes deteriorados verificando compatibilidad [cite: 5516-5517]." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado actualizaciones y elaborado informes de avería [cite: 5518-5519]." }
+            ]
+        },
+        {
+            "ra_id": "RA_8",
+            "ra_descripcion": "Cumple las normas de prevención de riesgos laborales y de protección ambiental.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado riesgos y peligrosidad en el uso de herramientas[cite: 5547]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito elementos de seguridad de máquinas y EPIs necesarios[cite: 5550]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han clasificado residuos para su retirada selectiva[cite: 5553]." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha valorado el orden y la limpieza como primer factor de prevención[cite: 5554]." }
+            ]
+        }
+    ]
+}

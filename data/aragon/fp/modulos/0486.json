@@ -1,0 +1,129 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0486",
+    "titulo_modulo": "Acceso a Datos",
+    "duracion_total": "126",
+    "creditos_ects": "9",
+    "seccion_orientaciones": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollador de aplicaciones multiplataforma. La función incluye aspectos como: El desarrollo de aplicaciones que gestionan ficheros y directorios, el acceso a bases de datos relacionales, el uso de bases de datos orientadas a objetos y nativas XML, y el desarrollo de componentes de acceso a datos. Las líneas de actuación versarán sobre la identificación de tecnologías de persistencia, la gestión de información en diversos modelos de bases de datos, el uso de herramientas de mapeo objeto-relacional (ORM), el desarrollo de componentes de acceso a datos y su integración en aplicaciones finales.",
+    "objetivos_generales_asociados": "b, c, e, f, l, q, r",
+    "competencias_profesionales_asociadas": "b, c, e, f, l, q, r, t",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_486",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Manejo de Ficheros",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_486", "descripcion_punto": "Clases asociadas a operaciones de gestión de ficheros y directorios: creación, borrado, copia y movimiento." },
+                { "id_punto": "P_01_02_486", "descripcion_punto": "Flujos de datos: basados en bytes y caracteres. Formas de acceso." },
+                { "id_punto": "P_01_03_486", "descripcion_punto": "Operaciones básicas sobre ficheros de acceso secuencial y aleatorio." },
+                { "id_punto": "P_01_04_486", "descripcion_punto": "Trabajo con ficheros XML: analizadores sintácticos (parser) y vinculación (binding)." },
+                { "id_punto": "P_01_05_486", "descripcion_punto": "Librerías para conversión de documentos XML a otros formatos. Detección y tratamiento de excepciones." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_486",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Manejo de Conectores",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_486", "descripcion_punto": "El desfase objeto-relacional y protocolos de acceso a bases de datos." },
+                { "id_punto": "P_02_02_486", "descripcion_punto": "Establecimiento y configuración de pool de conexiones." },
+                { "id_punto": "P_02_03_486", "descripcion_punto": "Ejecución de sentencias de descripción (DDL), modificación (DML) y consulta." },
+                { "id_punto": "P_02_04_486", "descripcion_punto": "Utilización del resultado de consultas y ejecución de procedimientos almacenados. Gestión de transacciones." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_486",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Herramientas de mapeo objeto relacional (ORM)",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_486", "descripcion_punto": "Concepto y características de las herramientas ORM más utilizadas." },
+                { "id_punto": "P_03_02_486", "descripcion_punto": "Instalación y configuración: ficheros de configuración y propiedades." },
+                { "id_punto": "P_03_03_486", "descripcion_punto": "Estructura de ficheros de mapeo: elementos, propiedades, colecciones, relaciones y herencia." },
+                { "id_punto": "P_03_04_486", "descripcion_punto": "Clases persistentes, sesiones y estados de un objeto." },
+                { "id_punto": "P_03_05_486", "descripcion_punto": "Carga, almacenamiento y modificación de objetos. Lenguajes propios de la herramienta ORM." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_486",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Bases de datos objeto relacionales y orientadas a objetos",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_486", "descripcion_punto": "Características de bases de datos objeto-relacionales y gestión con ANSI SQL 1999." },
+                { "id_punto": "P_04_02_486", "descripcion_punto": "Conectores y acceso a funciones del gestor desde el lenguaje de programación." },
+                { "id_punto": "P_04_03_486", "descripcion_punto": "Bases de datos orientadas a objetos: tipos de datos básicos y estructurados." },
+                { "id_punto": "P_04_04_486", "descripcion_punto": "Interfaz de programación (API) y lenguaje de consultas OQL: sintaxis y operadores." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_486",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Bases de datos XML",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_486", "descripcion_punto": "Bases de datos nativas XML: gestores comerciales y libres. Estrategias de almacenamiento." },
+                { "id_punto": "P_05_02_486", "descripcion_punto": "Instalación, configuración y establecimiento de conexiones." },
+                { "id_punto": "P_05_03_486", "descripcion_punto": "Gestión de colecciones y documentos: clases y métodos para añadir, modificar y eliminar." },
+                { "id_punto": "P_05_04_486", "descripcion_punto": "Indexación, identificadores únicos y realización de consultas mediante XQuery." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_486",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Programación de componentes de acceso a datos",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_486", "descripcion_punto": "Concepto de componente, propiedades, atributos y editores de propiedades." },
+                { "id_punto": "P_06_02_486", "descripcion_punto": "Eventos y asociación de acciones. Introspección y reflexión." },
+                { "id_punto": "P_06_03_486", "descripcion_punto": "Persistencia del componente y propiedades simples, indexadas, compartidas y restringidas." },
+                { "id_punto": "P_06_04_486", "descripcion_punto": "Herramientas para desarrollo de componentes no visuales y empaquetado." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_486",
+            "ra_descripcion": "Desarrolla aplicaciones que gestionan información almacenada en ficheros utilizando clases específicas.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han utilizado clases para la gestión de ficheros y directorios." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han valorado las ventajas e inconvenientes de las distintas formas de acceso." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado clases para recuperar y almacenar información en ficheros XML." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado clases para convertir información de ficheros XML a otros formatos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han previsto y gestionado las excepciones." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han probado y documentado las aplicaciones desarrolladas." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_486",
+            "ra_descripcion": "Desarrolla aplicaciones que gestionan información almacenada en bases de datos relacionales utilizando mecanismos de conexión.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han valorado las ventajas e inconvenientes de utilizar conectores." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado gestores de bases de datos embebidos e independientes." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha utilizado el conector idóneo y establecido la conexión." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha definido la estructura de la base de datos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han desarrollado aplicaciones que modifican el contenido y efectúan consultas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han definido objetos para almacenar resultados y se han eliminado tras su función." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han gestionado las transacciones." }
+            ]
+        },
+        {
+            "ra_id": "RA_3_486",
+            "ra_descripcion": "Gestiona la persistencia de los datos identificando herramientas de mapeo objeto relacional (ORM).",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha instalado y configurado la herramienta ORM." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han definido los ficheros de mapeo y aplicado mecanismos de persistencia." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han desarrollado aplicaciones que modifican y recuperan objetos persistentes." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han desarrollado aplicaciones que realizan consultas usando SQL." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han gestionado las transacciones." }
+            ]
+        },
+        {
+            "ra_id": "RA_6_486",
+            "ra_descripcion": "Programa componentes de acceso a datos utilizando herramientas de desarrollo.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han valorado las ventajas de la programación orientada a componentes." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado herramientas de desarrollo de componentes." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han programado componentes para gestionar ficheros, bases de datos relacionales, ORM, objeto-relacionales y XML." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han probado, documentado e integrado los componentes en aplicaciones." }
+            ]
+        }
+    ]
+}

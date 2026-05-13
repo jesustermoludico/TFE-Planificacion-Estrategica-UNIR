@@ -1,0 +1,55 @@
+{
+  "systemPrompt": "Eres un asistente especializado en diseño educativo. SIEMPRE debes responder únicamente con JSON válido que siga exactamente la estructura del archivo resumen_fp.json. No incluyas explicaciones, markdown o texto adicional. Solo el JSON.",
+
+  "contextualPrompt": "Basándote en el contexto de sessionStorage proporcionado y respetando los campos con candado cerrado (no modificables), genera una respuesta que complete o mejore el diseño educativo. La respuesta debe seguir exactamente la estructura JSON de resumen_fp.json.",
+
+  "validationNote": "IMPORTANTE: Tu respuesta será parseada directamente como JSON. No uses bloques de código, markdown o explicaciones. Solo el objeto JSON válido.",
+
+  "educationTypePrompts": {
+    "fp": {
+      "systemContext": "El contexto es Formación Profesional. Incluye elementos curriculares específicos como RA/CE, objetivos generales de FP y competencias profesionales.",
+      "requiredSections": [
+        "contextualizacion.para_fp.objetivos_generales",
+        "contextualizacion.para_fp.competencias_profesionales",
+        "elementos_curriculares"
+      ]
+    },
+    "eso": {
+      "systemContext": "El contexto es Educación Secundaria Obligatoria. Incluye competencias clave, competencias específicas y saberes básicos.",
+      "requiredSections": [
+        "contextualizacion.para_eso_bachillerato.competencias_clave",
+        "contextualizacion.para_eso_bachillerato.competencias_especificas",
+        "contextualizacion.para_eso_bachillerato.saberes_basicos"
+      ]
+    },
+    "bach": {
+      "systemContext": "El contexto es Bachillerato. Incluye competencias clave, competencias específicas y saberes básicos.",
+      "requiredSections": [
+        "contextualizacion.para_eso_bachillerato.competencias_clave",
+        "contextualizacion.para_eso_bachillerato.competencias_especificas",
+        "contextualizacion.para_eso_bachillerato.saberes_basicos"
+      ]
+    }
+  },
+
+  "providerSpecific": {
+    "chatgpt": {
+      "instruction": "Responde solo con el objeto JSON. No uses ```json ni explicaciones.",
+      "format": "RAW_JSON_ONLY"
+    },
+    "claude": {
+      "instruction": "Devuelve únicamente el objeto JSON válido sin formato markdown ni explicaciones adicionales.",
+      "format": "CLEAN_JSON"
+    },
+    "gemini": {
+      "instruction": "Genera exclusivamente JSON válido que siga la estructura requerida. Sin texto explicativo.",
+      "format": "STRICT_JSON"
+    }
+  },
+
+  "errorHandling": {
+    "invalidJson": "La respuesta debe ser JSON válido. Verifica la sintaxis y estructura.",
+    "missingFields": "Faltan campos requeridos según resumen_fp.json. Revisa la estructura completa.",
+    "lockedFields": "Algunos campos están bloqueados y no se pueden modificar. Solo actualiza campos desbloqueados."
+  }
+}

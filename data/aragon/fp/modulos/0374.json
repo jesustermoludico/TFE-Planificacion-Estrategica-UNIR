@@ -1,0 +1,197 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0374",
+    "titulo_modulo": "Administración de Sistemas Operativos",
+    "duracion_total": "75",
+    "creditos_ects": "8",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar las tareas de administración de sistemas operativos. Incluye aspectos como: La administración del servicio de directorio. El control y seguimiento de los procesos del sistema. La gestión de la automatización de tareas del sistema. La administración de forma remota del sistema operativo en red. La administración de servidores de impresión. La realización de tareas de integración de sistemas operativos libres y propietarios. La utilización de lenguajes de scripting en sistemas operativos libres y propietarios para la administración de servicios del sistema operativo. Las líneas de actuación versarán sobre la instalación y administración del servicio de directorios, la automatización de tareas, el control de procesos, la administración remota, escenarios heterogéneos y la programación básica de sistemas.",
+    "objetivos_generales_asociados": "a, b, n, ñ, o, q",
+    "competencias_profesionales_asociadas": "a, l, m, n, ñ, o, q, r, s",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Administración de servicio de directorio",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01", "descripcion_punto": "Servicio de directorio. Definición, elementos y nomenclatura. LDAP." },
+                { "id_punto": "P_01_02", "descripcion_punto": "Esquema del servicio de directorio." },
+                { "id_punto": "P_01_03", "descripcion_punto": "Controladores de dominio." },
+                { "id_punto": "P_01_04", "descripcion_punto": "Instalación, configuración y personalización del servicio de directorio. Creación de dominios." },
+                { "id_punto": "P_01_05", "descripcion_punto": "Objetos que administra un dominio: usuarios globales, grupos y equipos entre otros." },
+                { "id_punto": "P_01_06", "descripcion_punto": "Herramientas gráficas de administración del servicio de directorio." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Administración de procesos del sistema",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01", "descripcion_punto": "Procesos. Tipos. Estados. Estructura." },
+                { "id_punto": "P_02_02", "descripcion_punto": "Hilos de ejecución." },
+                { "id_punto": "P_02_03", "descripcion_punto": "Transiciones de estados y prioridades." },
+                { "id_punto": "P_02_04", "descripcion_punto": "Gestión de los procesos del sistema. Línea de orden. Entorno gráfico." },
+                { "id_punto": "P_02_05", "descripcion_punto": "Secuencia de arranque del sistema. Demonios." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Información del sistema",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01", "descripcion_punto": "Estructura de directorios." },
+                { "id_punto": "P_03_02", "descripcion_punto": "Búsqueda de información del sistema. Órdenes. Herramientas gráficas." },
+                { "id_punto": "P_03_03", "descripcion_punto": "Sistema de archivos virtual." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Instalación, configuración y uso de servicios de acceso y administración remota",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01", "descripcion_punto": "Terminales en modo texto y escritorio remoto." },
+                { "id_punto": "P_04_02", "descripcion_punto": "Protocolos de acceso remoto y puertos implicados." },
+                { "id_punto": "P_04_03", "descripcion_punto": "Servicios de acceso remoto del propio sistema operativo." },
+                { "id_punto": "P_04_04", "descripcion_punto": "Herramientas gráficas externas para la administración remota." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Administración de servidores de impresión",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01", "descripcion_punto": "Puertos y protocolos de impresión." },
+                { "id_punto": "P_05_02", "descripcion_punto": "Sistemas de impresión." },
+                { "id_punto": "P_05_03", "descripcion_punto": "Órdenes para la gestión de impresoras y trabajos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Integración de sistemas operativos en red libres y propietarios",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01", "descripcion_punto": "Descripción de escenarios heterogéneos." },
+                { "id_punto": "P_06_02", "descripcion_punto": "Instalación, configuración y uso de servicios de red para compartir recursos." },
+                { "id_punto": "P_06_03", "descripcion_punto": "Configuración de recursos compartidos en red y utilización de redes heterogéneas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Application de lenguajes de scripting en sistemas operativos",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01", "descripcion_punto": "Estructuras del lenguaje." },
+                { "id_punto": "P_07_02", "descripcion_punto": "Creación y depuración de scripts." },
+                { "id_punto": "P_07_03", "descripcion_punto": "Interpretación de scripts del sistema y adaptaciones." },
+                { "id_punto": "P_07_04", "descripcion_punto": "Utilización de extensiones de comandos para tareas de administración." },
+                { "id_punto": "P_07_05", "descripcion_punto": "Scripts para la administración de cuentas de usuario, procesos y servicios." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Administra el servicio de directorio interpretando especificaciones e integrándolo en una red.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado la función, los elementos y las estructuras lógicas del servicio de directorio." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha determinado y creado el esquema del servicio de directorio." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha realizado la instalación del servicio de directorio en el servidor." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha realizado la configuración y personalización del servicio de directorio." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha integrado el servicio de directorio con otros servicios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han aplicado filtros de búsqueda en el servicio de directorio." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha utilizado el servicio de directorio como mecanismo de acreditación centralizada." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha realizado la configuración del cliente para su integración." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han utilizado herramientas gráficas y comandos para la administración." },
+                { "letra_criterio": "j", "descripcion_criterio": "Se ha documentado la estructura e implantación del servicio de directorio." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Administra procesos del sistema describiéndolos y aplicando criterios de seguridad y eficiencia.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito el concepto de proceso del sistema, tipos, estados y ciclo de vida." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado interrupciones y excepciones para describir los eventos internos del procesador." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha diferenciado entre proceso, hilo y trabajo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado tareas de creación, manipulación y terminación de procesos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha utilizado el sistema de archivos como medio lógico para el registro e identificación." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado herramientas gráficas y comandos para el control y seguimiento." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha comprobado la secuencia de arranque del sistema y los procesos implicados." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han tomado medidas de seguridad ante la aparición de procesos no identificados." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han documentado los procesos habituales del sistema." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Gestiona la automatización de tareas del sistema, aplicando criterios de eficiencia y utilizando comandos y herramientas gráficas.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito las ventajas de la automatización de las tareas repetitivas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado los comandos del sistema para la planificación de tareas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han establecido restricciones de seguridad." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado planificaciones de tareas repetitivas o puntuales." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha automatizado la administración de cuentas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han instalado y configurado herramientas gráficas para la planificación." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado herramientas gráficas para la planificación de tareas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han documentado los procesos programados." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Administra de forma remota el sistema operativo en red valorando su importancia y aplicando criterios de seguridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito métodos de acceso y administración remota de sistemas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha diferenciado entre los servicios orientados a sesión y los no orientados a sesión." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado herramientas suministradas por el propio sistema operativo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han instalado servicios de acceso y administración remota." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han utilizado comandos y herramientas gráficas para gestionar los servicios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han creado cuentas de usuario para el acceso remoto." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han realizado pruebas entre sistemas heterogéneos." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han utilizado mecanismos de encriptación de la información." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han documentado los procesos y servicios administrados de forma remota." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Administra servidores de impresión describiendo sus funciones e integrándolos en una red.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha descrito la funcionalidad de los sistemas y servidores de impresión." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los puertos y los protocolos utilizados." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado las herramientas integradas en el sistema operativo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha instalado y configurado un servidor de impresión en entorno Web." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han creado y clasificado impresoras lógicas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han creado grupos de impresión." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han gestionado impresoras y colas mediante comandos y herramientas gráficas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han compartido impresoras en red entre sistemas operativos diferentes." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha documentado la configuración del servidor y de las impresoras." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Integra sistemas operativos libres y propietarios, justificando y garantizando su interoperabilidad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado la necesidad de compartir recursos en red." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han establecido niveles de seguridad para controlar el acceso del cliente." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha comprobado la conectividad de la red en un escenario heterogéneo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha descrito la funcionalidad de los servicios para compartir recursos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han instalado y configurado servicios para compartir recursos en red." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha comprobado el funcionamiento de los servicios instalados." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha trabajado en grupo para acceder a archivos e impresoras desde equipos heterogéneos." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha documentado la configuración de los servicios instalados." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Utiliza lenguajes de guiones en sistemas operativos, describiendo su aplicación y administrando servicios del sistema operativo.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han utilizado y combinado las estructuras del lenguaje para crear guiones." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado herramientas para depurar errores sintácticos y de ejecución." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han interpretado guiones de configuración del sistema operativo." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han realizado cambios y adaptaciones de guiones del sistema." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han creado y probado guiones de administración de servicios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han creado y probado guiones de automatización de tareas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han implantado guiones en sistemas libres y propietarios." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han consultado y utilizado librerías de funciones." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han documentado los guiones creados." }
+            ]
+        }
+    ]
+}

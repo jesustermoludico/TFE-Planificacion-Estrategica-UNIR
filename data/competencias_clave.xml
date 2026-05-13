@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<competencias_clave>
+
+    <!-- ===================================================== -->
+    <!-- CCL -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>CCL</id>
+        <titulo>Competencia en Comunicación Lingüística</titulo>
+        <color_hex>#e74c3c</color_hex>
+        <descripcion>
+            La competencia en comunicación lingüística supone interactuar de forma oral, escrita, signada o multimodal de manera coherente y adecuada en diferentes ámbitos y contextos y con distintos propósitos comunicativos, movilizando conocimientos, destrezas y actitudes para comprender, interpretar, valorar críticamente y comunicar información de manera ética, creativa y respetuosa.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>CCL1</codigo>
+                <educacion_basica>
+                    Se expresa de forma oral, escrita, signada o multimodal con coherencia, corrección y adecuación a los diferentes contextos sociales, participando en interacciones comunicativas con actitud cooperativa y respetuosa.
+                </educacion_basica>
+                <bachillerato>
+                    Se expresa con fluidez, coherencia y corrección en contextos sociales y académicos, argumentando sus opiniones y cuidando sus relaciones interpersonales.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CCL2</codigo>
+                <educacion_basica>
+                    Comprende, interpreta y valora con actitud crítica textos de los ámbitos personal, social, educativo y profesional.
+                </educacion_basica>
+                <bachillerato>
+                    Comprende, interpreta y valora críticamente textos de distintos ámbitos, especialmente académicos y mediáticos.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CCL3</codigo>
+                <educacion_basica>
+                    Localiza, selecciona y contrasta información de manera progresivamente autónoma evitando la desinformación.
+                </educacion_basica>
+                <bachillerato>
+                    Localiza, selecciona y transforma información de forma autónoma para comunicarla con rigor y respeto a la propiedad intelectual.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CCL4</codigo>
+                <educacion_basica>
+                    Lee obras adecuadas a su edad y construye interpretaciones personales.
+                </educacion_basica>
+                <bachillerato>
+                    Lee obras relevantes relacionándolas con su contexto sociohistórico y la tradición literaria.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CCL5</codigo>
+                <educacion_basica>
+                    Usa la comunicación para la convivencia democrática y la igualdad de derechos.
+                </educacion_basica>
+                <bachillerato>
+                    Rechaza usos discriminatorios y abusos de poder promoviendo una comunicación ética.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+    <!-- ===================================================== -->
+    <!-- CP -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>CP</id>
+        <titulo>Competencia Plurilingüe</titulo>
+        <color_hex>#3498db</color_hex>
+        <descripcion>
+            La competencia plurilingüe implica utilizar distintas lenguas de forma apropiada y eficaz para la comunicación y el aprendizaje, valorando la diversidad lingüística y cultural.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>CP1</codigo>
+                <educacion_basica>
+                    Usa una o más lenguas para responder a sus necesidades comunicativas en distintos contextos.
+                </educacion_basica>
+                <bachillerato>
+                    Utiliza con fluidez y autonomía varias lenguas en contextos personales, sociales y académicos.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CP2</codigo>
+                <educacion_basica>
+                    Realiza transferencias entre lenguas para ampliar su repertorio lingüístico.
+                </educacion_basica>
+                <bachillerato>
+                    Desarrolla estrategias sistemáticas para enriquecer su repertorio lingüístico.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CP3</codigo>
+                <educacion_basica>
+                    Valora la diversidad lingüística y cultural como factor de cohesión social.
+                </educacion_basica>
+                <bachillerato>
+                    Valora críticamente la diversidad lingüística priorizando la comprensión mutua.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+    <!-- ===================================================== -->
+    <!-- STEM -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>STEM</id>
+        <titulo>Competencia Matemática y en Ciencia, Tecnología e Ingeniería</titulo>
+        <color_hex>#2ecc71</color_hex>
+        <descripcion>
+            La competencia STEM permite comprender y transformar el mundo mediante el razonamiento matemático, el pensamiento científico, la tecnología y la ingeniería de forma responsable y sostenible.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>STEM1</codigo>
+                <educacion_basica>
+                    Utiliza métodos matemáticos para resolver problemas en situaciones conocidas.
+                </educacion_basica>
+                <bachillerato>
+                    Selecciona y aplica razonamientos matemáticos propios de la modalidad cursada.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>STEM2</codigo>
+                <educacion_basica>
+                    Explica fenómenos mediante el pensamiento científico y la experimentación.
+                </educacion_basica>
+                <bachillerato>
+                    Investiga fenómenos científicos contrastando hipótesis con rigor metodológico.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>STEM3</codigo>
+                <educacion_basica>
+                    Desarrolla proyectos colaborativos valorando la sostenibilidad.
+                </educacion_basica>
+                <bachillerato>
+                    Diseña y evalúa proyectos con impacto transformador y sostenible.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>STEM4</codigo>
+                <educacion_basica>
+                    Comunica procesos y resultados científicos en diferentes formatos.
+                </educacion_basica>
+                <bachillerato>
+                    Interpreta y transmite investigaciones valorando críticamente la ciencia y la tecnología.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>STEM5</codigo>
+                <educacion_basica>
+                    Emprende acciones científicas para la salud y el medio ambiente.
+                </educacion_basica>
+                <bachillerato>
+                    Planea acciones científicas con compromiso ético local y global.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+    <!-- ===================================================== -->
+    <!-- CD -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>CD</id>
+        <titulo>Competencia Digital</titulo>
+        <color_hex>#9b59b6</color_hex>
+        <descripcion>
+            La competencia digital implica el uso crítico, seguro y responsable de las tecnologías digitales.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>CD1</codigo>
+                <educacion_basica>
+                    Realiza búsquedas críticas respetando la propiedad intelectual.
+                </educacion_basica>
+                <bachillerato>
+                    Realiza búsquedas avanzadas comprendiendo el funcionamiento de los motores de búsqueda.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CD2</codigo>
+                <educacion_basica>
+                    Gestiona su entorno personal de aprendizaje digital.
+                </educacion_basica>
+                <bachillerato>
+                    Crea y reelabora contenidos digitales respetando los derechos de autor.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CD3</codigo>
+                <educacion_basica>
+                    Colabora y participa en entornos digitales de forma responsable.
+                </educacion_basica>
+                <bachillerato>
+                    Integra herramientas digitales en su aprendizaje y trabajo colaborativo.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CD4</codigo>
+                <educacion_basica>
+                    Identifica riesgos y protege dispositivos, datos y salud.
+                </educacion_basica>
+                <bachillerato>
+                    Evalúa riesgos y aplica medidas de protección digital de forma autónoma.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CD5</codigo>
+                <educacion_basica>
+                    Desarrolla aplicaciones sencillas para resolver problemas.
+                </educacion_basica>
+                <bachillerato>
+                    Desarrolla soluciones tecnológicas innovadoras y sostenibles.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+    <!-- ===================================================== -->
+    <!-- CPSAA -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>CPSAA</id>
+        <titulo>Competencia Personal, Social y de Aprender a Aprender</titulo>
+        <color_hex>#f39c12</color_hex>
+        <descripcion>
+            La competencia CPSAA favorece el autoconocimiento, la gestión emocional, la cooperación y el aprendizaje autónomo a lo largo de la vida.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>CPSAA1</codigo>
+                <educacion_basica>
+                    Regula emociones y fortalece la motivación hacia el aprendizaje.
+                </educacion_basica>
+                <bachillerato>
+                    Desarrolla una personalidad autónoma orientada a objetivos.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CPSAA2</codigo>
+                <educacion_basica>
+                    Consolida estilos de vida saludables y convivencia positiva.
+                </educacion_basica>
+                <bachillerato>
+                    Adopta de forma autónoma hábitos sostenibles y saludables.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CPSAA3</codigo>
+                <educacion_basica>
+                    Coopera de forma equitativa en el trabajo en grupo.
+                </educacion_basica>
+                <bachillerato>
+                    Distribuye tareas y responsabilidades con enfoque sistémico.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CPSAA4</codigo>
+                <educacion_basica>
+                    Realiza autoevaluaciones sobre su aprendizaje.
+                </educacion_basica>
+                <bachillerato>
+                    Analiza y sintetiza información valorando la fiabilidad de las fuentes.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CPSAA5</codigo>
+                <educacion_basica>
+                    Planifica objetivos a medio plazo.
+                </educacion_basica>
+                <bachillerato>
+                    Desarrolla procesos autorregulados de aprendizaje a largo plazo.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+    <!-- ===================================================== -->
+    <!-- CC -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>CC</id>
+        <titulo>Competencia Ciudadana</titulo>
+        <color_hex>#1abc9c</color_hex>
+        <descripcion>
+            La competencia ciudadana capacita para ejercer una ciudadanía democrática, crítica y comprometida.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>CC1</codigo>
+                <educacion_basica>
+                    Comprende su identidad social y ciudadana.
+                </educacion_basica>
+                <bachillerato>
+                    Consolida su madurez cívica y autonomía personal.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CC2</codigo>
+                <educacion_basica>
+                    Asume valores democráticos y participa en la comunidad.
+                </educacion_basica>
+                <bachillerato>
+                    Aplica principios democráticos en contextos diversos.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CC3</codigo>
+                <educacion_basica>
+                    Analiza problemas éticos con actitud dialogante.
+                </educacion_basica>
+                <bachillerato>
+                    Emite juicios éticos argumentados rechazando toda discriminación.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CC4</codigo>
+                <educacion_basica>
+                    Adopta un estilo de vida sostenible.
+                </educacion_basica>
+                <bachillerato>
+                    Analiza críticamente la huella ecológica y actúa con compromiso ecosocial.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+    <!-- ===================================================== -->
+    <!-- CE -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>CE</id>
+        <titulo>Competencia Emprendedora</titulo>
+        <color_hex>#e67e22</color_hex>
+        <descripcion>
+            La competencia emprendedora impulsa la iniciativa, la creatividad y la gestión ética de proyectos.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>CE1</codigo>
+                <educacion_basica>
+                    Analiza oportunidades y propone soluciones innovadoras.
+                </educacion_basica>
+                <bachillerato>
+                    Evalúa y ejecuta ideas emprendedoras con proyección profesional.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CE2</codigo>
+                <educacion_basica>
+                    Gestiona recursos mediante trabajo colaborativo.
+                </educacion_basica>
+                <bachillerato>
+                    Optimiza recursos aplicando conocimientos económicos y financieros.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CE3</codigo>
+                <educacion_basica>
+                    Desarrolla proyectos reflexionando sobre el proceso.
+                </educacion_basica>
+                <bachillerato>
+                    Gestiona proyectos innovadores valorando el éxito y el fracaso.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+    <!-- ===================================================== -->
+    <!-- CCEC -->
+    <!-- ===================================================== -->
+    <competencia>
+        <id>CCEC</id>
+        <titulo>Competencia en Conciencia y Expresión Culturales</titulo>
+        <color_hex>#c0392b</color_hex>
+        <descripcion>
+            La competencia en conciencia y expresión culturales fomenta la comprensión, creación y valoración crítica de las manifestaciones culturales y artísticas.
+        </descripcion>
+        <descriptores>
+            <descriptor>
+                <codigo>CCEC1</codigo>
+                <educacion_basica>
+                    Conoce y respeta el patrimonio cultural y artístico.
+                </educacion_basica>
+                <bachillerato>
+                    Reflexiona críticamente sobre el patrimonio cultural y la diversidad.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CCEC2</codigo>
+                <educacion_basica>
+                    Analiza manifestaciones artísticas del patrimonio.
+                </educacion_basica>
+                <bachillerato>
+                    Investiga y contextualiza manifestaciones artísticas diversas.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CCEC3</codigo>
+                <educacion_basica>
+                    Expresa emociones mediante producciones culturales.
+                </educacion_basica>
+                <bachillerato>
+                    Produce creaciones artísticas con rigor, creatividad y sentido crítico.
+                </bachillerato>
+            </descriptor>
+
+            <descriptor>
+                <codigo>CCEC4</codigo>
+                <educacion_basica>
+                    Utiliza medios artísticos de forma creativa.
+                </educacion_basica>
+                <bachillerato>
+                    Diseña proyectos culturales valorando su impacto personal y social.
+                </bachillerato>
+            </descriptor>
+        </descriptores>
+    </competencia>
+
+</competencias_clave>

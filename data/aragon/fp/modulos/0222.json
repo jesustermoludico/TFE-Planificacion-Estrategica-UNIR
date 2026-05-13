@@ -1,0 +1,89 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "titulo_modulo": "Sistemas operativos monopuesto",
+    "codigo_identificador": "0222",
+    "duracion_total": "160",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y explotación de sistemas operativos monopuesto. La definición de estas funciones incluye: La instalación y actualización de sistemas operativos. La utilización de las funcionalidades del sistema mediante herramientas integradas. El control y seguimiento de la actividad y rendimiento. La determinación y utilización de los recursos compartidos. La gestión de usuarios, grupos, perfiles y permisos. La utilización de mecanismos de virtualización para la realización de pruebas. Las líneas de actuación versarán sobre la evolución de los cambios en el mercado, la configuración como máquina física y virtual, la resolución de problemas y la elaboración de documentación técnica como manuales o partes de incidencia.",
+    "objetivos_generales_asociados": "a, c, g, h, i, j, k, l, m",
+    "competencias_profesionales_asociadas": "a, c, g, h, k, l, m, n, ñ, r",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_222",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Caracterización de sistemas operativos",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_222", "descripcion_punto": "El sistema informático convencional y software de base." },
+                { "id_punto": "P_01_02_222", "descripcion_punto": "Concepto, elementos, tipos y funciones del sistema operativo." },
+                { "id_punto": "P_01_03_222", "descripcion_punto": "Gestión de memoria: virtual, intercambio, segmentación." },
+                { "id_punto": "P_01_04_222", "descripcion_punto": "Modos de utilización (orden vs gráfico) y procesos (estados y prioridad)." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_222",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Operación de sistemas de archivos",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_222", "descripcion_punto": "Archivo, directorio, atributos y permisos." },
+                { "id_punto": "P_02_02_222", "descripcion_punto": "Operaciones comunes para usuarios y procesos. Comodines." },
+                { "id_punto": "P_02_03_222", "descripcion_punto": "Tipos de sistemas de archivos y transacciones." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_222",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Instalación y tareas básicas",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_222", "descripcion_punto": "Planificación: particiones, sistemas de archivos y controladores." },
+                { "id_punto": "P_03_02_222", "descripcion_punto": "Instalación de sistemas libres y propietarios. Requisitos técnicos." },
+                { "id_punto": "P_03_03_222", "descripcion_punto": "Arranque y parada. Gestión de sesiones." },
+                { "id_punto": "P_03_04_222", "descripcion_punto": "Estructura del árbol de directorios y uso de nombres en UNIX/Linux." },
+                { "id_punto": "P_03_05_222", "descripcion_punto": "Configuración del escritorio y compresión/descompresión." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_222",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Administración del sistema",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_222", "descripcion_punto": "Gestión de paquetes de software y actualizaciones." },
+                { "id_punto": "P_04_02_222", "descripcion_punto": "Perfiles de usuarios, grupos locales y contraseñas." },
+                { "id_punto": "P_04_03_222", "descripcion_punto": "Seguimiento del rendimiento y actividad del sistema." },
+                { "id_punto": "P_04_04_222", "descripcion_punto": "Activación de servicios y programación de tareas periódicas." },
+                { "id_punto": "P_04_05_222", "descripcion_punto": "Compartición de recursos y base de datos de configuración." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_222",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Virtualización y copias de seguridad",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_222", "descripcion_punto": "Concepto de máquina virtual: ventajas e inconvenientes." },
+                { "id_punto": "P_05_02_222", "descripcion_punto": "Instalación de software de virtualización libre y propietario." },
+                { "id_punto": "P_05_03_222", "descripcion_punto": "Creación y configuración de máquinas virtuales." },
+                { "id_punto": "P_05_04_222", "descripcion_punto": "Tipos de copias de seguridad: completa, diferencial e incremental." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_222",
+            "ra_descripcion": "Reconoce las características de los sistemas de archivo, describiendo sus tipos y aplicaciones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los elementos funcionales del sistema." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha descrito la estructura y organización del sistema de archivos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han distinguido los atributos y permisos de archivos y directorios." }
+            ]
+        },
+        {
+            "ra_id": "RA_5_222",
+            "ra_descripcion": "Crea máquinas virtuales instalando software específico.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha diferenciado entre máquina real y máquina virtual." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han creado máquinas virtuales a partir de sistemas operativos libres y propietarios." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha relacionado la máquina virtual con el sistema operativo anfitrión." }
+            ]
+        }
+    ]
+}

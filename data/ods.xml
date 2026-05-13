@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda_2030 [
+    <!ELEMENT agenda_2030 (ods+)>
+    <!ELEMENT ods (id_ods, ods_codigo, ods_titulo, ods_descripcion, ods_color_hex, metas)>
+    <!ELEMENT id_ods (#PCDATA)>
+    <!ELEMENT ods_codigo (#PCDATA)>
+    <!ELEMENT ods_titulo (#PCDATA)>
+    <!ELEMENT ods_descripcion (#PCDATA)>
+    <!ELEMENT ods_color_hex (#PCDATA)>
+    <!ELEMENT metas (meta+)>
+    <!ELEMENT meta (id_meta, meta_codigo, meta_descripcion)>
+    <!ELEMENT id_meta (#PCDATA)>
+    <!ELEMENT meta_codigo (#PCDATA)>
+    <!ELEMENT meta_descripcion (#PCDATA)>
+]>
+<agenda_2030>
+  <ods>
+    <id_ods>1</id_ods>
+    <ods_codigo>1</ods_codigo>
+    <ods_titulo>Fin de la pobreza</ods_titulo>
+    <ods_descripcion>Poner fin a la pobreza en todas sus formas en todo el mundo.</ods_descripcion>
+    <ods_color_hex>#E5243B</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>1</id_meta>
+        <meta_codigo>1.1</meta_codigo>
+        <meta_descripcion>Para 2030, erradicar la pobreza extrema para todas las personas en el mundo, actualmente medida por un ingreso por persona inferior a 1,25 dólares de los Estados Unidos al día.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>2</id_meta>
+        <meta_codigo>1.2</meta_codigo>
+        <meta_descripcion>Para 2030, reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones con arreglo a las definiciones nacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>3</id_meta>
+        <meta_codigo>1.3</meta_codigo>
+        <meta_descripcion>Poner en práctica a nivel nacional sistemas y medidas apropiadas de protección social para todos, incluidos niveles mínimos, y, para 2030, lograr una amplia cobertura de los pobres y los vulnerables.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>4</id_meta>
+        <meta_codigo>1.4</meta_codigo>
+        <meta_descripcion>Para 2030, garantizar que todos los hombres y mujeres, en particular los pobres y los vulnerables, tengan los mismos derechos a los recursos económicos, así como acceso a los servicios básicos, la propiedad y el control de las tierras y otros bienes, la herencia, los recursos naturales, las nuevas tecnologías apropiadas y los servicios financieros, incluida la microfinanciación.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>5</id_meta>
+        <meta_codigo>1.5</meta_codigo>
+        <meta_descripcion>Para 2030, fomentar la resiliencia de los pobres y las personas que se encuentran en situaciones vulnerables y reducir su exposición y vulnerabilidad a los fenómenos extremos relacionados con el clima y otras crisis y desastres económicos, sociales y ambientales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>6</id_meta>
+        <meta_codigo>1.a</meta_codigo>
+        <meta_descripcion>Garantizar una movilización importante de recursos procedentes de diversas fuentes, incluso mediante la mejora de la cooperación para el desarrollo, a fin de proporcionar medios suficientes y previsibles a los países en desarrollo, en particular los países menos adelantados, para poner en práctica programas y políticas encaminados a poner fin a la pobreza en todas sus dimensiones.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>7</id_meta>
+        <meta_codigo>1.b</meta_codigo>
+        <meta_descripcion>Crear marcos normativos sólidos en los planos nacional, regional e internacional, sobre la base de estrategias de desarrollo en favor de los pobres que tengan en cuenta las cuestiones de género, a fin de apoyar la inversión acelerada en medidas para erradicar la pobreza.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>2</id_ods>
+    <ods_codigo>2</ods_codigo>
+    <ods_titulo>Hambre cero</ods_titulo>
+    <ods_descripcion>Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible.</ods_descripcion>
+    <ods_color_hex>#DDA63A</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>8</id_meta>
+        <meta_codigo>2.1</meta_codigo>
+        <meta_descripcion>Para 2030, poner fin al hambre y asegurar el acceso de todas las personas, en particular los pobres y las personas en situaciones vulnerables, incluidos los lactantes, a una alimentación sana, nutritiva y suficiente durante todo el año.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>9</id_meta>
+        <meta_codigo>2.2</meta_codigo>
+        <meta_descripcion>Para 2030, poner fin a todas las formas de malnutrición, incluso logrando, a más tardar en 2025, las metas convenidas internacionalmente sobre el retraso del crecimiento y la emaciación de los niños menores de 5 años, y abordar las necesidades de nutrición de las adolescentes, las mujeres embarazadas y lactantes y las personas de edad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>10</id_meta>
+        <meta_codigo>2.3</meta_codigo>
+        <meta_descripcion>Para 2030, duplicar la productividad agrícola y los ingresos de los productores de alimentos en pequeña escala, en particular las mujeres, los pueblos indígenas, los agricultores familiares, los pastores y los pescadores, entre otras cosas mediante un acceso seguro y equitativo a las tierras, a otros recursos de producción e insumos, conocimientos, servicios financieros, mercados y oportunidades para la generación de valor añadido y empleos no agrícolas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>11</id_meta>
+        <meta_codigo>2.4</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar la sostenibilidad de los sistemas de producción de alimentos y aplicar prácticas agrícolas resilientes que aumenten la productividad y la producción, contribuyan al mantenimiento de los ecosistemas, fortalezcan la capacidad de adaptación al cambio climático, los fenómenos meteorológicos extremos, las sequías, las inundaciones y otros desastres, y mejoren progresivamente la calidad del suelo y la tierra.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>12</id_meta>
+        <meta_codigo>2.5</meta_codigo>
+        <meta_descripcion>Para 2020, mantener la diversidad genética de las semillas, las plantas cultivadas y los animales de granja y domesticados y sus especies silvestres conexas, entre otras cosas mediante una buena gestión y diversificación de los bancos de semillas y plantas a nivel nacional, regional e internacional, y promover el acceso a los beneficios que se deriven de la utilización de los recursos genéticos y los conocimientos tradicionales y su distribución justa y equitativa, como se ha convenido internacionalmente.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>13</id_meta>
+        <meta_codigo>2.a</meta_codigo>
+        <meta_descripcion>Aumentar las inversiones, incluso mediante una mayor cooperación internacional, en la infraestructura rural, la investigación y los servicios de extensión agrícola, el desarrollo de tecnología y los bancos de genes de plantas y ganado a fin de mejorar la capacidad de producción agrícola en los países en desarrollo, en particular en los países menos adelantados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>14</id_meta>
+        <meta_codigo>2.b</meta_codigo>
+        <meta_descripcion>Corregir y prevenir las restricciones y distorsiones comerciales en los mercados agropecuarios mundiales, entre otras cosas mediante la eliminación paralela de todas las formas de subvenciones a las exportaciones agrícolas y todas las medidas de exportación con efectos equivalentes, de conformidad con el mandato de la Ronda de Doha para el Desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>15</id_meta>
+        <meta_codigo>2.c</meta_codigo>
+        <meta_descripcion>Adoptar medidas para asegurar el buen funcionamiento de los mercados de productos básicos alimentarios y sus derivados y facilitar el acceso oportuno a información sobre los mercados, en particular sobre las reservas de alimentos, a fin de ayudar a limitar la extrema volatilidad de los precios de los alimentos.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>3</id_ods>
+    <ods_codigo>3</ods_codigo>
+    <ods_titulo>Salud y bienestar</ods_titulo>
+    <ods_descripcion>Garantizar una vida sana y promover el bienestar para todos en todas las edades.</ods_descripcion>
+    <ods_color_hex>#4C9F38</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>16</id_meta>
+        <meta_codigo>3.1</meta_codigo>
+        <meta_descripcion>Para 2030, reducir la tasa mundial de mortalidad materna a menos de 70 por cada 100.000 nacidos vivos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>17</id_meta>
+        <meta_codigo>3.2</meta_codigo>
+        <meta_descripcion>Para 2030, poner fin a las muertes evitables de recién nacidos y de niños menores de 5 años, logrando que todos los países intenten reducir la mortalidad neonatal al menos hasta 12 por cada 1.000 nacidos vivos, y la mortalidad de niños menores de 5 años al menos hasta 25 por cada 1.000 nacidos vivos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>18</id_meta>
+        <meta_codigo>3.3</meta_codigo>
+        <meta_descripcion>Para 2030, poner fin a las epidemias del SIDA, la tuberculosis, la malaria y las enfermedades tropicales desatendidas y combatir la hepatitis, las enfermedades transmitidas por el agua y otras enfermedades transmisibles.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>19</id_meta>
+        <meta_codigo>3.4</meta_codigo>
+        <meta_descripcion>Para 2030, reducir en un tercio la mortalidad prematura por enfermedades no transmisibles mediante la prevención y el tratamiento y promover la salud mental y el bienestar.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>20</id_meta>
+        <meta_codigo>3.5</meta_codigo>
+        <meta_descripcion>Fortalecer la prevención y el tratamiento del abuso de sustancias adictivas, incluido el uso indebido de estupefacientes y el consumo nocivo de alcohol.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>21</id_meta>
+        <meta_codigo>3.6</meta_codigo>
+        <meta_descripcion>Para 2020, reducir a la mitad el número de muertes y lesiones causadas por accidentes de tráfico en el mundo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>22</id_meta>
+        <meta_codigo>3.7</meta_codigo>
+        <meta_descripcion>Para 2030, garantizar el acceso universal a los servicios de salud sexual y reproductiva, incluidos los de planificación de la familia, información y educación, y la integración de la salud reproductiva en las estrategias y los programas nacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>23</id_meta>
+        <meta_codigo>3.8</meta_codigo>
+        <meta_descripcion>Lograr la cobertura sanitaria universal, en particular la protección contra los riesgos financieros, el acceso a servicios de salud esenciales de calidad y el acceso a medicamentos y vacunas seguros, eficaces, asequibles y de calidad para todos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>24</id_meta>
+        <meta_codigo>3.9</meta_codigo>
+        <meta_descripcion>Para 2030, reducir sustancialmente el número de muertes y enfermedades producidas por productos químicos peligrosos y la contaminación del aire, el agua y el suelo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>25</id_meta>
+        <meta_codigo>3.a</meta_codigo>
+        <meta_descripcion>Fortalecer la aplicación del Convenio Marco de la Organización Mundial de la Salud para el Control del Tabaco en todos los países, según proceda.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>26</id_meta>
+        <meta_codigo>3.b</meta_codigo>
+        <meta_descripcion>Apoyar las actividades de investigación y desarrollo de vacunas y medicamentos para las enfermedades transmisibles y no transmisibles que afectan primordialmente a los países en desarrollo y facilitar el acceso a medicamentos y vacunas esenciales asequibles de conformidad con la Declaración de Doha relativa al Acuerdo sobre los ADPIC y la Salud Pública.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>27</id_meta>
+        <meta_codigo>3.c</meta_codigo>
+        <meta_descripcion>Aumentar sustancialmente la financiación de la salud y la contratación, el desarrollo, la capacitación y la retención del personal sanitario en los países en desarrollo, especialmente en los países menos adelantados y los pequeños Estados insulares en desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>28</id_meta>
+        <meta_codigo>3.d</meta_codigo>
+        <meta_descripcion>Reforzar la capacidad de todos los países, en particular los países en desarrollo, en materia de alerta temprana, reducción de riesgos y gestión de los riesgos para la salud nacional y mundial.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>4</id_ods>
+    <ods_codigo>4</ods_codigo>
+    <ods_titulo>Educación de calidad</ods_titulo>
+    <ods_descripcion>Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos.</ods_descripcion>
+    <ods_color_hex>#C5192D</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>29</id_meta>
+        <meta_codigo>4.1</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar que todas las niñas y todos los niños terminen la enseñanza primaria y secundaria, que ha de ser gratuita, equitativa y de calidad y producir resultados de aprendizaje pertinentes y efectivos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>30</id_meta>
+        <meta_codigo>4.2</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar que todas las niñas y todos los niños tengan acceso a servicios de atención y desarrollo en la primera infancia y a una enseñanza preescolar de calidad, a fin de que estén preparados para la enseñanza primaria.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>31</id_meta>
+        <meta_codigo>4.3</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar el acceso igualitario de todos los hombres y las mujeres a una formación técnica, profesional и superior de calidad, incluida la enseñanza universitaria.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>32</id_meta>
+        <meta_codigo>4.4</meta_codigo>
+        <meta_descripcion>Para 2030, aumentar considerablemente el número de jóvenes y adultos que tienen las competencias necesarias, en particular técnicas y profesionales, para acceder al empleo, el trabajo decente y el emprendimiento.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>33</id_meta>
+        <meta_codigo>4.5</meta_codigo>
+        <meta_descripcion>Para 2030, eliminar las disparidades de género en la educación y asegurar el acceso igualitario a todos los niveles de la enseñanza y la formación profesional para las personas vulnerables, incluidas las personas con discapacidad, los pueblos indígenas y los niños en situaciones de vulnerabilidad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>34</id_meta>
+        <meta_codigo>4.6</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar que todos los jóvenes y una proporción considerable de los adultos, tanto hombres como mujeres, estén alfabetizados y tengan nociones elementales de aritmética.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>35</id_meta>
+        <meta_codigo>4.7</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar que todos los alumnos adquieran los conocimientos teóricos y prácticos necesarios para promover el desarrollo sostenible, entre otras cosas mediante la educación para el desarrollo sostenible y los estilos de vida sostenibles, los derechos humanos, la igualdad de género, la promoción de una cultura de paz y no violencia, la ciudadanía mundial y la valoración de la diversidad cultural y la contribución de la cultura al desarrollo sostenible.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>36</id_meta>
+        <meta_codigo>4.a</meta_codigo>
+        <meta_descripcion>Construir y adecuar instalaciones educativas que tengan en cuenta las necesidades de los niños y las personas con discapacidad y las diferencias de género, y que ofrezcan entornos de aprendizaje seguros, no violentos, inclusivos y eficaces para todos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>37</id_meta>
+        <meta_codigo>4.b</meta_codigo>
+        <meta_descripcion>Para 2020, aumentar considerablemente a nivel mundial el número de becas disponibles para los países en desarrollo, en particular los países menos adelantados, los pequeños Estados insulares en desarrollo y los países africanos, a fin de que sus estudiantes puedan matricularse en programas de enseñanza superior, incluidos programas de formación profesional y programas técnicos, científicos, de ingeniería y de tecnología de la información y las comunicaciones, de países desarrollados y otros países en desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>38</id_meta>
+        <meta_codigo>4.c</meta_codigo>
+        <meta_descripcion>Para 2030, aumentar considerablemente la oferta de docentes calificados, incluso mediante la cooperación internacional para la formación de docentes en los países en desarrollo, especialmente los países menos adelantados y los pequeños Estados insulares en desarrollo.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>5</id_ods>
+    <ods_codigo>5</ods_codigo>
+    <ods_titulo>Igualdad de género</ods_titulo>
+    <ods_descripcion>Lograr la igualdad entre los géneros y empoderar a todas las mujeres y las niñas.</ods_descripcion>
+    <ods_color_hex>#FF3A21</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>39</id_meta>
+        <meta_codigo>5.1</meta_codigo>
+        <meta_descripcion>Poner fin a todas las formas de discriminación contra todas las mujeres y las niñas en todo el mundo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>40</id_meta>
+        <meta_codigo>5.2</meta_codigo>
+        <meta_descripcion>Eliminar todas las formas de violencia contra todas las mujeres y las niñas en los ámbitos público y privado, incluidas la trata y la explotación sexual y otros tipos de explotación.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>41</id_meta>
+        <meta_codigo>5.3</meta_codigo>
+        <meta_descripcion>Eliminar todas las prácticas nocivas, como el matrimonio infantil, precoz y forzado y la mutilación genital femenina.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>42</id_meta>
+        <meta_codigo>5.4</meta_codigo>
+        <meta_descripcion>Reconocer y valorar los cuidados y el trabajo doméstico no remunerados mediante servicios públicos, infraestructuras y políticas de protección social, y promoviendo la responsabilidad compartida en el hogar y la familia, según proceda en cada país.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>43</id_meta>
+        <meta_codigo>5.5</meta_codigo>
+        <meta_descripcion>Asegurar la participación plena y efectiva de las mujeres y la igualdad de oportunidades de liderazgo a todos los niveles decisorios en la vida política, económica y pública.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>44</id_meta>
+        <meta_codigo>5.6</meta_codigo>
+        <meta_descripcion>Asegurar el acceso universal a la salud sexual y reproductiva y los derechos reproductivos de conformidad con el Programa de Acción de la Conferencia Internacional sobre la Población y el Desarrollo, la Plataforma de Acción de Beijing y los documentos finales de sus conferencias de examen.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>45</id_meta>
+        <meta_codigo>5.a</meta_codigo>
+        <meta_descripcion>Emprender reformas que otorguen a las mujeres igualdad de derechos a los recursos económicos, así como acceso a la propiedad y al control de la tierra y otros tipos de bienes, los servicios financieros, la herencia y los recursos naturales, de conformidad con las leyes nacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>46</id_meta>
+        <meta_codigo>5.b</meta_codigo>
+        <meta_descripcion>Mejorar el uso de la tecnología instrumental, en particular la tecnología de la información y las comunicaciones, para promover el empoderamiento de las mujeres.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>47</id_meta>
+        <meta_codigo>5.c</meta_codigo>
+        <meta_descripcion>Aprobar y fortalecer políticas acertadas y leyes aplicables para promover la igualdad de género y el empoderamiento de todas las mujeres y las niñas a todos los niveles.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>6</id_ods>
+    <ods_codigo>6</ods_codigo>
+    <ods_titulo>Agua limpia y saneamiento</ods_titulo>
+    <ods_descripcion>Garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos.</ods_descripcion>
+    <ods_color_hex>#26BDE2</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>48</id_meta>
+        <meta_codigo>6.1</meta_codigo>
+        <meta_descripcion>Para 2030, lograr el acceso universal y equitativo al agua potable, a un precio asequible para todos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>49</id_meta>
+        <meta_codigo>6.2</meta_codigo>
+        <meta_descripcion>Para 2030, lograr el acceso a servicios de saneamiento e higiene adecuados y equitativos para todos y poner fin a la defecación al aire libre, prestando especial atención a las necesidades de las mujeres y las niñas y las personas en situaciones de vulnerabilidad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>50</id_meta>
+        <meta_codigo>6.3</meta_codigo>
+        <meta_descripcion>Para 2030, mejorar la calidad del agua reduciendo la contaminación, eliminando el vertimiento y minimizando la emisión de productos químicos y materiales peligrosos, reduciendo a la mitad el porcentaje de aguas residuales sin tratar y aumentando considerablemente el reciclado y la reutilización sin riesgos a nivel mundial.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>51</id_meta>
+        <meta_codigo>6.4</meta_codigo>
+        <meta_descripcion>Para 2030, aumentar considerablemente el uso eficiente de los recursos hídricos en todos los sectores y asegurar la sostenibilidad de la extracción y el abastecimiento de agua dulce para hacer frente a la escasez de agua y reducir considerablemente el número de personas que sufren falta de agua.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>52</id_meta>
+        <meta_codigo>6.5</meta_codigo>
+        <meta_descripcion>Para 2030, implementar la gestión integrada de los recursos hídricos a todos los niveles, incluso mediante la cooperación transfronteriza, según proceda.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>53</id_meta>
+        <meta_codigo>6.6</meta_codigo>
+        <meta_descripcion>Para 2020, proteger y restablecer los ecosistemas relacionados con el agua, incluidos los bosques, las montañas, los humedales, los ríos, los acuíferos y los lagos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>54</id_meta>
+        <meta_codigo>6.a</meta_codigo>
+        <meta_descripcion>Para 2030, ampliar la cooperación internacional y el apoyo prestado a los países en desarrollo para la creación de capacidad en actividades y programas relativos al agua y el saneamiento, como los de captación de agua, desalinización, uso eficiente de los recursos hídricos, tratamiento de aguas residuales, reciclado y tecnologías de reutilización.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>55</id_meta>
+        <meta_codigo>6.b</meta_codigo>
+        <meta_descripcion>Apoyar y fortalecer la participación de las comunidades locales en la mejora de la gestión del agua y el saneamiento.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>7</id_ods>
+    <ods_codigo>7</ods_codigo>
+    <ods_titulo>Energía asequible y no contaminante</ods_titulo>
+    <ods_descripcion>Garantizar el acceso al acceso a una energía asequible, segura, sostenible y moderna para todos.</ods_descripcion>
+    <ods_color_hex>#FCC30B</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>56</id_meta>
+        <meta_codigo>7.1</meta_codigo>
+        <meta_descripcion>Para 2030, garantizar el acceso universal a servicios energéticos asequibles, fiables y modernos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>57</id_meta>
+        <meta_codigo>7.2</meta_codigo>
+        <meta_descripcion>Para 2030, aumentar considerablemente la proporción de energía renovable en el conjunto de fuentes energéticas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>58</id_meta>
+        <meta_codigo>7.3</meta_codigo>
+        <meta_descripcion>Para 2030, duplicar la tasa mundial de mejora de la eficiencia energética.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>59</id_meta>
+        <meta_codigo>7.a</meta_codigo>
+        <meta_descripcion>Para 2030, aumentar la cooperación internacional para facilitar el acceso a la investigación y la tecnología relativas a la energía limpia, incluidas las fuentes renovables, la eficiencia energética y las tecnologías avanzadas y menos contaminantes de combustibles fósiles, y promover la inversión en infraestructura energética y tecnologías limpias.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>60</id_meta>
+        <meta_codigo>7.b</meta_codigo>
+        <meta_descripcion>Para 2030, ampliar la infraestructura y mejorar la tecnología para prestar servicios energéticos modernos y sostenibles para todos en los países en desarrollo, en particular los países menos adelantados, los pequeños Estados insulares en desarrollo y los países en desarrollo sin litoral, en consonancia con sus respectivos programas de apoyo.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>8</id_ods>
+    <ods_codigo>8</ods_codigo>
+    <ods_titulo>Trabajo decente y crecimiento económico</ods_titulo>
+    <ods_descripcion>Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos.</ods_descripcion>
+    <ods_color_hex>#A21942</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>61</id_meta>
+        <meta_codigo>8.1</meta_codigo>
+        <meta_descripcion>Mantener el crecimiento económico per capita de conformidad con las circunstancias nacionales y, en particular, un crecimiento del producto interno bruto de al menos el 7% anual en los países menos adelantados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>62</id_meta>
+        <meta_codigo>8.2</meta_codigo>
+        <meta_descripcion>Lograr niveles más elevados de productividad económica mediante la diversificación, la modernización tecnológica y la innovación, entre otras cosas centrándose en los sectores con gran valor añadido y un uso intensivo de la mano de obra.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>63</id_meta>
+        <meta_codigo>8.3</meta_codigo>
+        <meta_descripcion>Promover políticas orientadas al desarrollo que apoyen las actividades productivas, la creación de puestos de trabajo decentes, el emprendimiento, la creatividad y la innovación, y fomentar la formalización y el crecimiento de las microempresas y las pequeñas y medianas empresas, incluso mediante el acceso a servicios financieros.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>64</id_meta>
+        <meta_codigo>8.4</meta_codigo>
+        <meta_descripcion>Mejorar progresivamente, para 2030, la producción y el consumo eficientes de los recursos mundiales y procurar desvincular el crecimiento económico de la degradación del medio ambiente, conforme al Marco Decenal de Programas sobre Modalidades de Consumo y Producción Sostenibles, empezando por los países desarrollados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>65</id_meta>
+        <meta_codigo>8.5</meta_codigo>
+        <meta_descripcion>Para 2030, lograr el empleo pleno y productivo y el trabajo decente para todas las mujeres y los hombres, incluidos los jóvenes y las personas con discapacidad, así como la igualdad de remuneración por trabajo de igual valor.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>66</id_meta>
+        <meta_codigo>8.6</meta_codigo>
+        <meta_descripcion>Para 2020, reducir considerablemente la proporción de jóvenes que no están empleados y no cursan estudios ni reciben capacitación.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>67</id_meta>
+        <meta_codigo>8.7</meta_codigo>
+        <meta_descripcion>Adoptar medidas inmediatas y eficaces para erradicar el trabajo forzoso, poner fin a las formas contemporáneas de esclavitud y la trata de personas y asegurar la prohibición y eliminación de las peores formas de trabajo infantil, incluidos el reclutamiento y la utilización de niños soldados, y, para 2025, poner fin al trabajo infantil en todas sus formas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>68</id_meta>
+        <meta_codigo>8.8</meta_codigo>
+        <meta_descripcion>Proteger los derechos laborales y promover un entorno de trabajo seguro y sin riesgos para todos los trabajadores, incluidos los trabajadores migrantes, en particular las mujeres migrantes y las personas con empleos precarios.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>69</id_meta>
+        <meta_codigo>8.9</meta_codigo>
+        <meta_descripcion>Para 2030, elaborar y poner en práctica políticas encaminadas a promover un turismo sostenible que cree puestos de trabajo y promueva la cultura y los productos locales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>70</id_meta>
+        <meta_codigo>8.10</meta_codigo>
+        <meta_descripcion>Fortalecer la capacidad de las instituciones financieras nacionales para fomentar y ampliar el acceso a los servicios bancarios, financieros y de seguros para todos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>71</id_meta>
+        <meta_codigo>8.a</meta_codigo>
+        <meta_descripcion>Aumentar el apoyo a la iniciativa de ayuda para el comercio en los países en desarrollo, en particular los países menos adelantados, incluso mediante el Marco Integrado Mejorado para la Asistencia Técnica a los Países Menos Adelantados en Materia de Comercio.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>72</id_meta>
+        <meta_codigo>8.b</meta_codigo>
+        <meta_descripcion>Para 2020, desarrollar y poner en marcha una estrategia mundial para el empleo de los jóvenes y aplicar el Pacto Mundial para el Empleo de la Organización Internacional del Trabajo.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>9</id_ods>
+    <ods_codigo>9</ods_codigo>
+    <ods_titulo>Industria, innovación e infraestructura</ods_titulo>
+    <ods_descripcion>Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación.</ods_descripcion>
+    <ods_color_hex>#FD6925</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>73</id_meta>
+        <meta_codigo>9.1</meta_codigo>
+        <meta_descripcion>Desarrollar infraestructuras fiables, sostenibles, resilientes y de calidad, incluidas infraestructuras regionales y transfronterizas, para apoyar el desarrollo económico y el bienestar humano, haciendo especial hincapié en el acceso asequible y equitativo para todos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>74</id_meta>
+        <meta_codigo>9.2</meta_codigo>
+        <meta_descripcion>Promover una industrialización inclusiva y sostenible y, para 2030, aumentar significativamente la contribución de la industria al empleo y al producto interno bruto, de acuerdo con las circunstancias nacionales, y duplicar esa contribución en los países menos adelantados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>75</id_meta>
+        <meta_codigo>9.3</meta_codigo>
+        <meta_descripcion>Aumentar el acceso de las pequeñas industrias y otras empresas, particularmente en los países en desarrollo, a los servicios financieros, incluidos créditos asequibles, y su integración en las cadenas de valor y los mercados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>76</id_meta>
+        <meta_codigo>9.4</meta_codigo>
+        <meta_descripcion>Para 2030, modernizar la infraestructura y reconvertir las industrias para que sean sostenibles, utilizando los recursos con mayor eficacia y promoviendo la adopción de tecnologías y procesos industriales limpios y ambientalmente racionales, y logrando que todos los países adopten medidas de acuerdo con sus capacidades respectivas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>77</id_meta>
+        <meta_codigo>9.5</meta_codigo>
+        <meta_descripcion>Aumentar la investigación científica y mejorar la capacidad tecnológica de los sectores industriales de todos los países, en particular los países en desarrollo, entre otras cosas fomentando la innovación y aumentando considerablemente, para 2030, el número de personas que trabajan en investigación y desarrollo por millón de habitantes, así como los gastos de los sectores público y privado en investigación y desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>78</id_meta>
+        <meta_codigo>9.a</meta_codigo>
+        <meta_descripcion>Facilitar el desarrollo de infraestructuras sostenibles y resilientes en los países en desarrollo mediante un mayor apoyo financiero, tecnológico y técnico a los países africanos, los países menos adelantados, los países en desarrollo sin litoral y los pequeños Estados insulares en desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>79</id_meta>
+        <meta_codigo>9.b</meta_codigo>
+        <meta_descripcion>Apoyar el desarrollo de tecnologías, la investigación y la innovación nacionales en los países en desarrollo, incluso garantizando un entorno normativo propicio a la diversificación industrial y la adición de valor a los productos básicos, entre otras cosas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>80</id_meta>
+        <meta_codigo>9.c</meta_codigo>
+        <meta_descripcion>Aumentar significativamente el acceso a la tecnología de la información y las comunicaciones y esforzarse por proporcionar acceso universal y asequible a Internet en los países menos adelantados para 2020.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>10</id_ods>
+    <ods_codigo>10</ods_codigo>
+    <ods_titulo>Reducción de las desigualdades</ods_titulo>
+    <ods_descripcion>Reducir la desigualdad en y entre los países.</ods_descripcion>
+    <ods_color_hex>#DD1367</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>81</id_meta>
+        <meta_codigo>10.1</meta_codigo>
+        <meta_descripcion>Para 2030, lograr progresivamente y mantener el crecimiento de los ingresos del 40% más pobre de la población a una tasa superior a la media nacional.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>82</id_meta>
+        <meta_codigo>10.2</meta_codigo>
+        <meta_descripcion>Para 2030, potenciar y promover la inclusión social, económica y política de todas las personas, independientemente de su edad, sexo, discapacidad, raza, etnia, origen, religión o situación económica u otra condición.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>83</id_meta>
+        <meta_codigo>10.3</meta_codigo>
+        <meta_descripcion>Garantizar la igualdad de oportunidades y reducir la desigualdad de resultados, incluso eliminando las leyes, políticas y prácticas discriminatorias y promoviendo legislaciones, políticas y medidas adecuadas a ese respecto.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>84</id_meta>
+        <meta_codigo>10.4</meta_codigo>
+        <meta_descripcion>Adoptar políticas, especialmente fiscales, salariales y de protección social, y lograr progresivamente una mayor igualdad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>85</id_meta>
+        <meta_codigo>10.5</meta_codigo>
+        <meta_descripcion>Mejorar la reglamentación y vigilancia de las instituciones y los mercados financieros mundiales y fortalecer la aplicación de esos reglamentos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>86</id_meta>
+        <meta_codigo>10.6</meta_codigo>
+        <meta_descripcion>Asegurar una mayor representación e intervención de los países en desarrollo en las decisiones adoptadas por las instituciones económicas y financieras internacionales para aumentar la eficacia, fiabilidad, rendición de cuentas y legitimidad de esas instituciones.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>87</id_meta>
+        <meta_codigo>10.7</meta_codigo>
+        <meta_descripcion>Facilitar la migración y la movilidad ordenadas, seguras, regulares y responsables de las personas, incluso mediante la aplicación de políticas migratorias planificadas y bien gestionadas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>88</id_meta>
+        <meta_codigo>10.a</meta_codigo>
+        <meta_descripcion>Aplicar el principio del trato especial y diferenciado para los países en desarrollo, en particular los países menos adelantados, de conformidad con las acuerdos de la Organización Mundial del Comercio.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>89</id_meta>
+        <meta_codigo>10.b</meta_codigo>
+        <meta_descripcion>Fomentar la asistencia oficial para el desarrollo y las corrientes financieras, incluida la inversión extranjera directa, para los Estados con mayores necesidades, en particular los países menos adelantados, los países africanos, los pequeños Estados insulares en desarrollo y los países en desarrollo sin litoral, en consonancia con sus planes y programas nacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>90</id_meta>
+        <meta_codigo>10.c</meta_codigo>
+        <meta_descripcion>Para 2030, reducir a menos del 3% los costos de transacción de las remesas de los migrantes y eliminar los corredores de remesas con costos superiores al 5%.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>11</id_ods>
+    <ods_codigo>11</ods_codigo>
+    <ods_titulo>Ciudades y comunidades sostenibles</ods_titulo>
+    <ods_descripcion>Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.</ods_descripcion>
+    <ods_color_hex>#FD9D24</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>91</id_meta>
+        <meta_codigo>11.1</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar el acceso de todas las personas a viviendas y servicios básicos adecuados, seguros y asequibles y mejorar los barrios marginales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>92</id_meta>
+        <meta_codigo>11.2</meta_codigo>
+        <meta_descripcion>Para 2030, proporcionar acceso a sistemas de transporte seguros, asequibles, accesibles y sostenibles para todos y mejorar la seguridad vial, en particular mediante la ampliación del transporte público, prestando especial atención a las necesidades de las personas en situación de vulnerabilidad, las mujeres, los niños, las personas con discapacidad y las personas de edad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>93</id_meta>
+        <meta_codigo>11.3</meta_codigo>
+        <meta_descripcion>Para 2030, aumentar la urbanización inclusiva y sostenible y la capacidad para la planificación y la gestión participativas, integradas y sostenibles de los asentamientos humanos en todos los países.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>94</id_meta>
+        <meta_codigo>11.4</meta_codigo>
+        <meta_descripcion>Redoblar los esfuerzos para proteger y salvaguardar el patrimonio cultural y natural del mundo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>95</id_meta>
+        <meta_codigo>11.5</meta_codigo>
+        <meta_descripcion>Para 2030, reducir significativamente el número de muertes causadas por los desastres, incluidos los relacionados con el agua, y de personas afectadas por ellos, y disminuir considerablemente las pérdidas económicas directas que provocan en comparación con el producto interno bruto mundial, haciendo especial hincapié en la protección de los pobres y las personas en situaciones de vulnerabilidad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>96</id_meta>
+        <meta_codigo>11.6</meta_codigo>
+        <meta_descripcion>Para 2030, reducir el impacto ambiental negativo per capita de las ciudades, incluso prestando especial atención a la calidad del aire y la gestión de los desechos municipales y de otro tipo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>97</id_meta>
+        <meta_codigo>11.7</meta_codigo>
+        <meta_descripcion>Para 2030, proporcionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y los niños, las personas de edad y las personas con discapacidad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>98</id_meta>
+        <meta_codigo>11.a</meta_codigo>
+        <meta_descripcion>Apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periurbanas y rurales fortaleciendo la planificación del desarrollo nacional y regional.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>99</id_meta>
+        <meta_codigo>11.b</meta_codigo>
+        <meta_descripcion>Para 2020, aumentar considerablemente el número de ciudades y asentamientos humanos que adoptan e implementan políticas y planes integrados para promover la inclusión, el uso eficiente de los recursos, la mitigación del cambio climático y la adaptación a él y la resiliencia ante los desastres, y desarrollar y poner en práctica, en consonancia con el Marco de Sendai para la Reducción del Riesgo de Desastres 2015-2030, la gestión integral de los riesgos de desastre a todos los niveles.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>100</id_meta>
+        <meta_codigo>11.c</meta_codigo>
+        <meta_descripcion>Proporcionar apoyo a los países menos adelantados, incluso mediante asistencia financiera y técnica, para que puedan construir edificios sostenibles y resilientes utilizando materiales locales.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>12</id_ods>
+    <ods_codigo>12</ods_codigo>
+    <ods_titulo>Producción y consumo responsables</ods_titulo>
+    <ods_descripcion>Garantizar modalidades de consumo y producción sostenibles.</ods_descripcion>
+    <ods_color_hex>#BF8B2E</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>101</id_meta>
+        <meta_codigo>12.1</meta_codigo>
+        <meta_descripcion>Aplicar el Marco Decenal de Programas sobre Modalidades de Consumo y Producción Sostenibles, con la participación de todos los países y bajo el liderazgo de los países desarrollados, teniendo en cuenta el grado de desarrollo y las capacidades de los países en desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>102</id_meta>
+        <meta_codigo>12.2</meta_codigo>
+        <meta_descripcion>Para 2030, lograr la gestión sostenible y el uso eficiente de los recursos naturales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>103</id_meta>
+        <meta_codigo>12.3</meta_codigo>
+        <meta_descripcion>Para 2030, reducir a la mitad el desperdicio de alimentos per capita mundial en la venta al por menor y a nivel de los consumidores y reducir las pérdidas de alimentos en las cadenas de producción y suministro, incluidas las pérdidas posteriores a la cosecha.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>104</id_meta>
+        <meta_codigo>12.4</meta_codigo>
+        <meta_descripcion>Para 2020, lograr la gestión ecológicamente racional de los productos químicos y de todos los desechos a lo largo de su ciclo de vida, de conformidad con los marcos internacionales convenidos, y reducir significativamente su liberación a la atmósfera, el agua y el suelo a fin de minimizar sus efectos adversos en la salud humana y el medio ambiente.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>105</id_meta>
+        <meta_codigo>12.5</meta_codigo>
+        <meta_descripcion>Para 2030, reducir considerablemente la generación de desechos mediante actividades de prevención, reducción, reciclado y reutilización.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>106</id_meta>
+        <meta_codigo>12.6</meta_codigo>
+        <meta_descripcion>Alentar a las empresas, en especial las grandes empresas y las empresas transnacionales, a que adopten prácticas sostenibles e incorporen información sobre la sostenibilidad en su ciclo de presentación de informes.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>107</id_meta>
+        <meta_codigo>12.7</meta_codigo>
+        <meta_descripcion>Promover prácticas de adquisición pública que sean sostenibles, de conformidad con las políticas y prioridades nacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>108</id_meta>
+        <meta_codigo>12.8</meta_codigo>
+        <meta_descripcion>Para 2030, asegurar que las personas de todo el mundo tengan la información y los conocimientos pertinentes para el desarrollo sostenible y los estilos de vida en armonía con la naturaleza.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>109</id_meta>
+        <meta_codigo>12.a</meta_codigo>
+        <meta_descripcion>Ayudar a los países en desarrollo a fortalecer su capacidad científica y tecnológica para avanzar hacia modalidades de consumo y producción más sostenibles.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>110</id_meta>
+        <meta_codigo>12.b</meta_codigo>
+        <meta_descripcion>Elaborar y aplicar instrumentos para vigilar los efectos del turismo sostenible en el desarrollo, que cree puestos de trabajo y promueva la cultura y los productos locales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>111</id_meta>
+        <meta_codigo>12.c</meta_codigo>
+        <meta_descripcion>Racionalizar los subsidios ineficientes a los combustibles fósiles que fomentan el consumo antieconómico eliminando las distorsiones del mercado, de acuerdo con las circunstancias nacionales, incluso mediante la reestructuración de los sistemas tributarios y la eliminación gradual de los subsidios perjudiciales, cuando existan, para reflejar su impacto ambiental, teniendo plenamente en cuenta las necesidades y condiciones específicas de los países en desarrollo y minimizando los posibles efectos adversos en su desarrollo, de manera que se proteja a los pobres y a las comunidades afectadas.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>13</id_ods>
+    <ods_codigo>13</ods_codigo>
+    <ods_titulo>Acción por el clima</ods_titulo>
+    <ods_descripcion>Adoptar medidas urgentes para combatir el cambio climático y sus efectos.</ods_descripcion>
+    <ods_color_hex>#3F7E44</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>112</id_meta>
+        <meta_codigo>13.1</meta_codigo>
+        <meta_descripcion>Fortalecer la resiliencia y la capacidad de adaptación a los riesgos relacionados con el clima y los desastres naturales en todos los países.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>113</id_meta>
+        <meta_codigo>13.2</meta_codigo>
+        <meta_descripcion>Incorporar medidas relativas al cambio climático en las políticas, estrategias y planes nacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>114</id_meta>
+        <meta_codigo>13.3</meta_codigo>
+        <meta_descripcion>Mejorar la educación, la sensibilización y la capacidad humana e institucional respecto de la mitigación del cambio climático, la adaptación a él, la reducción de sus efectos y la alerta temprana.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>115</id_meta>
+        <meta_codigo>13.a</meta_codigo>
+        <meta_descripcion>Cumplir el compromiso de los países desarrollados que son partes en la Convención Marco de las Naciones Unidas sobre el Cambio Climático de lograr para el año 2020 el objetivo de movilizar conjuntamente 100.000 millones de dólares anuales procedentes de todas las fuentes a fin de atender las necesidades de los países en desarrollo respecto de la adopción de medidas concretas de mitigación y la transparencia de su aplicación y poner en pleno funcionamiento el Fondo Verde para el Clima capitalizándolo lo antes posible.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>116</id_meta>
+        <meta_codigo>13.b</meta_codigo>
+        <meta_descripcion>Promover mecanismos para aumentar la capacidad para la planificación y gestión eficaces en relación con el cambio climático en los países menos adelantados y los pequeños Estados insulares en desarrollo, haciendo particular hincapié en las mujeres, los jóvenes y las comunidades locales y marginadas.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>14</id_ods>
+    <ods_codigo>14</ods_codigo>
+    <ods_titulo>Vida submarina</ods_titulo>
+    <ods_descripcion>Conservar y utilizar en forma sostenible los océanos, los mares y los recursos marinos para el desarrollo sostenible.</ods_descripcion>
+    <ods_color_hex>#0A97D9</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>117</id_meta>
+        <meta_codigo>14.1</meta_codigo>
+        <meta_descripcion>Para 2025, prevenir y reducir de forma significativa la contaminación marina de todo tipo, en particular la producida por actividades realizadas en tierra, incluidos los detritos marinos y la polución por nutrientes.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>118</id_meta>
+        <meta_codigo>14.2</meta_codigo>
+        <meta_descripcion>Para 2020, gestionar y proteger sosteniblemente los ecosistemas marinos y costeros para evitar efectos adversos importantes, incluso fortaleciendo su resiliencia, y adoptar medidas para restaurarlos a fin de restablecer la salud y la productividad de los océanos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>119</id_meta>
+        <meta_codigo>14.3</meta_codigo>
+        <meta_descripcion>Minimizar y abordar los efectos de la acidificación de los océanos, incluso mediante una mayor cooperación científica a todos los niveles.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>120</id_meta>
+        <meta_codigo>14.4</meta_codigo>
+        <meta_descripcion>Para 2020, reglamentar eficazmente la explotación pesquera y poner fin a la pesca excesiva, la pesca ilegal, no declarada y no reglamentada y las prácticas pesqueras destructivas, y aplicar planes de gestión con fundamento científico a fin de restablecer las poblaciones de peces en el plazo más breve posible, al menos a niveles que puedan producir el máximo rendimiento sostenible de acuerdo con sus características biológicas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>121</id_meta>
+        <meta_codigo>14.5</meta_codigo>
+        <meta_descripcion>Para 2020, conservar al menos el 10% de las zonas costeras y marinas, de conformidad con las leyes nacionales y el derecho internacional y sobre la base de la mejor información científica disponible.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>122</id_meta>
+        <meta_codigo>14.6</meta_codigo>
+        <meta_descripcion>Para 2020, prohibir ciertas formas de subvenciones a la pesca que contribuyen a la sobrecapacidad y la pesca excesiva, eliminar las subvenciones que contribuyen a la pesca ilegal, no declarada y no reglamentada y abstenerse de introducir nuevas subvenciones de esa índole, reconociendo que la negociación sobre las subvenciones a la pesca en el marco de la Organización Mundial del Comercio debe incluir un trato especial y diferenciado, apropiado y eficaz para los países en desarrollo y los países menos adelantados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>123</id_meta>
+        <meta_codigo>14.7</meta_codigo>
+        <meta_descripcion>Para 2030, aumentar los beneficios económicos que los pequeños Estados insulares en desarrollo y los países menos adelantados obtienen del uso sostenible de los recursos marinos, en particular mediante la gestión sostenible de la pesca, la acuicultura y el turismo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>124</id_meta>
+        <meta_codigo>14.a</meta_codigo>
+        <meta_descripcion>Aumentar los conocimientos científicos, desarrollar la capacidad de investigación y transferir tecnología marina, teniendo en cuenta los Criterios y Directrices para la Transferencia de Tecnología Marina de la Comisión Oceanográfica Intergubernamental, a fin de mejorar la salud de los océanos y potenciar la contribución de la biodiversidad marina al desarrollo de los países en desarrollo, en particular los pequeños Estados insulares en desarrollo y los países menos adelantados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>125</id_meta>
+        <meta_codigo>14.b</meta_codigo>
+        <meta_descripcion>Facilitar el acceso de los pescadores artesanales a los recursos marinos y los mercados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>126</id_meta>
+        <meta_codigo>14.c</meta_codigo>
+        <meta_descripcion>Mejorar la conservación y el uso sostenible de los océanos y sus recursos aplicando el derecho internacional reflejado en la Convención de las Naciones Unidas sobre el Derecho del Mar, que constituye el marco jurídico para la conservación y la utilización sostenible de los océanos y sus recursos, como se recuerda en el párrafo 158 del documento “El futuro que queremos”.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>15</id_ods>
+    <ods_codigo>15</ods_codigo>
+    <ods_titulo>Vida de ecosistemas terrestres</ods_titulo>
+    <ods_descripcion>Gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad.</ods_descripcion>
+    <ods_color_hex>#56C02B</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>127</id_meta>
+        <meta_codigo>15.1</meta_codigo>
+        <meta_descripcion>Para 2020, velar por la conservación, el restablecimiento y el uso sostenible de los ecosistemas terrestres y los ecosistemas interiores de agua dulce y los servicios que proporcionan, en particular los bosques, los humedales, las montañas y las zonas áridas, en consonancia con las obligaciones contraídas en virtud de acuerdos internacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>128</id_meta>
+        <meta_codigo>15.2</meta_codigo>
+        <meta_descripcion>Para 2020, promover la gestión sostenible de todos los tipos de bosques, poner fin a la deforestación, recuperar los bosques degradados y aumentar considerablemente la forestación и la reforestación a nivel mundial.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>129</id_meta>
+        <meta_codigo>15.3</meta_codigo>
+        <meta_descripcion>Para 2030, luchar contra la desertificación, rehabilitar las tierras y los suelos degradados, incluidas las tierras afectadas por la desertificación, la sequía y las inundaciones, y procurar lograr un mundo con una degradación neutra del suelo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>130</id_meta>
+        <meta_codigo>15.4</meta_codigo>
+        <meta_descripcion>Para 2030, velar por la conservación de los ecosistemas montañosos, incluida su diversidad biológica, a fin de mejorar su capacidad de proporcionar beneficios esenciales para el desarrollo sostenible.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>131</id_meta>
+        <meta_codigo>15.5</meta_codigo>
+        <meta_descripcion>Adoptar medidas urgentes y significativas para reducir la degradación de los hábitats naturales, detener la pérdida de la diversidad biológica y, para 2020, proteger las especies amenazadas y evitar su extinción.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>132</id_meta>
+        <meta_codigo>15.6</meta_codigo>
+        <meta_descripcion>Promover la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos y promover el acceso adecuado a esos recursos, como se ha convenido internacionalmente.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>133</id_meta>
+        <meta_codigo>15.7</meta_codigo>
+        <meta_descripcion>Adoptar medidas urgentes para poner fin a la caza furtiva y el tráfico de especies protegidas de flora y fauna y abordar la demanda y la oferta ilegales de productos silvestres.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>134</id_meta>
+        <meta_codigo>15.8</meta_codigo>
+        <meta_descripcion>Para 2020, adoptar medidas para prevenir la introducción de especies exóticas invasoras y reducir de forma significativa sus efectos en los ecosistemas terrestres y acuáticos y controlar o erradicar las especies prioritarias.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>135</id_meta>
+        <meta_codigo>15.9</meta_codigo>
+        <meta_descripcion>Para 2020, integrar los valores de los ecosistemas y la diversidad biológica en la planificación nacional y local, los procesos de desarrollo, las estrategias de reducción de la pobreza y la contabilidad.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>136</id_meta>
+        <meta_codigo>15.a</meta_codigo>
+        <meta_descripcion>Movilizar y aumentar de manera significativa los recursos financieros procedentes de todas las fuentes para conservar y utilizar de forma sostenible la diversidad biológica y los ecosistemas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>137</id_meta>
+        <meta_codigo>15.b</meta_codigo>
+        <meta_descripcion>Movilizar recursos considerables de todas las fuentes y a todos los niveles para financiar la gestión forestal sostenible y proporcionar incentivos adecuados a los países en desarrollo para que promuevan dicha gestión, en particular con miras a la conservación y la reforestación.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>138</id_meta>
+        <meta_codigo>15.c</meta_codigo>
+        <meta_descripcion>Aumentar el apoyo mundial a la lucha contra la caza furtiva y el tráfico de especies protegidas, en particular aumentando la capacidad de las comunidades locales para promover oportunidades de subsistencia sostenibles.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>16</id_ods>
+    <ods_codigo>16</ods_codigo>
+    <ods_titulo>Paz, justicia e instituciones sólidas</ods_titulo>
+    <ods_descripcion>Promover sociedades, justas, pacíficas e inclusivas.</ods_descripcion>
+    <ods_color_hex>#00689D</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>139</id_meta>
+        <meta_codigo>16.1</meta_codigo>
+        <meta_descripcion>Reducir considerablemente todas las formas de violencia y las correspondientes tasas de mortalidad en todo el mundo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>140</id_meta>
+        <meta_codigo>16.2</meta_codigo>
+        <meta_descripcion>Poner fin al maltrato, la explotación, la trata y todas las formas de violencia y tortura contra los niños.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>141</id_meta>
+        <meta_codigo>16.3</meta_codigo>
+        <meta_descripcion>Promover el estado de derecho en los planos nacional e internacional y garantizar la igualdad de acceso a la justicia para todos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>142</id_meta>
+        <meta_codigo>16.4</meta_codigo>
+        <meta_descripcion>Para 2030, reducir de manera significativa las corrientes financieras y de armas ilícitas, fortalecer la recuperación y devolución de los activos robados y luchar contra todas las formas de delincuencia organizada.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>143</id_meta>
+        <meta_codigo>16.5</meta_codigo>
+        <meta_descripcion>Reducir sustancialmente la corrupcion y el soborno en todas sus formas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>144</id_meta>
+        <meta_codigo>16.6</meta_codigo>
+        <meta_descripcion>Crear a todos los niveles instituciones eficaces y transparentes que rindan cuentas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>145</id_meta>
+        <meta_codigo>16.7</meta_codigo>
+        <meta_descripcion>Garantizar la adopción en todos los niveles de decisiones inclusivas, participativas y representativas que respondan a las necesidades.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>146</id_meta>
+        <meta_codigo>16.8</meta_codigo>
+        <meta_descripcion>Ampliar y fortalecer la participación de los países en desarrollo en las instituciones de gobernanza mundial.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>147</id_meta>
+        <meta_codigo>16.9</meta_codigo>
+        <meta_descripcion>Para 2030, proporcionar acceso a una identidad jurídica para todos, en particular mediante el registro de nacimientos.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>148</id_meta>
+        <meta_codigo>16.10</meta_codigo>
+        <meta_descripcion>Garantizar el acceso público a la información y proteger las libertades fundamentales, de conformidad con las leyes nacionales y los acuerdos internacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>149</id_meta>
+        <meta_codigo>16.a</meta_codigo>
+        <meta_descripcion>Fortalecer las instituciones nacionales pertinentes, incluso mediante la cooperación internacional, para crear a todos los niveles, particularmente en los países en desarrollo, la capacidad de prevenir la violencia y combatir el terrorismo y la delincuencia.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>150</id_meta>
+        <meta_codigo>16.b</meta_codigo>
+        <meta_descripcion>Promover y aplicar leyes y políticas no discriminatorias en favor del desarrollo sostenible.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+
+  <ods>
+    <id_ods>17</id_ods>
+    <ods_codigo>17</ods_codigo>
+    <ods_titulo>Alianzas para lograr los objetivos</ods_titulo>
+    <ods_descripcion>Revitalizar la Alianza Mundial para el Desarrollo Sostenible.</ods_descripcion>
+    <ods_color_hex>#19486A</ods_color_hex>
+    <metas>
+      <meta>
+        <id_meta>151</id_meta>
+        <meta_codigo>17.1</meta_codigo>
+        <meta_descripcion>Fortalecer la movilización de recursos internos, incluso mediante la prestación de apoyo internacional a los países en desarrollo, para mejorar la capacidad nacional de recaudar ingresos fiscales y de otra índole.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>152</id_meta>
+        <meta_codigo>17.2</meta_codigo>
+        <meta_descripcion>Velar por que los países desarrollados cumplan plenamente sus compromisos en relación con la asistencia oficial para el desarrollo, incluido el compromiso de numerosos países desarrollados de alcanzar el objetivo de destinar el 0,7% del ingreso nacional bruto a la asistencia oficial para el desarrollo de los países en desarrollo y entre el 0,15% y el 0,20% a los países menos adelantados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>153</id_meta>
+        <meta_codigo>17.3</meta_codigo>
+        <meta_descripcion>Movilizar recursos financieros adicionales de múltiples fuentes para los países en desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>154</id_meta>
+        <meta_codigo>17.4</meta_codigo>
+        <meta_descripcion>Ayudar a los países en desarrollo a lograr la sostenibilidad de la deuda a largo plazo con políticas coordinadas orientadas a fomentar la financiación, el alivio y la reestructuración de la deuda, según proceda, y hacer frente a la deuda externa de los países pobres muy endeudados a fin de reducir el endeudamiento excesivo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>155</id_meta>
+        <meta_codigo>17.5</meta_codigo>
+        <meta_descripcion>Adoptar y aplicar sistemas de promoción de las inversiones en favor de los países menos adelantados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>156</id_meta>
+        <meta_codigo>17.6</meta_codigo>
+        <meta_descripcion>Mejorar la cooperación regional e internacional Norte-Sur, Sur-Sur y triangular en materia de ciencia, tecnología e innovación y el acceso a estas, y aumentar el intercambio de conocimientos en condiciones mutuamente convenidas, incluso mejorando la coordinación entre los mecanismos existentes, en particular a nivel de las Naciones Unidas, y mediante un mecanismo mundial de facilitación de la tecnología.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>157</id_meta>
+        <meta_codigo>17.7</meta_codigo>
+        <meta_descripcion>Promover el desarrollo de tecnologías ecológicamente racionales y su transferencia, divulgación y difusión a los países en desarrollo en condiciones favorables, incluso en condiciones concesionarias y preferenciales, según lo convenido de mutuo acuerdo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>158</id_meta>
+        <meta_codigo>17.8</meta_codigo>
+        <meta_descripcion>Poner en pleno funcionamiento, a más tardar en 2017, el banco de tecnología y el mecanismo de apoyo a la ciencia, la tecnología y la innovación para los países menos adelantados y aumentar la utilización de tecnologías instrumentales, en particular la tecnología de la información y las comunicaciones.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>159</id_meta>
+        <meta_codigo>17.9</meta_codigo>
+        <meta_descripcion>Aumentar el apoyo internacional para realizar actividades de creación de capacidad eficaces y específicas en los países en desarrollo a fin de respaldar los planes nacionales de cumplimiento de todos los Objetivos de Desarrollo Sostenible, incluso mediante la cooperación Norte-Sur, Sur-Sur y triangular.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>160</id_meta>
+        <meta_codigo>17.10</meta_codigo>
+        <meta_descripcion>Promover un sistema de comercio multilateral universal, basado en normas, abierto, no discriminatorio y equitativo en el marco de la Organización Mundial del Comercio, incluso mediante la conclusión de las negociaciones en el marco del Programa de Doha para el Desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>161</id_meta>
+        <meta_codigo>17.11</meta_codigo>
+        <meta_descripcion>Aumentar de manera significativa las exportaciones de los países en desarrollo, en particular con miras a duplicar la participación de los países menos adelantados en las exportaciones mundiales para 2020.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>162</id_meta>
+        <meta_codigo>17.12</meta_codigo>
+        <meta_descripcion>Lograr la consecución oportuna del acceso a los mercados libre de derechos y de contingentes de manera duradera para todos los países menos adelantados, de conformidad con las decisiones de la Organización Mundial del Comercio, incluso velando por que las normas de origen preferenciales aplicables a las importaciones de los países menos adelantados sean transparentes y sencillas y contribuyan a facilitar el acceso a los mercados.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>163</id_meta>
+        <meta_codigo>17.13</meta_codigo>
+        <meta_descripcion>Aumentar la estabilidad macroeconómica mundial, incluso mediante la coordinación y coherencia de las políticas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>164</id_meta>
+        <meta_codigo>17.14</meta_codigo>
+        <meta_descripcion>Mejorar la coherencia de las políticas para el desarrollo sostenible.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>165</id_meta>
+        <meta_codigo>17.15</meta_codigo>
+        <meta_descripcion>Respetar el margen normativo y el liderazgo de cada país para establecer y aplicar políticas de erradicación de la pobreza y desarrollo sostenible.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>166</id_meta>
+        <meta_codigo>17.16</meta_codigo>
+        <meta_descripcion>Mejorar la Alianza Mundial para el Desarrollo Sostenible, complementada por alianzas entre múltiples interesados que movilicen e intercambien conocimientos, especialización, tecnología y recursos financieros, a fin de apoyar el logro de los Objetivos de Desarrollo Sostenible en todos los países, particularmente los países en desarrollo.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>167</id_meta>
+        <meta_codigo>17.17</meta_codigo>
+        <meta_descripcion>Fomentar y promover la constitución de alianzas eficaces en las esferas pública, público-privada y de la sociedad civil, aprovechando la experiencia y las estrategias de obtención de recursos de las alianzas.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>168</id_meta>
+        <meta_codigo>17.18</meta_codigo>
+        <meta_descripcion>Para 2020, mejorar el apoyo a la creación de capacidad prestado a los países en desarrollo, incluidos los países menos adelantados y los pequeños Estados insulares en desarrollo, para aumentar de forma significativa la disponibilidad de datos de alta calidad, oportunos y fiables desglosados por ingresos, sexo, edad, raza, etnia, estatus migratorio, discapacidad, ubicación geográfica y otras características pertinentes en los contextos nacionales.</meta_descripcion>
+      </meta>
+      <meta>
+        <id_meta>169</id_meta>
+        <meta_codigo>17.19</meta_codigo>
+        <meta_descripcion>Para 2030, aprovechar las iniciativas existentes para elaborar indicadores que permitan medir los progresos en materia de desarrollo sostenible y que complementen el producto interno bruto, y apoyar la creación de capacidad estadística en los países en desarrollo.</meta_descripcion>
+      </meta>
+    </metas>
+  </ods>
+</agenda_2030>

@@ -1,0 +1,82 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0380",
+    "titulo_modulo": "Formación y Orientación Laboral",
+    "duracion_total": "50",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para que el alumno pueda insertarse laboralmente y desarrollar su carrera profesional. Las líneas de actuación versarán sobre el manejo de fuentes de información del sistema educativo y laboral, realización de pruebas de orientación y desarrollo de habilidades sociales, preparación de currículos y entrevistas, identificación de normativa laboral, manejo de contratos y convenios, y análisis de la Ley de Prevención de Riesgos Laborales para evaluar riesgos en el sector informático.",
+    "objetivos_generales_asociados": "p, q, r, t",
+    "competencias_profesionales_asociadas": "q, r, t",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_380",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Búsqueda activa de empleo",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_380", "descripcion_punto": "Valoración de la formación permanente. Identificación de itinerarios formativos." },
+                { "id_punto": "P_01_02_380", "descripcion_punto": "Proceso de búsqueda de empleo en empresas del sector. Técnicas e instrumentos." },
+                { "id_punto": "P_01_03_380", "descripcion_punto": "Oportunidades de aprendizaje y empleo en Europa." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_380",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Gestión del conflicto y equipos de trabajo",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_380", "descripcion_punto": "Ventajas e inconvenientes del trabajo en equipo. Equipos en la industria informática." },
+                { "id_punto": "P_02_02_380", "descripcion_punto": "Conflicto: características, fuentes, etapas y métodos de resolución." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_380",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Contrato de trabajo",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_380", "descripcion_punto": "El derecho del trabajo. Modalidades de contrato y fomento de contratación." },
+                { "id_punto": "P_03_02_380", "descripcion_punto": "Derechos y deberes derivados de la relación laboral. Suspensión y extinción." },
+                { "id_punto": "P_03_03_380", "descripcion_punto": "Análisis de convenios colectivos aplicables al sector de administración de sistemas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_380",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Seguridad Social, Empleo y Desempleo",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_380", "descripcion_punto": "Estructura del sistema de la Seguridad Social." },
+                { "id_punto": "P_04_02_380", "descripcion_punto": "Obligaciones de empresarios y trabajadores: afiliación, altas, bajas y cotización." },
+                { "id_punto": "P_04_03_380", "descripcion_punto": "Situaciones protegibles en la protección por desempleo." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_380",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Evaluación de riesgos profesionales",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_380", "descripcion_punto": "Análisis de factores de riesgo ligados a seguridad, condiciones ambientales y ergonómicas." },
+                { "id_punto": "P_05_02_380", "descripcion_punto": "Riesgos específicos en la industria de administración de sistemas informáticos." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Selecciona oportunidades de empleo, identificando las posibilidades de inserción.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha valorado la formación permanente como factor clave para la empleabilidad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado itinerarios relacionados con el perfil del técnico en ASIR." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han determinado aptitudes y actitudes requeridas para la actividad." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado yacimientos de empleo e inserción laboral." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Aplica estrategias de trabajo en equipo, valorando su eficacia y eficiencia.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han valorado las ventajas del trabajo en equipo en el perfil técnico." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado equipos de trabajo que pueden constituirse en una situación real." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han determinado las características del equipo de trabajo eficaz." }
+            ]
+        }
+    ]
+}

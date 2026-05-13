@@ -1,0 +1,105 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0492",
+    "titulo_modulo": "Proyecto de desarrollo de aplicaciones multiplataforma",
+    "duracion_total": "40",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional complementa la formación de otros módulos en las funciones de análisis del contexto, diseño y organización de la intervención y planificación de la evaluación. La función de análisis incluye: recopilación de información, identificación y priorización de necesidades y detección de aspectos facilitadores o dificultadores. El diseño abarca la definición o adaptación de la intervención, priorización y secuenciación de acciones, determinación de recursos, diseño de documentación y plan de atención al cliente. La organización incluye detección de demandas, programación, gestión, coordinación, supervisión y elaboración de informes. Las actividades profesionales se aplican en áreas de sistemas, departamentos de informática de cualquier sector, servicios tecnológicos y comercio electrónico. Las líneas de actuación versarán sobre la ejecución de trabajos en equipo, autoevaluación, autonomía, iniciativa personal y el uso de las TIC.",
+    "objetivos_generales_asociados": "b, c, e, g, l, y",
+    "competencias_profesionales_asociadas": "b, c, e, f, l, ñ, t",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_492",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Análisis del contexto y detección de necesidades",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_492", "descripcion_punto": "Recopilación de información técnica y de mercado." },
+                { "id_punto": "P_01_02_492", "descripcion_punto": "Identificación y priorización de necesidades del sector productivo." },
+                { "id_punto": "P_01_03_492", "descripcion_punto": "Clasificación de empresas por características organizativas y servicios." },
+                { "id_punto": "P_01_04_492", "descripcion_punto": "Valoración de oportunidades de negocio y tipos de proyecto requeridos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_492",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Diseño y planificación de la intervención",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_492", "descripcion_punto": "Definición y adaptación de la solución técnica multiplataforma." },
+                { "id_punto": "P_02_02_492", "descripcion_punto": "Estudio de viabilidad técnica, plazos de ejecución y objetivos." },
+                { "id_punto": "P_02_03_492", "descripcion_punto": "Determinación de recursos materiales, humanos y presupuesto económico." },
+                { "id_punto": "P_02_04_492", "descripcion_punto": "Diseño de documentación técnica, legal y plan de atención al cliente." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_492",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Organización, seguimiento y evaluación",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_492", "descripcion_punto": "Programación, logística y gestión de la ejecución del proyecto." },
+                { "id_punto": "P_03_02_492", "descripcion_punto": "Plan de prevención de riesgos y coordinación de grupos de trabajo." },
+                { "id_punto": "P_03_03_492", "descripcion_punto": "Definición de indicadores de calidad y evaluación de resultados." },
+                { "id_punto": "P_03_04_492", "descripcion_punto": "Gestión de incidencias, cambios en recursos y elaboración de informes." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_492",
+            "ra_descripcion": "Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que puedan satisfacerlas.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han clasificado las empresas del sector por sus características organizativas y oferta." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han caracterizado las empresas tipo indicando estructura y funciones departamentales." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las necesidades más demandadas a las empresas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han valorado las oportunidades de negocio previsibles en el sector." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han determinado las características específicas del proyecto según requerimientos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han identificado posibles ayudas o subvenciones para nuevas tecnologías." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha elaborado el guión de trabajo para la elaboración del proyecto." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_492",
+            "ra_descripcion": "Diseña proyectos relacionados con las competencias expresadas en el título, desarrollando explícitamente las fases.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha recopilado información relativa a los aspectos tratados en el proyecto." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha realizado el estudio de viabilidad técnica del proyecto." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las fases, contenido y plazos de ejecución." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han establecido los objetivos y su alcance." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han determinado las actividades necesarias para el desarrollo." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han previsto los recursos materiales y personales necesarios." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han identificado las necesidades de financiación." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha definido y elaborado la documentación necesaria para el diseño." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han identificado los aspectos de control para garantizar la calidad." }
+            ]
+        },
+        {
+            "ra_id": "RA_3_492",
+            "ra_descripcion": "Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han secuenciado las tareas en función de las necesidades de implementación." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han determinado los recursos y la logística para cada tarea." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado las necesidades de permisos y autorizaciones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han determinado los procedimientos para la ejecución de tareas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha definido el plan de prevención de riesgos y medios necesarios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha planificado la asignación de recursos y tiempos de ejecución." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha hecho la valoración económica de la implementación." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha elaborado la documentación necesaria para la ejecución." }
+            ]
+        },
+        {
+            "ra_id": "RA_4_492",
+            "ra_descripcion": "Define los procedimientos para el seguimiento y control en la ejecución del proyecto.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha definido el procedimiento de evaluación de actividades o intervenciones." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han definido los indicadores de calidad para la evaluación." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha definido el procedimiento para el registro y evaluación de incidencias." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha definido el procedimiento para la solución de incidencias." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha definido el procedimiento para la gestión de cambios en recursos y tareas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha establecido la participación de los usuarios en la evaluación." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones." }
+            ]
+        }
+    ]
+}

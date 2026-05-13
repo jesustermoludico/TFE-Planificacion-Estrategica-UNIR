@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE soft_skills [
+    <!ELEMENT soft_skills (categoria+)>
+    <!ELEMENT categoria (id_categoria, sk_cat_nombre, sk_cat_descripcion, items)>
+    <!ELEMENT id_categoria (#PCDATA)>
+    <!ELEMENT sk_cat_nombre (#PCDATA)>
+    <!ELEMENT sk_cat_descripcion (#PCDATA)>
+    <!ELEMENT items (item+)>
+    <!ELEMENT item (id_softskills_items, sk_item_titulo, sk_item_descripcion)>
+    <!ELEMENT id_softskills_items (#PCDATA)>
+    <!ELEMENT sk_item_titulo (#PCDATA)>
+    <!ELEMENT sk_item_descripcion (#PCDATA)>
+]>
+<soft_skills>
+  <categoria>
+    <id_categoria>1</id_categoria>
+    <sk_cat_nombre>Responsabilidad y compromiso</sk_cat_nombre>
+    <sk_cat_descripcion>Evaluación del compromiso y actitud del alumno hacia el aprendizaje</sk_cat_descripcion>
+    <items>
+      <item>
+        <id_softskills_items>1</id_softskills_items>
+        <sk_item_titulo>Atención y participación</sk_item_titulo>
+        <sk_item_descripcion>Estar atento en las explicaciones, con interés al aprendizaje y es participativo</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>2</id_softskills_items>
+        <sk_item_titulo>Interés en el trabajo</sk_item_titulo>
+        <sk_item_descripcion>Demuestra interés en lo que se está trabajando (postura, mirada, presentación de las actividades, etc)</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>3</id_softskills_items>
+        <sk_item_titulo>Gestión de discrepancias</sk_item_titulo>
+        <sk_item_descripcion>Ante una discrepancia con los compañeros de clase, sabe defender sus intereses sin gritar, escuchando lo que dicen los compañeros, y asume las correcciones del docente como una oportunidad de aprendizaje</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>4</id_softskills_items>
+        <sk_item_titulo>Control de impulsividad</sk_item_titulo>
+        <sk_item_descripcion>Controla la impulsividad y evita comentarios inapropiados, dentro y fuera del aula</sk_item_descripcion>
+      </item>
+    </items>
+  </categoria>
+
+  <categoria>
+    <id_categoria>2</id_categoria>
+    <sk_cat_nombre>Gestión del tiempo y organización</sk_cat_nombre>
+    <sk_cat_descripcion>Capacidad para gestionar el tiempo y organizarse eficazmente</sk_cat_descripcion>
+    <items>
+      <item>
+        <id_softskills_items>5</id_softskills_items>
+        <sk_item_titulo>Gestión eficaz del tiempo</sk_item_titulo>
+        <sk_item_descripcion>Gestiona el tiempo eficazmente en el aula</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>6</id_softskills_items>
+        <sk_item_titulo>Uso de herramientas de gestión</sk_item_titulo>
+        <sk_item_descripcion>Utiliza herramientas y técnicas de gestión del tiempo, como agendas o listas de tareas</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>7</id_softskills_items>
+        <sk_item_titulo>Priorización de tareas</sk_item_titulo>
+        <sk_item_descripcion>Prioriza las tareas y actividades en función de la importancia y urgencia</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>8</id_softskills_items>
+        <sk_item_titulo>Organización y planificación</sk_item_titulo>
+        <sk_item_descripcion>Contribuye a la organización y planificación de las actividades del equipo asegurándose que se cumplan los plazos y se alcancen los objetivos establecidos</sk_item_descripcion>
+      </item>
+    </items>
+  </categoria>
+
+  <categoria>
+    <id_categoria>3</id_categoria>
+    <sk_cat_nombre>Comunicación</sk_cat_nombre>
+    <sk_cat_descripcion>Habilidades de comunicación oral, escrita y digital</sk_cat_descripcion>
+    <items>
+      <item>
+        <id_softskills_items>9</id_softskills_items>
+        <sk_item_titulo>Uso profesional del correo</sk_item_titulo>
+        <sk_item_descripcion>Dispone de un correo electrónico corporativo y permanece atento al mismo, con firma, logotipo y fotografía. Haciendo un uso profesional</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>10</id_softskills_items>
+        <sk_item_titulo>Respeto de turnos de palabra</sk_item_titulo>
+        <sk_item_descripcion>Respeta y solicita los turnos de palabra en cualquier conversación de manera asertiva</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>11</id_softskills_items>
+        <sk_item_titulo>Comunicación efectiva</sk_item_titulo>
+        <sk_item_descripcion>Demuestra una actitud de escucha y se comunica de forma clara y eficaz, siendo respetuoso con sus compañeros</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>12</id_softskills_items>
+        <sk_item_titulo>Dominio de la comunicación</sk_item_titulo>
+        <sk_item_descripcion>Domina la comunicación oral, escrita u oratoria</sk_item_descripcion>
+      </item>
+    </items>
+  </categoria>
+
+  <categoria>
+    <id_categoria>4</id_categoria>
+    <sk_cat_nombre>Trabajo en equipo y liderazgo</sk_cat_nombre>
+    <sk_cat_descripcion>Capacidad para trabajar en equipo y asumir roles de liderazgo</sk_cat_descripcion>
+    <items>
+      <item>
+        <id_softskills_items>13</id_softskills_items>
+        <sk_item_titulo>Participación proactiva</sk_item_titulo>
+        <sk_item_descripcion>Participa de manera proactiva en las actividades de equipo, asumiendo responsabilidades y cumpliendo con las tareas asignadas</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>14</id_softskills_items>
+        <sk_item_titulo>Liderazgo y colaboración</sk_item_titulo>
+        <sk_item_descripcion>Está dispuesto a asumir roles de liderazgo cuando es necesario y a colaborar con otros líderes dentro del equipo</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>15</id_softskills_items>
+        <sk_item_titulo>Respeto y consideración</sk_item_titulo>
+        <sk_item_descripcion>Consideración y respeto hacia otros compañeros del equipo, reconociendo sus habilidades y perspectivas</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>16</id_softskills_items>
+        <sk_item_titulo>Gestión de conflictos</sk_item_titulo>
+        <sk_item_descripcion>Sabe gestionar conflictos y desacuerdos de una manera constructiva</sk_item_descripcion>
+      </item>
+    </items>
+  </categoria>
+
+  <categoria>
+    <id_categoria>5</id_categoria>
+    <sk_cat_nombre>Iniciativa y proactividad</sk_cat_nombre>
+    <sk_cat_descripcion>Capacidad de anticipación, toma de decisiones y mejora continua</sk_cat_descripcion>
+    <items>
+      <item>
+        <id_softskills_items>17</id_softskills_items>
+        <sk_item_titulo>Resolución de problemas</sk_item_titulo>
+        <sk_item_descripcion>Muestra anticipación a posibles problemas resolviéndolos de manera eficiente</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>18</id_softskills_items>
+        <sk_item_titulo>Toma de decisiones autónoma</sk_item_titulo>
+        <sk_item_descripcion>Toma decisiones de manera autónoma y efectiva ante desafíos complejos</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>19</id_softskills_items>
+        <sk_item_titulo>Gestión de responsabilidades</sk_item_titulo>
+        <sk_item_descripcion>Muestra habilidad para equilibrar múltiples responsabilidades y cumplir con los plazos</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>20</id_softskills_items>
+        <sk_item_titulo>Autoevaluación y mejora continua</sk_item_titulo>
+        <sk_item_descripcion>Muestra habilidad para identificar áreas de mejora personal y constante crecimiento</sk_item_descripcion>
+      </item>
+    </items>
+  </categoria>
+
+  <categoria>
+    <id_categoria>6</id_categoria>
+    <sk_cat_nombre>Flexibilidad/Capacidad de adaptación</sk_cat_nombre>
+    <sk_cat_descripcion>Adaptabilidad ante cambios y situaciones de estrés</sk_cat_descripcion>
+    <items>
+      <item>
+        <id_softskills_items>21</id_softskills_items>
+        <sk_item_titulo>Actitud ante cambios</sk_item_titulo>
+        <sk_item_descripcion>Se enfrenta a cambios con una actitud abierta y positiva</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>22</id_softskills_items>
+        <sk_item_titulo>Ajuste de planes</sk_item_titulo>
+        <sk_item_descripcion>Es capaz de ajustar planes y prioridades en respuesta a nuevas circunstancias</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>23</id_softskills_items>
+        <sk_item_titulo>Creatividad</sk_item_titulo>
+        <sk_item_descripcion>Es capaz de encontrar soluciones innovadoras en situaciones desafiantes</sk_item_descripcion>
+      </item>
+      <item>
+        <id_softskills_items>24</id_softskills_items>
+        <sk_item_titulo>Gestión del estrés</sk_item_titulo>
+        <sk_item_descripcion>Capacidad para mantener la calma y la eficacia en situaciones de alta presión</sk_item_descripcion>
+      </item>
+    </items>
+  </categoria>
+</soft_skills>

@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "referencia": "ORDEN de 8 de julio de 2011, de la Consejera de Educación, Cultura y Deporte, por la que se establece el currículo del título de Técnico Superior en Desarrollo de Aplicaciones Web para la Comunidad Autónoma de Aragón.",
+  "aplicabilidad_otras_normas": {
+    "01": "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.",
+    "02": "Real Decreto 1538/2006, de 15 de diciembre, por el que se establece la ordenación general de la formación profesional del sistema educativo.",
+    "03": "Ley Orgánica 2/2006, de 3 de mayo, de Educación.",
+    "04": "Estatuto de Autonomía de Aragón, aprobado mediante la Ley Orgánica 5/2007, de 20 de abril."
+  },
+  "identificacion": {
+    "denominación": "Desarrollo de Aplicaciones Web",
+    "nivel": "Formación Profesional de Grado Superior",
+    "duración": "2000 horas",
+    "familia": "Informática y Comunicaciones",
+    "referente_europeo": "CINE-5b"
+  },
+  "perfil_profesional": "El perfil profesional del título de Técnico Superior en Desarrollo de Aplicaciones Web queda determinado por su competencia general, sus competencias profesionales, personales y sociales, por la relación de cualificaciones y, en su caso, unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.",
+  "competencia_general": "La competencia general de este título consiste en desarrollar, implantar, y mantener aplicaciones Web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos.",
+  "cpps": [
+    { "orden": "a", "titulo": "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos." },
+    { "orden": "b", "titulo": "Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad." },
+    { "orden": "c", "titulo": "Gestionar servidores de aplicaciones adaptando su configuración en cada caso para permitir el despliegue de aplicaciones Web." },
+    { "orden": "d", "titulo": "Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos." },
+    { "orden": "e", "titulo": "Desarrollar aplicaciones Web con acceso a bases de datos utilizando lenguajes, objetos de acceso y herramientas de mapeo adecuados a las especificaciones." },
+    { "orden": "f", "titulo": "Integrar contenidos en la lógica de una aplicación Web, desarrollando componentes de acceso a datos adecuados a las especificaciones." },
+    { "orden": "g", "titulo": "Desarrollar interfaces en aplicaciones Web de acuerdo con un manual de estilo, utilizando lenguajes de marcas y estándares Web." },
+    { "orden": "h", "titulo": "Desarrollar componentes multimedia para su integración en aplicaciones Web, empleando herramientas específicas y siguiendo las especificaciones establecidas." },
+    { "orden": "i", "titulo": "Integrar componentes multimedia en el interface de una aplicación Web, realizando el análisis de interactividad, accesibilidad y usabilidad de la aplicación." },
+    { "orden": "j", "titulo": "Desarrollar e integrar componentes software en el entorno del servidor Web, empleando herramientas y lenguajes específicos, para cumplir las especificaciones de la aplicación." },
+    { "orden": "k", "titulo": "Desarrollar servicios para integrar sus funciones en otras aplicaciones Web, asegurando su funcionalidad." },
+    { "orden": "l", "titulo": "Integrar servicios y contenidos distribuidos en aplicaciones Web, asegurando su funcionalidad." },
+    { "orden": "m", "titulo": "Completar planes de pruebas verificando el funcionamiento de los componentes software desarrollados, según las especificaciones." },
+    { "orden": "n", "titulo": "Elaborar y mantener la documentación de los procesos de desarrollo, utilizando herramientas de generación de documentación y control de versiones." },
+    { "orden": "o", "titulo": "Desplegar y distribuir aplicaciones Web en distintos ámbitos de implantación, verificando su comportamiento y realizando modificaciones." },
+    { "orden": "p", "titulo": "Gestionar y/o realizar el mantenimiento de los recursos de su área en función de las cargas de trabajo y el plan de mantenimiento." },
+    { "orden": "q", "titulo": "Adaptarse a las nuevas situaciones laborales, manteniendo actualizados los conocimientos científicos, técnicos y tecnológicos relativos a su entorno profesional." },
+    { "orden": "r", "titulo": "Resolver situaciones, problemas o contingencias con iniciativa y autonomía en el ámbito de su competencia." },
+    { "orden": "s", "titulo": "Organizar y coordinar equipos de trabajo, supervisando el desarrollo del mismo, con responsabilidad, manteniendo relaciones fluidas." },
+    { "orden": "t", "titulo": "Comunicarse con sus iguales, superiores, clientes y personas bajo su responsabilidad utilizando vías eficaces de comunicación." },
+    { "orden": "u", "titulo": "Generar entornos seguros en el desarrollo de su trabajo y el de su equipo, supervisando y aplicando los procedimientos de prevención de riesgos laborales." },
+    { "orden": "v", "titulo": "Supervisar y aplicar procedimientos de gestión de calidad, de accesibilidad universal y de diseño para todos." },
+    { "orden": "w", "titulo": "Realizar la gestión básica para la creación y funcionamiento de una pequeña empresa." },
+    { "orden": "x", "titulo": "Ejercer sus derechos y cumplir con las obligaciones derivadas de su actividad profesional." }
+  ],
+  "cualificaciones": {
+    "completas": [
+      {
+        "descripcion_cualificacion": "Desarrollo de aplicaciones con tecnologías Web IFC154_3 (Real Decreto 1087/2005, de 16 de septiembre)",
+        "letra_cualificacion": "a",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0491_3", "titulo_cualificacion": "Desarrollar elementos software en el entorno cliente." },
+          { "codigo_cualificacion": "UC0492_3", "titulo_cualificacion": "Desarrollar elementos software en el entorno servidor." },
+          { "codigo_cualificacion": "UC0493_3", "titulo_cualificacion": "Implementar, verificar y documentar aplicaciones Web en entornos internet, intranet y extranet." }
+        ]
+      }
+    ],
+    "incompletas": [
+      {
+        "descripcion_cualificacion": "Programación en lenguajes estructurados de aplicaciones de gestión IFC155_3 (Real Decreto 1087/2005, de 16 de septiembre)",
+        "letra_cualificacion": "a",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0223_3", "titulo_cualificacion": "Configurar y explotar sistemas informáticos." },
+          { "codigo_cualificacion": "UC0226_3", "titulo_cualificacion": "Programar bases de datos relacionales." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Programación con lenguajes orientados a objetos y bases de datos relacionales IFC 080_3 (Real Decreto. 295/2004, de 20 de febrero)",
+        "letra_cualificacion": "b",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0223_3", "titulo_cualificacion": "Configurar y explotar sistemas informáticos." },
+          { "codigo_cualificacion": "UC0226_3", "titulo_cualificacion": "Programar bases de datos relacionales." }
+        ]
+      }
+    ]
+  },
+  "entorno_profesional": [
+    { "id_entorno_profesional": "1", "descripcion_entorno_profesional": "Empresas o entidades públicas o privadas tanto por cuenta ajena como propia, desempeñando su trabajo en el área de desarrollo de aplicaciones informáticas relacionadas con entornos Web." },
+    { "id_entorno_profesional": "2", "descripcion_entorno_profesional": "Programador Web." },
+    { "id_entorno_profesional": "3", "descripcion_entorno_profesional": "Programador Multimedia." },
+    { "id_entorno_profesional": "4", "descripcion_entorno_profesional": "Desarrollador de aplicaciones en entornos Web." }
+  ],
+  "prospectiva": [
+    { "id_prospectiva": "1", "descripcion_prospectiva": "Elevado esfuerzo de sistematización y organización de la información para poder compartir esta de forma adecuada en la sociedad del conocimiento." },
+    { "id_prospectiva": "2", "descripcion_prospectiva": "Desarrollo de plataformas multidisciplinares y modelos para compartir información de forma segura." },
+    { "id_prospectiva": "3", "descripcion_prospectiva": "Demanda de profesionales con actitud favorable hacia la autoformación ante los rápidos cambios tecnológicos." },
+    { "id_prospectiva": "4", "descripcion_prospectiva": "Mayor integración de los sistemas de gestión basados en tecnologías Web, requiriendo estabilidad y seguridad." },
+    { "id_prospectiva": "5", "descripcion_prospectiva": "Importancia de asegurar la integridad, consistencia y accesibilidad de los datos." },
+    { "id_prospectiva": "6", "descripcion_prospectiva": "Cambio de filosofía hacia la orientación al usuario mediante sindicación de contenidos y mashup de datos." },
+    { "id_prospectiva": "7", "descripcion_prospectiva": "Configuración de la tele-operación y asistencia técnica remota como elementos imprescindibles." },
+    { "id_prospectiva": "8", "descripcion_prospectiva": "Aumento rápido de transacciones comerciales por aplicaciones Web que obliga al aseguramiento de sistemas." }
+  ],
+  "objetivos_generales": [
+    { "id_objetivos_generales": "a", "descripcion_objetivos_generales": "Ajustar la configuración lógica analizando las necesidades y criterios establecidos para configurar y explotar sistemas informáticos." },
+    { "id_objetivos_generales": "b", "descripcion_objetivos_generales": "Identificar las necesidades de seguridad verificando el plan preestablecido para aplicar técnicas y procedimientos relacionados." },
+    { "id_objetivos_generales": "c", "descripcion_objetivos_generales": "Instalar módulos analizando su estructura y funcionalidad para gestionar servidores de aplicaciones." },
+    { "id_objetivos_generales": "d", "descripcion_objetivos_generales": "Ajustar parámetros analizando la configuración para gestionar servidores de aplicaciones." },
+    { "id_objetivos_generales": "e", "descripcion_objetivos_generales": "Interpretar el diseño lógico, verificando los parámetros establecidos para gestionar bases de datos." },
+    { "id_objetivos_generales": "f", "descripcion_objetivos_generales": "Seleccionar lenguajes, objetos y herramientas, interpretando las especificaciones para desarrollar aplicaciones Web con acceso a bases de datos." },
+    { "id_objetivos_generales": "g", "descripcion_objetivos_generales": "Utilizar lenguajes, objetos y herramientas, interpretando las especificaciones para desarrollar aplicaciones Web con acceso a bases de datos." },
+    { "id_objetivos_generales": "h", "descripcion_objetivos_generales": "Generar componentes de acceso a datos, cumpliendo las especificaciones, para integrar contenidos en la lógica de una aplicación Web." },
+    { "id_objetivos_generales": "i", "descripcion_objetivos_generales": "Utilizar lenguajes de marcas y estándares Web, asumiendo el manual de estilo, para desarrollar interfaces en aplicaciones Web." },
+    { "id_objetivos_generales": "j", "descripcion_objetivos_generales": "Emplear herramientas y lenguajes específicos, siguiendo las especificaciones, para desarrollar componentes multimedia." },
+    { "id_objetivos_generales": "k", "descripcion_objetivos_generales": "Evaluar la interactividad, accesibilidad y usabilidad de un interfaz para integrar componentes multimedia." },
+    { "id_objetivos_generales": "l", "descripcion_objetivos_generales": "Utilizar herramientas y lenguajes específicos para desarrollar e integrar componentes software en el servidor Web." },
+    { "id_objetivos_generales": "m", "descripcion_objetivos_generales": "Emplear herramientas específicas para desarrollar servicios empleables en aplicaciones Web." },
+    { "id_objetivos_generales": "n", "descripcion_objetivos_generales": "Evaluar servicios distribuidos ya desarrollados para integrar servicios distribuidos en una aplicación Web." },
+    { "id_objetivos_generales": "ñ", "descripcion_objetivos_generales": "Verificar los componentes de software desarrollados para completar el plan de pruebas." },
+    { "id_objetivos_generales": "o", "descripcion_objetivos_generales": "Utilizar herramientas específicas para elaborar y mantener la documentación de los procesos." },
+    { "id_objetivos_generales": "p", "descripcion_objetivos_generales": "Establecer procedimientos, verificando su funcionalidad, para desplegar y distribuir aplicaciones." },
+    { "id_objetivos_generales": "q", "descripcion_objetivos_generales": "Programar y realizar actividades para gestionar el mantenimiento de los recursos informáticos." },
+    { "id_objetivos_generales": "r", "descripcion_objetivos_generales": "Analizar y utilizar recursos de aprendizaje para mantener el espíritu de actualización y adaptarse a nuevas situaciones." },
+    { "id_objetivos_generales": "s", "descripcion_objetivos_generales": "Desarrollar la creatividad y el espíritu de innovación para responder a los retos del trabajo." },
+    { "id_objetivos_generales": "t", "descripcion_objetivos_generales": "Tomar decisiones de forma fundamentada integrando saberes de distinto ámbito para resolver contingencias." },
+    { "id_objetivos_generales": "u", "descripcion_objetivos_generales": "Desarrollar técnicas de liderazgo, motivación, supervisión y comunicación en contextos de trabajo en grupo." },
+    { "id_objetivos_generales": "v", "descripcion_objetivos_generales": "Aplicar estrategias y técnicas de comunicación para asegurar la eficacia en los procesos de comunicación." },
+    { "id_objetivos_generales": "x", "descripcion_objetivos_generales": "Evaluar situaciones de prevención de riesgos laborales y ambiental para garantizar entornos seguros." },
+    { "id_objetivos_generales": "y", "descripcion_objetivos_generales": "Identificar y proponer las acciones profesionales necesarias para dar respuesta a la accesibilidad universal." },
+    { "id_objetivos_generales": "z", "descripcion_objetivos_generales": "Identificar y aplicar parámetros de calidad para supervisar y mejorar procedimientos de gestión de calidad." },
+    { "id_objetivos_generales": "aa", "descripcion_objetivos_generales": "Utilizar procedimientos relacionados con la cultura emprendedora para realizar la gestión básica de una pequeña empresa." },
+    { "id_objetivos_generales": "ab", "descripcion_objetivos_generales": "Reconocer sus derechos y deberes como agente activo en la sociedad para participar como ciudadano democrático." }
+  ],
+  "modulos": [
+    { "id_modulo": "0483", "titulo_modulo": "Sistemas informáticos" },
+    { "id_modulo": "0484", "titulo_modulo": "Bases de Datos" },
+    { "id_modulo": "0485", "titulo_modulo": "Programación" },
+    { "id_modulo": "0373", "titulo_modulo": "Lenguajes de marcas y sistemas de gestión de información" },
+    { "id_modulo": "0487", "titulo_modulo": "Entornos de desarrollo" },
+    { "id_modulo": "0612", "titulo_modulo": "Desarrollo Web en entorno cliente" },
+    { "id_modulo": "0613", "titulo_modulo": "Desarrollo Web en entorno servidor" },
+    { "id_modulo": "0614", "titulo_modulo": "Despliegue de aplicaciones Web" },
+    { "id_modulo": "0615", "titulo_modulo": "Diseño de interfaces WEB" },
+    { "id_modulo": "A052", "titulo_modulo": "Lengua extranjera profesional: inglés 1" },
+    { "id_modulo": "A053", "titulo_modulo": "Lengua extranjera profesional: inglés 2" },
+    { "id_modulo": "0616", "titulo_modulo": "Proyecto de desarrollo de aplicaciones Web" },
+    { "id_modulo": "0617", "titulo_modulo": "Formación y orientación laboral" },
+    { "id_modulo": "0618", "titulo_modulo": "Empresa e iniciativa emprendedora" },
+    { "id_modulo": "0619", "titulo_modulo": "Formación en centros de trabajo" },
+    { "id_modulo": "0486", "titulo_modulo": "Acceso a datos" }
+  ]
+}

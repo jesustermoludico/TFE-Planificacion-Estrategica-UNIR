@@ -1,0 +1,148 @@
+{
+  "version": "1.0.0",
+  "referencia": "ORDEN de 25 de abril de 2011, de la Consejera de Educación, Cultura y Deporte, por la que se establece el currículo del título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma para la Comunidad Autónoma de Aragón.",
+  "aplicabilidad_otras_normas": {
+    "01": "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas.",
+    "02": "Real Decreto 1538/2006, de 15 de diciembre, por el que se establece la ordenación general de la formación profesional del sistema educativo.",
+    "03": "Real Decreto 1661/1994, de 22 de julio, que regulaba el título anterior de Técnico Superior en Desarrollo de Aplicaciones Informáticas.",
+    "04": "Estatuto de Autonomía de Aragón, aprobado mediante la Ley Orgánica 5/2007, de 20 de abril."
+  },
+  "identificacion": {
+    "denominación": "Desarrollo de Aplicaciones Multiplataforma",
+    "nivel": "Formación Profesional de Grado Superior",
+    "duración": "2000 horas",
+    "familia": "Informática y Comunicaciones",
+    "referente_europeo": "CINE-5b"
+  },
+  "perfil_profesional": "El perfil profesional del título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma queda determinado por su competencia general, sus competencias profesionales, personales y sociales, por la relación de cualificaciones y, en su caso, unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.",
+  "competencia_general": "La competencia general de este título consiste en desarrollar, implantar, documentar y mantener aplicaciones informáticas multiplataforma, utilizando tecnologías y entornos de desarrollo específicos, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de usabilidad y calidad exigidas en los estándares establecidos.",
+  "cpps": [
+    { "orden": "a", "titulo": "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos." },
+    { "orden": "b", "titulo": "Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad." },
+    { "orden": "c", "titulo": "Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos." },
+    { "orden": "d", "titulo": "Gestionar entornos de desarrollo adaptando su configuración en cada caso para permitir el desarrollo y despliegue de aplicaciones." },
+    { "orden": "e", "titulo": "Desarrollar aplicaciones multiplataforma con acceso a bases de datos utilizando lenguajes, librerías y herramientas adecuados a las especificaciones." },
+    { "orden": "f", "titulo": "Desarrollar aplicaciones implementando un sistema completo de formularios e informes que permitan gestionar de forma integral la información almacenada." },
+    { "orden": "g", "titulo": "Integrar contenidos gráficos y componentes multimedia en aplicaciones multiplataforma, empleando herramientas específicas." },
+    { "orden": "h", "titulo": "Desarrollar interfaces gráficos de usuario interactivos y con la usabilidad adecuada, empleando componentes visuales estándar o específicos." },
+    { "orden": "i", "titulo": "Participar en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento y la educación empleando motores y entornos específicos." },
+    { "orden": "j", "titulo": "Desarrollar aplicaciones para teléfonos, PDA y otros dispositivos móviles empleando técnicas y entornos de desarrollo específicos." },
+    { "orden": "k", "titulo": "Crear ayudas generales y sensibles al contexto, empleando herramientas específicas e integrándolas en sus correspondientes aplicaciones." },
+    { "orden": "l", "titulo": "Crear tutoriales, manuales de usuario, de instalación, de configuración y de administración, empleando herramientas específicas." },
+    { "orden": "m", "titulo": "Empaquetar aplicaciones para su distribución preparando paquetes auto instalables con asistentes incorporados." },
+    { "orden": "n", "titulo": "Desarrollar aplicaciones multiproceso y multihilo empleando librerías y técnicas de programación específicas." },
+    { "orden": "ñ", "titulo": "Desarrollar aplicaciones capaces de ofrecer servicios en red empleando mecanismos de comunicación." },
+    { "orden": "o", "titulo": "Participar en la implantación de sistemas ERP-CRM evaluando la utilidad de cada uno de sus módulos." },
+    { "orden": "p", "titulo": "Gestionar la información almacenada en sistemas ERP-CRM garantizando su integridad." },
+    { "orden": "q", "titulo": "Desarrollar componentes personalizados para un sistema ERP-CRM atendiendo a los requerimientos." },
+    { "orden": "r", "titulo": "Realizar planes de pruebas verificando el funcionamiento de los componentes software desarrollados, según las especificaciones." },
+    { "orden": "s", "titulo": "Desplegar y distribuir aplicaciones en distintos ámbitos de implantación verificando su comportamiento." },
+    { "orden": "t", "titulo": "Establecer vías eficaces de relación profesional y comunicación con sus superiores, compañeros y subordinados." },
+    { "orden": "u", "titulo": "Liderar situaciones colectivas, mediando en conflictos personales y laborales, contribuyendo a un ambiente de trabajo agradable." },
+    { "orden": "v", "titulo": "Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y de aprendizaje." },
+    { "orden": "w", "titulo": "Mantener el espíritu de innovación y actualización para adaptarse a los cambios tecnológicos y organizativos." },
+    { "orden": "x", "titulo": "Crear y gestionar una pequeña empresa y tener iniciativa en su actividad profesional con sentido de la responsabilidad social." }
+  ],
+  "cualificaciones": {
+    "completas": [
+      {
+        "descripcion_cualificacion": "Programación en lenguajes estructurados de aplicaciones de gestión IFC155_3 (R.D. 1087/2005, de 16 de septiembre)",
+        "letra_cualificacion": "a",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0223_3", "titulo_cualificacion": "Configurar y explotar sistemas informáticos." },
+          { "codigo_cualificacion": "UC0226_3", "titulo_cualificacion": "Programar bases de datos relacionales." },
+          { "codigo_cualificacion": "UC0494_3", "titulo_cualificacion": "Desarrollar componentes software en lenguajes de programación estructurada." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Programación con lenguajes orientados a objetos y bases de datos relacionales IFC080_3 (R.D. 295/2004, de 20 de febrero)",
+        "letra_cualificacion": "b",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0223_3", "titulo_cualificacion": "Configurar y explotar sistemas informáticos." },
+          { "codigo_cualificacion": "UC0226_3", "titulo_cualificacion": "Programar bases de datos relacionales." },
+          { "codigo_cualificacion": "UC0227_3", "titulo_cualificacion": "Desarrollar componentes software en lenguajes de programación orientados a objetos." }
+        ]
+      }
+    ],
+    "incompletas": [
+      {
+        "descripcion_cualificacion": "Administración y programación en sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes IFC 363_3 (R.D. 1701/2007)",
+        "letra_cualificacion": "a",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC1213_3", "titulo_cualificacion": "Instalar y configurar sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Programación de sistemas informáticos IFC303_3 (R.D. 1201/2007, de 14 de septiembre)",
+        "letra_cualificacion": "b",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0964_3", "titulo_cualificacion": "Crear elementos software para la gestión del sistema y sus recursos." }
+        ]
+      }
+    ]
+  },
+  "entorno_profesional": [
+    { "id_entorno_profesional": "1", "descripcion_entorno_profesional": "Entidades públicas o privadas de cualquier tamaño, tanto por cuenta ajena como propia, en el área de desarrollo de aplicaciones informáticas multiplataforma." },
+    { "id_entorno_profesional": "2", "descripcion_entorno_profesional": "Desarrollador de aplicaciones informáticas para la gestión empresarial y de negocio." },
+    { "id_entorno_profesional": "3", "descripcion_entorno_profesional": "Desarrollador de aplicaciones de propósito general." },
+    { "id_entorno_profesional": "4", "descripcion_entorno_profesional": "Desarrollador de aplicaciones en el ámbito del entretenimiento y la informática móvil." }
+  ],
+  "prospectiva": [
+    { "id_prospectiva": "1", "descripcion_prospectiva": "Esfuerzo de sistematización y organización de la información en la sociedad del conocimiento." },
+    { "id_prospectiva": "2", "descripcion_prospectiva": "Importancia del desarrollo de plataformas multidisciplinares con modelos de intercambio seguro." },
+    { "id_prospectiva": "3", "descripcion_prospectiva": "Necesidad de gestión integral de la información almacenada en bases de datos." },
+    { "id_prospectiva": "4", "descripcion_prospectiva": "Integración de contenidos gráficos y componentes multimedia en diferentes plataformas." },
+    { "id_prospectiva": "5", "descripcion_prospectiva": "Creciente importancia del concepto de usabilidad y empleo de componentes visuales adecuados." },
+    { "id_prospectiva": "6", "descripcion_prospectiva": "Evolución hacia sistemas estables y seguros basados en diferentes tecnologías." },
+    { "id_prospectiva": "7", "descripcion_prospectiva": "Necesidad de asegurar integridad, consistencia y accesibilidad de los datos." },
+    { "id_prospectiva": "8", "descripcion_prospectiva": "Demanda de aplicaciones específicas para dispositivos móviles (teléfonos, PDA)." },
+    { "id_prospectiva": "9", "descripcion_prospectiva": "Aumento de la demanda en el sector del ocio electrónico y aplicaciones de entretenimiento." },
+    { "id_prospectiva": "10", "descripcion_prospectiva": "Relevancia de la tele-operación y asistencia técnica remota u on-line." }
+  ],
+  "objetivos_generales": [
+    { "id_objetivos_generales": "a", "descripcion_objetivos_generales": "Ajustar la configuración lógica del sistema analizando las necesidades para configurar y explotar sistemas informáticos." },
+    { "id_objetivos_generales": "b", "descripcion_objetivos_generales": "Identificar las necesidades de seguridad analizando vulnerabilidades para aplicar técnicas relacionadas con la seguridad." },
+    { "id_objetivos_generales": "c", "descripcion_objetivos_generales": "Interpretar el diseño lógico de bases de datos analizando especificaciones para gestionar bases de datos." },
+    { "id_objetivos_generales": "d", "descripcion_objetivos_generales": "Instalar y configurar módulos y complementos para gestionar entornos de desarrollo." },
+    { "id_objetivos_generales": "e", "descripcion_objetivos_generales": "Seleccionar y emplear lenguajes, herramientas y librerías para desarrollar aplicaciones multiplataforma con acceso a datos." },
+    { "id_objetivos_generales": "f", "descripcion_objetivos_generales": "Planificar e implementar sistemas de formularios e informes para desarrollar aplicaciones de gestión." },
+    { "id_objetivos_generales": "g", "descripcion_objetivos_generales": "Seleccionar y utilizar herramientas específicas para integrar contenidos gráficos y multimedia en aplicaciones." },
+    { "id_objetivos_generales": "h", "descripcion_objetivos_generales": "Emplear componentes visuales verificando interactividad y usabilidad para desarrollar interfaces gráficos." },
+    { "id_objetivos_generales": "i", "descripcion_objetivos_generales": "Seleccionar técnicas, motores y entornos para participar en el desarrollo de juegos." },
+    { "id_objetivos_generales": "j", "descripcion_objetivos_generales": "Seleccionar técnicas y lenguajes para desarrollar aplicaciones en dispositivos móviles." },
+    { "id_objetivos_generales": "k", "descripcion_objetivos_generales": "Valorar y emplear herramientas para crear ayudas generales y sensibles al contexto." },
+    { "id_objetivos_generales": "l", "descripcion_objetivos_generales": "Crear tutoriales, manuales de usuario y otros documentos asociados a una aplicación." },
+    { "id_objetivos_generales": "m", "descripcion_objetivos_generales": "Seleccionar técnicas y herramientas para empaquetar aplicaciones mediante asistentes." },
+    { "id_objetivos_generales": "n", "descripcion_objetivos_generales": "Analizar y aplicar técnicas para desarrollar aplicaciones capaces de ofrecer servicios en red." },
+    { "id_objetivos_generales": "ñ", "descripcion_objetivos_generales": "Aplicar técnicas y librerías de programación para desarrollar aplicaciones multiproceso y multihilo." },
+    { "id_objetivos_generales": "o", "descripcion_objetivos_generales": "Reconocer la estructura de los sistemas ERP-CRM para participar en su implantación." },
+    { "id_objetivos_generales": "p", "descripcion_objetivos_generales": "Realizar consultas analizando su alcance para gestionar la información en sistemas ERP-CRM." },
+    { "id_objetivos_generales": "q", "descripcion_objetivos_generales": "Seleccionar lenguajes y herramientas para desarrollar componentes personalizados en sistemas ERP-CRM." },
+    { "id_objetivos_generales": "r", "descripcion_objetivos_generales": "Verificar los componentes software desarrollados para completar un plan de pruebas." },
+    { "id_objetivos_generales": "s", "descripcion_objetivos_generales": "Establecer procedimientos para desplegar y distribuir aplicaciones." },
+    { "id_objetivos_generales": "t", "descripcion_objetivos_generales": "Describir roles y responsabilidades en el grupo de trabajo para establecer relaciones profesionales convenientes." },
+    { "id_objetivos_generales": "u", "descripcion_objetivos_generales": "Identificar formas de intervención ante conflictos para garantizar un entorno de trabajo satisfactorio." },
+    { "id_objetivos_generales": "v", "descripcion_objetivos_generales": "Identificar oportunidades de promoción profesional y aprendizaje para elegir el itinerario laboral." },
+    { "id_objetivos_generales": "w", "descripcion_objetivos_generales": "Identificar implicaciones tecnológicas y organizativas para mantener el espíritu de innovación." },
+    { "id_objetivos_generales": "x", "descripcion_objetivos_generales": "Reconocer oportunidades de negocio para crear y gestionar una pequeña empresa." },
+    { "id_objetivos_generales": "y", "descripcion_objetivos_generales": "Reconocer derechos y deberes para participar como ciudadano democrático." }
+  ],
+  "modulos": [
+    { "id_modulo": "0483", "titulo_modulo": "Sistemas informáticos" },
+    { "id_modulo": "0484", "titulo_modulo": "Bases de Datos" },
+    { "id_modulo": "0485", "titulo_modulo": "Programación" },
+    { "id_modulo": "0373", "titulo_modulo": "Lenguajes de marcas y sistemas de gestión de información" },
+    { "id_modulo": "0487", "titulo_modulo": "Entornos de desarrollo" },
+    { "id_modulo": "0486", "titulo_modulo": "Acceso a datos" },
+    { "id_modulo": "0488", "titulo_modulo": "Desarrollo de interfaces" },
+    { "id_modulo": "0489", "titulo_modulo": "Programación multimedia y dispositivos móviles" },
+    { "id_modulo": "0490", "titulo_modulo": "Programación de servicios y procesos" },
+    { "id_modulo": "0491", "titulo_modulo": "Sistemas de gestión empresarial" },
+    { "id_modulo": "A050", "titulo_modulo": "Lengua extranjera profesional: inglés 1" },
+    { "id_modulo": "A051", "titulo_modulo": "Lengua extranjera profesional: inglés 2" },
+    { "id_modulo": "0492", "titulo_modulo": "Proyecto de desarrollo de aplicaciones multiplataforma" },
+    { "id_modulo": "0493", "titulo_modulo": "Formación y orientación laboral" },
+    { "id_modulo": "0494", "titulo_modulo": "Empresa e iniciativa emprendedora" },
+    { "id_modulo": "0495", "titulo_modulo": "Formación en centros de trabajo" }
+  ]
+}

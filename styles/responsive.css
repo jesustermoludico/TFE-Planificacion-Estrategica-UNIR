@@ -1,0 +1,603 @@
+/* ============================================
+   RESPONSIVE BREAKPOINTS
+   ============================================ */
+
+/* Tablet - 1024px and below */
+@media (max-width: 1024px) {
+
+    /* Sidebar structure: buttons always visible, content as overlay */
+    .sidebar {
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        height: calc(100vh - 60px);
+        z-index: 100;
+        display: flex;
+        width: auto;
+        background: transparent !important;
+        border-color: transparent !important;
+    }
+
+    .sidebar.left {
+        left: 0;
+        flex-direction: row;
+    }
+
+    .sidebar.right {
+        right: 0;
+        flex-direction: row-reverse;
+    }
+
+    /* Sidebar buttons - ALWAYS VISIBLE */
+    .sidebar .sidebar-buttons {
+        position: relative;
+        z-index: 101;
+        background: var(--bg-secondary);
+        width: 60px;
+        min-width: 60px;
+        flex-shrink: 0;
+        display: flex !important;
+        visibility: visible !important;
+    }
+
+    .sidebar.left .sidebar-buttons {
+        border-right: 1px solid var(--border-color);
+    }
+
+    .sidebar.right .sidebar-buttons {
+        border-left: 1px solid var(--border-color);
+    }
+
+    /* Sidebar content - hidden by default, shown on .open */
+    .sidebar .sidebar-content {
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        width: 260px;
+        background: var(--bg-secondary);
+        box-shadow: var(--shadow-xl);
+        transform: translateX(-100%);
+        transition: transform var(--transition-base);
+        z-index: 100;
+        overflow-y: auto;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .sidebar.left .sidebar-content {
+        left: 60px;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.right .sidebar-content {
+        right: 60px;
+        left: auto;
+        transform: translateX(100%);
+    }
+
+    /* Backdrop overlay for mobile sidebar */
+    .sidebar.open::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 55;
+        pointer-events: auto;
+    }
+
+    /* Ensure no white background appears behind sidebar content */
+    @supports not (selector(:has(*))) {
+        /* Fallback for browsers that don't support :has */
+        .sidebar.open ~ * {
+            pointer-events: none;
+        }
+    }
+
+    /* Show content when sidebar has .open class */
+    .sidebar.open .sidebar-content {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        z-index: 60;
+    }
+
+    /* Main content adjusts for fixed sidebar buttons - use padding to avoid gaps */
+    .main-content {
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Ensure body doesn't show white background when sidebar is open */
+    body:has(.sidebar.open) {
+        overflow: hidden;
+    }
+
+    /* Ensure center content fills the space without gaps - override layout.css rules */
+    .center-content,
+    .main-content:has(.sidebar.left .sidebar-content.hidden) .center-content,
+    .main-content:has(.sidebar.right .sidebar-content.hidden) .center-content,
+    .main-content:has(.sidebar.left .sidebar-content.hidden):has(.sidebar.right .sidebar-content.hidden) .center-content {
+        margin: 0 !important;
+    }
+
+    /* Hide mobile menu toggles in header - not needed anymore */
+    .mobile-menu-toggle {
+        display: none !important;
+    }
+
+    /* Adjust spacing */
+    .app-header {
+        padding: 0 var(--spacing-md);
+    }
+
+    .header-left,
+    .header-right,
+    .header-center {
+        gap: var(--spacing-sm);
+    }
+
+    .tab-content {
+        padding: var(--spacing-2xl);
+    }
+}
+
+/* Mobile - 768px and below */
+@media (max-width: 768px) {
+
+    /* Header adjustments */
+    .app-header {
+        height: 56px;
+        padding: 0 var(--spacing-md);
+    }
+
+    .header-left,
+    .header-right,
+    .header-center {
+        gap: var(--spacing-sm);
+    }
+
+    /* AI Selector */
+    .ai-selector-button {
+        padding: 6px 10px;
+        font-size: var(--font-size-sm);
+    }
+
+    /* Hide toggle labels on very small screens */
+    .toggle-label {
+        font-size: var(--font-size-xs);
+    }
+
+    /* Tabs */
+    .tabs-container {
+        padding: 0 var(--spacing-md);
+        gap: var(--spacing-lg);
+    }
+
+    .tab-button {
+        padding: 12px 0;
+        font-size: var(--font-size-sm);
+    }
+
+    /* Tab content */
+    .tab-content {
+        padding: var(--spacing-xl);
+    }
+
+    .tab-title {
+        font-size: var(--font-size-xl);
+        margin-bottom: var(--spacing-xl);
+    }
+
+    /* Chat */
+    .chat-messages {
+        padding: var(--spacing-md);
+        gap: var(--spacing-lg);
+    }
+
+    .message-bubble {
+        font-size: var(--font-size-sm);
+    }
+
+    .message-bubble.user {
+        max-width: 85%;
+    }
+
+    .message-bubble.ai {
+        padding: var(--spacing-md);
+    }
+
+    .chat-input-container {
+        padding: var(--spacing-md);
+    }
+
+    .chat-input-wrapper {
+        padding: 6px;
+    }
+
+    .chat-input {
+        font-size: var(--font-size-sm);
+    }
+
+    .send-button {
+        padding: var(--spacing-sm);
+    }
+
+    /* Sidebars */
+    .sidebar {
+        width: 85vw;
+        max-width: 320px;
+    }
+
+    /* Forms */
+    .form-group {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .form-label {
+        font-size: var(--font-size-sm);
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: var(--font-size-sm);
+        padding: var(--spacing-sm) 10px;
+    }
+
+    /* Modal */
+    .modal-content {
+        padding: var(--spacing-2xl);
+        max-width: 95%;
+    }
+
+    .modal-title {
+        font-size: var(--font-size-xl);
+    }
+
+    /* Content grid */
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Summary sections */
+    .summary-section {
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-xl);
+    }
+}
+
+/* Small mobile - 480px and below */
+@media (max-width: 480px) {
+    .app-header {
+        height: 52px;
+        padding: 0 var(--spacing-sm);
+    }
+
+    .header-left,
+    .header-right,
+    .header-center {
+        gap: var(--spacing-xs);
+    }
+
+    .ai-selector-button span {
+        max-width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .tabs-container {
+        padding: 0 var(--spacing-sm);
+        gap: var(--spacing-md);
+    }
+
+    .tab-content {
+        padding: var(--spacing-lg);
+    }
+
+    .modal-content {
+        padding: var(--spacing-xl);
+    }
+}
+
+/* Landscape mode for mobile */
+@media (max-height: 600px) and (orientation: landscape) {
+    .app-header {
+        height: 48px;
+    }
+
+    .chat-input-container {
+        padding: var(--spacing-sm);
+    }
+
+    .tab-content {
+        padding: var(--spacing-lg);
+    }
+}
+
+/* Mobile adjustments for new components */
+@media (max-width: 768px) {
+    .user-name {
+        display: none;
+    }
+
+    .user-profile-button {
+        padding: 6px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-fullscreen .modal-header,
+    .modal-fullscreen .modal-body,
+    .modal-fullscreen .modal-footer {
+        padding: var(--spacing-lg);
+    }
+
+    .sesion-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+
+    .config-actions {
+        flex-direction: column;
+    }
+
+    .config-actions .btn {
+        width: 100%;
+    }
+
+    .sesion-actions {
+        flex-direction: column;
+    }
+
+    .sesion-actions .btn {
+        width: 100%;
+    }
+}
+
+
+
+/* Mobile - 768px and below */
+@media (max-width: 768px) {
+
+    /* Header adjustments */
+    .app-header {
+        height: 56px;
+        padding: 0 var(--spacing-md);
+    }
+
+    /* Make right menu toggle visible */
+    #rightMenuToggle {
+        display: flex !important;
+    }
+
+    .header-left,
+    .header-right,
+    .header-center {
+        gap: var(--spacing-xs);
+    }
+
+    /* AI Selector */
+    .ai-selector-button {
+        padding: 6px 10px;
+        font-size: var(--font-size-sm);
+    }
+
+    /* Hide toggle labels on very small screens */
+    .toggle-label {
+        font-size: var(--font-size-xs);
+    }
+
+    /* Tabs */
+    .tabs-container {
+        padding: 0 var(--spacing-md);
+        gap: var(--spacing-lg);
+    }
+
+    .tab-button {
+        padding: 12px 0;
+        font-size: var(--font-size-sm);
+    }
+
+    /* Tab content */
+    .tab-content {
+        padding: var(--spacing-xl);
+    }
+
+    .tab-title {
+        font-size: var(--font-size-xl);
+        margin-bottom: var(--spacing-xl);
+    }
+
+    /* Chat */
+    .chat-messages {
+        padding: var(--spacing-md);
+        gap: var(--spacing-lg);
+    }
+
+    .message-bubble {
+        font-size: var(--font-size-sm);
+    }
+
+    .message-bubble.user {
+        max-width: 85%;
+    }
+
+    .message-bubble.ai {
+        padding: var(--spacing-md);
+    }
+
+    .chat-input-container {
+        padding: var(--spacing-md);
+    }
+
+    .chat-input-wrapper {
+        padding: 6px;
+    }
+
+    .chat-input {
+        font-size: var(--font-size-sm);
+    }
+
+    .send-button {
+        padding: var(--spacing-sm);
+    }
+
+    /* Sidebars - keep buttons visible, make narrower */
+    .sidebar .sidebar-buttons {
+        width: 50px;
+        min-width: 50px;
+    }
+
+    .sidebar .sidebar-content {
+        width: 220px;
+    }
+
+    .sidebar.left .sidebar-content {
+        left: 50px;
+    }
+
+    .sidebar.right .sidebar-content {
+        right: 50px;
+    }
+
+    .main-content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* Forms */
+    .form-group {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .form-label {
+        font-size: var(--font-size-sm);
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: var(--font-size-sm);
+        padding: var(--spacing-sm) 10px;
+    }
+
+    /* Modal */
+    .modal-fullscreen .modal-header,
+    .modal-fullscreen .modal-body,
+    .modal-fullscreen .modal-footer {
+        padding: var(--spacing-lg);
+    }
+
+    .modal-title {
+        font-size: var(--font-size-xl);
+    }
+
+    /* Content grid */
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Summary sections */
+    .summary-section {
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-xl);
+    }
+
+    /* User profile name hidden on mobile */
+    .user-name {
+        display: none;
+    }
+
+    .user-profile-button {
+        padding: 6px;
+    }
+}
+
+/* Small mobile - 480px and below */
+@media (max-width: 480px) {
+    .app-header {
+        height: 52px;
+        padding: 0 var(--spacing-sm);
+    }
+
+    .header-left,
+    .header-right,
+    .header-center {
+        gap: 4px;
+    }
+
+    .ai-selector-button span {
+        max-width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .tabs-container {
+        padding: 0 var(--spacing-sm);
+        gap: var(--spacing-md);
+    }
+
+    .tab-content {
+        padding: var(--spacing-lg);
+    }
+
+    .modal-fullscreen .modal-header,
+    .modal-fullscreen .modal-body,
+    .modal-fullscreen .modal-footer {
+        padding: var(--spacing-md);
+    }
+}
+
+/* Landscape mode for mobile */
+@media (max-height: 600px) and (orientation: landscape) {
+    .app-header {
+        height: 48px;
+    }
+
+    .chat-input-container {
+        padding: var(--spacing-sm);
+    }
+
+    .tab-content {
+        padding: var(--spacing-lg);
+    }
+
+    .sidebar {
+        top: 48px;
+        height: calc(100vh - 48px);
+    }
+}
+
+/* Force visibility on desktop */
+@media (min-width: 1025px) {
+    .mobile-menu-toggle {
+        display: none !important;
+    }
+
+    .sidebar {
+        position: relative;
+        transform: translateX(0) !important;
+    }
+}
+
+/* Ensure right menu toggle is visible on mobile */
+@media (max-width: 1024px) {
+    #rightMenuToggle {
+        display: flex !important;
+    }
+}
+
+/* Hide mobile toggles on desktop */
+@media (min-width: 1025px) {
+    .mobile-menu-toggle {
+        display: none !important;
+    }
+}

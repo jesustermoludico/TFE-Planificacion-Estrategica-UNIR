@@ -1,0 +1,66 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0225",
+    "titulo_modulo": "Redes locales",
+    "duracion_total": "192",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y mantenimiento de redes locales en pequeños entornos[cite: 6150]. La definición de estas funciones incluye aspectos como: el montaje de canalizaciones y tendido de líneas, el montaje de elementos de red, la integración de elementos, la monitorización y la resolución de incidencias físicas y lógicas [cite: 6151-6156]. Las líneas de actuación versarán sobre la identificación e interpretación de documentación técnica, la instalación física y configuración lógica de elementos, el estudio de comportamiento de redes mediante virtualización y la resolución de problemas en la explotación de la red [cite: 6163-6170].",
+    "objetivos_generales_asociados": "a, b, d, e, f, g, h, i, j, k, l, m",
+    "competencias_profesionales_asociadas": "c, e, f, g, h, j, l",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_225",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Redes de área local. Niveles físicos",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_225", "descripcion_punto": "Caracterización de redes locales: tipos, topologías y elementos de red [cite: 6110-6112]." },
+                { "id_punto": "P_01_02_225", "descripcion_punto": "Identificación de espacios físicos: cuartos de comunicaciones, armarios rack y paneles de parcheo [cite: 6113-6115]." },
+                { "id_punto": "P_01_03_225", "descripcion_punto": "Canalizaciones y medios de transmisión (par trenzado, fibra óptica)[cite: 6116]." },
+                { "id_punto": "P_01_04_225", "descripcion_punto": "Manipulación de elementos: conexión de tomas, creación de cables y recomendaciones de instalación [cite: 6117-6119]." },
+                { "id_punto": "P_01_05_225", "descripcion_punto": "Virtualización de redes a niveles físicos y testeo/certificación de redes [cite: 6120-6121]." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_225",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Redes de área local. Niveles lógicos e interconexión",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_225", "descripcion_punto": "Interconexión de equipos: protocolos, funciones y configuración de adaptadores cableados e inalámbricos [cite: 6123-6126]." },
+                { "id_punto": "P_02_02_225", "descripcion_punto": "Protocolo TCP/IP: estructura, clases de direcciones, IPv4 e IPv6[cite: 6129]." },
+                { "id_punto": "P_02_03_225", "descripcion_punto": "Configuración básica de dispositivos de interconexión y seguridad lógica de tráfico [cite: 6131-6132]." },
+                { "id_punto": "P_02_04_225", "descripcion_punto": "Dispositivos cortafuegos, mecanismos de control de acceso y virtualización general de redes [cite: 6133-6135]." },
+                { "id_punto": "P_02_05_225", "descripcion_punto": "Resolución de incidencias: estrategias, monitorización y herramientas de diagnóstico [cite: 6136-6140]." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_225",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Riesgo laboral y prevención ambiental",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_225", "descripcion_punto": "Identificación de riesgos y medidas de prevención en montaje y mantenimiento [cite: 6142-6145]." },
+                { "id_punto": "P_03_02_225", "descripcion_punto": "Equipos de protección individual (EPI) y normativa de protección ambiental [cite: 6146-6148]." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce la estructura de redes locales cableadas analizando entornos y componentes.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito los principios de funcionamiento y tipos de redes [cite: 6046-6047]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los elementos de la red local, medios de transmisión y topologías [cite: 6048-6052]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado aplicaciones para representar el mapa físico de la red[cite: 6051]." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Instala equipos en red, describiendo sus prestaciones y aplicando técnicas de montaje.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado características y modos de funcionamiento de redes inalámbricas [cite: 6077-6078]." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han instalado puntos de acceso, adaptadores y configurado parámetros básicos de seguridad [cite: 6079-6085]." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han creado y configurado redes virtuales (VLAN)[cite: 6086]." }
+            ]
+        }
+    ]
+}

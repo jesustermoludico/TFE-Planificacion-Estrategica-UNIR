@@ -1,0 +1,507 @@
+/* ============================================
+   EDUCATIONAL LEVEL SELECTOR STYLES
+   ============================================ */
+
+/* Selector principal */
+.edu-level-selector {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 12px;
+}
+
+.edu-level-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.edu-level-button:hover {
+    background: var(--bg-tertiary);
+    border-color: var(--primary-color);
+}
+
+.edu-level-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.edu-level-indicator.fp {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    box-shadow: 0 0 6px rgba(59, 130, 246, 0.5);
+}
+
+.edu-level-indicator.sec {
+    background: linear-gradient(135deg, #10b981, #059669);
+    box-shadow: 0 0 6px rgba(16, 185, 129, 0.5);
+}
+
+#eduLevelText {
+    min-width: 80px;
+}
+
+/* Dropdown del selector */
+.edu-level-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    min-width: 220px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.2s ease;
+    z-index: 1000;
+    overflow: visible; /* Allow modules submenu to overflow */
+}
+
+.edu-level-dropdown.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Opciones principales */
+.edu-level-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+    border-bottom: 1px solid var(--border-color);
+    position: relative; /* Required for absolute positioning of modules-submenu */
+}
+
+.edu-level-option:last-child {
+    border-bottom: none;
+}
+
+.edu-level-option:hover {
+    background: var(--bg-secondary);
+}
+
+.edu-level-option.selected {
+    background: var(--primary-color-light);
+}
+
+
+.edu-level-option-icon {
+    display: none !important;
+}
+
+.edu-level-option-content {
+    flex: 1;
+}
+
+.edu-level-option-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+}
+
+.edu-level-option-desc {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.edu-level-option-check {
+    width: 20px;
+    height: 20px;
+    color: var(--primary-color);
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.edu-level-option.selected .edu-level-option-check {
+    opacity: 1;
+}
+
+/* Submenú de opciones */
+.edu-submenu {
+    background: var(--bg-secondary);
+    padding: 8px;
+    border-top: 1px solid var(--border-color);
+}
+
+.edu-submenu-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 8px 8px;
+}
+
+.edu-sublevel-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.edu-sublevel-option {
+    padding: 6px 12px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.edu-sublevel-option:hover {
+    border-color: #3b82f6;
+    background: #eff6ff;
+    color: #1d4ed8;
+}
+
+.edu-sublevel-option.selected {
+    background: #3b82f6 !important;
+    border-color: #3b82f6 !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+/* Dark theme adjustments for sublevel options */
+[data-theme="dark"] .edu-sublevel-option {
+    background: var(--bg-tertiary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .edu-sublevel-option:hover {
+    border-color: #60a5fa;
+    background: #1e3a5f;
+    color: #93c5fd;
+}
+
+[data-theme="dark"] .edu-sublevel-option.selected {
+    background: #3b82f6 !important;
+    border-color: #3b82f6 !important;
+    color: white !important;
+}
+
+/* Separador de cursos */
+.edu-course-separator {
+    width: 100%;
+    height: 1px;
+    background: var(--border-color);
+    margin: 6px 0;
+}
+
+.edu-course-row {
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+.edu-course-row .edu-sublevel-option {
+    flex: 1;
+    text-align: center;
+}
+
+
+/* ============================================
+   MODE TOGGLE CONTAINER (con estado disabled)
+   ============================================ */
+
+.mode-toggle-container {
+    transition: opacity 0.2s ease;
+}
+
+.mode-toggle-container.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.mode-toggle-container.disabled .toggle-switch {
+    cursor: not-allowed;
+}
+
+
+/* ============================================
+   CONDITIONAL STYLES BY EDUCATIONAL LEVEL
+   ============================================ */
+
+/* Ocultar elementos específicos de FP cuando estamos en Secundaria */
+body[data-edu-level="SEC"] [data-fp-only],
+body[data-edu-level="SEC"] .fp-only {
+    display: none !important;
+}
+
+/* Ocultar elementos específicos de Secundaria cuando estamos en FP */
+body[data-edu-level="FP"] [data-sec-only],
+body[data-edu-level="FP"] .sec-only {
+    display: none !important;
+}
+
+/* Highlight para elementos curriculares específicos del nivel */
+.panel-item.highlight {
+    position: relative;
+    font-weight: 500;
+}
+
+.panel-item.highlight::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 60%;
+    border-radius: 2px;
+}
+
+body[data-edu-level="FP"] .panel-item.highlight::before {
+    background: linear-gradient(180deg, #3b82f6, #1d4ed8);
+}
+
+body[data-edu-level="SEC"] .panel-item.highlight::before {
+    background: linear-gradient(180deg, #10b981, #059669);
+}
+
+
+/* ============================================
+   BADGE DE NIVEL EN TABS
+   ============================================ */
+
+.level-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 6px;
+}
+
+body[data-edu-level="FP"] .level-badge {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+body[data-edu-level="SEC"] .level-badge {
+    background: #d1fae5;
+    color: #059669;
+}
+
+
+/* ============================================
+   HEADER INFO BAR (barra contextual)
+   ============================================ */
+
+.header-info-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+    background: var(--bg-secondary);
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-right: 8px;
+}
+
+.header-info-bar i {
+    width: 14px;
+    height: 14px;
+}
+
+.header-info-separator {
+    width: 1px;
+    height: 16px;
+    background: var(--border-color);
+}
+
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+    .edu-level-selector {
+        margin-right: 8px;
+    }
+    
+    .edu-level-button {
+        padding: 6px 10px;
+    }
+    
+    #eduLevelText {
+        display: none;
+    }
+    
+    .edu-level-dropdown {
+        left: auto;
+        right: 0;
+        min-width: 280px;
+    }
+    
+    .header-info-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .edu-level-button {
+        padding: 6px 8px;
+    }
+    
+    .edu-level-indicator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+
+/* ============================================
+   DARK THEME ADJUSTMENTS
+   ============================================ */
+
+[data-theme="dark"] .edu-level-button {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .edu-level-dropdown {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+
+[data-theme="dark"] .edu-submenu {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .edu-sublevel-option {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] body[data-edu-level="FP"] .level-badge {
+    background: #1e3a5f;
+    color: #60a5fa;
+}
+
+[data-theme="dark"] body[data-edu-level="SEC"] .level-badge {
+    background: #064e3b;
+    color: #34d399;
+}
+
+
+/* ============================================
+   MODULES SUBMENU STYLES
+   Requirement 1.1.1: Wider modules menu with full module names (no id_modulo)
+   ============================================ */
+
+.modules-submenu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    min-width: 350px; /* Wider menu for full module names */
+    max-width: 450px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.2s ease;
+    z-index: 1001;
+    margin-left: 8px;
+    /* Debug styles to make sure it's visible */
+    display: block !important;
+}
+
+.modules-submenu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Debugging: make modules always visible temporarily */
+.cycle-option:hover .modules-submenu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateX(0) !important;
+}
+
+.modules-list {
+    padding: 8px;
+}
+
+.module-option {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+.module-option:hover {
+    background: var(--bg-secondary);
+}
+
+.module-option:last-child {
+    margin-bottom: 0;
+}
+
+.module-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: 1.4;
+    word-wrap: break-word;
+    flex: 1;
+}
+
+/* Remove module-code display as per requirement */
+.module-code {
+    display: none !important;
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .modules-submenu {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .module-option:hover {
+    background: var(--bg-tertiary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .modules-submenu {
+        min-width: 300px;
+        max-width: 350px;
+        left: auto;
+        right: 100%;
+        margin-left: 0;
+        margin-right: 8px;
+        transform: translateX(10px);
+    }
+
+    .modules-submenu.show {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,983 @@
+{
+  "asignatura": "Lengua Castellana y Literatura",
+  "etapa": "Educación Secundaria Obligatoria (ESO)",
+  "comunidad_autonoma": "Aragón",
+  
+  "introduccion": {
+    "objetivos_principales": [
+      "Consecución de la eficacia comunicativa",
+      "Favorecer un uso ético del lenguaje al servicio de la convivencia democrática",
+      "Resolución dialogada de los conflictos",
+      "Construcción de vínculos personales y sociales basados en el respeto y la igualdad",
+      "Transmisión y comprensión del rico patrimonio literario",
+      "Creación de hábitos lectores"
+    ],
+    "eje_curricular": "Competencias específicas relacionadas con la interacción oral y escrita adecuada a distintos ámbitos y contextos, fomento del reconocimiento de la realidad plurilingüe de Aragón y España, y reflexión explícita sobre el funcionamiento de la lengua",
+    "progresion": "Desde un acompañamiento guiado en 1º y 2º ESO a uno progresivamente autónomo en 3º y 4º ESO, con mayor diversidad y complejidad de las prácticas discursivas",
+    "enfoque": "Uso de la lengua en los ámbitos educativo y social, papel de las convenciones literarias y del contexto histórico en la comprensión de textos literarios, y reflexión sobre el funcionamiento de la lengua y sus usos"
+  },
+
+  "competencias_especificas": [
+    {
+      "codigo": "CE.LCL.1",
+      "titulo": "Describir y apreciar la diversidad lingüística del mundo a partir del reconocimiento de las lenguas del alumnado y la realidad plurilingüe y pluricultural de España y de Aragón",
+      "enunciado_completo": "Describir y apreciar la diversidad lingüística del mundo a partir del reconocimiento de las lenguas del alumnado y la realidad plurilingüe y pluricultural de España y de Aragón, analizando el origen y desarrollo sociohistórico de sus lenguas y las características de las principales variedades dialectales del español, para favorecer la reflexión interlingüística, para combatir los estereotipos y prejuicios lingüísticos y para valorar dicha diversidad como fuente de riqueza cultural",
+      "descripcion": "La diversidad lingüística constituye una característica fundamental de España, donde se hablan varias lenguas y dialectos. Las clases de lenguas han de acoger esta diversidad lingüística del alumnado para evitar prejuicios lingüísticos, abrazar los significados culturales y profundizar en el conocimiento del funcionamiento de las lenguas y sus variedades. El español o castellano es una lengua universal y policéntrica, con una enorme diversidad dialectal. Ninguna de sus variedades geográficas ha de ser considerada más correcta que otra. Todo ello con la finalidad última de promover el ejercicio de una ciudadanía sensibilizada, informada y comprometida con los derechos lingüísticos individuales y colectivos",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["CE.LCL.9 (desarrollo de la conciencia lingüística e interlingüística)", "CE.LCL.10 (uso ético y democrático del lenguaje combatiendo prejuicios lingüísticos)"],
+        "otras_materias": ["CE.EVCE.1 (toma de conciencia de la propia identidad)", "CE.GH.2 (enriquecimiento del acervo común)", "CE.GH.7 (reconocimiento del patrimonio inmaterial)", "CE.LE.6 (valor de la diversidad lingüística y empatía en situaciones interculturales)"]
+      },
+      "vinculacion_perfil_salida": ["CCL1", "CCL5", "CP2", "CP3", "CC1", "CC2", "CCEC1", "CCEC3"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "1.1",
+            "descripcion": "Reconocer las lenguas de España y las variedades dialectales del español, con atención especial a la del propio territorio, identificando algunas nociones básicas de las lenguas, tanto de España como las que forman los repertorios lingüísticos del alumnado, y contrastando algunos de sus rasgos en manifestaciones orales, escritas y multimodales"
+          },
+          {
+            "codigo": "1.2",
+            "descripcion": "Identificar prejuicios y estereotipos lingüísticos adoptando una actitud de respeto y valoración de la riqueza cultural, lingüística y dialectal, a partir de la observación de la diversidad lingüística del entorno"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "1.1",
+            "descripcion": "Reconocer y valorar las lenguas de España y las variedades dialectales del español, con atención especial a la del propio territorio, a partir de la explicación de su origen y su desarrollo histórico y sociolingüístico, contrastando aspectos lingüísticos y discursivos de las distintas lenguas, así como rasgos de los dialectos del español, diferenciándolos de los rasgos sociolectales y de registro, en manifestaciones orales, escritas y multimodales"
+          },
+          {
+            "codigo": "1.2",
+            "descripcion": "Identificar y cuestionar prejuicios y estereotipos lingüísticos adoptando una actitud de respeto y valoración de la riqueza cultural, lingüística y dialectal, a partir del análisis de la diversidad lingüística en el entorno social próximo y de la exploración y reflexión en torno a los fenómenos del contacto entre lenguas y de la indagación de los derechos lingüísticos individuales y colectivos"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.2",
+      "titulo": "Comprender e interpretar textos orales y multimodales",
+      "enunciado_completo": "Comprender e interpretar textos orales y multimodales, recogiendo el sentido general y la información más relevante, identificando el punto de vista y la intención del emisor y valorando su fiabilidad, su forma y su contenido, para construir conocimiento, para formarse opinión y para ensanchar las posibilidades de disfrute y ocio",
+      "descripcion": "Desarrollar las estrategias de comprensión oral implica entender que la comunicación es un constante proceso de interpretación de intenciones. Las tecnologías han ensanchado las posibilidades de la comunicación asíncrona y han abierto el acceso a entornos comunicativos de carácter público. La comprensión e interpretación de mensajes orales requiere destrezas específicas desde las más básicas (anticipar contenido, retener información relevante, distinguir hechos y opiniones) a las más avanzadas (identificar la intención del emisor, analizar procedimientos retóricos, detectar falacias argumentativas, valorar la fiabilidad). En el ámbito social, el desarrollo debe tener en cuenta la profusión de textos multimodales que reclaman una específica alfabetización audiovisual y mediática para hacer frente a los riesgos de manipulación y desinformación",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["CE.LCL.4 (procesos de comprensión e interpretación de textos)"],
+        "otras_materias": ["CE.LE.1 (procesos en otras lenguas)", "CE.TD.1 (actitud crítica para evaluar fiabilidad y veracidad)"]
+      },
+      "vinculacion_perfil_salida": ["CCL2", "CP2", "STEM1", "CD2", "CD3", "CPSAA4", "CC3"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "2.1",
+            "descripcion": "Comprender el sentido global, la estructura, la información más relevante en función de las necesidades comunicativas y la intención del emisor en textos orales y multimodales sencillos de diferentes ámbitos, analizando la interacción entre los diferentes códigos"
+          },
+          {
+            "codigo": "2.2",
+            "descripcion": "Valorar la forma y el contenido de textos orales y multimodales sencillos, evaluando su calidad, su fiabilidad y la idoneidad del canal utilizado, así como la eficacia de los procedimientos comunicativos empleados"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "2.1",
+            "descripcion": "Comprender el sentido global, la estructura, la información más relevante en función de las necesidades comunicativas y la intención del emisor en textos orales y multimodales de cierta complejidad de diferentes ámbitos, analizando la interacción entre los diferentes códigos"
+          },
+          {
+            "codigo": "2.2",
+            "descripcion": "Valorar la forma y el contenido de textos orales y multimodales de cierta complejidad, evaluando su calidad, su fiabilidad y la idoneidad del canal utilizado, así como la eficacia de los procedimientos comunicativos empleados"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.3",
+      "titulo": "Producir textos orales y multimodales con fluidez, coherencia, cohesión y registro adecuado",
+      "enunciado_completo": "Producir textos orales y multimodales con fluidez, coherencia, cohesión y registro adecuado, atendiendo a las convenciones propias de los diferentes géneros discursivos, y participar en interacciones orales con actitud cooperativa y respetuosa, tanto para construir conocimiento y establecer vínculos personales como para intervenir de manera activa e informada en diferentes contextos sociales",
+      "descripcion": "El desarrollo de la competencia comunicativa pasa por la atención a los usos orales, que deben ser vehículo de aprendizaje y objeto de conocimiento. Las clases han de ofrecer contextos diversificados y significativos donde el alumnado pueda tomar la palabra y conversar en diálogos pedagógicamente orientados. La interacción oral requiere conocer las estrategias para tomar y ceder la palabra, desplegar actitudes de escucha activa, expresarse con fluidez, claridad y registro adecuados, así como poner en juego estrategias de cortesía lingüística y cooperación conversacional. La producción oral de carácter formal ofrece margen para la planificación y comparte estrategias con el proceso de escritura. Las tecnologías facilitan nuevos formatos para la comunicación oral multimodal y favorecen el registro de las aportaciones orales para su análisis, revisión y evaluación",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["CE.LCL.5 (procesos de producción de textos cohesionados, coherentes y adecuados)", "CE.LCL.6 (búsqueda y selección de información)", "CE.LCL.9 (conocimiento de la estructura lingüística)", "CE.LCL.10 (dimensión ética de la comunicación)"],
+        "otras_materias": ["CE.LE.2 y CE.LE.3 (procesos en otras lenguas)", "CE.T.3 (difusión de mensajes libres de tintes sexistas)"]
+      },
+      "vinculacion_perfil_salida": ["CCL1", "CCL3", "CCL5", "CP2", "STEM1", "CD2", "CD3", "CC2", "CE1"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "3.1",
+            "descripcion": "Realizar narraciones y exposiciones orales sencillas con diferente grado de planificación sobre temas de interés personal, social y educativo, ajustándose a las convenciones propias de los diversos géneros discursivos, con fluidez, coherencia, cohesión y el registro adecuado, en diferentes soportes y utilizando de manera eficaz recursos verbales y no verbales"
+          },
+          {
+            "codigo": "3.2",
+            "descripcion": "Participar en interacciones orales informales, en el trabajo en equipo y en situaciones orales formales de carácter dialogado de manera activa y adecuada, con actitudes de escucha activa y haciendo uso de estrategias de cooperación conversacional y cortesía lingüística"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "3.1",
+            "descripcion": "Realizar exposiciones y argumentaciones orales de cierta extensión y complejidad con diferente grado de planificación sobre temas de interés personal, social, educativo y profesional ajustándose a las convenciones propias de los diversos géneros discursivos, con fluidez, coherencia, cohesión y el registro adecuado en diferentes soportes, utilizando de manera eficaz recursos verbales y no verbales"
+          },
+          {
+            "codigo": "3.2",
+            "descripcion": "Participar de manera activa y adecuada en interacciones orales informales, en el trabajo en equipo y en situaciones orales formales de carácter dialogado, con actitudes de escucha activa y estrategias de cooperación conversacional y cortesía lingüística"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.4",
+      "titulo": "Comprender, interpretar y valorar textos escritos",
+      "enunciado_completo": "Comprender, interpretar y valorar textos escritos, con sentido crítico y diferentes propósitos de lectura, reconociendo el sentido global y las ideas principales y secundarias, identificando la intención del emisor, reflexionando sobre el contenido y la forma y evaluando su calidad y fiabilidad, para dar respuesta a necesidades e intereses comunicativos diversos y para construir conocimiento",
+      "descripcion": "Desarrollar la competencia lectora implica incidir en la motivación, el compromiso, las prácticas de lectura y el conocimiento y uso de las estrategias que deben desplegarse antes, durante y después del acto lector, para que el alumnado devenga lector competente, autónomo y crítico ante todo tipo de textos, sepa evaluar su calidad y fiabilidad y encuentre en ellos la respuesta a diferentes propósitos de lectura. La alfabetización del siglo XXI pasa por la enseñanza de la lectura de los hipertextos de internet. Se hace imprescindible el trabajo coordinado con otras materias del currículo y con las otras lenguas curriculares",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["CE.LCL.2 (procesos de comprensión e interpretación)"],
+        "otras_materias": ["CE.LE.1 (procesos en otras lenguas)", "CE.TD.1 (actitud crítica para evaluar fiabilidad)"]
+      },
+      "vinculacion_perfil_salida": ["CCL2", "CCL3", "CCL5", "CP2", "STEM4", "CD1", "CPSAA4", "CC3"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "4.1",
+            "descripcion": "Comprender e interpretar el sentido global, la estructura, la información más relevante y la intención del emisor en textos escritos y multimodales sencillos de diferentes ámbitos que respondan a diferentes propósitos de lectura, realizando las inferencias necesarias"
+          },
+          {
+            "codigo": "4.2",
+            "descripcion": "Valorar la forma y el contenido de textos sencillos evaluando su calidad, su fiabilidad y la idoneidad del canal utilizado, así como la eficacia de los procedimientos comunicativos empleados"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "4.1",
+            "descripcion": "Comprender e interpretar el sentido global, la estructura, la información más relevante y la intención del emisor de textos escritos y multimodales de cierta complejidad que respondan a diferentes propósitos de lectura, realizando las inferencias necesarias"
+          },
+          {
+            "codigo": "4.2",
+            "descripcion": "Valorar críticamente el contenido y la forma de textos de cierta complejidad evaluando su calidad y fiabilidad, así como la eficacia de los procedimientos lingüísticos empleados"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.5",
+      "titulo": "Producir textos escritos y multimodales coherentes, cohesionados, adecuados y correctos",
+      "enunciado_completo": "Producir textos escritos y multimodales coherentes, cohesionados, adecuados y correctos, atendiendo a las convenciones propias del género discursivo elegido, para construir conocimiento y para dar respuesta de manera informada, eficaz y creativa a demandas comunicativas concretas",
+      "descripcion": "Saber escribir significa hoy hacerlo en diferentes soportes y formatos, muchos de carácter hipertextual y multimodal, y requiere el conocimiento de los moldes en que han cristalizado las prácticas comunicativas escritas (géneros discursivos). La elaboración de un texto escrito tiene al menos cuatro momentos: planificación, textualización, revisión y edición. En el ámbito educativo, se pondrá énfasis en los usos de la escritura para la toma de apuntes, esquemas, mapas conceptuales o resúmenes. La composición debe atender a la coherencia, cohesión, adecuación, corrección gramatical y ortográfica, propiedad léxica, tono del escrito, inscripción de las personas en el discurso y lenguaje y estilo. La vinculación entre la reflexión explícita sobre el funcionamiento de la lengua y su proyección en los usos es inseparable",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["CE.LCL.3 (procesos de producción de textos)", "CE.LCL.6 (búsqueda y selección de información)", "CE.LCL.9 (conocimiento de la estructura lingüística)", "CE.LCL.10 (dimensión ética de la comunicación)"],
+        "otras_materias": ["CE.LE.2 y CE.LE.3 (procesos en otras lenguas)", "CE.T.3 (difusión de mensajes libres de tintes sexistas)"]
+      },
+      "vinculacion_perfil_salida": ["CCL1", "CCL3", "CCL5", "STEM1", "CD2", "CD3", "CPSAA5", "CC2"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "5.1",
+            "descripcion": "Planificar la redacción de textos escritos y multimodales sencillos, atendiendo a la situación comunicativa, al destinatario, al propósito y al canal; redactar borradores y revisarlos con ayuda del diálogo entre iguales e instrumentos de consulta, y presentar un texto final coherente, cohesionado y con el registro adecuado"
+          },
+          {
+            "codigo": "5.2",
+            "descripcion": "Incorporar procedimientos básicos para enriquecer los textos, atendiendo a aspectos discursivos, lingüísticos y de estilo, con precisión léxica y corrección ortográfica y gramatical"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "5.1",
+            "descripcion": "Planificar la redacción de textos escritos y multimodales de cierta extensión atendiendo a la situación comunicativa, al destinatario, al propósito y canal; redactar borradores y revisarlos con ayuda del diálogo entre iguales e instrumentos de consulta; y presentar un texto final coherente, cohesionado y con el registro adecuado"
+          },
+          {
+            "codigo": "5.2",
+            "descripcion": "Incorporar procedimientos para enriquecer los textos atendiendo a aspectos discursivos, lingüísticos y de estilo, con precisión léxica y corrección ortográfica y gramatical"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.6",
+      "titulo": "Seleccionar y contrastar información procedente de diferentes fuentes",
+      "enunciado_completo": "Seleccionar y contrastar información procedente de diferentes fuentes de manera progresivamente autónoma, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, e integrarla y transformarla en conocimiento, para comunicarla desde un punto de vista crítico y personal a la par que respetuoso con la propiedad intelectual",
+      "descripcion": "El acceso a la información no garantiza por sí mismo el conocimiento. Es imprescindible que el alumnado adquiera habilidades y destrezas para transformar la información en conocimiento, reconociendo cuándo se necesita, dónde buscarla, cómo gestionarla, evaluarla y comunicarla, adoptando un punto de vista crítico y personal, y evidenciando una actitud ética y responsable con la propiedad intelectual y la identidad digital. Se debe procurar que el alumnado consulte fuentes variadas, fiables y seguras en contextos sociales o académicos para la realización de trabajos o proyectos de investigación. Estos procesos deben tender al abordaje progresivamente autónomo y al respeto a las convenciones establecidas. La biblioteca escolar será el entorno ideal para la adquisición de esta competencia",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["Fundamental para el desarrollo del resto de competencias específicas"],
+        "otras_materias": ["CE.BG.1, CE.BG.2 (Biología y Geología)", "CE.DIG.2 (Digitalización)", "CE.FQ.4 (Física y Química)", "CE.GH.1, CE.GH.2 (Geografía e Historia)", "CE.LEI.1, CE.LEI.2 (Lengua Extranjera)", "CE.MAT.4 (Matemáticas)", "CE.TEC.3, CE.TEC.5 (Tecnología)"]
+      },
+      "vinculacion_perfil_salida": ["CCL3", "CD1", "CD2", "CD3", "CD4", "CPSAA4", "CC2", "CE3"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "6.1",
+            "descripcion": "Localizar, seleccionar y contrastar información de manera guiada procedente de diferentes fuentes, calibrando su fiabilidad y pertinencia en función de los objetivos de lectura; organizarla e integrarla en esquemas propios, y reelaborarla y comunicarla de manera creativa adoptando un punto de vista crítico y respetando los principios de propiedad intelectual"
+          },
+          {
+            "codigo": "6.2",
+            "descripcion": "Elaborar trabajos de investigación de manera guiada en diferentes soportes sobre diversos temas de interés académico, personal o social a partir de la información seleccionada"
+          },
+          {
+            "codigo": "6.3",
+            "descripcion": "Adoptar hábitos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación a la búsqueda y la comunicación de la información"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "6.1",
+            "descripcion": "Localizar, seleccionar y contrastar de manera progresivamente autónoma información procedente de diferentes fuentes, calibrando su fiabilidad y pertinencia en función de los objetivos de lectura; organizarla e integrarla en esquemas propios, y reelaborarla y comunicarla de manera creativa adoptando un punto de vista crítico respetando los principios de propiedad intelectual"
+          },
+          {
+            "codigo": "6.2",
+            "descripcion": "Elaborar trabajos de investigación de manera progresivamente autónoma en diferentes soportes sobre diversos temas de interés académico, personal o social a partir de la información seleccionada"
+          },
+          {
+            "codigo": "6.3",
+            "descripcion": "Adoptar hábitos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación a la búsqueda y la comunicación de la información"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.7",
+      "titulo": "Seleccionar y leer de manera progresivamente autónoma obras diversas",
+      "enunciado_completo": "Seleccionar y leer de manera progresivamente autónoma obras diversas como fuente de placer y conocimiento, configurando un itinerario lector que evolucione en cuanto a diversidad, complejidad y calidad de las obras, y compartir experiencias de lectura, para construir la propia identidad lectora y para disfrutar de la dimensión social de la lectura",
+      "descripcion": "Desarrollar esta competencia implica recorrer un camino de progreso planificado que pasa por la dedicación de un tiempo periódico y constante de lectura individual, acompañado de estrategias y andamiajes adecuados para configurar la autonomía y la identidad lectora. Es esencial la configuración de un corpus de textos adecuado, formado por obras de calidad que incluya el contacto con formas literarias actuales impresas y digitales y prácticas culturales emergentes. Se recomienda trabajar para configurar una comunidad de lectores con referentes compartidos, establecer estrategias que ayuden a seleccionar textos de su interés, apropiarse de ellos y compartir su experiencia personal de lectura. A medida que la competencia se vaya afianzando, será posible reducir progresivamente el acompañamiento docente",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["CE.LCL.8 (lectura literaria)"],
+        "otras_materias": ["CE.EPVA.3 y CE.EPVA.5 (Educación Plástica, Visual y Audiovisual)", "Competencias relacionadas con conocimiento y disfrute del patrimonio cultural"]
+      },
+      "vinculacion_perfil_salida": ["CCL1", "CCL4", "CD3", "CPSAA1", "CCEC1", "CCEC2", "CCEC3"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "7.1",
+            "descripcion": "Elegir y leer textos a partir de preselecciones, guiándose por los propios gustos, intereses y necesidades y dejando constancia del propio itinerario lector y de la experiencia de lectura"
+          },
+          {
+            "codigo": "7.2",
+            "descripcion": "Compartir la experiencia de lectura en soportes diversos relacionando el sentido de la obra con la propia experiencia biográfica y lectora"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "7.1",
+            "descripcion": "Leer de manera autónoma textos seleccionados en función de los propios gustos, intereses y necesidades, y dejar constancia del progreso del propio itinerario lector y cultural explicando los criterios de selección de las lecturas, las formas de acceso a la cultura literaria y la experiencia de lectura"
+          },
+          {
+            "codigo": "7.2",
+            "descripcion": "Compartir la experiencia de lectura en soportes diversos relacionando el sentido de la obra con la propia experiencia biográfica, lectora y cultural"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.8",
+      "titulo": "Leer, interpretar y valorar obras o fragmentos literarios del patrimonio nacional y universal",
+      "enunciado_completo": "Leer, interpretar y valorar obras o fragmentos literarios del patrimonio nacional y universal, utilizando un metalenguaje específico y movilizando la experiencia biográfica y los conocimientos literarios y culturales que permiten establecer vínculos entre textos diversos y con otras manifestaciones artísticas, para conformar un mapa cultural, para ensanchar las posibilidades de disfrute de la literatura y para crear textos de intención literaria",
+      "descripcion": "Esta competencia ha de facilitar el tránsito desde una lectura identificativa o argumental de las obras a otra que propicie una fruición más consciente y elaborada y que abra las puertas a textos inicialmente alejados de la experiencia inmediata del alumnado. Es necesario desarrollar habilidades de interpretación que favorezcan el acceso a obras cada vez más complejas, la verbalización de juicios de valor argumentados y la construcción de un mapa cultural que conjugue los horizontes nacionales con los europeos y universales y las obras literarias con otras manifestaciones artísticas. Constatar la pervivencia de universales temáticos y formales implica privilegiar un enfoque intertextual. Propiciar la creación de textos de intención literaria favorece la apropiación de las convenciones formales de los diversos géneros",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["CE.LCL.7 (lectura progresivamente autónoma)"],
+        "otras_materias": ["CE.EPVA.3 y CE.EPVA.5 (Educación Plástica, Visual y Audiovisual)", "CE.MUS.2 (Música)", "Competencias relacionadas con conocimiento y disfrute del patrimonio cultural"]
+      },
+      "vinculacion_perfil_salida": ["CCL1", "CCL4", "CC1", "CCEC1", "CCEC2", "CCEC3", "CCEC4"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "8.1",
+            "descripcion": "Explicar y argumentar, con la ayuda de pautas y modelos, la interpretación de las obras leídas a partir del análisis de las relaciones internas de sus elementos constitutivos con el sentido de la obra, atendiendo a la configuración de los géneros y subgéneros literarios"
+          },
+          {
+            "codigo": "8.2",
+            "descripcion": "Establecer, de manera guiada, vínculos argumentados entre los textos leídos y otros textos escritos, orales o multimodales, así como con otras manifestaciones artísticas y culturales, en función de temas, tópicos, estructuras, lenguaje y valores éticos y estéticos, mostrando la implicación y la respuesta personal del lector o de la lectora en la lectura"
+          },
+          {
+            "codigo": "8.3",
+            "descripcion": "Crear textos personales o colectivos con intención literaria y conciencia de estilo, en distintos soportes y con ayuda de otros lenguajes artísticos y audiovisuales, a partir de la lectura de obras o fragmentos significativos en los que se empleen las convenciones formales de los diversos géneros y estilos literarios"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "8.1",
+            "descripcion": "Explicar y argumentar la interpretación de las obras leídas a partir del análisis de las relaciones internas de sus elementos constitutivos con el sentido de la obra y de las relaciones externas del texto con su contexto sociohistórico, atendiendo a la configuración y evolución de los géneros y subgéneros literarios"
+          },
+          {
+            "codigo": "8.2",
+            "descripcion": "Establecer de manera progresivamente autónoma vínculos argumentados entre los textos leídos y otros textos escritos, orales o multimodales, así como con otras manifestaciones artísticas y culturales, en función de temas, tópicos, estructuras, lenguaje y valores éticos y estéticos, mostrando la implicación y la respuesta personal del lector en la lectura"
+          },
+          {
+            "codigo": "8.3",
+            "descripcion": "Crear textos personales o colectivos con intención literaria y conciencia de estilo, en distintos soportes y con ayuda de otros lenguajes artísticos y audiovisuales, a partir de la lectura de obras o fragmentos significativos en los que se empleen las convenciones formales de los diversos géneros y estilos literarios"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.9",
+      "titulo": "Movilizar el conocimiento sobre la estructura de la lengua y sus usos",
+      "enunciado_completo": "Movilizar el conocimiento sobre la estructura de la lengua y sus usos y reflexionar de manera progresivamente autónoma sobre las elecciones lingüísticas y discursivas, con la terminología adecuada, para desarrollar la conciencia lingüística, para aumentar el repertorio comunicativo y para mejorar las destrezas tanto de producción oral y escrita como de comprensión e interpretación crítica",
+      "descripcion": "El estudio sistemático de la lengua debe promover la competencia metalingüística del alumnado (capacidad de razonamiento, argumentación, observación y análisis) y estar vinculado a los usos reales propios de los hablantes mediante textos contextualizados. La reflexión metalingüística debe partir del conocimiento intuitivo del alumnado como usuario de la lengua y establecer puentes con el conocimiento sistemático desde edades tempranas, primero con un lenguaje común para después ir introduciendo de manera progresiva la terminología específica. Se trata de abordar el aprendizaje de la gramática como un proceso sostenido a lo largo de la etapa, en el que lo relevante no es tanto el aprendizaje de taxonomías, cuanto la reflexión en torno al sistema lingüístico y la formulación inductiva de conclusiones. Se pretende estimular la reflexión metalingüística e interlingüística para que ese conocimiento revierta en una mejora de las producciones propias y en una mejor comprensión e interpretación crítica de las producciones ajenas",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["Todas las competencias específicas (herramientas para mejora de producción, comprensión e interpretación)"],
+        "otras_materias": ["CE.LEI.4 y CE.LE.5 (Lengua Extranjera)", "CE.LAT.2 (Latín)"]
+      },
+      "vinculacion_perfil_salida": ["CCL1", "CCL2", "CP2", "STEM1", "STEM2", "CPSAA5"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "9.1",
+            "descripcion": "Revisar los textos propios de manera guiada y hacer propuestas de mejora argumentando los cambios a partir de la reflexión metalingüística e interlingüística y con un metalenguaje específico"
+          },
+          {
+            "codigo": "9.2",
+            "descripcion": "Explicar y argumentar la interrelación entre el propósito comunicativo y las elecciones lingüísticas del emisor, así como sus efectos en el receptor, utilizando el conocimiento explícito de la lengua y un metalenguaje específico"
+          },
+          {
+            "codigo": "9.3",
+            "descripcion": "Formular generalizaciones sobre aspectos básicos del funcionamiento de la lengua a partir de la observación, la comparación y la transformación de enunciados, así como de la formulación de hipótesis y la búsqueda de contraejemplos utilizando un metalenguaje específico y consultando de manera guiada diccionarios, manuales y gramáticas"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "9.1",
+            "descripcion": "Revisar los textos propios de manera progresivamente autónoma y hacer propuestas de mejora argumentando los cambios a partir de la reflexión metalingüística e interlingüística con el metalenguaje específico"
+          },
+          {
+            "codigo": "9.2",
+            "descripcion": "Explicar y argumentar la interrelación entre el propósito comunicativo y las elecciones lingüísticas del emisor, así como sus efectos en el receptor, utilizando el conocimiento explícito de la lengua y el metalenguaje específico"
+          },
+          {
+            "codigo": "9.3",
+            "descripcion": "Formular generalizaciones sobre algunos aspectos del funcionamiento de la lengua a partir de la observación, la comparación y la transformación de enunciados, así como de la formulación de hipótesis y la búsqueda de contraejemplos, utilizando el metalenguaje específico y consultando de manera progresivamente autónoma diccionarios, manuales y gramáticas"
+          }
+        ]
+      }
+    },
+    {
+      "codigo": "CE.LCL.10",
+      "titulo": "Poner las propias prácticas comunicativas al servicio de la convivencia democrática",
+      "enunciado_completo": "Poner las propias prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, utilizando un lenguaje no discriminatorio y desterrando los abusos de poder a través de la palabra, para favorecer un uso no solo eficaz sino también ético y democrático del lenguaje",
+      "descripcion": "Adquirir esta competencia implica no solo que los estudiantes sean eficaces a la hora de comunicarse, sino que pongan las palabras al servicio de unos objetivos que no se desentiendan de la insoslayable dimensión ética de la comunicación. En el ámbito de la comunicación personal, la educación lingüística debe ayudar a forjar relaciones interpersonales basadas en la empatía y el respeto, brindando herramientas para la escucha activa, la comunicación asertiva, la deliberación argumentada y la resolución dialogada de los conflictos. Erradicar los usos discriminatorios y manipuladores del lenguaje, así como los abusos de poder a través de la palabra, es un imperativo ético. En los ámbitos educativo, social y profesional, la educación lingüística debe capacitar para tomar la palabra en el ejercicio de una ciudadanía activa y comprometida en la construcción de sociedades más equitativas, democráticas y responsables",
+      "vinculacion_otras_competencias": {
+        "misma_materia": ["Transversal a todas las competencias específicas"],
+        "otras_materias": ["CE.EVCE.1, CE.EVCE.2, CE.EVCE.4 (Educación en Valores Cívicos y Éticos)", "CE.TEC.3 (Tecnología)", "CE.DIG.4 (Digitalización)", "CE.FOPP.2, CE.FOPP.3, CE.FOPP.4 (Formación y Orientación Personal y Profesional)", "CE.EE.2, CE.EE.5 (Economía y Emprendimiento)", "CE.EF.3 (Educación Física)", "CE.FQ.3, CE.FQ.5 (Física y Química)", "CE.LAT.1 (Latín)", "CE.LEI.3, CE.LEI.4, CE.LEI.6 (Lengua Extranjera)", "CE.MAT.11 (Matemáticas)", "CE.EPVA.2, CE.EPVA.3, CE.EPVA.5 (Educación Plástica, Visual y Audiovisual)", "CE.EA.1 (Expresión Artística)", "CE.GH.2, CE.GH.5, CE.GH.6, CE.GH.7, CE.GH.8, CE.GH.9 (Geografía e Historia)", "CE.MUS.3 (Música)", "CE.OE.2 (Oratoria y Escritura)"]
+      },
+      "vinculacion_perfil_salida": ["CCL1", "CCL5", "CP3", "CD3", "CPSAA3", "CC1", "CC2", "CC3"],
+      "criterios_evaluacion": {
+        "1_2_eso": [
+          {
+            "codigo": "10.1",
+            "descripcion": "Identificar y desterrar los usos discriminatorios de la lengua, los abusos de poder a través de la palabra y los usos manipuladores del lenguaje a partir de la reflexión y el análisis de los elementos lingüísticos, textuales y discursivos utilizados, así como de los elementos no verbales que rigen la comunicación entre las personas"
+          },
+          {
+            "codigo": "10.2",
+            "descripcion": "Utilizar estrategias para la resolución dialogada de los conflictos y la búsqueda de consensos tanto en el ámbito personal como educativo y social"
+          }
+        ],
+        "3_4_eso": [
+          {
+            "codigo": "10.1",
+            "descripcion": "Identificar y desterrar los usos discriminatorios de la lengua, los abusos de poder a través de la palabra y los usos manipuladores del lenguaje a partir de la reflexión y el análisis de los elementos lingüísticos, textuales y discursivos utilizados, así como de los elementos no verbales de la comunicación"
+          },
+          {
+            "codigo": "10.2",
+            "descripcion": "Utilizar estrategias para la resolución dialogada de los conflictos y la búsqueda de consensos, tanto en el ámbito personal como educativo y social"
+          }
+        ]
+      }
+    }
+  ],
+
+  "saberes_basicos": {
+    "organizacion": "4 bloques: A. Las lenguas y sus hablantes, B. Comunicación, C. Educación literaria, D. Reflexión sobre la lengua",
+    "gradacion": "La gradación entre cursos no se establece mediante la distribución diferenciada de saberes, sino en función de la mayor o menor complejidad de los textos, de las habilidades de producción o interpretación requeridas, del metalenguaje necesario para la reflexión sobre los usos, o del grado de autonomía conferido a los estudiantes",
+    
+    "bloques": [
+      {
+        "bloque": "A",
+        "nombre": "Las lenguas y sus hablantes",
+        "descripcion": "Se corresponde de manera directa con la primera competencia específica. Establece la necesidad de que el alumnado entienda y valore positivamente la diversidad lingüística del mundo. La observación y el conocimiento de nuestra propia geografía lingüística pasa por el aprendizaje de los orígenes históricos de las lenguas y su evolución. Se debe propiciar el acercamiento reflexivo a las variedades dialectales y sociolectales, así como a los registros. Se pretende explorar y cuestionar los prejuicios lingüísticos que se han desarrollado. Es interesante presentar también los fenómenos de contacto entre lenguas como el bilingüismo, los préstamos o las interferencias. La aproximación a la lengua de signos les otorgará la oportunidad de conocer el funcionamiento interno de otro código de comunicación y de comunicarse activamente con una parte de la sociedad",
+        "actividades_propuestas": [
+          "Lectura y análisis de textos sobre las lenguas del mundo, la diversidad lingüística y la realidad plurilingüe y pluricultural de España",
+          "Lectura y audición de textos en diferentes lenguas y dialectos",
+          "Ejercicios de análisis y comparación entre lenguas, variedades dialectales, sociolectales, diafásicas, diastráticas y diatópicas",
+          "Redacción de biografías lingüísticas",
+          "Creación de mapas lingüísticos",
+          "Actividades con diccionarios: elaboración de diccionarios propios, conocimiento y uso de diferentes diccionarios",
+          "Trabajos de investigación sobre las lenguas del mundo, las familias lingüísticas, las variedades dialectales, sociolectales, diafásicas, diastráticas y diatópicas"
+        ],
+        "contenidos_por_nivel": {
+          "1_eso": {
+            "saberes": [
+              "Observación de la propia biografía lingüística y de la diversidad lingüística del centro",
+              "Aproximación a las lenguas de signos",
+              "Iniciación a la reflexión interlingüística"
+            ],
+            "orientaciones": "Se pretende desarrollar la sensibilización del alumnado hacia la variedad lingüística a través de pequeñas tareas de investigación sobre su propia biografía lingüística (¿qué lenguas conozco?, ¿cuándo empecé a aprenderlas?, ¿qué sé hacer con ellas?, ¿cómo hablan mi lengua materna los demás?). También se puede ampliar a las lenguas que habla la familia, cuándo y cómo las aprendieron. La aproximación a la lengua de signos se puede llevar a cabo a través de la investigación conjunta profesorado-alumnado"
+          },
+          "2_eso": {
+            "saberes": [
+              "Las familias lingüísticas y las lenguas del mundo",
+              "Las lenguas de España: origen, distribución geográfica y nociones básicas. Diferencias entre plurilingüismo y diversidad dialectal",
+              "Comparación de rasgos de las principales variedades dialectales del español, con especial atención a la del propio territorio",
+              "Reflexión interlingüística",
+              "Estrategias de identificación de prejuicios y estereotipos lingüísticos y exploración de formas de evitarlos"
+            ],
+            "orientaciones": "Tras la observación de la propia biografía lingüística en 1º ESO, se puede continuar con la definición de familia lingüística y la elaboración de mapas con las lenguas más habladas del mundo partiendo de las del grupo clase y clasificándolas en las principales familias lingüísticas (indoeuropea, sino-tibetana, austronesia, afroasiática). El interés por las lenguas de España puede partir de la investigación en torno a las variedades dialectales del español. El acceso actual a medios audiovisuales permite la búsqueda de materiales en distintos dialectos"
+          },
+          "3_eso": {
+            "saberes": [
+              "Análisis de la biografía lingüística propia y de la diversidad lingüística del centro y de la localidad",
+              "Desarrollo sociohistórico de las lenguas de España",
+              "Comparación de rasgos de las principales variedades dialectales del español, con especial atención a la de Aragón",
+              "Desarrollo de la reflexión interlingüística"
+            ],
+            "orientaciones": "Una vez trabajada la variedad lingüística a nivel internacional en los cursos anteriores, nos centraremos en que conozcan en mayor profundidad las variedades lingüísticas a nivel nacional prestando mayor atención a la de nuestra Comunidad Autónoma. Estas variedades podremos trabajarlas mediante la elaboración de 'diccionarios' con recursos digitales en el que podamos realizar un tablón de vocabulario. Para trabajar las variedades de la lengua que encontramos en el territorio español podemos recurrir a vídeos, podcast, discursos o entradas en redes sociales"
+          },
+          "4_eso": {
+            "saberes": [
+              "Diferencias entre los rasgos propios de las variedades dialectales (fónicos, gramaticales y léxicos) y los relativos a los sociolectos y los registros",
+              "Exploración y cuestionamiento de prejuicios y estereotipos lingüísticos. Los fenómenos del contacto entre lenguas: bilingüismo, préstamos, interferencias. Diglosia lingüística y diglosia dialectal",
+              "Indagación en torno a los derechos lingüísticos y su expresión en leyes y declaraciones institucionales"
+            ],
+            "orientaciones": "En este curso se parte del conocimiento de la realidad plurilingüe y pluricultural de España y Aragón de los cursos anteriores y se profundiza en el análisis y diferencias entre los rasgos propios de las variedades dialectales y los relativos a los sociolectos y los registros. El punto de partida debe ser recordar los conocimientos de cursos anteriores sobre las variedades dialectales, diafásicas, diastráticas y diatópicas y tomarlos como base para introducir los conceptos de sociolecto, registro, bilingüismo, préstamo, interferencia, diglosia lingüística y diglosia dialectal"
+          }
+        }
+      },
+      {
+        "bloque": "B",
+        "nombre": "Comunicación",
+        "descripcion": "Integra los saberes implicados en la comunicación oral y escrita y la alfabetización mediática e informacional, vertebrados en torno a la realización de tareas de producción, recepción, comprensión y análisis crítico de textos. Los conocimientos, destrezas y actitudes que conforman la materia no son independientes. De este modo, cualquier texto escrito se puede comentar de forma oral y sobre cualquiera de ellos se puede realizar la correspondiente reflexión literaria o lingüística",
+        "aspectos_clave": [
+          "1. Contexto: componentes del hecho comunicativo (grado de formalidad, carácter público o privado, distancia social, propósitos comunicativos, canal)",
+          "2. Géneros discursivos: secuencias textuales, propiedades textuales (coherencia, cohesión, adecuación), géneros de diferentes ámbitos",
+          "3. Procesos: interacción, comprensión oral y lectora, producción oral y escrita, alfabetización mediática e informacional",
+          "4. Reconocimiento y uso discursivo de los elementos lingüísticos"
+        ],
+        "metodologia": "Incitar a la participación dialógica en torno a una temática propuesta del ámbito cotidiano puede ser un idóneo punto de partida. La espontaneidad, la improvisación y la naturalidad están en el origen de la oralidad y requieren de espacios y agrupamientos que favorezcan la interacción y el diálogo. Se hace necesaria la puesta en funcionamiento de estructuras de trabajo cooperativo. Para favorecer la comunicación se debe propiciar un ambiente de respeto y de confianza",
+        "contenidos_por_nivel": {
+          "1_eso": {
+            "contexto": [
+              "Componentes del hecho comunicativo: grado de formalidad de la situación y carácter público o privado",
+              "Distancia social entre los interlocutores"
+            ],
+            "generos_discursivos": [
+              "Secuencias textuales básicas, con especial atención a las narrativas, descriptivas y dialogadas",
+              "Propiedades textuales: coherencia, cohesión y adecuación",
+              "Géneros discursivos propios del ámbito personal: la conversación",
+              "Géneros discursivos propios del ámbito educativo"
+            ],
+            "procesos": [
+              "Interacción oral y escrita de carácter informal: tomar y dejar la palabra. Cooperación conversacional y cortesía lingüística. Escucha activa, asertividad y resolución dialogada de los conflictos",
+              "Comprensión oral: sentido global del texto y relación entre sus partes, selección y retención de la información relevante",
+              "Comprensión lectora: sentido global del texto y relación entre sus partes",
+              "Producción escrita: planificación, textualización, revisión y edición en diferentes soportes. Utilización de plataformas virtuales para la realización de proyectos escolares",
+              "Alfabetización mediática e informacional: búsqueda y selección de la información con criterios de fiabilidad, calidad y pertinencia"
+            ],
+            "elementos_linguisticos": [
+              "Recursos lingüísticos para mostrar la implicación del emisor en los textos: formas de deixis (personal, temporal y espacial)",
+              "Recursos lingüísticos para adecuar el registro a la situación de comunicación",
+              "Mecanismos de cohesión. Conectores textuales temporales, explicativos, de orden y de contraste",
+              "Uso coherente de las formas verbales en los textos. Los tiempos del pretérito en la narración. Correlación temporal en el discurso relatado",
+              "Corrección lingüística y revisión ortográfica y gramatical de los textos. Uso de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital",
+              "Los signos básicos de puntuación como mecanismo organizador del texto escrito. Su relación con el significado"
+            ]
+          },
+          "2_eso": {
+            "contexto": [
+              "Componentes del hecho comunicativo: grado de formalidad de la situación y carácter público o privado",
+              "Distancia social entre los interlocutores",
+              "Propósitos comunicativos e interpretación de intenciones",
+              "Canal de comunicación y elementos no verbales de la comunicación"
+            ],
+            "generos_discursivos": [
+              "Secuencias textuales básicas, con especial atención a las expositivas",
+              "Propiedades textuales: coherencia, cohesión y adecuación",
+              "Géneros discursivos propios del ámbito social. Redes sociales y medios de comunicación. Etiqueta digital. Riesgos de desinformación, manipulación y vulneración de la privacidad en la red. Análisis de la imagen y elementos paratextuales de los textos icónico-verbales y multimodales"
+            ],
+            "procesos": [
+              "Comprensión oral: Detección de usos discriminatorios del lenguaje verbal y no verbal",
+              "Producción oral formal: planificación y búsqueda de información, textualización y revisión. Adecuación a la audiencia y al tiempo de exposición. Elementos no verbales. Rasgos discursivos y lingüísticos de la oralidad formal",
+              "Comprensión lectora: sentido global del texto y relación entre sus partes. La intención del emisor. Detección de usos discriminatorios del lenguaje verbal e icónico",
+              "Producción escrita: planificación, textualización, revisión y edición en diferentes soportes. Usos de la escritura para la organización del pensamiento: toma de notas, esquemas, mapas conceptuales, definiciones, resúmenes, etc.",
+              "Alfabetización mediática e informacional: búsqueda y selección de la información con criterios de fiabilidad, calidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios y transformación en conocimiento; comunicación y difusión creativa y respetuosa con la propiedad intelectual. Utilización de plataformas virtuales para la realización de proyectos escolares"
+            ],
+            "elementos_linguisticos": [
+              "Recursos lingüísticos para mostrar la implicación del emisor en los textos: formas de deixis (personal, temporal y espacial) y procedimientos de modalización",
+              "Recursos lingüísticos para adecuar el registro a la situación de comunicación",
+              "Mecanismos de cohesión. Conectores textuales temporales, explicativos, de orden y de contraste. Mecanismos de referencia interna gramaticales (sustituciones pronominales y adverbiales) y léxicos (repeticiones, sinónimos, hiperónimos y elipsis)",
+              "Corrección lingüística y revisión ortográfica y gramatical de los textos. Uso de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital",
+              "Los signos básicos de puntuación como mecanismo organizador del texto escrito. Su relación con el significado"
+            ]
+          },
+          "3_eso": {
+            "contexto": [
+              "Componentes del hecho comunicativo: grado de formalidad de la situación y carácter público o privado",
+              "Distancia social entre los interlocutores",
+              "Propósitos comunicativos e interpretación de intenciones",
+              "Canal de comunicación y elementos no verbales de la comunicación"
+            ],
+            "generos_discursivos": [
+              "Secuencias textuales básicas, con especial atención a las expositivas",
+              "Propiedades textuales: coherencia, cohesión y adecuación",
+              "Géneros discursivos propios del ámbito personal: la conversación, con especial atención a los actos de habla que amenazan la imagen del interlocutor (la discrepancia, la queja, la orden, la reprobación)",
+              "Géneros discursivos propios del ámbito educativo"
+            ],
+            "procesos": [
+              "Interacción oral y escrita de carácter informal y formal: cooperación conversacional y cortesía lingüística. Escucha activa, asertividad y resolución dialogada de los conflictos",
+              "Comprensión oral: sentido global del texto y relación entre sus partes, selección y retención de la información relevante. Detección de usos discriminatorios del lenguaje verbal y no verbal",
+              "Producción oral formal: planificación y búsqueda de información, textualización y revisión. Adecuación a la audiencia y al tiempo de exposición. Elementos no verbales. Rasgos discursivos y lingüísticos de la oralidad formal",
+              "Comprensión lectora: sentido global del texto y relación entre sus partes. La intención del emisor. Detección de usos discriminatorios del lenguaje verbal e icónico",
+              "Producción escrita: planificación, textualización, revisión y edición en diferentes soportes. Usos de la escritura para la organización del pensamiento: toma de notas, esquemas, definiciones, etc.",
+              "Alfabetización mediática e informacional: Búsqueda y selección de la información con criterios de fiabilidad, calidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios. Utilización de plataformas virtuales para la realización de proyectos escolares"
+            ],
+            "elementos_linguisticos": [
+              "La expresión de la subjetividad en textos de carácter expositivo. Identificación y uso de las variaciones de las formas deícticas (fórmulas de confianza y cortesía) en relación con las situaciones de comunicación",
+              "Recursos lingüísticos para adecuar el registro a la situación de comunicación",
+              "Mecanismos de cohesión. Conectores textuales distributivos, de orden, explicación, causa y consecuencia",
+              "Uso coherente de las formas verbales en los textos",
+              "Corrección lingüística y revisión ortográfica y gramatical de los textos. Uso de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital",
+              "Los signos de puntuación como mecanismo organizador del texto escrito. Su relación con el significado"
+            ]
+          },
+          "4_eso": {
+            "contexto": [
+              "Componentes del hecho comunicativo: grado de formalidad de la situación y carácter público o privado",
+              "Distancia social entre los interlocutores",
+              "Propósitos comunicativos e interpretación de intenciones",
+              "Canal de comunicación y elementos no verbales de la comunicación"
+            ],
+            "generos_discursivos": [
+              "Secuencias textuales básicas, con especial atención a las argumentativas",
+              "Propiedades textuales: coherencia, cohesión y adecuación",
+              "Géneros discursivos propios del ámbito social. Redes sociales y medios de comunicación. Análisis de la imagen y de los elementos paratextuales de los textos icónico-verbales y multimodales",
+              "Géneros discursivos propios del ámbito profesional: el currículum vitae, la carta de motivación y la entrevista de trabajo"
+            ],
+            "procesos": [
+              "Comprensión oral: sentido global del texto y relación entre sus partes, selección y retención de la información relevante. La intención del emisor. Detección de usos discriminatorios del lenguaje verbal y no verbal. Valoración de la forma y el contenido del texto",
+              "Producción oral formal: planificación y búsqueda de información, textualización y revisión. Adecuación a la audiencia y al tiempo de exposición. Elementos no verbales. Rasgos discursivos y lingüísticos de la oralidad formal. La deliberación oral argumentada",
+              "Comprensión lectora: sentido global del texto y relación entre sus partes. La intención del emisor. Detección de usos discriminatorios del lenguaje verbal e icónico. Valoración de la forma y el contenido del texto",
+              "Producción escrita: planificación, textualización, revisión y edición en diferentes soportes. Usos de la escritura para la organización del pensamiento: mapas conceptuales, resúmenes, etc.",
+              "Alfabetización mediática e informacional: Búsqueda y selección de la información con criterios de fiabilidad, calidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios y transformación en conocimiento; comunicación y difusión de manera creativa y respetuosa con la propiedad intelectual. Utilización de plataformas virtuales para la realización de proyectos escolares"
+            ],
+            "elementos_linguisticos": [
+              "La expresión de la subjetividad en textos de carácter argumentativo. Identificación y uso de las variaciones de las formas deícticas (fórmulas de confianza y cortesía) en relación con las situaciones de comunicación",
+              "Recursos lingüísticos para adecuar el registro a la situación de comunicación",
+              "Procedimientos explicativos básicos: la aposición y las oraciones de relativo",
+              "Mecanismos de cohesión. Conectores textuales distributivos, de orden, contraste, explicación, causa, consecuencia, condición e hipótesis. Mecanismos de referencia interna, gramaticales y léxicos (nominalizaciones e hiperónimos de significado abstracto)",
+              "Uso coherente de las formas verbales en los textos. Correlación temporal en la coordinación y subordinación de oraciones, y en el discurso relatado",
+              "Corrección lingüística y revisión ortográfica y gramatical de los textos. Uso de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital",
+              "Los signos de puntuación como mecanismo organizador del texto escrito. Su relación con el significado"
+            ]
+          }
+        }
+      },
+      {
+        "bloque": "C",
+        "nombre": "Educación literaria",
+        "descripcion": "Recoge los saberes y experiencias necesarios para consolidar el hábito lector, conformar la propia identidad lectora, desarrollar habilidades de interpretación de textos literarios y conocer algunas obras relevantes de la literatura española y universal, estimulando a la vez la escritura creativa con intención literaria. La literatura no debe ser entendida como una sucesión de nombres y obras, sino como el reflejo de la vida, de la sociedad y de la historia. Estas obras, desde las más antiguas hasta las más actuales, deben formar parte del entramado de lecturas. Es fundamental el fomento de la lectura tanto autónoma como guiada. La escritura creativa con intención literaria tiene que estar en el mismo plano que el fomento por el gusto de la lectura y la interpretación de los textos",
+        "biblioteca_escolar": "La biblioteca del centro es clave en este apartado no solo por las lecturas que pueden encontrar allí sino también porque puede ser un recurso dinamizador y cultural desde el que se programen semanas temáticas, aniversarios, retos literarios o concursos, entre otras actividades",
+        "actividades_propuestas": [
+          "Creación de un corpus de textos adaptado al alumnado de secundaria",
+          "Lectura autónoma de textos y fragmentos variados",
+          "Elaboración de itinerarios personales de obras literarias",
+          "Creación de textos con intención literaria",
+          "Lectura guiada de obras y fragmentos relevantes de la literatura juvenil contemporánea y del patrimonio literario universal",
+          "Dramatización y recitado de textos",
+          "Actividades en la biblioteca: semanas temáticas, aniversarios, retos literarios o concursos",
+          "Reseñas literarias mediante el pasaporte lector",
+          "Actividades de recreación de lecturas (ponerse en la piel de personajes o autor/a, reescribir en otro género, inventar otro final, secuela o precuela)"
+        ],
+        "contenidos_por_nivel": {
+          "1_2_eso": {
+            "lectura_autonoma": [
+              "Criterios y estrategias para la selección de obras variadas de manera orientada, a partir de la exploración guiada de la biblioteca escolar y pública disponible",
+              "Toma de conciencia progresiva de los propios gustos e identidad lectora",
+              "Participación activa en actos culturales vinculados con el circuito literario y lector",
+              "Expresión de la experiencia lectora, con apoyo de ejemplos y utilizando progresivamente un metalenguaje específico. Apropiación de los textos leídos a través de distintas formas de recreación",
+              "Movilización de la experiencia personal y lectora como forma de establecer vínculos entre la obra leída y aspectos de la actualidad, así como con otros textos y manifestaciones artísticas y culturales",
+              "Estrategias para la recomendación de las lecturas, en soportes variados o bien oralmente entre iguales"
+            ],
+            "lectura_guiada": [
+              "Estrategias para la construcción compartida de la interpretación de las obras a través de conversaciones literarias, con la incorporación progresiva de metalenguaje específico",
+              "Relación entre los elementos constitutivos del género literario y la construcción del sentido de la obra. Análisis básico del valor de los recursos expresivos y de sus efectos en la recepción",
+              "Relación y comparación de los textos leídos con otros textos, con otras manifestaciones artísticas y culturales y con las nuevas formas de ficción en función de temas, tópicos, estructuras y lenguajes",
+              "Expresión pautada, a través de procesos y soportes diversificados, de la interpretación y valoración personal de obras y fragmentos literarios",
+              "Lectura con perspectiva de género",
+              "Lectura expresiva, dramatización y recitación de los textos atendiendo a los procesos de comprensión, apropiación y oralización implicados",
+              "Creación de textos a partir de la apropiación de las convenciones del lenguaje literario y en referencia a modelos dados (imitación, transformación, continuación, etc.)"
+            ],
+            "orientaciones": "En 1º y 2º los saberes se centran en la toma de conciencia progresiva de los propios gustos y en la identidad lectora. Se debe establecer una selección de textos compuesta por los diferentes géneros literarios para que el alumnado tenga opciones reales donde encontrar su motivación lectora. Se plantea la posibilidad de incluir en las lecturas obligatorias un apartado de lecturas voluntarias evaluadas mediante un pasaporte lector"
+          },
+          "3_4_eso": {
+            "lectura_autonoma": [
+              "Criterios y estrategias para la selección de obras variadas, a partir de la utilización autónoma de la biblioteca escolar y pública disponible",
+              "Participación activa en actos culturales vinculados con el circuito literario y lector",
+              "Toma de conciencia y verbalización de los propios gustos e identidad lectora",
+              "Expresión de la experiencia lectora, utilizando progresivamente metalenguaje específico. Apropiación de los textos leídos a través de distintas formas de recreación",
+              "Movilización de la experiencia personal, lectora y cultural para establecer vínculos de manera argumentada entre la obra leída y aspectos de la actualidad, así como con otros textos y manifestaciones artísticas y culturales",
+              "Estrategias para la recomendación de las lecturas en soportes variados o bien oralmente entre iguales, enmarcando de manera básica las obras en los géneros y subgéneros literarios"
+            ],
+            "lectura_guiada": [
+              "Estrategias de construcción compartida de la interpretación de las obras a través de conversaciones literarias, con la incorporación progresiva de metalenguaje específico",
+              "Relación entre los elementos constitutivos del género literario y la construcción del sentido de la obra. Efectos de sus recursos expresivos en la recepción",
+              "Estrategias de utilización de información sociohistórica, cultural y artística básica para construir la interpretación de las obras literarias",
+              "Relación y comparación de los textos leídos con otros textos orales, escritos o multimodales, con otras manifestaciones artísticas y culturales y con las nuevas formas de ficción en función de temas, tópicos, estructuras y lenguajes. Elementos de continuidad y ruptura",
+              "Estrategias para interpretar obras y fragmentos literarios a partir de la integración de los diferentes aspectos analizados y atendiendo a los valores culturales, éticos y estéticos presentes en los textos. Lectura con perspectiva de género",
+              "Procesos de indagación en torno a las obras leídas que promuevan el interés por construir la interpretación de las obras y establecer conexiones entre textos",
+              "Lectura expresiva, dramatización y recitación de los textos atendiendo a los procesos de comprensión, apropiación y oralización implicados",
+              "Creación de textos a partir de la apropiación de las convenciones del lenguaje literario y en referencia a modelos dados (imitación, transformación, continuación, etc.)"
+            ],
+            "orientaciones": "En 3º y 4º la atención se centra en la verbalización argumentada de la experiencia lectora mediante el establecimiento de vínculos entre la obra leída, el género literario en el que se inscribe, el contexto histórico y otras manifestaciones artísticas y culturales. El alumnado de 4º puede tener un papel predominante en actividades de la biblioteca y servir de modelo para alumnado de cursos anteriores. Las tertulias literarias dialógicas son un modelo excelente para la construcción compartida de la interpretación de las obras"
+          }
+        }
+      },
+      {
+        "bloque": "D",
+        "nombre": "Reflexión sobre la lengua",
+        "descripcion": "Propone la construcción guiada de conclusiones sobre el sistema lingüístico a partir de la formulación de hipótesis, búsqueda de contraejemplos, establecimiento de generalizaciones y contraste entre lenguas, usando para ello el metalenguaje específico. La mirada a la lengua como sistema no ha de ser un conocimiento dado sino un saber que los estudiantes van construyendo a lo largo de la etapa a partir de preguntas o problemas que hacen emerger la reflexión sobre el funcionamiento de la lengua y sus usos. La reflexión explícita sobre el funcionamiento de la lengua proporciona las herramientas y el metalenguaje necesarios para desarrollar la conciencia lingüística y mejorar los procesos de expresión, comprensión y recepción crítica",
+        "finalidad": "El alumnado deberá ser capaz de realizar una reflexión crítica sobre el uso de la lengua y cómo se va construyendo. Esto los dotará de conocimiento suficiente para formular conclusiones sobre el funcionamiento del sistema lingüístico y, de la misma manera, aprenderán a discriminar los usos considerados erróneos de la lengua",
+        "actividades_propuestas": [
+          "Ejercicios de reflexión lingüística",
+          "Análisis morfosintáctico, semántico y pragmático",
+          "Ejercicios de creación de palabras",
+          "Actividades en las que se trabajen las habilidades cognitivas superiores de la taxonomía de Bloom (analizar, evaluar y crear)"
+        ],
+        "contenidos_por_nivel": {
+          "1_eso": {
+            "saberes": [
+              "Diferencias relevantes e intersecciones entre lengua oral y lengua escrita atendiendo a aspectos sintácticos, léxicos y pragmáticos",
+              "Aproximación a la lengua como sistema y a sus unidades básicas teniendo en cuenta los diferentes niveles: el sonido y sistema de escritura, las palabras (forma y significado)",
+              "Conocimiento de los procedimientos léxicos (afijos) para el cambio de categoría",
+              "Orden de las palabras en la oración y concordancia",
+              "Procedimientos de adquisición y formación de palabras. Reflexión sobre los cambios en su significado, las relaciones semánticas entre palabras",
+              "Estrategias de uso progresivamente autónomo de diccionarios y manuales de gramática para obtener información gramatical básica"
+            ],
+            "orientaciones": "Al inicio de la etapa es conveniente enfocar la reflexión lingüística en la observación de la palabra, su uso y sus valores significativos y expresivos dentro de un discurso, de un texto y de una oración. La adopción de un planteamiento realmente comunicativo exige partir de textos reales, evitando ejemplos descontextualizados"
+          },
+          "2_eso": {
+            "saberes": [
+              "Diferencias relevantes e intersecciones entre lengua oral y lengua escrita atendiendo a aspectos sintácticos, léxicos y pragmáticos",
+              "La lengua como sistema y sus unidades básicas teniendo en cuenta los diferentes niveles: las palabras (forma y significado), su organización en el discurso (orden de las palabras, componentes de las oraciones o conexión entre los significados)",
+              "Distinción entre la forma (categoría gramatical) y la función de las palabras (funciones sintácticas), y conocimiento de los procedimientos sintácticos para el cambio de categoría",
+              "Relación entre los esquemas semántico y sintáctico de la oración simple. Observación y transformación de enunciados de acuerdo con estos esquemas y uso de la terminología sintáctica necesaria. Orden de las palabras y concordancia",
+              "Las relaciones semánticas entre palabras y sus valores denotativos y connotativos en función del contexto y el propósito comunicativo",
+              "Estrategias de uso progresivamente autónomo de diccionarios y manuales de gramática para obtener información gramatical básica"
+            ],
+            "orientaciones": "En 2º se centra, además, en las relaciones gramaticales que se establecen entre las palabras y los grupos de palabras dentro del texto. La reflexión metalingüística está integrada en la actividad verbal y en todos los niveles: discursivo, textual y oracional. Podemos plantear una construcción ambigua, con más de una posible interpretación, para que el alumnado reflexione, a partir del contenido, sobre la forma y la función"
+          },
+          "3_eso": {
+            "saberes": [
+              "Diferencias relevantes e intersecciones entre lengua oral y lengua escrita atendiendo a aspectos sintácticos y léxicos",
+              "Reconocimiento de la lengua como sistema y de sus unidades básicas teniendo en cuenta los diferentes niveles: el sonido y sistema de escritura, las palabras (forma y significado), su organización en el discurso (orden de las palabras, componentes de las oraciones o conexión entre los significados)",
+              "Distinción entre la forma (categoría gramatical) y la función de las palabras (funciones sintácticas de la oración simple) y consolidación de los procedimientos léxicos (afijos) y sintácticos para el cambio de categoría",
+              "Relación entre los esquemas semántico y sintáctico de la oración simple. Observación y transformación de enunciados de acuerdo con estos esquemas y uso de la terminología sintáctica necesaria",
+              "Procedimientos de adquisición y formación de palabras",
+              "Estrategias de uso progresivamente autónomo de diccionarios para obtener información gramatical básica"
+            ],
+            "orientaciones": "En 3º de ESO se trabaja el reconocimiento de la lengua como sistema y de sus unidades básicas teniendo en cuenta los diferentes niveles. Se puede dividir la clase en grupos que analizan ejemplos variados de textos escritos y orales. Posteriormente, cada uno de los grupos tiene que transformar los textos orales en textos escritos y viceversa"
+          },
+          "4_eso": {
+            "saberes": [
+              "Diferencias relevantes e intersecciones entre lengua oral y lengua escrita atendiendo a aspectos sintácticos, léxicos y pragmáticos",
+              "Reconocimiento de la lengua como sistema y de sus unidades básicas teniendo en cuenta los diferentes niveles: el sonido y sistema de escritura, las palabras (forma y significado), su organización en el discurso (orden de las palabras, componentes de las oraciones o conexión entre los significados)",
+              "Distinción entre la forma (categoría gramatical) y la función de las palabras (funciones sintácticas de la oración simple) y consolidación de los procedimientos léxicos (afijos) y sintácticos para el cambio de categoría",
+              "Relación entre los esquemas semántico y sintáctico de la oración simple. Observación y transformación de enunciados de acuerdo con estos esquemas y uso de la terminología sintáctica necesaria",
+              "Procedimientos de adquisición y formación de palabras. Reflexión sobre los cambios en su significado, las relaciones semánticas entre palabras y sus valores denotativos y connotativos en función del contexto y el propósito comunicativo",
+              "Estrategias de uso progresivamente autónomo de diccionarios y manuales de gramática para obtener información gramatical básica"
+            ],
+            "orientaciones": "Al finalizar 4º de ESO el alumnado tiene que ser capaz de revisar los textos propios y hacer propuestas de mejora, explicar y argumentar la interrelación entre el propósito comunicativo y las elecciones lingüísticas del emisor y formular generalizaciones sobre aspectos del funcionamiento de la lengua utilizando para ello un metalenguaje específico. Es muy importante que se consoliden todos los conocimientos lingüísticos vistos a lo largo de la etapa y que se diseñen actividades en las que se trabajen las habilidades cognitivas superiores de la taxonomía de Bloom (analizar, evaluar y crear)"
+          }
+        }
+      }
+    ]
+  },
+
+  "orientaciones_metodologicas": {
+    "principios_generales": [
+      "Potenciación del aprendizaje significativo para el desarrollo de las competencias",
+      "Promoción de la autonomía, la reflexión y el pensamiento crítico",
+      "Atención a todo el alumnado y a su diversidad",
+      "Tener en cuenta diferentes ritmos de aprendizaje",
+      "Fomentar la capacidad de aprender de forma autónoma y el trabajo en equipo",
+      "Proceso de aprendizaje activo con diferentes modos de actuación en el aula"
+    ],
+    "enfoque_competencial": {
+      "descripcion": "La educación lingüística y literaria se debe abordar desde un enfoque integral y competencial, a partir de la gradación de la complejidad de los textos, de las habilidades de producción, interpretación o comprensión requeridas, del metalenguaje necesario para la reflexión sobre los usos o del grado de autonomía conferido a los estudiantes",
+      "gradacion": "No se establece tanto mediante la distribución diferenciada de saberes, sino en función de la mayor o menor complejidad de los textos, de las habilidades requeridas, del metalenguaje necesario o del grado de autonomía"
+    },
+    "contextualizacion": "Una de las claves para favorecer los aprendizajes significativos es la búsqueda de temas apropiados y contextualizados. Por ejemplo, con el debate el aula se convierte en un contexto comunicativo significativo donde el uso de la lengua es reflejo del uso real",
+    "trabajo_interdisciplinar": {
+      "importancia": "Es imprescindible para que el alumnado se apropie de los géneros discursivos específicos de cada disciplina. Todas las materias deben contribuir a la mejora en los procesos de producción y recepción oral, escrita y multimodal, así como a cuanto tiene que ver con la alfabetización mediática e informacional",
+      "biblioteca_escolar": "Pieza clave como espacio cultural, de indagación y de aprendizaje, así como centro neurálgico de recursos, formación y coordinación"
+    },
+    "metodologias_activas": [
+      "Resolución colaborativa de problemas",
+      "Aprendizaje Basado en Proyectos (ABP)",
+      "Gamificación",
+      "Trabajo cooperativo",
+      "Contratos didácticos",
+      "Estructuras participativas"
+    ],
+    "tecnologias": {
+      "descripcion": "Las tecnologías de la información y comunicación se convierten en elementos muy útiles para la creación de dinámicas participativas y metodologías cooperativas",
+      "ejemplos_herramientas": ["Padlet (trabajo colaborativo)", "EDpuzzle (clase invertida)"]
+    },
+    "organizacion_espacio_tiempo": "Modificando la organización del aula o promoviendo la biblioteca escolar como espacio cultural, de indagación y de aprendizaje se favorece la autonomía",
+    "clima_aula": "Es fundamental generar estrategias participativas mediante el planteamiento de dudas y de aprendizajes funcionales, así como crear un ambiente propicio y un clima afectivo en el aula. Esto requiere tener expectativas sobre las posibilidades del alumnado por parte del profesorado"
+  },
+
+  "evaluacion": {
+    "caracter": "Formativa y continua",
+    "finalidad": "Medir el grado de consecución de los objetivos y de las competencias específicas establecidas",
+    "enfoque": "Se espera que el alumnado sea capaz de activar los saberes básicos en situaciones comunicativas reales propias de los diferentes ámbitos",
+    
+    "evaluacion_formativa": {
+      "descripcion": "Evaluación que se lleva a cabo en el aula de forma diaria y cotidiana, normalmente con una finalidad formativa, recopilando sistemáticamente información del proceso de aprendizaje",
+      "objeto": "Mostrar el progreso en el aprendizaje del alumnado para poder ofrecerles las orientaciones oportunas que los lleve a mejorar sus resultados",
+      "proceso_ciclico": {
+        "pasos": [
+          "1. Recogida de evidencias de aprendizaje: Limitar la recogida a aspectos relevantes para el criterio de evaluación. Hacerlo en el momento adecuado cuando haya tiempo para rectificar y corregir",
+          "2. Análisis: Devolver un comentario sobre los aspectos que muestra conocer el alumno/a y dar consejos concretos acerca de qué mejorar. El feedback es uno de los elementos más eficaces para favorecer el aprendizaje",
+          "3. Toma de decisiones: Dejar tiempo para rehacer y volver a presentar la tarea con la retroalimentación proporcionada; decidir diversificar tareas; reorganizar el aula para atender las necesidades de cada uno"
+        ]
+      }
+    },
+    
+    "productos_instrumentos": {
+      "descripcion": "Producto es todo aquello que el alumnado realiza a lo largo del proceso de aprendizaje. Instrumento es aquel producto que se selecciona para hacer evidente la adquisición de los aprendizajes",
+      "ejemplos": [
+        "Orales: ponencias, debates, obras de teatro, informes orales, dramatizaciones, exposiciones, entrevistas, pruebas orales",
+        "Escritos: cartas, avisos, panfletos, folletos, instrucciones, narraciones breves, informes, noticias, anuncios, artículos, esquemas, críticas, poemas, guiones, cuestionarios, pruebas escritas",
+        "Multimodales: entradas en blog, contenidos creados con App, cómics, vídeos, documentales, tutoriales, periódicos digitales, programas de radio, gráficos, líneas de tiempo, infografías"
+      ]
+    },
+    
+    "tecnicas": {
+      "descripcion": "Estrategias para recoger información sobre el objeto de la evaluación",
+      "tipos": [
+        "Observación sistemática: registro anecdótico o descriptivo, escalas de valoración, listas de control, diario de clase del profesorado, rúbricas",
+        "Indagación: entrevistas, cuestionarios, formularios",
+        "Análisis de documentos y productos: listas de cotejo, escalas de valoración"
+      ]
+    },
+    
+    "herramientas_digitales": [
+      {
+        "nombre": "Socrative",
+        "descripcion": "Permite motivar al alumnado a participar en el aula. El profesorado puede realizar un seguimiento mediante pruebas de tipo test, evaluaciones u otras actividades"
+      },
+      {
+        "nombre": "Blubbr",
+        "descripcion": "Herramienta 2.0 que permite crear cuestionarios sobre vídeos"
+      },
+      {
+        "nombre": "Quizizz",
+        "descripcion": "Permite evaluar al alumnado mediante la gamificación"
+      },
+      {
+        "nombre": "Google Forms",
+        "descripcion": "Herramienta para crear formularios"
+      },
+      {
+        "nombre": "Plickers",
+        "descripcion": "Permite realizar test y preguntas de manera sencilla y dinámica y obtener en tiempo real las respuestas"
+      },
+      {
+        "nombre": "Kahoot",
+        "descripcion": "Plataforma que permite la creación de cuestionarios de evaluación"
+      },
+      {
+        "nombre": "Go Formative",
+        "descripcion": "Permite llevar a cabo evaluaciones en tiempo real y dar retroalimentación a corto y largo plazo"
+      },
+      {
+        "nombre": "Trivinet",
+        "descripcion": "Sitio web que permite crear cuestionarios de evaluación de diferentes temáticas, acceder a las estadísticas personalizadas o grupales, realizar seguimiento de los datos y gestionar las preguntas"
+      }
+    ],
+    
+    "tipos_evaluacion": {
+      "heteroevaluacion": "Evaluación realizada por el docente o la docente. Aunque importante, no puede ser la única",
+      "autoevaluacion": {
+        "descripcion": "Proceso que realiza el propio alumno o la propia alumna de su proceso de aprendizaje y de los resultados obtenidos",
+        "finalidad": "Desarrollar la reflexión individual y la capacidad del alumnado para identificar y valorar sus logros, fortalezas y limitaciones",
+        "herramienta_recomendada": "La rúbrica permite al estudiante ser consciente desde el inicio de cuáles son los criterios de evaluación y los objetivos de aprendizaje"
+      },
+      "coevaluacion": {
+        "descripcion": "Proceso de evaluación por el cual son los compañeros y las compañeras de clase quienes se evalúan entre sí",
+        "requisitos_previos": "Explicación del sentido y el objetivo, desarrollo de inteligencia interpersonal y manejo adecuado de los procedimientos de evaluación y de estrategias de retroalimentación"
+      }
+    }
+  },
+
+  "situaciones_aprendizaje": [
+    {
+      "titulo": "Un paseo por la literatura",
+      "curso_recomendado": "Aplicable a diferentes cursos según el periodo literario trabajado (ejemplo desarrollado para Renacimiento)",
+      "introduccion": "La situación de aprendizaje trata de acercar la literatura del Renacimiento al alumnado mediante la comparación y visualización de fragmentos de la serie de televisión El ministerio del Tiempo. En dicha serie se presentan periodos históricos y literarios bajo la premisa de los viajes en el tiempo",
+      "objetivos_didacticos": [
+        "Recordar las características del periodo renacentista y encontrarlas en los textos de los autores y las autoras",
+        "Diferenciar los rasgos propios que surgen en esta época de los vistos con anterioridad",
+        "Reproducir las experiencias y crear producciones similares"
+      ],
+      "competencias_clave": ["CCL", "CD", "CPSAA", "CCEC"],
+      "competencias_especificas": ["CE.LCL.3", "CE.LCL.6", "CE.LCL.8"],
+      "conexiones_otras_materias": ["Historia", "Digitalización", "Arte", "Filosofía", "Oratoria (en Bachillerato)"],
+      "descripcion_actividad": {
+        "inicio": "Presentación de fragmentos del Ministerio del Tiempo sobre Garcilaso de la Vega y otros momentos históricos. Creación de grupos de expertos que representan diferentes unidades de investigación (épocas literarias)",
+        "misiones": [
+          {
+            "numero": 1,
+            "descripcion": "Presentación de Garcilaso de la Vega y características de su poesía. Escribir un diálogo fingiendo un encuentro con Garcilaso para convencerlo de que escriba su obra. El diálogo debe reflejar los rasgos lingüísticos y léxico distintivo de cada época"
+          },
+          {
+            "numero": 2,
+            "descripcion": "Presentación de la poesía mística y ascética (Santa Teresa de Jesús, San Juan de la Cruz, Fray Luis de León). Responder a la pregunta: ¿dónde debéis ir si la mística queréis crear? Crear una regla nemotécnica para recordar los símbolos de Santa Teresa y San Juan"
+          },
+          {
+            "numero": 3,
+            "descripcion": "Construcción de un cadáver exquisito que siga las enseñanzas de Fray Luis de León y su métrica. Los poemas se presentarán a modo de póster para realizar un mural"
+          },
+          {
+            "numero": 4,
+            "descripcion": "Visitar una biblioteca del siglo XVI para tomar prestada alguna primera edición de las obras más relevantes del periodo y dejar como regalo alguna de las más famosas del periodo que les haya tocado"
+          }
+        ],
+        "gamificacion": "El grupo que consiga completar las pruebas de manera exitosa en el menor tiempo posible podrá obtener una bonificación"
+      },
+      "metodologia": [
+        "Aprendizaje Basado en Proyectos (ABP): tareas y resolución de problemas o retos que inciten al alumnado a realizar una investigación y posterior creación autónoma",
+        "Gamificación: forma de incentivar la cooperación y el compañerismo, redirigiendo la necesidad lúdica y creativa hacia el aprendizaje de saberes básicos"
+      ],
+      "atencion_diferencias_individuales": "Grupos de expertos: cada persona es encargada de un rol o tarea y pueden explicar al resto lo que saben o han aprendido. Se minimiza el factor conflicto entre el alumnado y cada persona adquiere un rol positivo",
+      "evaluacion": {
+        "tipo": "Coevaluación",
+        "profesorado": "Acompañamiento y posterior evaluación mediante rúbrica que tenga en cuenta la puesta en práctica de lo aprendido, la creatividad de las producciones y las representaciones",
+        "alumnado": "Valoraciones mediante una rúbrica creada por ellos mismos bajo la supervisión del docente"
+      }
+    },
+    {
+      "titulo": "Un mundo de lenguas en nuestro centro",
+      "curso_recomendado": "Todos los niveles de ESO (proyecto vertical integrado)",
+      "fecha_celebracion": "Día Internacional de la Lengua Materna (21 de febrero)",
+      "introduccion": "Situación de aprendizaje sobre la diversidad lingüística del centro en la que estaría involucrado todo el departamento de Lengua Castellana y Literatura, los departamentos de otras lenguas y el departamento de Geografía e Historia. Se trabajaría en todos los niveles durante los meses de enero y febrero. El producto final sería una exposición para el alumnado del centro, para la comunidad educativa y para el entorno sobre la diversidad lingüística",
+      "objetivos_didacticos": [
+        "Conocer la diversidad lingüística del entorno social próximo, regional, nacional e internacional",
+        "Analizar la diversidad lingüística en el entorno social próximo, regional, nacional e internacional",
+        "Identificar y cuestionar prejuicios y estereotipos lingüísticos",
+        "Adoptar una actitud de respeto y valoración de la riqueza cultural, lingüística y dialectal",
+        "Comprender textos orales, escritos y multimodales relacionados con la diversidad lingüística",
+        "Producir textos orales, escritos y multimodales coherentes, cohesionados, adecuados y correctos relacionados con la diversidad lingüística",
+        "Valorar la forma y el contenido de textos relacionados con la diversidad lingüística",
+        "Seleccionar, interpretar y comunicar información fiable y pertinente sobre la diversidad lingüística",
+        "Elaborar trabajos de investigación en diferentes soportes sobre la diversidad lingüística"
+      ],
+      "competencias_clave": ["CCL (principal)", "CP (principal)", "CD", "CPSAA", "CC", "CCEC"],
+      "competencias_especificas": ["CE.LCL.1 (principal)", "CE.LCL.2", "CE.LCL.3", "CE.LCL.4", "CE.LCL.5", "CE.LCL.6", "CE.LCL.9", "CE.LCL.10"],
+      "saberes_basicos": [
+        "Bloque A: La lengua y sus hablantes (observación de la biografía lingüística, familias lingüísticas, lenguas del mundo, reflexión interlingüística)",
+        "Bloque B: Comunicación (secuencias textuales básicas, género discursivo de la conversación, interacción oral y escrita, producción escrita, alfabetización mediática y uso discursivo de los elementos lingüísticos)",
+        "Bloque D: Reflexión sobre la lengua (elaboración de conclusiones propias sobre el funcionamiento del sistema lingüístico con un lenguaje específico)"
+      ],
+      "conexiones_otras_materias": [
+        "Conexión vertical: entre los cuatro niveles de ESO",
+        "Lenguas extranjeras: en 1º, 2º y 4º de ESO",
+        "Aragonés y catalán: en todos los niveles (o al menos en 3º de ESO en centros de Aragón donde se estudian)",
+        "Geografía e Historia: interpretación y elaboración de mapas, el legado histórico y el acervo cultural en la formación de las identidades colectivas"
+      ],
+      "producto_final_general": "Exposición multimedia integrada por los productos finales de los cuatro cursos",
+      "productos_por_nivel": {
+        "1_eso": {
+          "pregunta_guia": "¿Quiénes somos?",
+          "objetivo": "Conocer nuestra identidad lingüística",
+          "producto": "Mural colaborativo de biografías lingüísticas",
+          "descripcion": "Se trabajará el género biográfico a través de rutinas de pensamiento, trabajo en grupo y la creación de biografías orales y escritas siguiendo 3 pasos (planificación, textualización y revisión). Una vez que ya conocen las características de una biografía, escribirán su biografía lingüística y la de sus familias"
+        },
+        "2_eso": {
+          "pregunta_guia": "¿Dónde estamos?",
+          "objetivo": "Conocer y valorar la situación lingüística nacional e internacional",
+          "producto": "Mapa interactivo con las lenguas del mundo y las familias de lenguas",
+          "descripcion": "El género discursivo que se trabajará será la exposición. El alumnado buscará información sobre las familias lingüísticas y las lenguas más habladas en el mundo para preparar una exposición en grupo. Luego utilizarán la información para preparar el producto final que será la elaboración de un mapa interactivo partiendo de las lenguas del grupo clase y clasificando las familias lingüísticas"
+        },
+        "3_eso": {
+          "pregunta_guia": "¿De dónde venimos?",
+          "objetivo": "Conocer nuestros orígenes lingüísticos",
+          "producto": "Archivo sonoro de las variedades lingüísticas de Aragón y España",
+          "descripcion": "El alumnado, organizado en grupos, buscará información sobre las principales variedades dialectales y sobre el desarrollo sociohistórico de las lenguas de Aragón y de España para preparar una exposición. Una vez conocidas las variedades dialectales recopilarán vídeos o grabaciones en las que se observan sus rasgos lingüísticos más característicos. Prepararán un archivo sonoro con la información sobre sus orígenes y características"
+        },
+        "4_eso": {
+          "pregunta_guia": "¿Hacia dónde vamos?",
+          "objetivo": "Conocer los fenómenos de contacto entre lenguas e investigar sobre los derechos lingüísticos",
+          "producto": "Exposición del paisaje lingüístico de su entorno",
+          "descripcion": "Investigarán, analizarán y valorarán todas las lenguas de su zona mediante un trabajo de investigación por grupos que se plasmará en la creación de un paisaje lingüístico de su entorno (conjunto de representaciones lingüísticas que hay en los espacios públicos: señales, publicidad, letrero, anuncios)"
+        }
+      },
+      "metodologia": {
+        "principal": "Aprendizaje Basado en Proyectos con un proyecto final",
+        "caracteristicas": [
+          "Sesión de motivación inicial con pregunta que lanza el proyecto e investigación grupal",
+          "Uso de organizadores previos",
+          "Partir de casos concretos y actividades contextualizadas",
+          "Proporcionar modelos de conceptos y procesos",
+          "Fomentar la investigación guiada",
+          "Actividades de reflexión sobre el qué y el cómo se ha aprendido",
+          "Uso de destrezas y rutinas de pensamiento",
+          "Tipos de agrupamientos variados según las tareas",
+          "Formación entre iguales"
+        ],
+        "dua": "El Diseño Universal de Aprendizaje posibilita que todo el alumnado participe activamente en la situación de aprendizaje"
+      },
+      "atencion_diferencias_individuales": {
+        "participacion": "Las tareas son cercanas y significativas en sus vidas (biografía y paisaje lingüístico)",
+        "representacion": "Se le dará la información en más de un formato y se fomentará el aprendizaje práctico",
+        "accion_expresion": "Los estudiantes tendrán más de una manera de interactuar con el material y mostrar lo que saben"
+      },
+      "evaluacion": {
+        "inicial": "Evaluación inicial para conocer la percepción del alumnado sobre las lenguas que servirá para orientar la situación de aprendizaje",
+        "formativa": "Seguir el proceso cíclico de tres pasos (recogida de evidencias de aprendizaje, análisis y toma de decisiones) y las estrategias indicadas. Explicar al alumnado qué actividades y productos se van a evaluar y con qué herramientas",
+        "retroalimentacion": "Durante todo el proceso debe recibir retroalimentación sobre su trabajo para que pueda mejorar su aprendizaje",
+        "autoevaluacion_coevaluacion": "Le ayudarán a que tome conciencia de su punto de partida, del resultado de sus esfuerzos y de su evolución a lo largo del tiempo"
+      }
+    }
+  ],
+
+  "recursos_bibliografia": [
+    {
+      "autores": "Almeida Cabrejas, B., Bellido Sánchez, S. y Gumiel Molina, S.",
+      "año": 2019,
+      "titulo": "Aprendizaje y enseñanza de la lengua castellana y la literatura",
+      "editorial": "Síntesis",
+      "ciudad": "Madrid"
+    },
+    {
+      "autores": "Anderson, L. W. and Krathwohl, D. R., et al (Eds.)",
+      "año": 2001,
+      "titulo": "A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives (Complete edition)",
+      "editorial": "Longman",
+      "ciudad": "New York"
+    },
+    {
+      "autores": "Anwandter, C. y Mekis, C.",
+      "año": 2019,
+      "titulo": "Bibliotecas escolares para el siglo XXI. Desarrollo de comunidades de lectura",
+      "editorial": "Narcea",
+      "ciudad": "Madrid"
+    },
+    {
+      "autores": "Cassany, D. et al.",
+      "año": 1998,
+      "titulo": "Enseñar lengua",
+      "editorial": "Editorial Graó",
+      "ciudad": "España"
+    },
+    {
+      "autores": "Locke, T. (Ed.)",
+      "año": 2010,
+      "titulo": "Beyond the Grammar Wars. A Resource for Teachers and Students on Developing Language Knowledge in the English/Literacy",
+      "editorial": "Routledge"
+    },
+    {
+      "autores": "Lomas, C. y Osoro, A.",
+      "año": 1993,
+      "titulo": "El enfoque comunicativo de la enseñanza de la lengua",
+      "editorial": "Paidós",
+      "ciudad": "Barcelona"
+    }
+  ],
+
+  "metadatos": {
+    "fecha_creacion": "2025",
+    "fuente": "Currículo oficial de Lengua Castellana y Literatura para ESO - Comunidad Autónoma de Aragón",
+    "documento_origen": "Lengua_Castellana_y_Literatura.pdf",
+    "paginas_totales": 37,
+    "version": "1.0",
+    "descripcion": "Extracción completa y estructurada del currículo oficial de Lengua Castellana y Literatura para Educación Secundaria Obligatoria (ESO) en formato JSON. Incluye introducción, 10 competencias específicas con sus criterios de evaluación diferenciados por niveles, 4 bloques de saberes básicos con concreción por cursos (1º, 2º, 3º y 4º ESO), orientaciones metodológicas, evaluación y 2 situaciones de aprendizaje completamente desarrolladas"
+  }
+}

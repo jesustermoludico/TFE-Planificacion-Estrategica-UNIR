@@ -1,0 +1,104 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0614",
+    "titulo_modulo": "Despliegue de aplicaciones Web",
+    "duracion_total": "84",
+    "creditos_ects": "5",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar la función de despliegue de aplicaciones Web en un servidor. El despliegue de aplicaciones web incluye aspectos como: Los procesos de implantación de aplicaciones web en servidores de aplicaciones. La identificación de los parámetros de configuración de los servicios de red implicados en el despliegue seguro de aplicaciones web. Los procesos de instalación, configuración y uso de herramientas de control de versiones. La elaboración de documentación relativa a la aplicación web utilizando herramientas de generación de documentación. La evaluación de los recursos y requerimientos técnicos necesarios para la implantación de la aplicación web. Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre: La instalación y configuración básica de servidores web y de aplicaciones. La implantación de aplicaciones web sobre servidores de aplicaciones. La instalación y configuración de servicios de red implicados en el proceso de implantación. La instalación, configuración y uso de sistemas de control de versiones. La generación de documentación de los procesos de instalación. La reutilización y adaptación de módulos y aplicaciones. La utilización de sistemas operativos libres y propietarios.",
+    "objetivos_generales_asociados": "c, d, o, p, r",
+    "competencias_profesionales_asociadas": "a, b, c, j, n, ñ, q",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_0614",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Implantación de arquitecturas Web",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_0614", "descripcion_punto": "Arquitecturas Web. Modelos." },
+                { "id_punto": "P_01_02_0614", "descripcion_punto": "Plataformas web libres y propietarias." },
+                { "id_punto": "P_01_03_0614", "descripcion_punto": "Servidores Web y de aplicaciones. Instalación y configuración básica." },
+                { "id_punto": "P_01_04_0614", "descripcion_punto": "Estructura y recursos que componen una aplicación Web. Descriptor de despliegue." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_0614",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Administración de servidores Web",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_0614", "descripcion_punto": "Características generales y configuración avanzada del servidor Web." },
+                { "id_punto": "P_02_02_0614", "descripcion_punto": "Módulos: instalación, configuración y uso." },
+                { "id_punto": "P_02_03_0614", "descripcion_punto": "Hosts virtuales. Creación, configuración y utilización." },
+                { "id_punto": "P_02_04_0614", "descripcion_punto": "Autenticación y control de acceso. Protocolos HTTPS y HTTP." },
+                { "id_punto": "P_02_05_0614", "descripcion_punto": "Certificados y servidores de certificados." },
+                { "id_punto": "P_02_06_0614", "descripcion_punto": "Despliegue de aplicaciones sobre servidores Web. Automatización de procesos." },
+                { "id_punto": "P_02_07_0614", "descripcion_punto": "Optimización, verificación del rendimiento y monitorización (analíticas, logs)." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_0614",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Administración de servidores de aplicaciones",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_0614", "descripcion_punto": "Arquitectura y configuración básica del servidor de aplicaciones." },
+                { "id_punto": "P_03_02_0614", "descripcion_punto": "Configuración y uso de componentes. Reutilización de aplicaciones." },
+                { "id_punto": "P_03_03_0614", "descripcion_punto": "Autenticación de usuarios y dominios de seguridad." },
+                { "id_punto": "P_03_04_0614", "descripcion_punto": "Administración de sesiones y sesiones persistentes." },
+                { "id_punto": "P_03_05_0614", "descripcion_punto": "Configuración para cooperar con servidores Web y despliegue." },
+                { "id_punto": "P_03_06_0614", "descripcion_punto": "Seguridad en el servidor de aplicaciones y soporte SSL/TLS." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_0614",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Instalación y administración de servidores de transferencia de archivos",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_0614", "descripcion_punto": "Servidores y clientes. Configuración, permisos y cuotas." },
+                { "id_punto": "P_04_02_0614", "descripcion_punto": "Tipos de usuarios y accesos al servicio. Modos de conexión." },
+                { "id_punto": "P_04_03_0614", "descripcion_punto": "Protocolo seguro de transferencia de archivos." },
+                { "id_punto": "P_04_04_0614", "descripcion_punto": "Utilización del servicio en el proceso de despliegue de la aplicación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_0614",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Servicios de red implicados en el despliegue",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_0614", "descripcion_punto": "Resolutores de nombres y registros afectados en el despliegue." },
+                { "id_punto": "P_05_02_0614", "descripcion_punto": "Servicio de directorios: características, archivos de configuración y autenticación." },
+                { "id_punto": "P_05_03_0614", "descripcion_punto": "Adaptación del servidor de directorios para validación de usuarios centralizados." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_0614",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Documentación y sistemas de control de versiones",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_0614", "descripcion_punto": "Herramientas externas para la generación de documentación y plantillas." },
+                { "id_punto": "P_06_02_0614", "descripcion_punto": "Sistemas de control de versiones centralizados y distribuidos." },
+                { "id_punto": "P_06_03_0614", "descripcion_punto": "Operaciones avanzadas, seguridad e historia de un repositorio." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_0614",
+            "ra_descripcion": "Implanta arquitecturas Web analizando y aplicando criterios de funcionalidad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han analizado aspectos generales de arquitecturas Web." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito fundamentos y protocolos del servidor Web." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha realizado la instalación y configuración de servidores Web y de aplicaciones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha analizado la estructura y recursos que componen una aplicación Web." }
+            ]
+        },
+        {
+            "ra_id": "RA_6_0614",
+            "ra_descripcion": "Elabora la documentación de la aplicación Web evaluando herramientas de generación y control de versiones.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado diferentes herramientas de generación de documentación." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han documentado componentes utilizando generadores específicos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado herramientas colaborativas para el mantenimiento documental." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha instalado, configurado y utilizado un sistema de control de versiones." }
+            ]
+        }
+    ]
+}

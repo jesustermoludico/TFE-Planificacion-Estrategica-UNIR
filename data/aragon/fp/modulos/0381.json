@@ -1,0 +1,63 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0381",
+    "titulo_modulo": "Empresa e Iniciativa Emprendedora",
+    "duracion_total": "35",
+    "creditos_ects": "4",
+    "seccion_orientaciones": "Este módulo contiene la formación necesaria para desarrollar la propia iniciativa en el ámbito empresarial. Las líneas de actuación versarán sobre el manejo de fuentes de información del sector informático, realización de dinámicas para comprender actitudes emprendedoras, uso de programas de gestión administrativa para PYMES y realización de un plan de empresa que incluya todas las facetas de puesta en marcha de un negocio informático.",
+    "objetivos_generales_asociados": "p, r, s, t",
+    "competencias_profesionales_asociadas": "r, s, t",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_381",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Iniciativa emprendedora",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_381", "descripcion_punto": "Innovación y desarrollo económico en administración de sistemas." },
+                { "id_punto": "P_01_02_381", "descripcion_punto": "Factores claves de los emprendedores: iniciativa, creatividad y formación." },
+                { "id_punto": "P_01_03_381", "descripcion_punto": "Plan de empresa: la idea de negocio en el ámbito de la informática." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_381",
+            "orden_bloque": 2,
+            "descripcion_bloque": "La empresa y su entorno",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_381", "descripcion_punto": "Funciones básicas y la empresa como sistema." },
+                { "id_punto": "P_02_02_381", "descripcion_punto": "Análisis del entorno general y específico de una PYME de informática." },
+                { "id_punto": "P_02_03_381", "descripcion_punto": "Relaciones de la PYME con su entorno y con la sociedad." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_381",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Creación y puesta en marcha de una empresa",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_381", "descripcion_punto": "Tipos de empresa y elección de la forma jurídica. Fiscalidad." },
+                { "id_punto": "P_03_02_381", "descripcion_punto": "Trámites administrativos para la constitución. Ayudas y subvenciones." },
+                { "id_punto": "P_03_03_381", "descripcion_punto": "Viabilidad económica y financiera de una PYME de informática." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_381",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Función administrativa",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_381", "descripcion_punto": "Concepto de contabilidad y análisis de la información contable." },
+                { "id_punto": "P_04_02_381", "descripcion_punto": "Obligaciones fiscales y gestión administrativa de la empresa informática." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Reconoce las capacidades asociadas a la iniciativa emprendedora.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha identificado el concepto de innovación y su relación con el progreso." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha analizado el concepto de cultura emprendedora." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha valorado la iniciativa individual, creatividad y formación." }
+            ]
+        }
+    ]
+}

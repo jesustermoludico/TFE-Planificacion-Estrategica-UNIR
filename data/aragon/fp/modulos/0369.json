@@ -1,0 +1,241 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "titulo_modulo": "Implantación de sistemas operativos",
+    "codigo_identificador": "0369",
+    "duracion_total": "140",
+    "creditos_ects": "15",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para desempeñar las funciones de implantación de sistemas operativos y aplicaciones de un sistema informático y contribuye a alcanzar la formación necesaria en la administración y explotación de servidores. La función de implantación incluye: La búsqueda de sistemas operativos adecuados, instalación y administración de clientes y servidores, planificación de copias de seguridad, monitorización del rendimiento, auditoría de sucesos, simulación mediante máquinas virtuales y resolución de incidencias. Las líneas de actuación se centran en el análisis de cambios tecnológicos, utilización de máquinas virtuales, interpretación de documentación técnica, instalación de servidores independientes, administración de dominios y verificación de seguridad de acceso.",
+    "objetivos_generales_asociados": "a, b, j, l, m, n, ñ, o, p",
+    "competencias_profesionales_asociadas": "a, e, g, f, k, ñ",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Instalación de software libre y propietario",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01", "descripcion_punto": "Estructura de un sistema informático." },
+                { "id_punto": "P_01_02", "descripcion_punto": "Arquitectura de un sistema operativo." },
+                { "id_punto": "P_01_03", "descripcion_punto": "Funciones de un sistema operativo." },
+                { "id_punto": "P_01_04", "descripcion_punto": "Tipos de sistemas operativos." },
+                { "id_punto": "P_01_05", "descripcion_punto": "Tipos de aplicaciones." },
+                { "id_punto": "P_01_06", "descripcion_punto": "Licencias y tipos de licencias." },
+                { "id_punto": "P_01_07", "descripcion_punto": "Gestores de arranque." },
+                { "id_punto": "P_01_08", "descripcion_punto": "Consideraciones previas a la instalación de sistemas operativos libres y propietarios." },
+                { "id_punto": "P_01_09", "descripcion_punto": "Instalación de sistemas operativos. Requisitos, versiones y licencias." },
+                { "id_punto": "P_01_10", "descripcion_punto": "Instalación/desinstalación de aplicaciones. Requisitos, versiones y licencias." },
+                { "id_punto": "P_01_11", "descripcion_punto": "Actualización de sistemas operativos y aplicaciones." },
+                { "id_punto": "P_01_12", "descripcion_punto": "Ficheros de inicio de sistemas operativos." },
+                { "id_punto": "P_01_13", "descripcion_punto": "Registro del sistema." },
+                { "id_punto": "P_01_14", "descripcion_punto": "Actualización y mantenimiento de controladores de dispositivos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Administración de software de base",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01", "descripcion_punto": "Administración de usuarios y grupos locales." },
+                { "id_punto": "P_02_02", "descripcion_punto": "Usuarios y grupos predeterminados." },
+                { "id_punto": "P_02_03", "descripcion_punto": "Seguridad de cuentas de usuario." },
+                { "id_punto": "P_02_04", "descripcion_punto": "Seguridad de contraseñas." },
+                { "id_punto": "P_02_05", "descripcion_punto": "Administración de perfiles locales de usuario." },
+                { "id_punto": "P_02_06", "descripcion_punto": "Configuración del protocolo TCP/IP en un cliente de red." },
+                { "id_punto": "P_02_07", "descripcion_punto": "Configuración de la resolución de nombres." },
+                { "id_punto": "P_02_08", "descripcion_punto": "Ficheros de configuración de red." },
+                { "id_punto": "P_02_09", "descripcion_punto": "Optimización de sistemas para ordenadores portátiles. Archivos de red sin conexión." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Administración y aseguramiento de la información",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01", "descripcion_punto": "Sistemas de archivos." },
+                { "id_punto": "P_03_02", "descripcion_punto": "Gestión de sistemas de archivos mediante comandos y entornos gráficos. Gestión de enlaces." },
+                { "id_punto": "P_03_03", "descripcion_punto": "Estructura de directorios de sistemas operativos libres y propietarios." },
+                { "id_punto": "P_03_04", "descripcion_punto": "Búsqueda de información del sistema e identificación de software instalado." },
+                { "id_punto": "P_03_05", "descripcion_punto": "Gestión de la información del sistema. Rendimiento y estadísticas." },
+                { "id_punto": "P_03_06", "descripcion_punto": "Montaje y desmontaje de dispositivos. Automatización." },
+                { "id_punto": "P_03_07", "descripcion_punto": "Herramientas de administración de discos. Particiones, volúmenes, desfragmentación y chequeo." },
+                { "id_punto": "P_03_08", "descripcion_punto": "Sistemas de almacenamiento redundante (RAID por software)." },
+                { "id_punto": "P_03_09", "descripcion_punto": "Tolerancia a fallos de software de los datos." },
+                { "id_punto": "P_03_10", "descripcion_punto": "Planes y programación de copias de seguridad." },
+                { "id_punto": "P_03_11", "descripcion_punto": "Recuperación ante fallos del sistema y desastres." },
+                { "id_punto": "P_03_12", "descripcion_punto": "Cuotas de disco y niveles de advertencia." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Administración de dominios",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01", "descripcion_punto": "Estructura cliente-servidor y protocolo LDAP." },
+                { "id_punto": "P_04_02", "descripcion_punto": "Concepto de dominio, subdominios y requisitos de montaje." },
+                { "id_punto": "P_04_03", "descripcion_punto": "Administración de cuentas de usuarios y equipos." },
+                { "id_punto": "P_04_04", "descripcion_punto": "Contraseñas y bloqueos de cuenta." },
+                { "id_punto": "P_04_05", "descripcion_punto": "Perfiles móviles y obligatorios. Carpetas personales." },
+                { "id_punto": "P_04_06", "descripcion_punto": "Plantillas de usuario y variables de entorno." },
+                { "id_punto": "P_04_07", "descripcion_punto": "Administración y anidamiento de grupos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Administración del acceso al dominio",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01", "descripcion_punto": "Equipos del dominio." },
+                { "id_punto": "P_05_02", "descripcion_punto": "Administración del acceso a recursos (SAMBA, NFS)." },
+                { "id_punto": "P_05_03", "descripcion_punto": "Permisos de red y locales. Herencia y permisos efectivos." },
+                { "id_punto": "P_05_04", "descripcion_punto": "Delegación de permisos y listas de control de acceso." },
+                { "id_punto": "P_05_05", "descripcion_punto": "Directivas de grupo (GPO), derechos de usuario y plantillas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Supervisión del rendimiento del sistema",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01", "descripcion_punto": "Herramientas de monitorización en tiempo real y continuada." },
+                { "id_punto": "P_06_02", "descripcion_punto": "Registros y monitorización de sucesos." },
+                { "id_punto": "P_06_03", "descripcion_punto": "Gestión y monitorización de aplicaciones, procesos y subprocesos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Directivas de seguridad y auditorías",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01", "descripcion_punto": "Requisitos de seguridad del sistema y de los datos." },
+                { "id_punto": "P_07_02", "descripcion_punto": "Directivas de seguridad local y derechos de usuario." },
+                { "id_punto": "P_07_03", "descripcion_punto": "Objetivos, ámbito y mecanismos de auditoría." },
+                { "id_punto": "P_07_04", "descripcion_punto": "Gestión de registros e informes de auditoría." }
+            ]
+        },
+        {
+            "id_bloque": "CB_08",
+            "orden_bloque": 8,
+            "descripcion_bloque": "Resolución de incidencias y asistencia técnica",
+            "puntos_detalle": [
+                { "id_punto": "P_08_01", "descripcion_punto": "Elaboración de documentación técnica y manuales de instalación." },
+                { "id_punto": "P_08_02", "descripcion_punto": "Instalaciones desatendidas y ficheros de respuestas." },
+                { "id_punto": "P_08_03", "descripcion_punto": "Servidores de actualizaciones automáticas." },
+                { "id_punto": "P_08_04", "descripcion_punto": "Partes de incidencias y protocolos de actuación." },
+                { "id_punto": "P_08_05", "descripcion_punto": "Administración remota." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Instala sistemas operativos, analizando sus características e interpretando la documentación técnica.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los elementos funcionales de un sistema informático." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado las características, funciones y arquitectura de un sistema operativo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han comparado diferentes sistemas operativos, sus versiones y licencias de uso." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han previsto y aplicado técnicas de actualización y recuperación del sistema." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han realizado instalaciones de diferentes sistemas operativos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han solucionado incidencias del sistema y del proceso de inicio." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado herramientas para conocer el software instalado." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha elaborado documentación de soporte relativa a las instalaciones e incidencias." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Configura el software de base, analizando las necesidades de explotación del sistema informático.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han planificado, creado y configurado cuentas de usuario, grupos y políticas locales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha asegurado el acceso mediante directivas de cuenta y contraseñas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha actuado sobre los servicios y procesos según las necesidades." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han instalado, configurado y verificado protocolos de red." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han analizado y configurado los métodos de resolución de nombres." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha optimizado el uso de sistemas operativos para sistemas portátiles." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado máquinas virtuales para tareas de configuración." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han documentado las tareas de configuración del software de base." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Asegura la información del sistema, describiendo los procedimientos y utilizando copias de seguridad y sistemas tolerantes a fallos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han comparado diversos sistemas de archivos y analizado sus diferencias." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha descrito la estructura de directorios del sistema operativo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado los directorios contenedores de archivos de configuración." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han utilizado herramientas de administración de discos para crear particiones y volúmenes." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han implantado sistemas de almacenamiento redundante (RAID)." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han implementado y automatizado planes de copias de seguridad." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han administrado cuotas de disco." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han documentado las operaciones y métodos para recuperación ante desastres." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Centraliza la información en servidores administrando estructuras de dominios y analizando sus ventajas.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han implementado dominios." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han administrado cuentas de usuario y de equipo." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha centralizado la información mediante perfiles móviles y carpetas personales." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han creado y administrado grupos de seguridad." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han creado plantillas para facilitar la administración de usuarios." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han organizado los objetos del dominio para facilitar la administración." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han utilizado máquinas virtuales para administrar dominios." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha documentado la estructura del dominio y las tareas realizadas." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Administra el acceso a dominios analizando y respetando requerimientos de seguridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han incorporado equipos al dominio." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han previsto bloqueos de accesos no autorizados al dominio." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha administrado el acceso a recursos locales y de red." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han tenido en cuenta los requerimientos de seguridad." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han implementado y verificado directivas de grupo." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han asignado directivas de grupo." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han documentado las tareas y las incidencias." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Detecta problemas de rendimiento, monitorizando el sistema con las herramientas adecuadas y documentando el procedimiento.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los objetos monitorizables en un sistema informático." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los tipos de sucesos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han utilizado herramientas de monitorización en tiempo real." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha monitorizado el rendimiento mediante registros de contador y seguimiento." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han planificado y configurado alertas de rendimiento." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han interpretado los registros de rendimiento almacenados." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha analizado el sistema mediante simulación para optimizar el rendimiento." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha elaborado documentación de soporte y de incidencias." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Audita la utilización y acceso a recursos, identificando y respetando las necesidades de seguridad del sistema.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han administrado derechos de usuario y directivas de seguridad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado los objetos y sucesos auditables." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha elaborado un plan de auditorías." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han identificado las repercusiones de las auditorías en el rendimiento." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han auditado sucesos correctos y erróneos." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han auditado los intentos de acceso y accesos a recursos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han gestionado los registros de auditoría." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha documentado el proceso de auditoría y sus resultados." }
+            ]
+        },
+        {
+            "ra_id": "RA_8",
+            "ra_descripcion": "Implanta software específico con estructura cliente/servidor dando respuesta a los requisitos funcionales.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha instalado software específico según la documentación técnica." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han realizado instalaciones desatendidas." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha configurado y utilizado un servidor de actualizaciones." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han planificado protocolos de actuación para resolver incidencias." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han seguido los protocolos de actuación para resolver incidencias." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha dado asistencia técnica a través de la red." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han elaborado guías visuales y manuales para instruir en el uso del sistema." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han documentado las tareas realizadas." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metodologias_docentes [
+    <!ELEMENT metodologias_docentes (metodologia+)>
+    <!ELEMENT metodologia (id_metodologia, metodologia_titulo, metodologia_descripcion, metodologia_sugerencias_implementacion, metodologia_consejos)>
+    <!ELEMENT id_metodologia (#PCDATA)>
+    <!ELEMENT metodologia_titulo (#PCDATA)>
+    <!ELEMENT metodologia_descripcion (#PCDATA)>
+    <!ELEMENT metodologia_sugerencias_implementacion (#PCDATA)>
+    <!ELEMENT metodologia_consejos (#PCDATA)>
+]>
+<metodologias_docentes>
+  <metodologia>
+    <id_metodologia>1</id_metodologia>
+    <metodologia_titulo>Aprendizaje Basado en Investigación (ABI)</metodologia_titulo>
+    <metodologia_descripcion>Los estudiantes actúan como investigadores, buscando soluciones a preguntas complejas mediante la recolección y análisis de datos.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Plantear una pregunta de investigación sobre nuevas tecnologías (ej. "¿Cómo afecta la latencia al rendimiento de Web3?").</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Proporcionar fuentes de documentación técnica fiables y enseñar a filtrar información en foros oficiales.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>2</id_metodologia>
+    <metodologia_titulo>Aprendizaje Basado en Problemas (PBL)</metodologia_titulo>
+    <metodologia_descripcion>El aprendizaje surge de la necesidad de resolver un problema real o simulado, estructurando el conocimiento en torno a dicha solución.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Presentar un sistema informático con un error crítico de seguridad o rendimiento que los alumnos deben diagnosticar.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>El docente debe actuar como facilitador, no dar la solución directa, sino guiar con preguntas socráticas.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>3</id_metodologia>
+    <metodologia_titulo>Aprendizaje Basado en Proyectos (ABP)</metodologia_titulo>
+    <metodologia_descripcion>Proceso de aprendizaje a largo plazo donde los alumnos desarrollan un producto final tangible (una aplicación, un despliegue de red, etc.).</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Desarrollo de una plataforma e-commerce completa durante todo el trimestre, integrando base de datos, backend y frontend.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Dividir el proyecto en hitos o entregables parciales para evitar la frustración y asegurar el progreso constante.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>4</id_metodologia>
+    <metodologia_titulo>Aprendizaje Basado en Retos</metodologia_titulo>
+    <metodologia_descripcion>Variante del ABP que se enfoca en resolver un desafío real de la comunidad o el entorno con un impacto social directo.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Reto: "Optimizar el consumo energético del servidor del centro educativo utilizando scripts de automatización".</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Vincular el reto con los ODS para aumentar la motivación y el sentido de responsabilidad ciudadana.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>5</id_metodologia>
+    <metodologia_titulo>Aprendizaje Cooperativo</metodologia_titulo>
+    <metodologia_descripcion>Empleo didáctico de grupos pequeños para que los alumnos trabajen juntos para maximizar su propio aprendizaje y el de los demás.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Utilizar la técnica del 'Puzzle de Aronson' para que cada alumno se especialice en una parte de la configuración de un servidor Linux.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Asegurar la interdependencia positiva: el éxito del equipo depende de que todos los miembros cumplan su parte.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>6</id_metodologia>
+    <metodologia_titulo>Aprendizaje-Servicio</metodologia_titulo>
+    <metodologia_descripcion>Combina procesos de aprendizaje y de servicio a la comunidad en un solo proyecto bien articulado.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Creación y mantenimiento de una página web para una ONG local o el banco de alimentos del barrio.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Fomentar la reflexión post-servicio para que el alumno entienda el valor social de su competencia técnica.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>7</id_metodologia>
+    <metodologia_titulo>Clase Magistral</metodologia_titulo>
+    <metodologia_descripcion>Transmisión de conocimientos por parte del docente centrada en la exposición de conceptos complejos.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Explicación teórica de los protocolos de capa de transporte (TCP/UDP) mediante diagramas en pizarra.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>No debe exceder los 20-30 minutos; intercalar con preguntas interactivas para mantener la atención.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>8</id_metodologia>
+    <metodologia_titulo>Debate</metodologia_titulo>
+    <metodologia_descripcion>Discusión estructurada sobre un tema controvertido donde se defienden posturas contrapuestas con argumentos.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Debate sobre "Privacidad vs. Seguridad" en el uso de datos biométricos o "Software Libre vs. Software Propietario".</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Establecer reglas claras de respeto y tiempos de intervención para fomentar la escucha activa.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>9</id_metodologia>
+    <metodologia_titulo>Design Thinking</metodologia_titulo>
+    <metodologia_descripcion>Metodología centrada en el usuario para generar ideas innovadoras y resolver problemas complejos.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Aplicar las fases (Empatizar, Definir, Idear, Prototipar, Testear) para diseñar la interfaz de usuario (UI) de una App móvil.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Fomentar el prototipado rápido "low-fidelity" (papel y lápiz) antes de pasar al diseño digital.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>10</id_metodologia>
+    <metodologia_titulo>Estudio de Casos</metodologia_titulo>
+    <metodologia_descripcion>Análisis detallado de una situación real ocurrida en una empresa para extraer lecciones y proponer mejoras.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Analizar el caso real de una caída de servicio masiva (ej. CrowdStrike o AWS) y estudiar los protocolos de recuperación aplicados.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Utilizar casos cercanos o de gran impacto actual para que el alumno vea la relevancia de la teoría.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>11</id_metodologia>
+    <metodologia_titulo>Flipped Classroom (Aula Invertida)</metodologia_titulo>
+    <metodologia_descripcion>Los alumnos estudian la teoría en casa (vídeos, lecturas) y el tiempo de clase se dedica a la práctica y resolución de dudas.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Ver un vídeo tutorial sobre sintaxis de CSS en casa y realizar el diseño de una web completa en el aula con apoyo del docente.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Es vital asegurarse de que los alumnos han visto el material previo mediante un pequeño test de entrada al inicio de la clase.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>12</id_metodologia>
+    <metodologia_titulo>Gamificación</metodologia_titulo>
+    <metodologia_descripcion>Uso de mecánicas y elementos de juego en entornos de aprendizaje para aumentar el compromiso.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Sistema de insignias (badges) por cada bug corregido en GitHub o un ranking de clase basado en retos de código (estilo Codewars).</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>El juego debe ser un medio, no el fin. La recompensa debe estar ligada al logro de un aprendizaje real.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>13</id_metodologia>
+    <metodologia_titulo>Simulaciones y Role-Playing</metodologia_titulo>
+    <metodologia_descripcion>Los estudiantes asumen roles específicos para representar situaciones de la vida profesional.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Simular una reunión de recogida de requisitos entre un cliente (docente) y un equipo de desarrollo (alumnos).</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Asignar roles que incluyan la gestión de conflictos para trabajar las Soft Skills (empatía, negociación).</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>14</id_metodologia>
+    <metodologia_titulo>Trabajo Individual</metodologia_titulo>
+    <metodologia_descripcion>Actividades realizadas de forma autónoma para fomentar la introspección, el ritmo propio y la autoevaluación.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Resolución de una serie de ejercicios de algoritmos básicos en Java de forma independiente.</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Ideal para consolidar conceptos base antes de pasar al trabajo colaborativo.</metodologia_consejos>
+  </metodologia>
+
+  <metodologia>
+    <id_metodologia>15</id_metodologia>
+    <metodologia_titulo>Trabajo por parejas</metodologia_titulo>
+    <metodologia_descripcion>Colaboración estrecha entre dos alumnos para resolver una tarea, facilitando la corrección entre iguales.</metodologia_descripcion>
+    <metodologia_sugerencias_implementacion>Aplicar 'Pair Programming': un alumno escribe el código (Driver) y el otro lo revisa en tiempo real (Navigator).</metodologia_sugerencias_implementacion>
+    <metodologia_consejos>Rotar los roles de Driver y Navigator cada 20 minutos para que ambos participen activamente.</metodologia_consejos>
+  </metodologia>
+</metodologias_docentes>

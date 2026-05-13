@@ -1,0 +1,523 @@
+{
+  "metadatos": {
+    "titulo": "Competencias Clave, Descriptores Operativos y Objetivos de Etapa",
+    "descripcion": "Competencias clave con sus descriptores operativos para el perfil de salida de la enseñanza básica (ESO) y objetivos de la etapa de Bachillerato según LOMLOE",
+    "fuentes_legislativas": [
+      "Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria (BOE 30/03/2022)",
+      "Real Decreto 243/2022, de 5 de abril, por el que se establecen la ordenación y las enseñanzas mínimas del Bachillerato (BOE 06/04/2022)"
+    ],
+    "fecha_creacion": "2026-03-03",
+    "ambito_aplicacion": "Sistema educativo español - LOMLOE"
+  },
+  "perfil_salida_ensenanza_basica": {
+    "descripcion": "El Perfil de salida del alumnado al término de la enseñanza básica fija las competencias clave que el alumnado debe haber adquirido y desarrollado al finalizar la enseñanza básica. Constituye el referente último del desempeño competencial, tanto en la evaluación de las distintas etapas y modalidades de la formación básica, como para la titulación de Graduado en Educación Secundaria Obligatoria",
+    "finalidad": "Identificar y definir, en conexión con los retos del siglo XXI, las competencias clave que el alumnado debe haber desarrollado al completar la enseñanza básica (al finalizar 4º de ESO)",
+    "transversalidad": "La transversalidad es una condición inherente al Perfil de salida, en el sentido de que todos los aprendizajes contribuyen a su consecución. De la misma manera, la adquisición de cada una de las competencias clave contribuye a la adquisición de todas las demás. No existe jerarquía entre ellas"
+  },
+  "competencias_clave": [
+    {
+      "codigo": "CCL",
+      "nombre": "Competencia en Comunicación Lingüística",
+      "definicion": "La competencia en comunicación lingüística supone interactuar de forma oral, escrita, signada o multimodal de manera coherente y adecuada en diferentes ámbitos y contextos y con diferentes propósitos comunicativos. Implica movilizar, de manera consciente, el conjunto de conocimientos, destrezas y actitudes que permiten comprender, interpretar y valorar críticamente mensajes orales, escritos, signados o multimodales evitando los riesgos de manipulación y desinformación, así como comunicarse eficazmente con otras personas de manera cooperativa, creativa, ética y respetuosa",
+      "importancia": "La competencia en comunicación lingüística constituye la base para el pensamiento propio y para la construcción del conocimiento en todos los ámbitos del saber. Por ello, su desarrollo está vinculado a la reflexión explícita acerca del funcionamiento de la lengua en los géneros discursivos específicos de cada área de conocimiento, así como a los usos de la oralidad, la escritura o la signación para pensar y para aprender",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "CCL1",
+          "descriptor": "Se expresa de forma oral, escrita, signada o multimodal con coherencia, corrección y adecuación a los diferentes contextos sociales, y participa en interacciones comunicativas con actitud cooperativa y respetuosa tanto para intercambiar información, crear conocimiento y transmitir opiniones, como para construir vínculos personales"
+        },
+        {
+          "codigo": "CCL2",
+          "descriptor": "Comprende, interpreta y valora con actitud crítica textos orales, escritos, signados o multimodales de los ámbitos personal, social, educativo y profesional para participar en diferentes contextos de manera activa e informada y para construir conocimiento"
+        },
+        {
+          "codigo": "CCL3",
+          "descriptor": "Localiza, selecciona y contrasta de manera progresivamente autónoma información procedente de diferentes fuentes, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, y la integra y transforma en conocimiento para comunicarla adoptando un punto de vista creativo, crítico y personal a la par que respetuoso con la propiedad intelectual"
+        },
+        {
+          "codigo": "CCL4",
+          "descriptor": "Lee con autonomía obras diversas adecuadas a su edad, seleccionando las que mejor se ajustan a sus gustos e intereses; aprecia el patrimonio literario como cauce privilegiado de la experiencia individual y colectiva; y moviliza su propia experiencia biográfica y sus conocimientos literarios y culturales para construir y compartir su interpretación de las obras y para crear textos de intención literaria de progresiva complejidad"
+        },
+        {
+          "codigo": "CCL5",
+          "descriptor": "Pone sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, evitando los usos discriminatorios, así como los abusos de poder, para favorecer la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "CCL1",
+          "descriptor": "Se expresa de forma oral, escrita, signada o multimodal con fluidez, coherencia, corrección y adecuación a los diferentes contextos sociales y académicos, y participa en interacciones comunicativas con actitud cooperativa y respetuosa tanto para intercambiar información, crear conocimiento y argumentar sus opiniones como para establecer y cuidar sus relaciones interpersonales"
+        },
+        {
+          "codigo": "CCL2",
+          "descriptor": "Comprende, interpreta y valora con actitud crítica textos orales, escritos, signados o multimodales de los distintos ámbitos, con especial énfasis en los textos académicos y de los medios de comunicación, para participar en diferentes contextos de manera activa e informada y para construir conocimiento"
+        },
+        {
+          "codigo": "CCL3",
+          "descriptor": "Localiza, selecciona y contrasta de manera autónoma información procedente de diferentes fuentes evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, y la integra y transforma en conocimiento para comunicarla de manera clara y rigurosa adoptando un punto de vista creativo y crítico a la par que respetuoso con la propiedad intelectual"
+        },
+        {
+          "codigo": "CCL4",
+          "descriptor": "Lee con autonomía obras relevantes de la literatura poniéndolas en relación con su contexto sociohistórico de producción, con la tradición literaria anterior y posterior y examinando la huella de su legado en la actualidad, para construir y compartir su propia interpretación argumentada de las obras, crear y recrear obras de intención literaria y conformar progresivamente un mapa cultural"
+        },
+        {
+          "codigo": "CCL5",
+          "descriptor": "Pone sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, evitando y rechazando los usos discriminatorios, así como los abusos de poder, para favorecer la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación"
+        }
+      ]
+    },
+    {
+      "codigo": "CP",
+      "nombre": "Competencia Plurilingüe",
+      "definicion": "La competencia plurilingüe implica utilizar distintas lenguas, orales o signadas, de forma apropiada y eficaz para el aprendizaje y la comunicación. Esta competencia supone reconocer y respetar los perfiles lingüísticos individuales y aprovechar las experiencias propias para desarrollar estrategias que permitan mediar y hacer transferencias entre lenguas, incluidas las clásicas, y, en su caso, mantener y adquirir destrezas en la lengua o lenguas familiares y en las lenguas oficiales. Integra, asimismo, dimensiones históricas e interculturales orientadas a conocer, valorar y respetar la diversidad lingüística y cultural de la sociedad con el objetivo de fomentar la convivencia democrática",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "CP1",
+          "descriptor": "Usa eficazmente una o más lenguas, además de la lengua o lenguas familiares, para responder a sus necesidades comunicativas, de manera apropiada y adecuada tanto a su desarrollo e intereses como a diferentes situaciones y contextos de los ámbitos personal, social, educativo y profesional"
+        },
+        {
+          "codigo": "CP2",
+          "descriptor": "A partir de sus experiencias, realiza transferencias entre distintas lenguas como estrategia para comunicarse y ampliar su repertorio lingüístico individual"
+        },
+        {
+          "codigo": "CP3",
+          "descriptor": "Conoce, valora y respeta la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal como factor de diálogo, para fomentar la cohesión social"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "CP1",
+          "descriptor": "Utiliza con fluidez, adecuación y aceptable corrección una o más lenguas, además de la lengua familiar o de las lenguas familiares, para responder a sus necesidades comunicativas con espontaneidad y autonomía en diferentes situaciones y contextos de los ámbitos personal, social, educativo y profesional"
+        },
+        {
+          "codigo": "CP2",
+          "descriptor": "A partir de sus experiencias, desarrolla estrategias que le permitan ampliar y enriquecer de forma sistemática su repertorio lingüístico individual con el fin de comunicarse de manera eficaz"
+        },
+        {
+          "codigo": "CP3",
+          "descriptor": "Conoce y valora críticamente la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal y anteponiendo la comprensión mutua como característica central de la comunicación, para fomentar la cohesión social"
+        }
+      ]
+    },
+    {
+      "codigo": "STEM",
+      "nombre": "Competencia Matemática y Competencia en Ciencia, Tecnología e Ingeniería",
+      "definicion": "La competencia matemática y competencia en ciencia, tecnología e ingeniería (competencia STEM por sus siglas en inglés) entraña la comprensión del mundo utilizando los métodos científicos, el pensamiento y representación matemáticos, la tecnología y los métodos de la ingeniería para transformar el entorno de forma comprometida, responsable y sostenible. La competencia matemática permite desarrollar y aplicar la perspectiva y el razonamiento matemáticos con el fin de resolver diversos problemas en diferentes contextos",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "STEM1",
+          "descriptor": "Utiliza métodos inductivos y deductivos propios del razonamiento matemático en situaciones conocidas, y selecciona y emplea diferentes estrategias para resolver problemas analizando críticamente las soluciones y reformulando el procedimiento, si fuera necesario"
+        },
+        {
+          "codigo": "STEM2",
+          "descriptor": "Utiliza el pensamiento científico para entender y explicar los fenómenos que ocurren a su alrededor, confiando en el conocimiento como motor de desarrollo, planteándose preguntas y comprobando hipótesis mediante la experimentación y la indagación, utilizando herramientas e instrumentos adecuados, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca del alcance y las limitaciones de la ciencia"
+        },
+        {
+          "codigo": "STEM3",
+          "descriptor": "Plantea y desarrolla proyectos diseñando, fabricando y evaluando diferentes prototipos o modelos para generar o utilizar productos que den solución a una necesidad o problema de forma creativa y en equipo, procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, adaptándose ante la incertidumbre y valorando la importancia de la sostenibilidad"
+        },
+        {
+          "codigo": "STEM4",
+          "descriptor": "Interpreta y transmite los elementos más relevantes de procesos, razonamientos, demostraciones, métodos y resultados científicos, matemáticos y tecnológicos de forma clara y precisa y en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos...), aprovechando de forma crítica la cultura digital e incluyendo el lenguaje matemático-formal con ética y responsabilidad, para compartir y construir nuevos conocimientos"
+        },
+        {
+          "codigo": "STEM5",
+          "descriptor": "Emprende acciones fundamentadas científicamente para promover la salud física, mental y social, y preservar el medio ambiente y los seres vivos; y aplica principios de ética y seguridad en la realización de proyectos para transformar su entorno próximo de forma sostenible, valorando su impacto global y practicando el consumo responsable"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "STEM1",
+          "descriptor": "Selecciona y utiliza métodos inductivos y deductivos propios del razonamiento matemático en situaciones propias de la modalidad elegida y emplea estrategias variadas para la resolución de problemas analizando críticamente las soluciones y reformulando el procedimiento, si fuera necesario"
+        },
+        {
+          "codigo": "STEM2",
+          "descriptor": "Utiliza el pensamiento científico para entender y explicar fenómenos relacionados con la modalidad elegida, confiando en el conocimiento como motor de desarrollo, planteándose hipótesis y contrastándolas o comprobándolas mediante la observación, la experimentación y la investigación, utilizando herramientas e instrumentos adecuados, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca del alcance y limitaciones de los métodos empleados"
+        },
+        {
+          "codigo": "STEM3",
+          "descriptor": "Plantea y desarrolla proyectos diseñando y creando prototipos o modelos para generar o utilizar productos que den solución a una necesidad o problema de forma colaborativa, procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, adaptándose ante la incertidumbre y evaluando el producto obtenido de acuerdo a los objetivos propuestos, la sostenibilidad y el impacto transformador en la sociedad"
+        },
+        {
+          "codigo": "STEM4",
+          "descriptor": "Interpreta y transmite los elementos más relevantes de investigaciones de forma clara y precisa, en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos...) y aprovechando la cultura digital con ética y responsabilidad y valorando de forma crítica la contribución de la ciencia y la tecnología en el cambio de las condiciones de vida para compartir y construir nuevos conocimientos"
+        },
+        {
+          "codigo": "STEM5",
+          "descriptor": "Planea y emprende acciones fundamentadas científicamente para promover la salud física y mental, y preservar el medio ambiente y los seres vivos, practicando el consumo responsable, aplicando principios de ética y seguridad para crear valor y transformar su entorno de forma sostenible adquiriendo compromisos como ciudadano en el ámbito local y global"
+        }
+      ]
+    },
+    {
+      "codigo": "CD",
+      "nombre": "Competencia Digital",
+      "definicion": "La competencia digital implica el uso seguro, saludable, sostenible, crítico y responsable de las tecnologías digitales para el aprendizaje, para el trabajo y para la participación en la sociedad, así como la interacción con estas. Incluye la alfabetización en información y datos, la comunicación y la colaboración, la educación mediática, la creación de contenidos digitales (incluida la programación), la seguridad (incluido el bienestar digital y las competencias relacionadas con la ciberseguridad), asuntos relacionados con la ciudadanía digital, la privacidad, la propiedad intelectual, la resolución de problemas y el pensamiento computacional y crítico",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "CD1",
+          "descriptor": "Realiza búsquedas en internet atendiendo a criterios de validez, calidad, actualidad y fiabilidad, seleccionando los resultados de manera crítica y archivándolos, para recuperarlos, referenciarlos y reutilizarlos, respetando la propiedad intelectual"
+        },
+        {
+          "codigo": "CD2",
+          "descriptor": "Gestiona y utiliza su entorno personal digital de aprendizaje para construir conocimiento y crear contenidos digitales, mediante estrategias de tratamiento de la información y el uso de diferentes herramientas digitales, seleccionando y configurando la más adecuada en función de la tarea y de sus necesidades de aprendizaje permanente"
+        },
+        {
+          "codigo": "CD3",
+          "descriptor": "Se comunica, participa, colabora e interactúa compartiendo contenidos, datos e información mediante herramientas o plataformas virtuales, y gestiona de manera responsable sus acciones, presencia y visibilidad en la red, para ejercer una ciudadanía digital activa, cívica y reflexiva"
+        },
+        {
+          "codigo": "CD4",
+          "descriptor": "Identifica riesgos y adopta medidas preventivas al usar las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente, y para tomar conciencia de la importancia y necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de dichas tecnologías"
+        },
+        {
+          "codigo": "CD5",
+          "descriptor": "Desarrolla aplicaciones informáticas sencillas y soluciones tecnológicas creativas y sostenibles para resolver problemas concretos o responder a retos propuestos, mostrando interés y curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y uso ético"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "CD1",
+          "descriptor": "Realiza búsquedas avanzadas comprendiendo cómo funcionan los motores de búsqueda en internet aplicando criterios de validez, calidad, actualidad y fiabilidad, seleccionando los resultados de manera crítica y organizando el almacenamiento de la información de manera adecuada y segura para referenciarla y reutilizarla posteriormente"
+        },
+        {
+          "codigo": "CD2",
+          "descriptor": "Crea, integra y reelabora contenidos digitales de forma individual o colectiva, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría digital para ampliar sus recursos y generar nuevo conocimiento"
+        },
+        {
+          "codigo": "CD3",
+          "descriptor": "Selecciona, configura y utiliza dispositivos digitales, herramientas, aplicaciones y servicios en línea y los incorpora en su entorno personal de aprendizaje digital para comunicarse, trabajar colaborativamente y compartir información, gestionando de manera responsable sus acciones, presencia y visibilidad en la red y ejerciendo una ciudadanía digital activa, cívica y reflexiva"
+        },
+        {
+          "codigo": "CD4",
+          "descriptor": "Evalúa riesgos y aplica medidas al usar las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente y hace un uso crítico, legal, seguro, saludable y sostenible de dichas tecnologías"
+        },
+        {
+          "codigo": "CD5",
+          "descriptor": "Desarrolla soluciones tecnológicas innovadoras y sostenibles para dar respuesta a necesidades concretas, mostrando interés y curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y uso ético"
+        }
+      ]
+    },
+    {
+      "codigo": "CPSAA",
+      "nombre": "Competencia Personal, Social y de Aprender a Aprender",
+      "definicion": "La competencia personal, social y de aprender a aprender implica la capacidad de reflexionar sobre uno mismo para autoconocerse, aceptarse y promover un crecimiento personal constante; gestionar el tiempo y la información eficazmente; colaborar con otros de forma constructiva; mantener la resiliencia; y gestionar el aprendizaje a lo largo de la vida. Incluye también la capacidad de hacer frente a la incertidumbre y a la complejidad; adaptarse a los cambios; aprender a gestionar los procesos metacognitivos; identificar conductas contrarias a la convivencia y desarrollar estrategias para abordarlas; contribuir al bienestar físico, mental y emocional propio y de las demás personas, desarrollando habilidades para cuidarse a sí mismo y a quienes lo rodean a través de la corresponsabilidad; ser capaz de llevar una vida orientada al futuro; así como expresar empatía y abordar los conflictos en un contexto integrador y de apoyo",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "CPSAA1",
+          "descriptor": "Regula y expresa sus emociones, fortaleciendo el optimismo, la resiliencia, la autoeficacia y la búsqueda de propósito y motivación hacia el aprendizaje, para gestionar los retos y cambios y armonizarlos con sus propios objetivos"
+        },
+        {
+          "codigo": "CPSAA2",
+          "descriptor": "Comprende los riesgos para la salud relacionados con factores sociales, consolida estilos de vida saludable a nivel físico y mental, reconoce conductas contrarias a la convivencia y aplica estrategias para abordarlas"
+        },
+        {
+          "codigo": "CPSAA3",
+          "descriptor": "Comprende proactivamente las perspectivas y las experiencias de las demás personas y las incorpora a su aprendizaje, para participar en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades de manera equitativa y empleando estrategias cooperativas"
+        },
+        {
+          "codigo": "CPSAA4",
+          "descriptor": "Realiza autoevaluaciones sobre su proceso de aprendizaje, buscando fuentes fiables para validar, sustentar y contrastar la información y para obtener conclusiones relevantes"
+        },
+        {
+          "codigo": "CPSAA5",
+          "descriptor": "Planea objetivos a medio plazo y desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores en el proceso de construcción del conocimiento"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "CPSAA1.1",
+          "descriptor": "Fortalece el optimismo, la resiliencia, la autoeficacia y la búsqueda de objetivos de forma autónoma para hacer eficaz su aprendizaje"
+        },
+        {
+          "codigo": "CPSAA1.2",
+          "descriptor": "Desarrolla una personalidad autónoma, gestionando constructivamente los cambios, la participación social y su propia actividad para dirigir su vida"
+        },
+        {
+          "codigo": "CPSAA2",
+          "descriptor": "Adopta de forma autónoma un estilo de vida sostenible y atiende al bienestar físico y mental propio y de los demás, buscando y ofreciendo apoyo en la sociedad para construir un mundo más saludable"
+        },
+        {
+          "codigo": "CPSAA3.1",
+          "descriptor": "Muestra sensibilidad hacia las emociones y experiencias de los demás, siendo consciente de la influencia que ejerce el grupo en las personas, para consolidar una personalidad empática e independiente y desarrollar su inteligencia"
+        },
+        {
+          "codigo": "CPSAA3.2",
+          "descriptor": "Distribuye en un grupo las tareas, recursos y responsabilidades de manera ecuánime, según sus objetivos, favoreciendo un enfoque sistémico para contribuir a la consecución de objetivos compartidos"
+        },
+        {
+          "codigo": "CPSAA4",
+          "descriptor": "Compara, analiza, evalúa y sintetiza datos, información e ideas de los medios de comunicación, para obtener conclusiones lógicas de forma autónoma, valorando la fiabilidad de las fuentes"
+        },
+        {
+          "codigo": "CPSAA5",
+          "descriptor": "Planifica a largo plazo evaluando los propósitos y los procesos de la construcción del conocimiento, relacionando los diferentes campos del mismo para desarrollar procesos autorregulados de aprendizaje que le permitan transmitir ese conocimiento, proponer ideas creativas y resolver problemas con autonomía"
+        }
+      ]
+    },
+    {
+      "codigo": "CC",
+      "nombre": "Competencia Ciudadana",
+      "definicion": "La competencia ciudadana contribuye a que alumnos y alumnas puedan ejercer una ciudadanía responsable y participar plenamente en la vida social y cívica, basándose en la comprensión de los conceptos y las estructuras sociales, económicas, jurídicas y políticas, así como en el conocimiento de los acontecimientos mundiales y el compromiso activo con la sostenibilidad y el logro de una ciudadanía mundial. Incluye la alfabetización cívica, la adopción consciente de los valores propios de una cultura democrática fundada en el respeto a los derechos humanos, la reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo y el desarrollo de un estilo de vida sostenible acorde con los Objetivos de Desarrollo Sostenible planteados en la Agenda 2030",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "CC1",
+          "descriptor": "Analiza y comprende ideas relativas a la dimensión social y ciudadana de su propia identidad, así como a los hechos culturales, históricos y normativos que la determinan, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con los demás en cualquier contexto"
+        },
+        {
+          "codigo": "CC2",
+          "descriptor": "Analiza y asume fundadamente los principios y valores que emanan del proceso de integración europea, la Constitución española y los derechos humanos y de la infancia, participando en actividades comunitarias, como la toma de decisiones o la resolución de conflictos, con actitud democrática, respeto por la diversidad, y compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial"
+        },
+        {
+          "codigo": "CC3",
+          "descriptor": "Comprende y analiza problemas éticos fundamentales y de actualidad, considerando críticamente los valores propios y ajenos, y desarrollando juicios propios para afrontar la controversia moral con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia"
+        },
+        {
+          "codigo": "CC4",
+          "descriptor": "Comprende las relaciones sistémicas de interdependencia, ecodependencia e interconexión entre actuaciones locales y globales, y adopta, de forma consciente y motivada, un estilo de vida sostenible y ecosocialmente responsable"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "CC1",
+          "descriptor": "Analiza hechos, normas e ideas relativas a la dimensión social, histórica, cívica y moral de su propia identidad, para contribuir a la consolidación de su madurez personal y social, adquirir una conciencia ciudadana y responsable, desarrollar la autonomía y el espíritu crítico, y establecer una interacción pacífica y respetuosa con los demás y con el entorno"
+        },
+        {
+          "codigo": "CC2",
+          "descriptor": "Reconoce, analiza y aplica en diversos contextos, de forma crítica y consecuente, los principios, ideales y valores relativos al proceso de integración europea, la Constitución Española, los derechos humanos, y la historia y el patrimonio cultural propios, a la vez que participa en todo tipo de actividades grupales con una actitud fundamentada en los principios y procedimientos democráticos, el compromiso ético con la igualdad, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial"
+        },
+        {
+          "codigo": "CC3",
+          "descriptor": "Adopta un juicio propio y argumentado ante problemas éticos y filosóficos fundamentales y de actualidad, afrontando con actitud dialogante la pluralidad de valores, creencias e ideas, rechazando todo tipo de discriminación y violencia, y promoviendo activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres"
+        },
+        {
+          "codigo": "CC4",
+          "descriptor": "Analiza las relaciones de interdependencia y ecodependencia entre nuestras formas de vida y el entorno, realizando un análisis crítico de la huella ecológica de las acciones humanas, y demostrando un compromiso ético y ecosocialmente responsable con actividades y hábitos que conduzcan al logro de los Objetivos de Desarrollo Sostenible y la lucha contra el cambio climático"
+        }
+      ]
+    },
+    {
+      "codigo": "CE",
+      "nombre": "Competencia Emprendedora",
+      "definicion": "La competencia emprendedora implica desarrollar un enfoque vital dirigido a actuar sobre oportunidades e ideas, utilizando los conocimientos específicos necesarios para generar resultados de valor para otras personas. Aporta estrategias que permiten adaptar la mirada para detectar necesidades y oportunidades; entrenar el pensamiento para analizar y evaluar el entorno, y crear y replantear ideas utilizando la imaginación, la creatividad, el pensamiento estratégico y la reflexión ética, crítica y constructiva dentro de los procesos creativos y de innovación; y despertar la disposición a aprender, a arriesgar y a afrontar la incertidumbre. Asimismo, implica tomar decisiones basadas en la información y el conocimiento y colaborar de manera ágil con otras personas, con motivación, empatía y habilidades de comunicación y de negociación, para llevar las ideas planteadas a la acción mediante la planificación y gestión de proyectos sostenibles de valor social, cultural y económico-financiero",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "CE1",
+          "descriptor": "Analiza necesidades y oportunidades y afronta retos con sentido crítico, haciendo balance de su sostenibilidad, valorando el impacto que puedan suponer en el entorno, para presentar ideas y soluciones innovadoras, éticas y sostenibles, dirigidas a crear valor en el ámbito personal, social, educativo y profesional"
+        },
+        {
+          "codigo": "CE2",
+          "descriptor": "Evalúa las fortalezas y debilidades propias, haciendo uso de estrategias de autoconocimiento y autoeficacia, y comprende los elementos fundamentales de la economía y las finanzas, aplicando conocimientos económicos y financieros a actividades y situaciones concretas, utilizando destrezas que favorezcan el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios que lleven a la acción una experiencia emprendedora que genere valor"
+        },
+        {
+          "codigo": "CE3",
+          "descriptor": "Desarrolla el proceso de creación de ideas y soluciones valiosas y toma decisiones, de manera razonada, utilizando estrategias ágiles de planificación y gestión, y reflexiona sobre el proceso realizado y el resultado obtenido, para llevar a término el proceso de creación de prototipos innovadores y de valor, considerando la experiencia como una oportunidad para aprender"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "CE1",
+          "descriptor": "Evalúa necesidades y oportunidades y afronta retos, con sentido crítico y ético, evaluando su sostenibilidad y comprobando, a partir de conocimientos técnicos específicos, el impacto que puedan suponer en el entorno, para presentar y ejecutar ideas y soluciones innovadoras dirigidas a distintos contextos, tanto locales como globales, en el ámbito personal, social y académico con proyección profesional emprendedora"
+        },
+        {
+          "codigo": "CE2",
+          "descriptor": "Evalúa y reflexiona sobre las fortalezas y debilidades propias y las de los demás, haciendo uso de estrategias de autoconocimiento y autoeficacia, interioriza los conocimientos económicos y financieros específicos y los transfiere a contextos locales y globales, aplicando estrategias y destrezas que agilicen el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios, que lleven a la acción una experiencia o iniciativa emprendedora de valor"
+        },
+        {
+          "codigo": "CE3",
+          "descriptor": "Lleva a cabo el proceso de creación de ideas y soluciones innovadoras y toma decisiones, con sentido crítico y ético, aplicando conocimientos técnicos específicos y estrategias ágiles de planificación y gestión de proyectos, y reflexiona sobre el proceso realizado y el resultado obtenido, para elaborar un prototipo final de valor para los demás, considerando tanto la experiencia de éxito como de fracaso, una oportunidad para aprender"
+        }
+      ]
+    },
+    {
+      "codigo": "CCEC",
+      "nombre": "Competencia en Conciencia y Expresión Culturales",
+      "definicion": "La competencia en conciencia y expresión culturales supone comprender y respetar el modo en que las ideas, las opiniones, los sentimientos y las emociones se expresan y se comunican de forma creativa en distintas culturas y por medio de una amplia gama de manifestaciones artísticas y culturales. Implica también un compromiso con la comprensión, el desarrollo y la expresión de las ideas propias y del sentido del lugar que se ocupa o del papel que se desempeña en la sociedad. Asimismo, requiere la comprensión de la propia identidad en evolución y del patrimonio cultural en un mundo caracterizado por la diversidad, así como la toma de conciencia de que el arte y otras manifestaciones culturales pueden suponer una manera de mirar el mundo y de darle forma",
+      "descriptores_operativos_eso": [
+        {
+          "codigo": "CCEC1",
+          "descriptor": "Conoce, aprecia críticamente y respeta el patrimonio cultural y artístico, implicándose en su conservación y valorando el enriquecimiento inherente a la diversidad cultural y artística"
+        },
+        {
+          "codigo": "CCEC2",
+          "descriptor": "Disfruta, reconoce y analiza con autonomía las especificidades e intencionalidades de las manifestaciones artísticas y culturales más destacadas del patrimonio, distinguiendo los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan"
+        },
+        {
+          "codigo": "CCEC3",
+          "descriptor": "Expresa ideas, opiniones, sentimientos y emociones por medio de producciones culturales y artísticas, integrando su propio cuerpo y desarrollando la autoestima, la creatividad y el sentido del lugar que ocupa en la sociedad, con una actitud empática, abierta y colaborativa"
+        },
+        {
+          "codigo": "CCEC4",
+          "descriptor": "Conoce, selecciona y utiliza con creatividad diversos medios y soportes, así como técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para la creación de productos artísticos y culturales, tanto de forma individual como colaborativa, identificando oportunidades de desarrollo personal, social y laboral, así como de emprendimiento"
+        }
+      ],
+      "descriptores_operativos_bachillerato": [
+        {
+          "codigo": "CCEC1",
+          "descriptor": "Reflexiona, promueve y valora críticamente el patrimonio cultural y artístico de cualquier época, contrastando sus singularidades y partiendo de su propia identidad, para defender la libertad de expresión, la igualdad y el enriquecimiento inherente a la diversidad"
+        },
+        {
+          "codigo": "CCEC2",
+          "descriptor": "Investiga las especificidades e intencionalidades de diversas manifestaciones artísticas y culturales del patrimonio, mediante una postura de recepción activa y deleite, diferenciando y analizando los distintos contextos, medios y soportes en que se materializan, así como los lenguajes y elementos técnicos y estéticos que las caracterizan"
+        },
+        {
+          "codigo": "CCEC3.1",
+          "descriptor": "Expresa ideas, opiniones, sentimientos y emociones con creatividad y espíritu crítico, realizando con rigor sus propias producciones culturales y artísticas, para participar de forma activa en la promoción de los derechos humanos y los procesos de socialización y de construcción de la identidad personal que se derivan de la práctica artística"
+        },
+        {
+          "codigo": "CCEC3.2",
+          "descriptor": "Descubre la autoexpresión, a través de la interactuación corporal y la experimentación con diferentes herramientas y lenguajes artísticos, enfrentándose a situaciones creativas con una actitud empática y colaborativa, y con autoestima, iniciativa e imaginación"
+        },
+        {
+          "codigo": "CCEC4.1",
+          "descriptor": "Selecciona e integra con creatividad diversos medios y soportes, así como técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para diseñar y producir proyectos artísticos y culturales sostenibles, analizando las oportunidades de desarrollo personal, social y laboral que ofrecen sirviéndose de la interpretación, la ejecución, la improvisación o la composición"
+        },
+        {
+          "codigo": "CCEC4.2",
+          "descriptor": "Planifica, adapta y organiza sus conocimientos, destrezas y actitudes para responder con creatividad y eficacia a los desempeños derivados de una producción cultural o artística, individual o colectiva, utilizando diversos lenguajes, códigos, técnicas, herramientas y recursos plásticos, visuales, audiovisuales, musicales, corporales o escénicos, valorando tanto el proceso como el producto final y comprendiendo las oportunidades personales, sociales, inclusivas y económicas que ofrecen"
+        }
+      ]
+    }
+  ],
+  "objetivos_eso": {
+    "descripcion": "La Educación Secundaria Obligatoria contribuirá a desarrollar en los alumnos y las alumnas las capacidades que les permitan",
+    "fuente_legal": "Real Decreto 217/2022, de 29 de marzo, Artículo 7",
+    "nota_importante": "En esta etapa se prestará una atención especial a la adquisición y el desarrollo de las competencias establecidas en el Perfil de salida del alumnado al término de la enseñanza básica",
+    "objetivos": [
+      {
+        "codigo": "a",
+        "objetivo": "Asumir responsablemente sus deberes, conocer y ejercer sus derechos en el respeto a los demás, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática"
+      },
+      {
+        "codigo": "b",
+        "objetivo": "Desarrollar y consolidar hábitos de disciplina, estudio y trabajo individual y en equipo como condición necesaria para una realización eficaz de las tareas del aprendizaje y como medio de desarrollo personal"
+      },
+      {
+        "codigo": "c",
+        "objetivo": "Valorar y respetar la diferencia de sexos y la igualdad de derechos y oportunidades entre ellos. Rechazar los estereotipos que supongan discriminación entre hombres y mujeres"
+      },
+      {
+        "codigo": "d",
+        "objetivo": "Fortalecer sus capacidades afectivas en todos los ámbitos de la personalidad y en sus relaciones con los demás, así como rechazar la violencia, los prejuicios de cualquier tipo, los comportamientos sexistas y resolver pacíficamente los conflictos"
+      },
+      {
+        "codigo": "e",
+        "objetivo": "Desarrollar destrezas básicas en la utilización de las fuentes de información para, con sentido crítico, adquirir nuevos conocimientos"
+      },
+      {
+        "codigo": "f",
+        "objetivo": "Desarrollar las competencias tecnológicas básicas y avanzar en una reflexión ética sobre su funcionamiento y utilización"
+      },
+      {
+        "codigo": "g",
+        "objetivo": "Concebir el conocimiento científico como un saber integrado, que se estructura en distintas disciplinas, así como conocer y aplicar los métodos para identificar los problemas en los diversos campos del conocimiento y de la experiencia"
+      },
+      {
+        "codigo": "h",
+        "objetivo": "Desarrollar el espíritu emprendedor y la confianza en sí mismos, la participación, el sentido crítico, la iniciativa personal y la capacidad para aprender a aprender, planificar, tomar decisiones y asumir responsabilidades"
+      },
+      {
+        "codigo": "i",
+        "objetivo": "Comprender y expresar con corrección, oralmente y por escrito, en la lengua castellana y, si la hubiere, en la lengua cooficial de la comunidad autónoma, textos y mensajes complejos, e iniciarse en el conocimiento, la lectura y el estudio de la literatura"
+      },
+      {
+        "codigo": "j",
+        "objetivo": "Comprender y expresarse en una o más lenguas extranjeras de manera apropiada"
+      },
+      {
+        "codigo": "k",
+        "objetivo": "Conocer, valorar y respetar los aspectos básicos de la cultura y la historia propias y de los demás, así como el patrimonio artístico y cultural"
+      },
+      {
+        "codigo": "l",
+        "objetivo": "Conocer y aceptar el funcionamiento del propio cuerpo y el de los otros, respetar las diferencias, afianzar los hábitos de cuidado y salud corporales e incorporar la educación física y la práctica del deporte para favorecer el desarrollo personal y social"
+      },
+      {
+        "codigo": "m",
+        "objetivo": "Conocer y valorar la dimensión humana de la sexualidad en toda su diversidad"
+      },
+      {
+        "codigo": "n",
+        "objetivo": "Valorar críticamente los hábitos sociales relacionados con la salud, el consumo, el cuidado, la empatía y el respeto hacia los seres vivos, especialmente los animales, y el medio ambiente, contribuyendo a su conservación y mejora"
+      },
+      {
+        "codigo": "ñ",
+        "objetivo": "Apreciar la creación artística y comprender el lenguaje de las distintas manifestaciones artísticas, utilizando diversos medios de expresión y representación"
+      }
+    ]
+  },
+  "objetivos_bachillerato": {
+    "descripcion": "El Bachillerato contribuirá a desarrollar en los alumnos y las alumnas las capacidades que les permitan alcanzar los siguientes objetivos",
+    "fuente_legal": "Real Decreto 243/2022, de 5 de abril, Artículo 7",
+    "objetivos": [
+      {
+        "codigo": "a",
+        "objetivo": "Ejercer la ciudadanía democrática, desde una perspectiva global, y adquirir una conciencia cívica responsable, inspirada por los valores de la Constitución Española, así como por los derechos humanos, que fomente la corresponsabilidad en la construcción de una sociedad justa y equitativa"
+      },
+      {
+        "codigo": "b",
+        "objetivo": "Consolidar una madurez personal, afectivo-sexual y social que les permita actuar de forma respetuosa, responsable y autónoma y desarrollar su espíritu crítico. Prever, detectar y resolver pacíficamente los conflictos personales, familiares y sociales, así como las posibles situaciones de violencia"
+      },
+      {
+        "codigo": "c",
+        "objetivo": "Fomentar la igualdad efectiva de derechos y oportunidades de mujeres y hombres, analizar y valorar críticamente las desigualdades existentes, así como el reconocimiento y enseñanza del papel de las mujeres en la historia e impulsar la igualdad real y la no discriminación por razón de nacimiento, sexo, origen racial o étnico, discapacidad, edad, enfermedad, religión o creencias, orientación sexual o identidad de género o cualquier otra condición o circunstancia personal o social"
+      },
+      {
+        "codigo": "d",
+        "objetivo": "Afianzar los hábitos de lectura, estudio y disciplina, como condiciones necesarias para el eficaz aprovechamiento del aprendizaje, y como medio de desarrollo personal"
+      },
+      {
+        "codigo": "e",
+        "objetivo": "Dominar, tanto en su expresión oral como escrita, la lengua castellana y, en su caso, la lengua cooficial de su comunidad autónoma"
+      },
+      {
+        "codigo": "f",
+        "objetivo": "Expresarse con fluidez y corrección en una o más lenguas extranjeras"
+      },
+      {
+        "codigo": "g",
+        "objetivo": "Utilizar con solvencia y responsabilidad las tecnologías de la información y la comunicación"
+      },
+      {
+        "codigo": "h",
+        "objetivo": "Conocer y valorar críticamente las realidades del mundo contemporáneo, sus antecedentes históricos y los principales factores de su evolución. Participar de forma solidaria en el desarrollo y mejora de su entorno social"
+      },
+      {
+        "codigo": "i",
+        "objetivo": "Acceder a los conocimientos científicos y tecnológicos fundamentales y dominar las habilidades básicas propias de la modalidad elegida"
+      },
+      {
+        "codigo": "j",
+        "objetivo": "Comprender los elementos y procedimientos fundamentales de la investigación y de los métodos científicos. Conocer y valorar de forma crítica la contribución de la ciencia y la tecnología en el cambio de las condiciones de vida, así como afianzar la sensibilidad y el respeto hacia el medio ambiente"
+      },
+      {
+        "codigo": "k",
+        "objetivo": "Afianzar el espíritu emprendedor con actitudes de creatividad, flexibilidad, iniciativa, trabajo en equipo, confianza en uno mismo y sentido crítico"
+      },
+      {
+        "codigo": "l",
+        "objetivo": "Desarrollar la sensibilidad artística y literaria, así como el criterio estético, como fuentes de formación y enriquecimiento cultural"
+      },
+      {
+        "codigo": "m",
+        "objetivo": "Utilizar la educación física y el deporte para favorecer el desarrollo personal y social. Afianzar los hábitos de actividades físico-deportivas para favorecer el bienestar físico y mental, así como medio de desarrollo personal y social"
+      },
+      {
+        "codigo": "n",
+        "objetivo": "Afianzar actitudes de respeto y prevención en el ámbito de la movilidad segura y saludable"
+      },
+      {
+        "codigo": "o",
+        "objetivo": "Fomentar una actitud responsable y comprometida en la lucha contra el cambio climático y en la defensa del desarrollo sostenible"
+      }
+    ]
+  },
+  "vinculacion_descriptores_competencias_especificas": {
+    "explicacion": "Los descriptores operativos de las competencias clave constituyen, junto con los objetivos de la etapa, el marco referencial a partir del cual se concretan las competencias específicas de cada área, ámbito o materia",
+    "proceso_evaluacion": "Esta vinculación entre descriptores operativos y competencias específicas propicia que de la evaluación de estas últimas pueda colegirse el grado de adquisición de las competencias clave definidas en el Perfil de salida y, por tanto, la consecución de las competencias y objetivos previstos para la etapa",
+    "sin_jerarquia": "No existe jerarquía entre las competencias clave, ni puede establecerse una correspondencia exclusiva con una única área, ámbito o materia, sino que todas se concretan en los aprendizajes de las distintas áreas, ámbitos o materias y, a su vez, se adquieren y desarrollan a partir de los aprendizajes que se producen en el conjunto de las mismas"
+  },
+  "notas_aclaratorias": {
+    "progresion_competencial": "Dado que las competencias se adquieren necesariamente de forma secuencial y progresiva, también se incluyen en el Perfil de salida los descriptores operativos que orientan sobre el nivel de desempeño esperado al completar la Educación Primaria, favoreciendo así la continuidad, la coherencia y la cohesión entre las dos etapas que componen la enseñanza obligatoria",
+    "bachillerato": "Para Bachillerato se definen descriptores operativos que dan continuidad, profundizan y amplían los niveles de desempeño previstos al final de la enseñanza básica, con el fin de adaptarlos a las necesidades y fines de esta etapa postobligatoria",
+    "marco_europeo": "Las competencias clave son la adaptación al sistema educativo español de las competencias clave establecidas en la Recomendación del Consejo de la Unión Europea de 22 de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente"
+  }
+}

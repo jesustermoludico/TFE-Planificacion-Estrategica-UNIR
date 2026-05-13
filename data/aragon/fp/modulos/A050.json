@@ -1,0 +1,44 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "A050",
+    "titulo_modulo": "Lengua extranjera profesional: inglés 1",
+    "duracion_total": "64",
+    "creditos_ects": "No especificado",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para el desempeño de actividades relacionadas con el entorno profesional en el que el profesional va a ejercer su profesionalidad. Las líneas de actuación versarán sobre: La elaboración de mensajes escritos y orales para realizar consultas técnicas. La interpretación de información escrita en el ámbito del sector productivo. La cumplimentación de documentos profesionales facilitando información detallada. La valoración de la importancia de la comunicación en lengua extranjera en el contexto empresarial.",
+    "objetivos_generales_asociados": "Contribuye a los objetivos generales del ciclo",
+    "competencias_profesionales_asociadas": "Contribuye a las competencias del título",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_A050",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Interpretación y emisión de mensajes escritos",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_A050", "descripcion_punto": "Comprensión de mensajes, textos y artículos profesionales. Uso de soportes telemáticos (fax, e-mail)." },
+                { "id_punto": "P_01_02_A050", "descripcion_punto": "Recursos gramaticales: tiempos verbales, voz pasiva, estilo indirecto y relaciones lógicas." },
+                { "id_punto": "P_01_03_A050", "descripcion_punto": "Elaboración de textos profesionales sencillos: adecuación al registro, selección léxica y coherencia." },
+                { "id_punto": "P_01_04_A050", "descripcion_punto": "Identificación de elementos culturales, normas socioculturales y protocolarias internacionales." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_A050",
+            "ra_descripcion": "Interpreta información profesional escrita contenida en textos escritos complejos.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha relacionado el texto con el ámbito del sector productivo del título." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha realizado traducciones directas e inversas de textos específicos sencillos." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han leído de forma comprensiva textos específicos de su ámbito profesional." }
+            ]
+        },
+        {
+            "ra_id": "RA_2_A050",
+            "ra_descripcion": "Elabora textos sencillos en lengua estándar, relacionando reglas gramaticales con su finalidad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han redactado textos breves relacionados con aspectos cotidianos o profesionales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha cumplimentado documentación específica de su campo profesional." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha elaborado una solicitud de empleo y un breve currículo." }
+            ]
+        }
+    ]
+}

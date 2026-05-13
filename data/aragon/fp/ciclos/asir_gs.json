@@ -1,0 +1,143 @@
+{
+  "version": "1.0.0",
+  "referencia": "Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.",
+  "aplicabilidad_otras_normas": {
+    "01": "Real Decreto 1660/1994, de 22 de julio, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos y las correspondientes enseñanzas mínimas.",
+    "02": "Real Decreto 1675/1994, de 22 de julio, por el que se establece el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos."
+  },
+  "identificacion": {
+    "denominación": "Administración de Sistemas Informáticos en Red",
+    "nivel": "Formación Profesional de Grado Superior",
+    "duración": "2000",
+    "familia": "Informática y Comunicaciones",
+    "referente_europeo": "CINE-5b"
+  },
+  "perfil_profesional": "El perfil profesional del título de Técnico Superior en Administración de Sistemas Informáticos en Red queda determinado por su competencia general, sus competencias profesionales, personales y sociales, y por la relación de cualificaciones y, en su caso, unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.",
+  "competencia_general": "La competencia general de este título consiste en configurar, administrar y mantener sistemas informáticos, garantizando la funcionalidad, la integridad de los recursos y servicios del sistema, con la calidad exigida y cumpliendo la reglamentación vigente.",
+  "cpps": [
+    { "orden": "1", "titulo": "Administrar sistemas operativos de servidor, instalando y configurando el software, en condiciones de calidad para asegurar el funcionamiento del sistema." },
+    { "orden": "2", "titulo": "Administrar servicios de red (web, mensajería electrónica y transferencia de archivos, entre otros) instalando y configurando el software, en condiciones de calidad." },
+    { "orden": "3", "titulo": "Administrar aplicaciones instalando y configurando el software, en condiciones de calidad para responder a las necesidades de la organización." },
+    { "orden": "4", "titulo": "Implantar y gestionar bases de datos instalando y administrando el software de gestión en condiciones de calidad, según las características de la explotación." },
+    { "orden": "5", "titulo": "Optimizar el rendimiento del sistema configurando los dispositivos hardware de acuerdo a los requisitos de funcionamiento." },
+    { "orden": "6", "titulo": "Evaluar el rendimiento de los dispositivos hardware identificando posibilidades de mejoras según las necesidades de funcionamiento." },
+    { "orden": "7", "titulo": "Determinar la infraestructura de redes telemáticas elaborando esquemas y seleccionando equipos y elementos." },
+    { "orden": "8", "titulo": "Integrar equipos de comunicaciones en infraestructuras de redes telemáticas, determinando la configuración para asegurar su conectividad." },
+    { "orden": "9", "titulo": "Implementar soluciones de alta disponibilidad, analizando las distintas opciones del mercado, para proteger y recuperar el sistema ante situaciones imprevistas." },
+    { "orden": "10", "titulo": "Supervisar la seguridad física según especificaciones del fabricante y el plan de seguridad para evitar interrupciones en la prestación de servicios del sistema." },
+    { "orden": "11", "titulo": "Asegurar el sistema y los datos según las necesidades de uso y las condiciones de seguridad establecidas para prevenir fallos y ataques externos." },
+    { "orden": "12", "titulo": "Administrar usuarios de acuerdo a las especificaciones de explotación para garantizar los accesos y la disponibilidad de los recursos del sistema." },
+    { "orden": "13", "titulo": "Diagnosticar las disfunciones del sistema y adoptar las medidas correctivas para restablecer su funcionalidad." },
+    { "orden": "14", "titulo": "Gestionar y/o realizar el mantenimiento de los recursos de su área (programando y verificando su cumplimiento), en función de las cargas de trabajo y el plan de mantenimiento." },
+    { "orden": "15", "titulo": "Efectuar consultas, dirigiéndose a la persona adecuada y saber respetar la autonomía de los subordinados, informando cuando sea conveniente." },
+    { "orden": "16", "titulo": "Mantener el espíritu de innovación y actualización en el ámbito de su trabajo para adaptarse a los cambios tecnológicos y organizativos de su entorno profesional." },
+    { "orden": "17", "titulo": "Liderar situaciones colectivas que se puedan producir, mediando en conflictos personales y laborales, contribuyendo al establecimiento de un ambiente de trabajo agradable y actuando en todo momento de forma sincera, respetuosa y tolerante." },
+    { "orden": "18", "titulo": "Resolver problemas y tomar decisiones individuales, siguiendo las normas y procedimientos establecidos, definidos dentro del ámbito de su competencia." },
+    { "orden": "19", "titulo": "Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y de aprendizaje." },
+    { "orden": "20", "titulo": "Participar de forma activa en la vida económica, social y cultural con actitud crítica y responsable." },
+    { "orden": "21", "titulo": "Crear y gestionar una pequeña empresa, realizando un estudio de viabilidad de productos, de planificación de la producción y de comercialización." }
+  ],
+  "cualificaciones": {
+    "completas": [
+      {
+        "descripcion_cualificacion": "Gestión de sistemas informáticos IFC152_3 (R.D. 1087/2005, de 16 de septiembre)",
+        "letra_cualificacion": "a",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0484_3", "titulo_cualificacion": "Administrar los dispositivos hardware del sistema." },
+          { "codigo_cualificacion": "UC0485_3", "titulo_cualificacion": "Instalar, configurar y administrar el software de base y de aplicación del sistema." },
+          { "codigo_cualificacion": "UC0486_3", "titulo_cualificacion": "Asegurar equipos informáticos." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Administración de servicios de Internet IFC156_3 (R.D. 1087/2005, de 16 de septiembre)",
+        "letra_cualificacion": "b",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0495_3", "titulo_cualificacion": "Instalar, configurar y administrar el software para gestionar un entorno web." },
+          { "codigo_cualificacion": "UC0496_3", "titulo_cualificacion": "Instalar, configurar y administrar servicios de mensajería electrónica." },
+          { "codigo_cualificacion": "UC0497_3", "titulo_cualificacion": "Instalar, configurar y administrar servicios de transferencia de archivos y multimedia." },
+          { "codigo_cualificacion": "UC0490_3", "titulo_cualificacion": "Gestionar servicios en el sistema informático." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Administración de bases de datos IFC079_3 (R.D. 295/2004, de 20 de febrero)",
+        "letra_cualificacion": "c",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0223_3", "titulo_cualificacion": "Configurar y explotar sistemas informáticos." },
+          { "codigo_cualificacion": "UC0224_3", "titulo_cualificacion": "Configurar y gestionar un sistema gestor de bases de datos." },
+          { "codigo_cualificacion": "UC0225_3", "titulo_cualificacion": "Configurar y gestionar la base de datos." }
+        ]
+      }
+    ],
+    "incompletas": [
+      {
+        "descripcion_cualificacion": "Desarrollo de aplicaciones con tecnologías web IFC154_3 (R.D. 1087/2005, de 16 de septiembre)",
+        "letra_cualificacion": "a",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0493_3", "titulo_cualificacion": "Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet." }
+        ]
+      }
+    ]
+  },
+  "entorno_profesional": [
+    { "id_entorno_profesional": "1", "descripcion_entorno_profesional": "Este profesional ejerce su actividad en el área de informática de entidades que dispongan de sistemas para la gestión de datos e infraestructura de redes (intranet, internet y/o extranet)." },
+    { "id_entorno_profesional": "2", "descripcion_entorno_profesional": "Técnico en administración de sistemas." },
+    { "id_entorno_profesional": "3", "descripcion_entorno_profesional": "Responsable de informática." },
+    { "id_entorno_profesional": "4", "descripcion_entorno_profesional": "Técnico en servicios de Internet." },
+    { "id_entorno_profesional": "5", "descripcion_entorno_profesional": "Técnico en servicios de mensajería electrónica." },
+    { "id_entorno_profesional": "6", "descripcion_entorno_profesional": "Personal de apoyo y soporte técnico." },
+    { "id_entorno_profesional": "7", "descripcion_entorno_profesional": "Técnico en teleasistencia." },
+    { "id_entorno_profesional": "8", "descripcion_entorno_profesional": "Técnico en administración de base de datos." },
+    { "id_entorno_profesional": "9", "descripcion_entorno_profesional": "Técnico de redes." },
+    { "id_entorno_profesional": "10", "descripcion_entorno_profesional": "Supervisor de sistemas." },
+    { "id_entorno_profesional": "11", "descripcion_entorno_profesional": "Técnico en servicios de comunicaciones." },
+    { "id_entorno_profesional": "12", "descripcion_entorno_profesional": "Técnico en entornos web." }
+  ],
+  "prospectiva": [
+    { "id_prospectiva": "1", "descripcion_prospectiva": "El perfil profesional de este título evoluciona hacia una mayor integración, en la pequeña y mediana empresa, de los sistemas de gestión e intercambio de información, al ser necesario que éstos sean cada vez más estables y seguros." },
+    { "id_prospectiva": "2", "descripcion_prospectiva": "La intervención en sistemas informáticos destinados al control de la producción en el sector industrial está adquiriendo más importancia para este perfil, con el propósito esencial de asegurar la continuidad del servicio." },
+    { "id_prospectiva": "3", "descripcion_prospectiva": "El aseguramiento de la funcionalidad y rentabilidad del sistema informático, sirviendo de apoyo al resto de departamentos de una organización, es un aspecto cada vez más relevante para este perfil profesional." },
+    { "id_prospectiva": "4", "descripcion_prospectiva": "Las tareas de tratamiento y transferencia de datos e información deberán adaptarse a la normativa legal que regula tales aspectos." },
+    { "id_prospectiva": "5", "descripcion_prospectiva": "La tele-operación, asistencia técnica remota, asistencia «on line» y los tele-centros se están configurando como elementos imprescindibles de respuesta a la demanda de asistencia técnica." },
+    { "id_prospectiva": "6", "descripcion_prospectiva": "La presencia comercial de empresas en Internet está aumentando progresivamente el número de transacciones realizadas por este medio, por lo que es indispensable el aseguramiento de los sistemas y la custodia de datos." },
+    { "id_prospectiva": "7", "descripcion_prospectiva": "Los rápidos avances y cambios tecnológicos del sector hacen que se demanden profesionales en los que se hacen imprescindibles actitudes favorables hacia la autoformación." }
+  ],
+  "objetivos_generales": [
+    { "id_objetivos_generales": "1", "descripcion_objetivos_generales": "Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor." },
+    { "id_objetivos_generales": "2", "descripcion_objetivos_generales": "Instalar y configurar el software de base, siguiendo documentación técnica y especificaciones dadas, para administrar sistemas operativos de servidor." },
+    { "id_objetivos_generales": "3", "descripcion_objetivos_generales": "Instalar y configurar software de mensajería y transferencia de ficheros, entre otros, relacionándolos con su aplicación y siguiendo documentación y especificaciones dadas, para administrar servicios de red." },
+    { "id_objetivos_generales": "4", "descripcion_objetivos_generales": "Instalar y configurar software de gestión, siguiendo especificaciones y analizando entornos de aplicación, para administrar aplicaciones." },
+    { "id_objetivos_generales": "5", "descripcion_objetivos_generales": "Instalar y administrar software de gestión, relacionándolo con su explotación, para implantar y gestionar bases de datos." },
+    { "id_objetivos_generales": "6", "descripcion_objetivos_generales": "Configurar dispositivos hardware, analizando sus características funcionales, para optimizar el rendimiento del sistema." },
+    { "id_objetivos_generales": "7", "descripcion_objetivos_generales": "Configurar hardware de red, analizando sus caracteristicas funcionales y relacionándolo con su campo de aplicación, para integrar equipos de comunicaciones." },
+    { "id_objetivos_generales": "8", "descripcion_objetivos_generales": "Analizar tecnologías de interconexión, describiendo sus características y posibilidades de aplicación, para configurar la estructura de la red telemática y evaluar su rendimiento." },
+    { "id_objetivos_generales": "9", "descripcion_objetivos_generales": "Elaborar esquemas de redes telemáticas utilizando software especifico para configurar la estructura de la red telemática." },
+    { "id_objetivos_generales": "10", "descripcion_objetivos_generales": "Seleccionar sistemas de protección y recuperación, analizando sus caracteristicas funcionales, para poner en marcha soluciones de alta disponibilidad." },
+    { "id_objetivos_generales": "11", "descripcion_objetivos_generales": "Identificar condiciones de equipos e instalaciones, interpretando planes de seguridad y especificaciones de fabricante, para supervisar la seguridad fisica." },
+    { "id_objetivos_generales": "12", "descripcion_objetivos_generales": "Aplicar técnicas de protección contra amenazas externas, tipificándolas y evaluándolas para asegurar el sistema." },
+    { "id_objetivos_generales": "13", "descripcion_objetivos_generales": "Aplicar técnicas de protección contra pérdidas de información, analizando planes de seguridad y necesidades de uso para asegurar los datos." },
+    { "id_objetivos_generales": "14", "descripcion_objetivos_generales": "Asignar los accesos y recursos del sistema, aplicando las especificaciones de la explotación, para administrar usuarios." },
+    { "id_objetivos_generales": "15", "descripcion_objetivos_generales": "Aplicar técnicas de monitorización interpretando los resultados y relacionándolos con las medidas correctoras para diagnosticar y corregir las disfunciones." },
+    { "id_objetivos_generales": "16", "descripcion_objetivos_generales": "Establecer la planificación de tareas, analizando actividades y cargas de trabajo del sistema para gestionar el mantenimiento." },
+    { "id_objetivos_generales": "17", "descripcion_objetivos_generales": "Identificar los cambios tecnológicos, organizativos, económicos y laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para resolver problemas y mantener una cultura de actualización e innovación." },
+    { "id_objetivos_generales": "18", "descripcion_objetivos_generales": "Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas." },
+    { "id_objetivos_generales": "19", "descripcion_objetivos_generales": "Identificar y valorar las oportunidades de aprendizaje y su relación con el mundo laboral, analizando las ofertas y demandas del mercado para gestionar su carrera profesional." },
+    { "id_objetivos_generales": "20", "descripcion_objetivos_generales": "Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa." },
+    { "id_objetivos_generales": "21", "descripcion_objetivos_generales": "Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático." }
+  ],
+  "modulos": [
+    { "id_modulo": "0369", "titulo_modulo": "Implantación de sistemas operativos" },
+    { "id_modulo": "0370", "titulo_modulo": "Planificación y administración de redes" },
+    { "id_modulo": "0371", "titulo_modulo": "Fundamentos de hardware" },
+    { "id_modulo": "0372", "titulo_modulo": "Gestión de bases de datos" },
+    { "id_modulo": "0373", "titulo_modulo": "Lenguajes de marcas y sistemas de gestión de información" },
+    { "id_modulo": "0374", "titulo_modulo": "Administración de sistemas operativos" },
+    { "id_modulo": "0375", "titulo_modulo": "Servicios de red e Internet" },
+    { "id_modulo": "0376", "titulo_modulo": "Implantación de aplicaciones web" },
+    { "id_modulo": "0377", "titulo_modulo": "Administración de sistemas gestores de bases de datos" },
+    { "id_modulo": "0378", "titulo_modulo": "Seguridad y alta disponibilidad" },
+    { "id_modulo": "0379", "titulo_modulo": "Proyecto de administración de sistemas informáticos en red" },
+    { "id_modulo": "0380", "titulo_modulo": "Formación y orientación laboral" },
+    { "id_modulo": "0381", "titulo_modulo": "Empresa e iniciativa emprendedora" },
+    { "id_modulo": "0382", "titulo_modulo": "Formación en centros de trabajo" }
+  ]
+}

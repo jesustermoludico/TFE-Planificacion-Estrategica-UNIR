@@ -1,0 +1,187 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0378",
+    "titulo_modulo": "Seguridad y Alta Disponibilidad",
+    "duracion_total": "55",
+    "creditos_ects": "6",
+    "seccion_orientaciones": "Este módulo profesional contiene la formación necesaria para seleccionar y utilizar técnicas y herramientas específicas de seguridad informática en el ámbito de la administración de sistemas. Además, servirá para conocer arquitecturas de alta disponibilidad y utilizar herramientas de virtualización en la implantación de servicios de alta disponibilidad. Las funciones de la administración segura de sistemas incluyen aspectos como: El conocimiento y correcta manipulación de todos los elementos que forman el componente físico y lógico. La adopción de prácticas seguras de acuerdo al plan de seguridad física y lógica. El conocimiento y uso de técnicas seguras de acceso remoto. La selección y aplicación de técnicas y herramientas de seguridad activa. La instalación y configuración de protección perimetral, cortafuegos y servidores proxy. La instalación y configuración de servicios de alta disponibilidad. El conocimiento y aplicación de la legislación vigente. Las líneas de actuación versarán sobre: El conocimiento de las prácticas relativas a seguridad física y lógica. El análisis de herramientas de seguridad activa. El análisis de técnicas de acceso remoto seguro. El análisis de herramientas de protección perimetral. La instalación, configuración y prueba de cortafuegos y servidores proxy. El análisis de servicios de alta disponibilidad.",
+    "objetivos_generales_asociados": "j, k, l, m, o, p",
+    "competencias_profesionales_asociadas": "e, f, i, j, k, m, n, o, r, s",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_378",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Adopción de pautas de seguridad informática",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_378", "descripcion_punto": "Fiabilidad, confidencialidad, integridad y disponibilidad." },
+                { "id_punto": "P_01_02_378", "descripcion_punto": "Elementos vulnerables (HW, SW, datos) y amenazas físicas y lógicas." },
+                { "id_punto": "P_01_03_378", "descripcion_punto": "Seguridad física y ambiental: ubicación, protección y SAI." },
+                { "id_punto": "P_01_04_378", "descripcion_punto": "Seguridad lógica: criptografía, ACL, contraseñas y respaldo." },
+                { "id_punto": "P_01_05_378", "descripcion_punto": "Análisis forense en sistemas informáticos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_378",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Implantación de mecanismos de seguridad activa",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_378", "descripcion_punto": "Ataques y contramedidas: clasificación, anatomía y software malicioso." },
+                { "id_punto": "P_02_02_378", "descripcion_punto": "Herramientas preventivas y paliativas: instalación y configuración." },
+                { "id_punto": "P_02_03_378", "descripcion_punto": "Seguridad en conexión con redes públicas y red corporativa." },
+                { "id_punto": "P_02_04_378", "descripcion_punto": "Monitorización del tráfico y seguridad en protocolos inalámbricos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_378",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Implantación de técnicas de acceso remoto. Seguridad perimetral",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_378", "descripcion_punto": "Perímetros de red, DMZ y arquitecturas de subred protegida." },
+                { "id_punto": "P_03_02_378", "descripcion_punto": "Redes privadas virtuales (VPN). Técnicas de cifrado y protocolos (SSL, IPSec, SSH)." },
+                { "id_punto": "P_03_03_378", "descripcion_punto": "Servidores de acceso remoto y autenticación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_378",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Instalación y configuración de cortafuegos",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_378", "descripcion_punto": "Tipos, características y funciones principales. Filtrado de paquetes." },
+                { "id_punto": "P_04_02_378", "descripcion_punto": "Instalación, ubicación y reglas de filtrado." },
+                { "id_punto": "P_04_03_378", "descripcion_punto": "Pruebas de funcionamiento, sondeo y registros de sucesos." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_378",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Instalación y configuración de servidores proxy",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_378", "descripcion_punto": "Tipos de proxy, características y funciones." },
+                { "id_punto": "P_05_02_378", "descripcion_punto": "Instalación y configuración de servidores y clientes proxy." },
+                { "id_punto": "P_05_03_378", "descripcion_punto": "Almacenamiento en caché, filtros y métodos de autenticación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_378",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Implantación de soluciones de alta disponibilidad",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_378", "descripcion_punto": "Análisis de configuraciones: funcionamiento ininterrumpido e integridad." },
+                { "id_punto": "P_06_02_378", "descripcion_punto": "Servidores redundantes, clusters y balanceadores de carga." },
+                { "id_punto": "P_06_03_378", "descripcion_punto": "Virtualización de sistemas: herramientas, configuración y alta disponibilidad." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_378",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Legislación y normas sobre seguridad",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_378", "descripcion_punto": "Legislación sobre protección de datos." },
+                { "id_punto": "P_07_02_378", "descripcion_punto": "Legislación sobre servicios de la sociedad de la información y correo electrónico." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1",
+            "ra_descripcion": "Adopta pautas y prácticas de tratamiento seguro de la información, reconociendo las vulnerabilidades de un sistema informático y la necesidad de asegurarlo.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha valorado la importancia de asegurar privacidad, coherencia y disponibilidad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han descrito las diferencias entre seguridad física y lógica." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han clasificado las principales vulnerabilidades según tipología y origen." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha contrastado la incidencia de ingeniería social en fraudes informáticos." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han adoptado políticas de contraseñas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han valorado las ventajas de sistemas biométricos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han aplicado técnicas criptográficas en almacenamiento y transmisión." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha reconocido la necesidad de un plan de protección perimetral." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han identificado las fases del análisis forense ante ataques." }
+            ]
+        },
+        {
+            "ra_id": "RA_2",
+            "ra_descripcion": "Implanta mecanismos de seguridad activa, seleccionando y ejecutando contramedidas ante amenazas o ataques al sistema.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han clasificado los principales tipos de amenazas lógicas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha verificado el origen y autenticidad de aplicaciones y estado del SO." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado la anatomía de ataques habituales y medidas preventivas." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han analizado amenazas y software malicioso en entornos controlados." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han implantado aplicaciones para detección y eliminación de malware." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han utilizado cifrado, firmas y certificados en redes públicas." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han evaluado medidas de seguridad en protocolos inalámbricos." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha reconocido la necesidad de inventariar servicios de red activos." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han descrito tipos y características de sistemas de detección de intrusiones." }
+            ]
+        },
+        {
+            "ra_id": "RA_3",
+            "ra_descripcion": "Implanta técnicas seguras de acceso remoto a un sistema informático, interpretando y aplicando el plan de seguridad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito escenarios típicos que precisan fortificar la red interna." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han clasificado zonas de riesgo según criterios de seguridad perimetral." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado protocolos seguros de comunicación." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han configurado VPN mediante protocolos seguros a distintos niveles." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha implantado un servidor como pasarela de acceso a la red interna." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han identificado métodos de autenticación en el acceso de usuarios remotos." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha instalado e integrado en la pasarela un servidor de autenticación." }
+            ]
+        },
+        {
+            "ra_id": "RA_4",
+            "ra_descripcion": "Implanta cortafuegos para asegurar un sistema informático, analizando prestaciones y controlando el tráfico.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han descrito las características, tipos y funciones de los cortafuegos." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han clasificado los niveles en los que se realiza el filtrado de tráfico." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha planificado la instalación para limitar accesos a zonas de la red." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se han configurado filtros a partir de un listado de reglas." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han revisado registros de sucesos para verificar la aplicación de reglas." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han probado distintas opciones de implementación (SW y HW)." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han diagnosticado problemas de conectividad provocados por cortafuegos." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha elaborado documentación relativa a instalación y uso." }
+            ]
+        },
+        {
+            "ra_id": "RA_5",
+            "ra_descripcion": "Implanta servidores proxy, aplicando criterios de configuración que garanticen el funcionamiento seguro.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han identificado los tipos de proxy, sus características y funciones." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha instalado y configurado un servidor proxy-cache." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han configurado los métodos de autenticación en el proxy." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha utilizado el servidor proxy para establecer restricciones Web." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha configurado un proxy en modo transparente." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han solucionado problemas de acceso desde los clientes al proxy." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se han realizado pruebas monitorizando actividad con herramientas gráficas." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se ha configurado un servidor proxy en modo inverso." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se ha elaborado documentación relativa a instalación y uso." }
+            ]
+        },
+        {
+            "ra_id": "RA_6",
+            "ra_descripcion": "Implanta soluciones de alta disponibilidad empleando técnicas de virtualización y configurando entornos de prueba.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han analizado supuestos que necesitan alta disponibilidad." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han identificado soluciones HW para asegurar la continuidad." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han evaluado posibilidades de virtualización para alta disponibilidad." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha implantado un servidor redundante ante caída del principal." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha implantado un balanceador de carga en la red interna." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han implantado sistemas de almacenamiento redundante." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha evaluado la utilidad de clusters para fiabilidad y productividad." },
+                { "letra_criterio": "h", "descripcion_criterio": "Se han analizado soluciones de futuro para demanda creciente." },
+                { "letra_criterio": "i", "descripcion_criterio": "Se han esquematizado y documentado soluciones para alta disponibilidad." }
+            ]
+        },
+        {
+            "ra_id": "RA_7",
+            "ra_descripcion": "Reconoce la legislación y normativa sobre seguridad y protección de datos valorando su importancia.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha descrito la legislación sobre protección de datos personales." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se ha determinado la necesidad de controlar el acceso a información personal." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han identificado figuras legales en el tratamiento de ficheros." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha contrastado el deber de poner datos a disposición de los interesados." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha descrito la legislación sobre servicios de sociedad de información y e-commerce." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han contrastado las normas sobre gestión de seguridad de información." },
+                { "letra_criterio": "g", "descripcion_criterio": "Se ha comprendido la necesidad de conocer y respetar la normativa legal." }
+            ]
+        }
+    ]
+}

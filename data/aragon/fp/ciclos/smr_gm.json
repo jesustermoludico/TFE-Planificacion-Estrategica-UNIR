@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "referencia": "ORDEN de 26 de junio de 2009, de la Consejera de Educación, Cultura y Deporte, por la que se establece el currículo del título de Técnico en Sistemas Microinformáticos y Redes para la Comunidad Autónoma de Aragón.",
+  "aplicabilidad_otras_normas": {
+    "01": "Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y fija sus enseñanzas mínimas[cite: 5227, 5233].",
+    "02": "Real Decreto 1538/2006, de 15 de diciembre, por el que se establece la ordenación general de la formación profesional del sistema educativo[cite: 5223].",
+    "03": "Real Decreto 497/2003, de 2 de mayo, que regulaba el título anterior de Técnico en Explotación de Sistemas Informáticos[cite: 5228].",
+    "04": "Resolución de 29 de julio de 2024, que modifica aspectos de la ordenación de la FP en Aragón."
+  },
+  "identificacion": {
+    "denominación": "Sistemas Microinformáticos y Redes [cite: 5239]",
+    "nivel": "Formación Profesional de Grado Medio [cite: 5240]",
+    "duración": "2000 horas [cite: 5241]",
+    "familia": "Informática y Comunicaciones [cite: 5238]",
+    "referente_europeo": "CINE-3 [cite: 5242]"
+  },
+  "perfil_profesional": "El perfil profesional del título de Técnico en Sistemas Microinformáticos y Redes queda determinado por su competencia general, sus competencias profesionales, personales y sociales, por la relación de cualificaciones y, en su caso, unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título[cite: 5244].",
+  "competencia_general": "La competencia general de este título consiste en instalar, configurar y mantener sistemas microinformáticos, aislados o en red, así como redes locales en pequeños entornos, asegurando su funcionalidad y aplicando los protocolos de calidad, seguridad y respeto al medio ambiente establecidos[cite: 5246].",
+  "cpps": [
+    { "orden": "a", "titulo": "Determinar la logística asociada a las operaciones de instalación, configuración y mantenimiento de sistemas microinformáticos[cite: 5249]." },
+    { "orden": "b", "titulo": "Montar y configurar ordenadores y periféricos, asegurando su funcionamiento en condiciones de calidad y seguridad[cite: 5251]." },
+    { "orden": "c", "titulo": "Instalar y configurar software básico y de aplicación, asegurando su funcionamiento en condiciones de calidad y seguridad[cite: 5253]." },
+    { "orden": "d", "titulo": "Replantear el cableado y la electrónica de redes locales en pequeños entornos y su conexión con redes de área extensa[cite: 5255]." },
+    { "orden": "e", "titulo": "Instalar y configurar redes locales cableadas, inalámbricas o mixtas y su conexión a redes públicas[cite: 5256]." },
+    { "orden": "f", "titulo": "Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local[cite: 5258]." },
+    { "orden": "g", "titulo": "Realizar las pruebas funcionales en sistemas microinformáticos y redes locales, localizando y diagnosticando disfunciones[cite: 5259]." },
+    { "orden": "h", "titulo": "Mantener sistemas microinformáticos y redes locales, sustituyendo, actualizando y ajustando sus componentes[cite: 5261]." },
+    { "orden": "i", "titulo": "Ejecutar procedimientos establecidos de recuperación de datos y aplicaciones ante fallos y pérdidas de datos en el sistema[cite: 5263]." },
+    { "orden": "j", "titulo": "Elaborar documentación técnica y administrativa del sistema, cumpliendo las normas y reglamentación del sector[cite: 5264]." },
+    { "orden": "k", "titulo": "Elaborar presupuestos de sistemas a medida cumpliendo los requerimientos del cliente[cite: 5266]." },
+    { "orden": "l", "titulo": "Asesorar y asistir al cliente, canalizando a un nivel superior los supuestos que lo requieran[cite: 5267]." },
+    { "orden": "m", "titulo": "Organizar y desarrollar el trabajo asignado manteniendo unas relaciones profesionales adecuadas[cite: 5269]." },
+    { "orden": "n", "titulo": "Mantener un espíritu constante de innovación y actualización en el ámbito del sector informático[cite: 5271]." },
+    { "orden": "ñ", "titulo": "Utilizar los medios de consulta disponibles para resolver en tiempo razonable supuestos no conocidos y dudas profesionales[cite: 5273]." },
+    { "orden": "o", "titulo": "Aplicar los protocolos y normas de seguridad, calidad y respeto al medio ambiente en las intervenciones realizadas[cite: 5275]." },
+    { "orden": "p", "titulo": "Cumplir con los objetivos de la producción, colaborando con el equipo de trabajo[cite: 5277]." },
+    { "orden": "q", "titulo": "Adaptarse a diferentes puestos de trabajo y nuevas situaciones laborales originados por cambios tecnológicos[cite: 5279]." },
+    { "orden": "r", "titulo": "Resolver problemas y tomar decisiones individuales siguiendo las normas y procedimientos establecidos[cite: 5281]." },
+    { "orden": "s", "titulo": "Ejercer sus derechos y cumplir con las obligaciones derivadas de las relaciones laborales[cite: 5283]." },
+    { "orden": "t", "titulo": "Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y aprendizaje[cite: 5285]." },
+    { "orden": "u", "titulo": "Crear y gestionar una pequeña empresa, realizando un estudio de viabilidad[cite: 5286]." }
+  ],
+  "cualificaciones": {
+    "completas": [
+      {
+        "descripcion_cualificacion": "Sistemas microinformáticos IFC078_2 (Real Decreto 295/2004, 20 febrero) [cite: 5292]",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0219_2", "titulo_cualificacion": "Instalar y configurar el software base en sistemas microinformáticos[cite: 5294]." },
+          { "codigo_cualificacion": "UC0220_2", "titulo_cualificacion": "Instalar, configurar y verificar los elementos de la red local según procedimientos establecidos[cite: 5295]." },
+          { "codigo_cualificacion": "UC0221_2", "titulo_cualificacion": "Instalar, configurar y mantener paquetes informáticos de propósito general y aplicaciones específicas[cite: 5296]." },
+          { "codigo_cualificacion": "UC0222_2", "titulo_cualificacion": "Facilitar al usuario la utilización de paquetes informáticos de propósito general y aplicaciones específicas[cite: 5297]." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Montaje y reparación de sistemas microinformáticos IFC298_2 (Real Decreto 1201/2007, 14 septiembre) [cite: 5298]",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0953_2", "titulo_cualificacion": "Montar equipos microinformáticos[cite: 5299]." },
+          { "codigo_cualificacion": "UC0219_2", "titulo_cualificacion": "Instalar y configurar el software base en sistemas microinformáticos[cite: 5300]." },
+          { "codigo_cualificacion": "UC0954_2", "titulo_cualificacion": "Reparar y ampliar equipamiento microinformático[cite: 5301]." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Operación de redes departamentales IFC299_2 (Real Decreto 1201/2007, 14 septiembre) [cite: 5302]",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0220_2", "titulo_cualificacion": "Instalar, configurar y verificar los elementos de la red local según procedimientos preestablecidos[cite: 5304]." },
+          { "codigo_cualificacion": "UC0955_2", "titulo_cualificacion": "Monitorizar los procesos de comunicaciones de la red local[cite: 5305]." },
+          { "codigo_cualificacion": "UC0956_2", "titulo_cualificacion": "Realizar los procesos de conexión entre redes privadas y redes públicas[cite: 5306]." }
+        ]
+      },
+      {
+        "descripcion_cualificacion": "Operación de sistemas informáticos IFC300_2 (Real Decreto 1201/2007, 14 septiembre) [cite: 5307]",
+        "contenido_cualificacion": [
+          { "codigo_cualificacion": "UC0219_2", "titulo_cualificacion": "Instalar y configurar el software base en sistemas microinformáticos[cite: 5309]." },
+          { "codigo_cualificacion": "UC0957_2", "titulo_cualificacion": "Mantener y regular el subsistema físico en sistemas informáticos[cite: 5310]." },
+          { "codigo_cualificacion": "UC0958_2", "titulo_cualificacion": "Ejecutar procedimientos de administración y mantenimiento en el software base y de aplicación del cliente[cite: 5311]." },
+          { "codigo_cualificacion": "UC0959_2", "titulo_cualificacion": "Mantener la seguridad de los subsistemas físicos y lógicos en sistemas informáticos[cite: 5312]." }
+        ]
+      }
+    ],
+    "incompletas": []
+  },
+  "entorno_profesional": [
+    { "id_entorno_profesional": "1", "descripcion_entorno_profesional": "Empresas del sector servicios que se dediquen a la comercialización, montaje y reparación de equipos, redes y servicios microinformáticos[cite: 5314]." },
+    { "id_entorno_profesional": "2", "descripcion_entorno_profesional": "Técnico instalador-reparador de equipos informáticos[cite: 5316]." },
+    { "id_entorno_profesional": "3", "descripcion_entorno_profesional": "Técnico de soporte informático[cite: 5317]." },
+    { "id_entorno_profesional": "4", "descripcion_entorno_profesional": "Técnico de redes de datos[cite: 5318]." },
+    { "id_entorno_profesional": "5", "descripcion_entorno_profesional": "Reparador de periféricos de sistemas microinformáticos[cite: 5319]." },
+    { "id_entorno_profesional": "6", "descripcion_entorno_profesional": "Comercial de microinformática[cite: 5320]." },
+    { "id_entorno_profesional": "7", "descripcion_entorno_profesional": "Operador de tele-asistencia[cite: 5321]." },
+    { "id_entorno_profesional": "8", "descripcion_entorno_profesional": "Operador de sistemas[cite: 5322]." }
+  ],
+  "prospectiva": [
+    { "id_prospectiva": "1", "descripcion_prospectiva": "Evolución hacia un técnico muy especializado en la solución de problemas comunes en sistemas microinformáticos y redes locales en pequeños entornos[cite: 5324]." },
+    { "id_prospectiva": "2", "descripcion_prospectiva": "Fomento de la competencia orientada a la innovación en la aplicación óptima de soluciones tecnológicas de mercado[cite: 5325]." },
+    { "id_prospectiva": "3", "descripcion_prospectiva": "Tendencia hacia la asistencia técnica en el propio domicilio debido al abaratamiento de Internet en hogares[cite: 5328]." },
+    { "id_prospectiva": "4", "descripcion_prospectiva": "Importancia creciente de la tele-operación y asistencia técnica remota u on-line[cite: 5329]." },
+    { "id_prospectiva": "5", "descripcion_prospectiva": "Necesidad de adaptación a la normativa sobre gestión de residuos y agentes contaminantes[cite: 5330]." },
+    { "id_prospectiva": "6", "descripcion_prospectiva": "Aumento de la demanda para colaborar en la instalación y mantenimiento de servicios sobre red debido a transacciones por Internet[cite: 5332]." }
+  ],
+  "objetivos_generales": [
+    { "id_objetivos_generales": "a", "descripcion_objetivos_generales": "Organizar los componentes físicos y lógicos de un sistema microinformático para su instalación y mantenimiento[cite: 5337]." },
+    { "id_objetivos_generales": "b", "descripcion_objetivos_generales": "Identificar, ensamblar y conectar componentes y periféricos aplicando protocolos de calidad y seguridad[cite: 5338]." },
+    { "id_objetivos_generales": "c", "descripcion_objetivos_generales": "Reconocer y ejecutar procedimientos de instalación de sistemas operativos y programas[cite: 5339]." },
+    { "id_objetivos_generales": "d", "descripcion_objetivos_generales": "Representar la posición de equipos y líneas de transmisión para replantear el cableado de redes locales[cite: 5341]." },
+    { "id_objetivos_generales": "e", "descripcion_objetivos_generales": "Ubicar y fijar elementos de una red local cableada o inalámbrica aplicando procedimientos de montaje[cite: 5342]." },
+    { "id_objetivos_generales": "f", "descripcion_objetivos_generales": "Interconectar equipos informáticos y dispositivos de red local y WAN[cite: 5344]." },
+    { "id_objetivos_generales": "g", "descripcion_objetivos_generales": "Localizar y reparar averías en componentes físicos y lógicos[cite: 5346]." },
+    { "id_objetivos_generales": "h", "descripcion_objetivos_generales": "Sustituir y ajustar componentes para asegurar el rendimiento del sistema[cite: 5348]." },
+    { "id_objetivos_generales": "i", "descripcion_objetivos_generales": "Interpretar información para elaborar documentación técnica y administrativa[cite: 5350]." },
+    { "id_objetivos_generales": "j", "descripcion_objetivos_generales": "Valorar el coste de componentes y mano de obra para elaborar presupuestos[cite: 5352]." },
+    { "id_objetivos_generales": "k", "descripcion_objetivos_generales": "Reconocer características de componentes para asesorar a clientes[cite: 5354]." },
+    { "id_objetivos_generales": "l", "descripcion_objetivos_generales": "Detectar cambios tecnológicos para mantenerse actualizado en el sector[cite: 5356]." },
+    { "id_objetivos_generales": "m", "descripcion_objetivos_generales": "Reconocer y valorar incidencias determinando causas y acciones correctoras[cite: 5358]." },
+    { "id_objetivos_generales": "n", "descripcion_objetivos_generales": "Analizar procedimientos de calidad y prevención de riesgos laborales[cite: 5360]." },
+    { "id_objetivos_generales": "ñ", "descripcion_objetivos_generales": "Valorar actividades de trabajo para conseguir objetivos de producción[cite: 5362]." },
+    { "id_objetivos_generales": "o", "descripcion_objetivos_generales": "Identificar oportunidades de aprendizaje y empleo para gestionar la carrera profesional[cite: 5364]." },
+    { "id_objetivos_generales": "p", "descripcion_objetivos_generales": "Reconocer oportunidades de negocio para crear una pequeña empresa[cite: 5366]." },
+    { "id_objetivos_generales": "q", "descripcion_objetivos_generales": "Reconocer derechos y deberes para participar como ciudadano democrático[cite: 5367]." }
+  ],
+  "modulos": [
+    { "id_modulo": "0221", "titulo_modulo": "Montaje y mantenimiento de equipo [cite: 5370]" },
+    { "id_modulo": "0222", "titulo_modulo": "Sistemas operativos monopuesto [cite: 5374]" },
+    { "id_modulo": "0223", "titulo_modulo": "Aplicaciones ofimáticas [cite: 5377]" },
+    { "id_modulo": "0224", "titulo_modulo": "Sistemas operativos en red [cite: 5381]" },
+    { "id_modulo": "0225", "titulo_modulo": "Redes locales [cite: 5384]" },
+    { "id_modulo": "0226", "titulo_modulo": "Seguridad informática [cite: 5388]" },
+    { "id_modulo": "0227", "titulo_modulo": "Servicios en red [cite: 5391]" },
+    { "id_modulo": "0228", "titulo_modulo": "Aplicaciones web [cite: 5394]" },
+    { "id_modulo": "0229", "titulo_modulo": "Formación y orientación laboral [cite: 5397]" },
+    { "id_modulo": "0230", "titulo_modulo": "Empresa e iniciativa empresarial [cite: 5398]" },
+    { "id_modulo": "A013", "titulo_modulo": "Lengua extranjera del entorno profesional: inglés [cite: 5399]" },
+    { "id_modulo": "0231", "titulo_modulo": "Formación en centros de trabajo [cite: 5401]" },
+    { "id_modulo": "0156/0179", "titulo_modulo": "Inglés Profesional (según actualización 2024) [cite: 7017, 7018]" },
+    { "id_modulo": "IPE I/II", "titulo_modulo": "Itinerario personal para la empleabilidad (sustituye a FOL/EIE en Ley 2/2006 modificada) [cite: 7020]" }
+  ]
+}

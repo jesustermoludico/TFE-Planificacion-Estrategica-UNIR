@@ -1,0 +1,143 @@
+{
+    "version_modulo": "1.0.0",
+    "tipo_documento": "modulo_profesional",
+    "codigo_identificador": "0488",
+    "titulo_modulo": "Desarrollo de interfaces",
+    "duracion_total": "126",
+    "creditos_ects": "9",
+    "seccion_orientaciones": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollador de aplicaciones multiplataforma. La función de desarrollador de aplicaciones multiplataforma incluye aspectos como: El desarrollo de interfaces de usuario. La creación de informes. La preparación de aplicaciones para su distribución. La elaboración de los elementos de ayuda. La evaluación del funcionamiento de aplicaciones. Las actividades profesionales asociadas a esta función se aplican en el desarrollo de software de gestión multiplataforma. Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo están relacionados con: La utilización de herramientas de diseño de interfaces de usuario. La utilización de herramientas para el diseño de componentes visuales. La utilización de herramientas de diseño y generación de informes. La aplicación de criterios de usabilidad. El diseño y ejecución de pruebas. La instalación de aplicaciones. El uso de herramientas de generación de ayudas, guías, tutoriales y manuales.",
+    "objetivos_generales_asociados": "e, f, g, h, k, l, m, r, s, w",
+    "competencias_profesionales_asociadas": "d, e, f, g, h, k, l, m, r, s, t, w",
+    "bloques_contenidos_basicos": [
+        {
+            "id_bloque": "CB_01_488",
+            "orden_bloque": 1,
+            "descripcion_bloque": "Confección de interfaces de usuario",
+            "puntos_detalle": [
+                { "id_punto": "P_01_01_488", "descripcion_punto": "Librerías de componentes disponibles para diferentes sistemas operativos y lenguajes; características." },
+                { "id_punto": "P_01_02_488", "descripcion_punto": "Herramientas propietarias y libres de edición de interfaces. Diferentes IDE." },
+                { "id_punto": "P_01_03_488", "descripcion_punto": "Área de diseño, paleta de componentes y editor de propiedades." },
+                { "id_punto": "P_01_04_488", "descripcion_punto": "Contenedores: diversos tipos en entornos multiplataforma." },
+                { "id_punto": "P_01_05_488", "descripcion_punto": "Componentes: características, ubicación, alineamiento y administradores de diseño." },
+                { "id_punto": "P_01_06_488", "descripcion_punto": "Enlace de componentes a orígenes de datos y drivers de conexión a BD." },
+                { "id_punto": "P_01_07_488", "descripcion_punto": "Asociación de acciones a eventos y diálogos modales/no modales." },
+                { "id_punto": "P_01_08_488", "descripcion_punto": "Edición del código generado: clases, propiedades, métodos y escuchadores." }
+            ]
+        },
+        {
+            "id_bloque": "CB_02_488",
+            "orden_bloque": 2,
+            "descripcion_bloque": "Generación de interfaces a partir de documentos XML",
+            "puntos_detalle": [
+                { "id_punto": "P_02_01_488", "descripcion_punto": "Lenguajes de descripción de interfaces basados en XML y ámbito de aplicación." },
+                { "id_punto": "P_02_02_488", "descripcion_punto": "Elementos, etiquetas, atributos y valores." },
+                { "id_punto": "P_02_03_488", "descripcion_punto": "Herramientas para creación de interfaces multiplataforma: paletas, controles y contenedores." },
+                { "id_punto": "P_02_04_488", "descripcion_punto": "Edición, depuración y generación de código para diferentes plataformas." }
+            ]
+        },
+        {
+            "id_bloque": "CB_03_488",
+            "orden_bloque": 3,
+            "descripcion_bloque": "Creación de componentes visuales",
+            "puntos_detalle": [
+                { "id_punto": "P_03_01_488", "descripcion_punto": "Concepto y características de componentes: propiedades, atributos y editores." },
+                { "id_punto": "P_03_02_488", "descripcion_punto": "Eventos y asociación de acciones. Introspección y reflexión." },
+                { "id_punto": "P_03_03_488", "descripcion_punto": "Persistencia del componente. Propiedades simples, indexadas, compartidas y restringidas." },
+                { "id_punto": "P_03_04_488", "descripcion_punto": "Herramientas de desarrollo de componentes visuales y empaquetado." }
+            ]
+        },
+        {
+            "id_bloque": "CB_04_488",
+            "orden_bloque": 4,
+            "descripcion_bloque": "Usabilidad y accesibilidad",
+            "puntos_detalle": [
+                { "id_punto": "P_04_01_488", "descripcion_punto": "Usabilidad: características, atributos y métricas. Pruebas con usuarios." },
+                { "id_punto": "P_04_02_488", "descripcion_punto": "Normas ISO relacionadas (9126, 9241, 14915)." },
+                { "id_punto": "P_04_03_488", "descripcion_punto": "Pautas de diseño de estructura: menús, ventanas, cuadros de diálogo y atajos." },
+                { "id_punto": "P_04_04_488", "descripcion_punto": "Pautas de diseño de aspecto: colores, fuentes, iconos y distribución." },
+                { "id_punto": "P_04_05_488", "descripcion_punto": "Elementos interactivos, presentación de datos y secuencia de control." },
+                { "id_punto": "P_04_06_488", "descripcion_punto": "Accesibilidad: características y normas WAI." }
+            ]
+        },
+        {
+            "id_bloque": "CB_05_488",
+            "orden_bloque": 5,
+            "descripcion_bloque": "Confección de informes",
+            "puntos_detalle": [
+                { "id_punto": "P_05_01_488", "descripcion_punto": "Informes incrustados y no incrustados. Herramientas gráficas integradas y externas." },
+                { "id_punto": "P_05_02_488", "descripcion_punto": "Estructura general: secciones, encabezados, pies y formatos de salida." },
+                { "id_punto": "P_05_03_488", "descripcion_punto": "Filtrado de datos, valores calculados, recuentos y totales." },
+                { "id_punto": "P_05_04_488", "descripcion_punto": "Informes con agrupamiento, recuentos parciales, subtotales y subinformes." },
+                { "id_punto": "P_05_05_488", "descripcion_punto": "Uso de imágenes, gráficos y librerías para generación de informes." }
+            ]
+        },
+        {
+            "id_bloque": "CB_06_488",
+            "orden_bloque": 6,
+            "descripcion_bloque": "Documentación de aplicaciones",
+            "puntos_detalle": [
+                { "id_punto": "P_06_01_488", "descripcion_punto": "Ficheros de ayuda: formatos y herramientas de generación." },
+                { "id_punto": "P_06_02_488", "descripcion_punto": "Ayuda genérica y sensible al contexto. Índices y sistemas de búsqueda." },
+                { "id_punto": "P_06_03_488", "descripcion_punto": "Manuales de usuario, referencia, instalación, configuración y administración." },
+                { "id_punto": "P_06_04_488", "descripcion_punto": "Confección de tutoriales multimedia e interactivos: captura de pantalla y simulación." }
+            ]
+        },
+        {
+            "id_bloque": "CB_07_488",
+            "orden_bloque": 7,
+            "descripcion_bloque": "Distribución de aplicaciones",
+            "puntos_detalle": [
+                { "id_punto": "P_07_01_488", "descripcion_punto": "Componentes de una aplicación y empaquetado. Instaladores y paquetes autoinstalables." },
+                { "id_punto": "P_07_02_488", "descripcion_punto": "Personalización de la instalación: logotipos, fondos, diálogos e idioma." },
+                { "id_punto": "P_07_03_488", "descripcion_punto": "Ficheros firmados digitalmente e instalación desde servidores web." }
+            ]
+        },
+        {
+            "id_bloque": "CB_08_488",
+            "orden_bloque": 8,
+            "descripcion_bloque": "Realización de pruebas",
+            "puntos_detalle": [
+                { "id_punto": "P_08_01_488", "descripcion_punto": "Objetivo, importancia y limitaciones. Estrategias de prueba." },
+                { "id_punto": "P_08_02_488", "descripcion_punto": "Pruebas de integración (ascendentes/descendentes) y de sistema (recuperación)." },
+                { "id_punto": "P_08_03_488", "descripcion_punto": "Pruebas de capacidad, rendimiento, uso de recursos y seguridad." },
+                { "id_punto": "P_08_04_488", "descripcion_punto": "Pruebas manuales, automáticas, de usuario y aceptación. Versiones alfa y beta." }
+            ]
+        }
+    ],
+    "resultados_aprendizaje": [
+        {
+            "ra_id": "RA_1_488",
+            "ra_descripcion": "Genera interfaces gráficos de usuario mediante editores visuales adaptando el código generado.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha creado un interfaz gráfico utilizando los asistentes de un editor visual." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han utilizado las funciones del editor para ubicar los componentes." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han modificado las propiedades de los componentes según necesidades." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha analizado y modificado el código generado por el editor visual." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se han asociado a los eventos las acciones correspondientes." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se ha desarrollado una aplicación que incluye el interfaz gráfico obtenido." }
+            ]
+        },
+        {
+            "ra_id": "RA_4_488",
+            "ra_descripcion": "Diseña interfaces gráficos identificando y aplicando criterios de usabilidad.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se han creado menús y menús contextuales que se ajustan a los estándares." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han distribuido las acciones y controles siguiendo un criterio coherente." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se ha utilizado el tipo de control más apropiado en cada caso." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha diseñado el aspecto atendiendo a su legibilidad." },
+                { "letra_criterio": "e", "descripcion_criterio": "Se ha verificado que los mensajes son adecuados en extensión y claridad." },
+                { "letra_criterio": "f", "descripcion_criterio": "Se han realizado pruebas para evaluar la usabilidad de la aplicación." }
+            ]
+        },
+        {
+            "ra_id": "RA_8_488",
+            "ra_descripcion": "Evalúa el funcionamiento de aplicaciones diseñando y ejecutando pruebas.",
+            "criterios": [
+                { "letra_criterio": "a", "descripcion_criterio": "Se ha establecido una estrategia de pruebas." },
+                { "letra_criterio": "b", "descripcion_criterio": "Se han realizado pruebas de integración, regresión, volumen y estrés." },
+                { "letra_criterio": "c", "descripcion_criterio": "Se han realizado pruebas de seguridad y uso de recursos." },
+                { "letra_criterio": "d", "descripcion_criterio": "Se ha documentado la estrategia de pruebas y los resultados obtenidos." }
+            ]
+        }
+    ]
+}

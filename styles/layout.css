@@ -1,0 +1,566 @@
+/* ============================================
+   MAIN LAYOUT STRUCTURE
+   ============================================ */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-xl);
+  background-color: var(--header-bg);
+  border-bottom: 1px solid var(--border-color);
+  height: 60px;
+  z-index: 100;
+  flex-shrink: 0;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  flex: 1;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  flex: 1;
+}
+
+/* ============================================
+   MAIN CONTENT AREA
+   ============================================ */
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ============================================
+   SIDEBARS
+   ============================================ */
+
+.sidebar {
+  width: 280px;
+  background-color: var(--sidebar-bg);
+  display: flex;
+  transition: width var(--transition-slow);
+  z-index: 50;
+  flex-shrink: 0;
+  position: relative;
+}
+
+/* When sidebar content is hidden, reduce sidebar width to just button area */
+.sidebar:has(.sidebar-content.hidden) {
+  width: 60px;
+}
+
+.sidebar.left {
+  border-right: 1px solid var(--border-color);
+}
+
+.sidebar.right {
+  border-left: 1px solid var(--border-color);
+}
+
+.sidebar-buttons {
+  width: 60px;
+  background-color: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-md) 0;
+  gap: var(--spacing-sm);
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.sidebar.left .sidebar-buttons {
+  border-right: 1px solid var(--border-color);
+}
+
+.sidebar.right .sidebar-buttons {
+  border-left: 1px solid var(--border-color);
+  order: 2;
+  /* Move buttons to the right side */
+}
+
+/* Position sidebar buttons at browser edges when content is hidden */
+.sidebar.left:has(.sidebar-content.hidden) {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  /* Below header */
+  height: calc(100vh - 60px);
+  z-index: 100;
+}
+
+.sidebar.right:has(.sidebar-content.hidden) {
+  position: fixed;
+  right: 0;
+  top: 60px;
+  /* Below header */
+  height: calc(100vh - 60px);
+  z-index: 100;
+}
+
+.sidebar.right .sidebar-content {
+  order: 1;
+  /* Move content to the left side */
+}
+
+/* Sidebar Hidden State */
+.sidebar.hidden {
+  transform: translateX(-100%);
+  width: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.sidebar.right.hidden {
+  transform: translateX(100%);
+}
+
+.sidebar-content {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  transition: all var(--transition-base);
+}
+
+/* Sidebar Content Hidden State */
+.sidebar-content.hidden {
+  width: 0;
+  min-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sidebar-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: var(--spacing-xl);
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-base), visibility var(--transition-base);
+}
+
+.sidebar-panel.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ============================================
+   CENTER CONTENT
+   ============================================ */
+
+.center-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+  /* Important for flex text overflow */
+  transition: margin var(--transition-slow);
+}
+
+/* Expand center content when sidebars are collapsed */
+.main-content:has(.sidebar.left .sidebar-content.hidden) .center-content {
+  margin-left: 60px;
+}
+
+.main-content:has(.sidebar.right .sidebar-content.hidden) .center-content {
+  margin-right: 60px;
+}
+
+.main-content:has(.sidebar.left .sidebar-content.hidden):has(.sidebar.right .sidebar-content.hidden) .center-content {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* ============================================
+   TABS
+   ============================================ */
+
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0 var(--spacing-xl);
+  flex-shrink: 0;
+  overflow-x: auto;
+}
+
+.tabs-left {
+  display: flex;
+  gap: var(--spacing-2xl);
+}
+
+.tabs-right {
+  flex-shrink: 0;
+}
+
+.selected-module-name {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--bg-primary);
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--border-color);
+}
+
+/* Hide scrollbar for tabs but keep functionality */
+.tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ============================================
+   TAB CONTENT
+   ============================================ */
+
+.tab-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-3xl);
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-2xl);
+  color: var(--text-primary);
+}
+
+/* ============================================
+   CHAT LAYOUT
+   ============================================ */
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+}
+
+.chat-input-container {
+  padding: var(--spacing-2xl);
+  border-top: 1px solid var(--border-color);
+  background-color: var(--bg-primary);
+  flex-shrink: 0;
+}
+
+/* ============================================
+   CONTENT GRID
+   ============================================ */
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+}
+
+/* ============================================
+   SUMMARY SECTION
+   ============================================ */
+
+.summary-section {
+  margin-bottom: var(--spacing-3xl);
+  padding: var(--spacing-xl);
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+}
+
+.summary-section h3 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+}
+
+.summary-section p {
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-secondary);
+}
+
+.summary-value {
+  color: var(--text-primary);
+  font-weight: var(--font-weight-medium);
+}
+
+/* =========================
+   RESUMEN (Vista previa)
+   ========================= */
+
+.resumen-toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.resumen-title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.resumen-badges {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: var(--font-weight-semibold);
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.pill-left {
+  background: var(--accent-soft);
+  border-color: rgba(0, 0, 0, 0.06);
+}
+
+.pill-right {
+  background: rgba(255, 205, 120, 0.35);
+  border-color: rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+}
+
+.resumen-hero {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-2xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.resumen-hero h1 {
+  font-size: 28px;
+  margin-bottom: 18px;
+  color: var(--text-primary);
+}
+
+.section-subtitle {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}
+
+.pretty-list {
+  padding-left: 18px;
+  color: var(--text-secondary);
+}
+
+.resumen-paragraph {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.resumen-section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.section-header {
+  background: rgba(120, 210, 230, 0.18);
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+  padding: 14px 16px;
+  border-top-left-radius: var(--radius-lg);
+  border-top-right-radius: var(--radius-lg);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}
+
+.info-card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  background: var(--bg-secondary);
+}
+
+.info-card h4 {
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.info-card p {
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.grid-2,
+.grid-3 {
+  display: grid;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.table-wrap {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-secondary);
+}
+
+.nice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nice-table thead th {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 12px 10px;
+  color: var(--text-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.nice-table tbody td {
+  vertical-align: top;
+  padding: 14px 12px;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+@media (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mostrar/ocultar bloques según modo */
+.mode-only {
+  display: none;
+}
+
+body[data-mode="SdA"] .mode-sda {
+  display: block;
+}
+
+body[data-mode="UD"] .mode-ud {
+  display: block;
+}
+
+
+/* Pills: UD a la izquierda, trimestre a la derecha */
+/* Asegura que el bloque de título y sus pills ocupen todo el ancho */
+.resumen-title {
+  width: 100%;
+}
+
+.resumen-badges {
+  width: 100%;
+  align-self: stretch;
+  /* por si el padre es flex-column */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Empuja el trimestre a la derecha */
+#resumen-trimestre-pill {
+  margin-left: auto;
+}
+
+
+/* En UD, la contextualización superior debe ser 2 columnas */
+body[data-mode="UD"] .grid-3 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* En UD, cualquier tarjeta SdA (vida cotidiana) no se muestra */
+body[data-mode="UD"] .mode-sda {
+  display: none !important;
+}
+
+
+/* Toolbar: que el bloque izquierdo pueda crecer y el botón no fuerce ancho */
+.resumen-toolbar {
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.resumen-title {
+  flex: 1 1 auto;
+  /* que ocupe el espacio disponible */
+  min-width: 0;
+  /* clave en flex para que no “reviente” */
+}
+
+/* Botón PDF compacto */
+#exportPdfBtn {
+  flex: 0 0 auto;
+  /* no crecer */
+  width: auto;
+  min-width: 0;
+  /* por si tu .btn mete min-width */
+  padding: 10px 14px;
+  /* más compacto */
+  white-space: nowrap;
+}

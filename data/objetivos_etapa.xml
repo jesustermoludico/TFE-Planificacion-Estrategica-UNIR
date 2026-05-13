@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objetivos_etapa>
+
+    <!-- ===================================================== -->
+    <!-- EDUCACIÓN SECUNDARIA OBLIGATORIA -->
+    <!-- RD 217/2022 -->
+    <!-- ===================================================== -->
+    <educacion_secundaria_obligatoria>
+        <etapa>ESO</etapa>
+
+        <objetivo>
+            <codigo>A</codigo>
+            <descripcion>
+                Asumir responsablemente sus deberes, conocer y ejercer sus derechos en el respeto a las demás personas, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>B</codigo>
+            <descripcion>
+                Desarrollar y consolidar hábitos de disciplina, estudio y trabajo individual y en equipo como condición necesaria para una realización eficaz de las tareas del aprendizaje y como medio de desarrollo personal.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>C</codigo>
+            <descripcion>
+                Valorar y respetar la diferencia de sexos y la igualdad de derechos y oportunidades entre ellos. Rechazar los estereotipos que supongan discriminación entre hombres y mujeres.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>D</codigo>
+            <descripcion>
+                Fortalecer sus capacidades afectivas en todos los ámbitos de la personalidad y en sus relaciones con las demás personas, así como rechazar la violencia, los prejuicios de cualquier tipo y los comportamientos sexistas y resolver pacíficamente los conflictos.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>E</codigo>
+            <descripcion>
+                Desarrollar destrezas básicas en la utilización de las fuentes de información para, con sentido crítico, adquirir nuevos conocimientos. Desarrollar las competencias tecnológicas básicas y avanzar en una reflexión ética sobre su funcionamiento y uso.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>F</codigo>
+            <descripcion>
+                Concebir el conocimiento científico como un saber integrado, que se estructura en distintas disciplinas, así como conocer y aplicar los métodos para identificar los problemas en los diversos campos del conocimiento y de la experiencia.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>G</codigo>
+            <descripcion>
+                Desarrollar el espíritu emprendedor y la confianza en sí mismo, la participación, el sentido crítico, la iniciativa personal y la capacidad para aprender a aprender, planificar, tomar decisiones y asumir responsabilidades.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>H</codigo>
+            <descripcion>
+                Comprender y expresar con corrección, oralmente y por escrito, en la lengua castellana y, si la hubiere, en la lengua cooficial, textos y mensajes complejos, e iniciarse en el conocimiento, la lectura y el estudio de la literatura.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>I</codigo>
+            <descripcion>
+                Comprender y expresarse en una o más lenguas extranjeras de manera apropiada.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>J</codigo>
+            <descripcion>
+                Conocer, valorar y respetar los aspectos básicos de la cultura y la historia propias y de las demás personas, así como el patrimonio artístico y cultural.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>K</codigo>
+            <descripcion>
+                Conocer y aceptar el funcionamiento del propio cuerpo y el de los demás, respetar las diferencias, afianzar los hábitos de cuidado y salud corporales e incorporar la educación física y la práctica del deporte para favorecer el desarrollo personal y social.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>L</codigo>
+            <descripcion>
+                Conocer y valorar la dimensión humana de la sexualidad en toda su diversidad. Valorar críticamente los hábitos sociales relacionados con la salud, el consumo, el cuidado, la empatía y el respeto al entorno.
+            </descripcion>
+        </objetivo>
+    </educacion_secundaria_obligatoria>
+
+    <!-- ===================================================== -->
+    <!-- BACHILLERATO -->
+    <!-- RD 243/2022 -->
+    <!-- ===================================================== -->
+    <bachillerato>
+        <etapa>Bachillerato</etapa>
+
+        <objetivo>
+            <codigo>A</codigo>
+            <descripcion>
+                Ejercer la ciudadanía democrática, desde una perspectiva global, y adquirir una conciencia cívica responsable, inspirada por los valores de la Constitución española y los derechos humanos.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>B</codigo>
+            <descripcion>
+                Consolidar una madurez personal, afectiva y social que les permita actuar de forma responsable y autónoma y desarrollar su espíritu crítico.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>C</codigo>
+            <descripcion>
+                Fomentar la igualdad efectiva de derechos y oportunidades entre hombres y mujeres, analizar y valorar críticamente las desigualdades existentes e impulsar la igualdad real y la no discriminación.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>D</codigo>
+            <descripcion>
+                Afianzar los hábitos de lectura, estudio y disciplina como condiciones necesarias para el eficaz aprovechamiento del aprendizaje y como medio de desarrollo personal.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>E</codigo>
+            <descripcion>
+                Dominar, tanto en su expresión oral como escrita, la lengua castellana y, en su caso, la lengua cooficial.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>F</codigo>
+            <descripcion>
+                Expresarse con fluidez y corrección en una o más lenguas extranjeras.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>G</codigo>
+            <descripcion>
+                Utilizar con solvencia y responsabilidad las tecnologías de la información y la comunicación.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>H</codigo>
+            <descripcion>
+                Conocer y valorar críticamente las realidades del mundo contemporáneo, sus antecedentes históricos y los principales factores de su evolución.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>I</codigo>
+            <descripcion>
+                Acceder a los conocimientos científicos y tecnológicos fundamentales y dominar las habilidades básicas propias de la modalidad elegida.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>J</codigo>
+            <descripcion>
+                Comprender los elementos y procedimientos fundamentales de la investigación y de los métodos científicos.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>K</codigo>
+            <descripcion>
+                Afianzar el espíritu emprendedor con actitudes de creatividad, flexibilidad, iniciativa, trabajo en equipo, confianza en uno mismo y sentido crítico.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>L</codigo>
+            <descripcion>
+                Desarrollar la sensibilidad artística y literaria, así como el criterio estético, como fuentes de formación y enriquecimiento cultural.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>M</codigo>
+            <descripcion>
+                Utilizar la educación física y el deporte para favorecer el desarrollo personal y social y adquirir hábitos de vida saludable.
+            </descripcion>
+        </objetivo>
+
+        <objetivo>
+            <codigo>N</codigo>
+            <descripcion>
+                Afianzar actitudes de respeto y prevención en el ámbito de la seguridad vial.
+            </descripcion>
+        </objetivo>
+    </bachillerato>
+
+</objetivos_etapa>
