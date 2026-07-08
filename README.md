@@ -390,6 +390,11 @@ Consulta el archivo LICENSE para más información.
 
 El proyecto utiliza librerías JavaScript de terceros para funcionalidades auxiliares, entre ellas jsPDF, html2canvas, Highlight.js y Lucide Icons. Estas librerías no forman parte del código original desarrollado para el TFE y se emplean conforme a sus respectivas licencias de uso.
 
+- [jsPDF](https://github.com/parallax/jsPDF) · MIT — exportación a PDF
+- [html2canvas](https://github.com/niklasvh/html2canvas) · MIT — captura de HTML para exportación
+- [Highlight.js](https://github.com/highlightjs/highlight.js) · BSD-3-Clause — resaltado de sintaxis
+- [Lucide Icons](https://github.com/lucide-icons/lucide) · ISC — iconografía de la interfaz
+
 El código propio de la aplicación corresponde a la estructura, lógica funcional, integración curricular, gestión de estado, componentes de interfaz, sistema de exportación, integración con IA y organización del flujo de planificación docente.
 
 
