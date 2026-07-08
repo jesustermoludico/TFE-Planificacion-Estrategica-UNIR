@@ -1,4 +1,16 @@
 /**
+ * Planificación Estratégica Docente (TFE - UNIR)
+ * ------------------------------------------------------------------
+ * Proyecto desarrollado como parte del Trabajo de Fin de Estudio (TFE)
+ * del Grado en Ingeniería Informática de la Universidad Internacional
+ * de La Rioja (UNIR).
+ *
+ * Autor: Jesús Villarroya Lancis
+ * Licencia: MIT (ver archivo LICENSE)
+ * Repositorio: https://github.com/jesustermoludico/TFEPlanificacion-Estrategica-UNIR
+ */
+
+/**
  * Context Management Support - Soporte adicional para funcionalidades de Educaci�n Secundaria
  * Trabaja en conjunto con context_management.js
  */
