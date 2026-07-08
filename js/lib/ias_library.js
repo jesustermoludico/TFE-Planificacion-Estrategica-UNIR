@@ -1,4 +1,16 @@
 /**
+ * Planificación Estratégica Docente (TFE - UNIR)
+ * ------------------------------------------------------------------
+ * Proyecto desarrollado como parte del Trabajo de Fin de Estudio (TFE)
+ * del Grado en Ingeniería Informática de la Universidad Internacional
+ * de La Rioja (UNIR).
+ *
+ * Autor: Jesús Villarroya Lancis
+ * Licencia: MIT (ver archivo LICENSE)
+ * Repositorio: https://github.com/jesustermoludico/TFEPlanificacion-Estrategica-UNIR
+ */
+
+/**
  * IAService: Servicio centralizado para manejar la interacción con proveedores de IA, gestión de contexto, construcción de prompts y sincronización con el diseño.
  * - Gestiona la carga de configuraciones, prompts y esquemas.
  * - Construye el contexto para cada mensaje basado en el estado de la aplicación y el historial de conversación.
